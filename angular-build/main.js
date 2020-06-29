@@ -1,5 +1,301 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
+/***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
+/*!**************************************************!*\
+  !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-in": "./node_modules/moment/locale/en-in.js",
+	"./en-in.js": "./node_modules/moment/locale/en-in.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./en-sg": "./node_modules/moment/locale/en-sg.js",
+	"./en-sg.js": "./node_modules/moment/locale/en-sg.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fil": "./node_modules/moment/locale/fil.js",
+	"./fil.js": "./node_modules/moment/locale/fil.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./ga": "./node_modules/moment/locale/ga.js",
+	"./ga.js": "./node_modules/moment/locale/ga.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-deva": "./node_modules/moment/locale/gom-deva.js",
+	"./gom-deva.js": "./node_modules/moment/locale/gom-deva.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it-ch": "./node_modules/moment/locale/it-ch.js",
+	"./it-ch.js": "./node_modules/moment/locale/it-ch.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ku": "./node_modules/moment/locale/ku.js",
+	"./ku.js": "./node_modules/moment/locale/ku.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./oc-lnc": "./node_modules/moment/locale/oc-lnc.js",
+	"./oc-lnc.js": "./node_modules/moment/locale/oc-lnc.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-mo": "./node_modules/moment/locale/zh-mo.js",
+	"./zh-mo.js": "./node_modules/moment/locale/zh-mo.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/act/act.component.html":
 /*!******************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/act/act.component.html ***!
@@ -13,6 +309,58 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/admin-dashboard/admin-dashboard.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/admin-dashboard/admin-dashboard.component.html ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<style>\n\n.category{\n    background:#fff;\n    font-size: 1.6rem;\n    border-radius:3px;\n   \n}\n.ctghead{\n    padding: 2px 40px;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.09);\n\n}\n.ctghead h3{\n    display: inline-flex;\n    align-items: center;\n    font-size: 0.9rem;\n}\n.ctghead h3 i{\n    font-size:0.9rem;\n    margin-right:7px;\n   \n}\n\n.ctgul{\n    margin-top:16px;\n    padding:0 0 16px 0;\n}\n.ctgulChild{\n    margin: 0 0 0 30px;\n    padding:0 0 10px 0;\n\n}\n\n.ctgliChild{\n    font-size: 0.9rem;\n    display: block;\n    position: relative;\n    list-style: none;\n    transition:.3s linear;\n    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */\n\n}\n\n.ctgli:hover{\n    border-left: 4px solid var(--hove);\n    background:#d2ffe221;\n    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */\n}\n\n.ctga, .ctgaChild{\n    \n    width: 100%;\n    display: inline-flex;\n    align-items: center;\n    cursor: pointer;\n    font-size: 0.9rem;\n    line-height: 2.3rem;\n    color: #333;\n    text-decoration: none;\n    padding: 13px 40px 13px 34px;\n    position: relative;\n    right: 0;\n    transition: right linear .3s;\n}\n.ctga i{\n    margin-right:10px;}\n\n.ctgaChild{\n    font-size: 0.9rem;\n    padding: 13px 13px 13px 36px;\n}\n.ctga:hover, .ctgaChild:hover{\n    /* right:-4px; */\n    color:var(--hove);\n    \n}\n.ctgaChild::before {\n    top: 50%;\n    transform:translateY(-50%);\n    left: 20px;\n    position: absolute;\n    border-style: solid;\n    border-color: transparent transparent transparent var(--hove);\n    border-width:4px;\n    content: \"\";\n    \n}\n.down{\n    position: absolute;\n    font-size:0.9rem;\n   right:10%;\n   top: 50%;\n   transform: translateY(-50%) rotate(360deg);\n}\n.ctgulChild{\n    \n    display:none;\n}\n.ctgli{\n    display: block;\n    position: relative;\n    list-style: none;\n    border-left: 4px solid transparent;\n    transition:.3s linear;\n}\n.showed{\n    background:#d2ffe221;;\n    border-left:4px solid var(--hove)!important;\n}\n\n.showed .ctga{\n    color: var(--hove);\n    font-weight:bold;\n   }\n\n.showed .ctga i{\n    \n    font-weight:bold;\n    \n}\n.down {\n  -webkit-transition: .5s ease;\n  transition: .5s ease;\n}\n.wtok .down {\n  -webkit-transform: translateY(-50%) rotate(180deg);\n          transform: translateY(-50%) rotate(180deg);\n}\n\n/*  base.css*/\n@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');\n\n:root{\n\n    --white:#fff;\n    --black:#000;\n    --textColor:#333;\n    --hove:#04ca88;\n}\nhtml{\n    font-size:62.5%;\n    font-family: 'Muli', sans-serif ;\n    line-height:1.6 rem;\n    box-sizing: border-box;\n}\n*{\n    box-sizing: inherit;\n}\na{\n  text-decoration: none;\n}\np{\n    font-size:1.6 rem;\n    /* 1.6 rem --> 16px */\n}\n\nh1{font-size:3rem;}\n.grid{\n    margin : 0 auto;\n    max-width: 1280px;\n}\n\n.row{\n  display:flex;\n  flex-wrap: wrap;\n  margin: 0 -12px 0 -12px;\n}\n\n\n.col-3{\n  padding:0 12px 0 12px;\n  width:calc((100%/12)*3);\n\n}\n\n\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n      <!--             <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n       -->          \n\n<div class=\"container-fluid\">\n\n  <div class=\"grid\">\n                <div class=\"row\">\n                    <div class=\"col-lg-3\">\n                        <!-- category -->\n                        <nav class=\"category\">\n\n                            <!-- <div class=\"ctghead\">\n\n                                <h3><i class=\"ti-list\"></i>Category</h3>\n                            </div>\n -->\n                            <ul class=\"ctgul\">\n                                <li class=\"ctgli showed\">\n                                    <a [routerLink]=\"['/feedback-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Feedback</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/create-sbs-admin']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Create SBS Admin</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/ddo-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        DDO Request</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/rco-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        RCO Request</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga\">\n                                        <div class=\"ok\"></div>\n                                        <i class=\"ti-layout\"></i>\n                                        Users\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n\n\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/ddo-users']\" class=\"ctgaChild\">DDO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/rco-users']\" class=\"ctgaChild\"> MIS/HOD/RCO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/admin-users']\" class=\"ctgaChild\"> Admin Users</a>\n                                        </li>\n                                    </ul>\n                                </li>\n\n                              \n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga \">\n                                        <i class=\"ti-write\"></i>\n                                        Reports\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\">Resource Allocation</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Receipt of Fund Statement</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Stmt of Resource Released</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Monthly Resource Releases</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Statement of Fund Surrender </a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Re-appropriation of Fund Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Scheme wise Info Status of Fund</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Budget Head DDO Mapping</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Expenditure Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Sanctionwise Analysis DDO Wise</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Report IT Deduction</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> GST Form 7</a>\n                                        </li>\n                                    </ul>\n                                      \n\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/sbs-upload']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        SBS Upload</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/update-password']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Update Password</a>\n                                </li>\n\n                                  <li class=\"ctgli\">\n                                    <a class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Logout</a>\n                                </li>\n\n                            </ul>\n\n\n\n                        </nav>\n\n\n\n\n                    </div>\n\n<div class=\"col-lg-9\">\n\t<app-feedback-report></app-feedback-report>\n</div>\n</div>\n </div>\n</div>\n\n\n\n                \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/admin-navbar-end/admin-navbar-end.component.html":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/admin-navbar-end/admin-navbar-end.component.html ***!
+  \********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<style>\n\n.category{\n    background:#fff;\n    font-size: 1.6rem;\n    border-radius:3px;\n   \n}\n.ctghead{\n    padding: 2px 40px;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.09);\n\n}\n.ctghead h3{\n    display: inline-flex;\n    align-items: center;\n    font-size: 0.9rem;\n}\n.ctghead h3 i{\n    font-size:0.9rem;\n    margin-right:7px;\n   \n}\n\n.ctgul{\n    margin-top:16px;\n    padding:0 0 16px 0;\n}\n.ctgulChild{\n    margin: 0 0 0 30px;\n    padding:0 0 10px 0;\n\n}\n\n.ctgliChild{\n    font-size: 0.9rem;\n    display: block;\n    position: relative;\n    list-style: none;\n    transition:.3s linear;\n    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */\n\n}\n\n.ctgli:hover{\n    border-left: 4px solid var(--hove);\n    background:#d2ffe221;\n    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */\n}\n\n.ctga, .ctgaChild{\n    \n    width: 100%;\n    display: inline-flex;\n    align-items: center;\n    cursor: pointer;\n    font-size: 0.9rem;\n    line-height: 2.3rem;\n    color: #333;\n    text-decoration: none;\n    padding: 13px 40px 13px 34px;\n    position: relative;\n    right: 0;\n    transition: right linear .3s;\n}\n.ctga i{\n    margin-right:10px;}\n\n.ctgaChild{\n    font-size: 0.9rem;\n    padding: 13px 13px 13px 36px;\n}\n.ctga:hover, .ctgaChild:hover{\n    /* right:-4px; */\n    color:var(--hove);\n    \n}\n.ctgaChild::before {\n    top: 50%;\n    transform:translateY(-50%);\n    left: 20px;\n    position: absolute;\n    border-style: solid;\n    border-color: transparent transparent transparent var(--hove);\n    border-width:4px;\n    content: \"\";\n    \n}\n.down{\n    position: absolute;\n    font-size:0.9rem;\n   right:10%;\n   top: 50%;\n   transform: translateY(-50%) rotate(360deg);\n}\n.ctgulChild{\n    \n    display:none;\n}\n.ctgli{\n    display: block;\n    position: relative;\n    list-style: none;\n    border-left: 4px solid transparent;\n    transition:.3s linear;\n}\n.showed{\n    background:#d2ffe221;;\n    border-left:4px solid var(--hove)!important;\n}\n\n.showed .ctga{\n    color: var(--hove);\n    font-weight:bold;\n   }\n\n.showed .ctga i{\n    \n    font-weight:bold;\n    \n}\n.down {\n  -webkit-transition: .5s ease;\n  transition: .5s ease;\n}\n.wtok .down {\n  -webkit-transform: translateY(-50%) rotate(180deg);\n          transform: translateY(-50%) rotate(180deg);\n}\n\n/*  base.css*/\n@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');\n\n:root{\n\n    --white:#fff;\n    --black:#000;\n    --textColor:#333;\n    --hove:#04ca88;\n}\nhtml{\n    font-size:62.5%;\n    font-family: 'Muli', sans-serif ;\n    line-height:1.6 rem;\n    box-sizing: border-box;\n}\n*{\n    box-sizing: inherit;\n}\na{\n  text-decoration: none;\n}\np{\n    font-size:1.6 rem;\n    /* 1.6 rem --> 16px */\n}\n\nh1{font-size:3rem;}\n.grid{\n    margin : 0 auto;\n    max-width: 1280px;\n}\n\n.row{\n  display:flex;\n  flex-wrap: wrap;\n  margin: 0 -12px 0 -12px;\n}\n\n\n.col-3{\n  padding:0 12px 0 12px;\n  width:calc((100%/12)*3);\n\n}\n\n\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n      <!--             <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n       -->          \n\n<div class=\"container-fluid\">\n\n  <div class=\"grid\">\n                <div class=\"row\">\n                    <div class=\"col-lg-3\">\n                        <!-- category -->\n                        <nav class=\"category\">\n\n                            <!-- <div class=\"ctghead\">\n\n                                <h3><i class=\"ti-list\"></i>Category</h3>\n                            </div>\n -->\n                            <ul class=\"ctgul\">\n                                <li class=\"ctgli showed\">\n                                    <a [routerLink]=\"['/feedback-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Feedback</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/create-sbs-admin']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Create SBS Admin</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/ddo-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        DDO Request</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/rco-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        RCO Request</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga\">\n                                        <div class=\"ok\"></div>\n                                        <i class=\"ti-layout\"></i>\n                                        Users\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n\n\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/ddo-users']\" class=\"ctgaChild\">DDO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/rco-users']\" class=\"ctgaChild\"> MIS/HOD/RCO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/admin-users']\" class=\"ctgaChild\"> Admin Users</a>\n                                        </li>\n                                    </ul>\n                                </li>\n\n                              \n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga \">\n                                        <i class=\"ti-write\"></i>\n                                        Reports\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\">Resource Allocation</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Receipt of Fund Statement</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Stmt of Resource Released</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Monthly Resource Releases</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Statement of Fund Surrender </a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Re-appropriation of Fund Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Scheme wise Info Status of Fund</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Budget Head DDO Mapping</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Expenditure Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Sanctionwise Analysis DDO Wise</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Report IT Deduction</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> GST Form 7</a>\n                                        </li>\n                                    </ul>\n                                      \n\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/sbs-upload']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        SBS Upload</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/update-password']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Update Password</a>\n                                </li>\n\n                                  <li class=\"ctgli\">\n                                    <a class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Logout</a>\n                                </li>\n\n                            </ul>\n\n\n\n                        </nav>\n\n\n\n\n                    </div>\n\n<div class=\"col-lg-3\">Hello</div>\n</div>\n </div>\n</div>\n\n\n\n                \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/admin-navbar/admin-navbar.component.html":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/admin-navbar/admin-navbar.component.html ***!
+  \************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<style>\n\n.category{\n    background:#fff;\n    font-size: 1.6rem;\n    border-radius:3px;\n   \n}\n.ctghead{\n    padding: 2px 40px;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.09);\n\n}\n.ctghead h3{\n    display: inline-flex;\n    align-items: center;\n    font-size: 0.9rem;\n}\n.ctghead h3 i{\n    font-size:0.9rem;\n    margin-right:7px;\n   \n}\n\n.ctgul{\n    margin-top:16px;\n    padding:0 0 16px 0;\n}\n.ctgulChild{\n    margin: 0 0 0 30px;\n    padding:0 0 10px 0;\n\n}\n\n.ctgliChild{\n    font-size: 0.9rem;\n    display: block;\n    position: relative;\n    list-style: none;\n    transition:.3s linear;\n    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */\n\n}\n\n.ctgli:hover{\n    border-left: 4px solid var(--hove);\n    background:#d2ffe221;\n    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */\n}\n\n.ctga, .ctgaChild{\n    \n    width: 100%;\n    display: inline-flex;\n    align-items: center;\n    cursor: pointer;\n    font-size: 0.9rem;\n    line-height: 2.3rem;\n    color: #333;\n    text-decoration: none;\n    padding: 13px 40px 13px 34px;\n    position: relative;\n    right: 0;\n    transition: right linear .3s;\n}\n.ctga i{\n    margin-right:10px;}\n\n.ctgaChild{\n    font-size: 0.9rem;\n    padding: 13px 13px 13px 36px;\n}\n.ctga:hover, .ctgaChild:hover{\n    /* right:-4px; */\n    color:var(--hove);\n    \n}\n.ctgaChild::before {\n    top: 50%;\n    transform:translateY(-50%);\n    left: 20px;\n    position: absolute;\n    border-style: solid;\n    border-color: transparent transparent transparent var(--hove);\n    border-width:4px;\n    content: \"\";\n    \n}\n.down{\n    position: absolute;\n    font-size:0.9rem;\n   right:10%;\n   top: 50%;\n   transform: translateY(-50%) rotate(360deg);\n}\n.ctgulChild{\n    \n    display:none;\n}\n.ctgli{\n    display: block;\n    position: relative;\n    list-style: none;\n    border-left: 4px solid transparent;\n    transition:.3s linear;\n}\n.showed{\n    background:#d2ffe221;;\n    border-left:4px solid var(--hove)!important;\n}\n\n.showed .ctga{\n    color: var(--hove);\n    font-weight:bold;\n   }\n\n.showed .ctga i{\n    \n    font-weight:bold;\n    \n}\n.down {\n  -webkit-transition: .5s ease;\n  transition: .5s ease;\n}\n.wtok .down {\n  -webkit-transform: translateY(-50%) rotate(180deg);\n          transform: translateY(-50%) rotate(180deg);\n}\n\n/*  base.css*/\n@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');\n\n:root{\n\n    --white:#fff;\n    --black:#000;\n    --textColor:#333;\n    --hove:#04ca88;\n}\nhtml{\n    font-size:62.5%;\n    font-family: 'Muli', sans-serif ;\n    line-height:1.6 rem;\n    box-sizing: border-box;\n}\n*{\n    box-sizing: inherit;\n}\na{\n  text-decoration: none;\n}\np{\n    font-size:1.6 rem;\n    /* 1.6 rem --> 16px */\n}\n\nh1{font-size:3rem;}\n.grid{\n    margin : 0 auto;\n    max-width: 1280px;\n}\n\n.row{\n  display:flex;\n  flex-wrap: wrap;\n  margin: 0 -12px 0 -12px;\n}\n\n\n.col-3{\n  padding:0 12px 0 12px;\n  width:calc((100%/12)*3);\n\n}\n\n\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n      <!--             <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n       -->          \n\n<div class=\"container-fluid\">\n\n  <div class=\"grid\">\n                <div class=\"row\">\n                    <div class=\"col-lg-3\">\n                        <!-- category -->\n                        <nav class=\"category\">\n\n                            <!-- <div class=\"ctghead\">\n\n                                <h3><i class=\"ti-list\"></i>Category</h3>\n                            </div>\n -->\n                            <ul class=\"ctgul\">\n                                <li class=\"ctgli showed\">\n                                    <a [routerLink]=\"['/feedback-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Feedback</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/create-sbs-admin']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Create SBS Admin</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/ddo-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        DDO Request</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/rco-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        RCO Request</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga\">\n                                        <div class=\"ok\"></div>\n                                        <i class=\"ti-layout\"></i>\n                                        Users\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n\n\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/ddo-users']\" class=\"ctgaChild\">DDO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/rco-users']\" class=\"ctgaChild\"> MIS/HOD/RCO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/admin-users']\" class=\"ctgaChild\"> Admin Users</a>\n                                        </li>\n                                    </ul>\n                                </li>\n\n                              \n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga \">\n                                        <i class=\"ti-write\"></i>\n                                        Reports\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\">Resource Allocation</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Receipt of Fund Statement</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Stmt of Resource Released</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Monthly Resource Releases</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Statement of Fund Surrender </a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Re-appropriation of Fund Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Scheme wise Info Status of Fund</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Budget Head DDO Mapping</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Expenditure Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Sanctionwise Analysis DDO Wise</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Report IT Deduction</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> GST Form 7</a>\n                                        </li>\n                                    </ul>\n                                      \n\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/sbs-upload']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        SBS Upload</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/update-password']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Update Password</a>\n                                </li>\n\n                                  <li class=\"ctgli\">\n                                    <a class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Logout</a>\n                                </li>\n\n                            </ul>\n\n\n\n                        </nav>\n\n\n\n\n                    </div>\n\n<div class=\"col-lg-3\">Hello</div>\n</div>\n </div>\n</div>\n\n\n\n                \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/admin-users/admin-users.component.html":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/admin-users/admin-users.component.html ***!
+  \**********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<style>\n\n.category{\n    background:#fff;\n    font-size: 1.6rem;\n    border-radius:3px;\n   \n}\n.ctghead{\n    padding: 2px 40px;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.09);\n\n}\n.ctghead h3{\n    display: inline-flex;\n    align-items: center;\n    font-size: 0.9rem;\n}\n.ctghead h3 i{\n    font-size:0.9rem;\n    margin-right:7px;\n   \n}\n\n.ctgul{\n    margin-top:16px;\n    padding:0 0 16px 0;\n}\n.ctgulChild{\n    margin: 0 0 0 30px;\n    padding:0 0 10px 0;\n\n}\n\n.ctgliChild{\n    font-size: 0.9rem;\n    display: block;\n    position: relative;\n    list-style: none;\n    transition:.3s linear;\n    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */\n\n}\n\n.ctgli:hover{\n    border-left: 4px solid var(--hove);\n    background:#d2ffe221;\n    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */\n}\n\n.ctga, .ctgaChild{\n    \n    width: 100%;\n    display: inline-flex;\n    align-items: center;\n    cursor: pointer;\n    font-size: 0.9rem;\n    line-height: 2.3rem;\n    color: #333;\n    text-decoration: none;\n    padding: 13px 40px 13px 34px;\n    position: relative;\n    right: 0;\n    transition: right linear .3s;\n}\n.ctga i{\n    margin-right:10px;}\n\n.ctgaChild{\n    font-size: 0.9rem;\n    padding: 13px 13px 13px 36px;\n}\n.ctga:hover, .ctgaChild:hover{\n    /* right:-4px; */\n    color:var(--hove);\n    \n}\n.ctgaChild::before {\n    top: 50%;\n    transform:translateY(-50%);\n    left: 20px;\n    position: absolute;\n    border-style: solid;\n    border-color: transparent transparent transparent var(--hove);\n    border-width:4px;\n    content: \"\";\n    \n}\n.down{\n    position: absolute;\n    font-size:0.9rem;\n   right:10%;\n   top: 50%;\n   transform: translateY(-50%) rotate(360deg);\n}\n.ctgulChild{\n    \n    display:none;\n}\n.ctgli{\n    display: block;\n    position: relative;\n    list-style: none;\n    border-left: 4px solid transparent;\n    transition:.3s linear;\n}\n.showed{\n    background:#d2ffe221;;\n    border-left:4px solid var(--hove)!important;\n}\n\n.showed .ctga{\n    color: var(--hove);\n    font-weight:bold;\n   }\n\n.showed .ctga i{\n    \n    font-weight:bold;\n    \n}\n.down {\n  -webkit-transition: .5s ease;\n  transition: .5s ease;\n}\n.wtok .down {\n  -webkit-transform: translateY(-50%) rotate(180deg);\n          transform: translateY(-50%) rotate(180deg);\n}\n\n/*  base.css*/\n@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');\n\n:root{\n\n    --white:#fff;\n    --black:#000;\n    --textColor:#333;\n    --hove:#04ca88;\n}\nhtml{\n    font-size:62.5%;\n    font-family: 'Muli', sans-serif ;\n    line-height:1.6 rem;\n    box-sizing: border-box;\n}\n*{\n    box-sizing: inherit;\n}\na{\n  text-decoration: none;\n}\np{\n    font-size:1.6 rem;\n    /* 1.6 rem --> 16px */\n}\n\nh1{font-size:3rem;}\n.grid{\n    margin : 0 auto;\n    max-width: 1280px;\n}\n\n.row{\n  display:flex;\n  flex-wrap: wrap;\n  margin: 0 -12px 0 -12px;\n}\n\n\n.col-3{\n  padding:0 12px 0 12px;\n  width:calc((100%/12)*3);\n\n}\n\n\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n      <!--             <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n       -->          \n\n<div class=\"container-fluid\">\n\n  <div class=\"grid\">\n                <div class=\"row\">\n                    <div class=\"col-lg-3\">\n                        <!-- category -->\n                        <nav class=\"category\">\n\n                            <!-- <div class=\"ctghead\">\n\n                                <h3><i class=\"ti-list\"></i>Category</h3>\n                            </div>\n -->\n                            <ul class=\"ctgul\">\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/feedback-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Feedback</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/create-sbs-admin']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Create SBS Admin</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/ddo-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        DDO Request</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/rco-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        RCO Request</a>\n                                </li>\n\n                                <li class=\"ctgli showed\">\n                                    <a href=\"#\" class=\"ctga\">\n                                        <div class=\"ok\"></div>\n                                        <i class=\"ti-layout\"></i>\n                                        Users\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n\n\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/ddo-users']\" class=\"ctgaChild\">DDO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/rco-users']\" class=\"ctgaChild\"> MIS/HOD/RCO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/admin-users']\" class=\"ctgaChild\"> Admin Users</a>\n                                        </li>\n                                    </ul>\n                                </li>\n\n                              \n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga \">\n                                        <i class=\"ti-write\"></i>\n                                        Reports\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\">Resource Allocation</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Receipt of Fund Statement</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Stmt of Resource Released</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Monthly Resource Releases</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Statement of Fund Surrender </a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Re-appropriation of Fund Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Scheme wise Info Status of Fund</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Budget Head DDO Mapping</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Expenditure Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Sanctionwise Analysis DDO Wise</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Report IT Deduction</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> GST Form 7</a>\n                                        </li>\n                                    </ul>\n                                      \n\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/sbs-upload']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        SBS Upload</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/update-password']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Update Password</a>\n                                </li>\n\n                                  <li class=\"ctgli\">\n                                    <a class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Logout</a>\n                                </li>\n\n                            </ul>\n\n\n\n                        </nav>\n\n\n\n\n                    </div>\n\n<div class=\"col-lg-9\">\n \n<div class=\"table-responsive\">\n            <div id=\"result\"></div>\n          </div>\n\n </div>\n</div>\n </div>\n</div>\n\n\n\n                \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
 /*!**************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
@@ -23,6 +371,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\n<router-outlet></router-outlet>\n<app-footer></app-footer>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/change-password/change-password.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/change-password/change-password.component.html ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<main>\n  <section class=\"section section-shaped section-lg\">\n    <div class=\"shape shape-style-1 bg-gradient-default\">\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n    </div>\n    <div class=\"container pt-lg-md\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-5\">\n          <div class=\"card bg-secondary shadow border-0\">\n            <div class=\"card-header bg-white pb-3\">\n              <div class=\"text-muted text-center mb-0\">\n                <small>Update Password</small>\n              </div>\n            </div>\n            <div class=\"card-body px-lg-5 py-lg-5\">\n              <form role=\"form\">\n                <div class=\"form-group mb-3\" [ngClass]=\"{'focused':focus===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                    </div>\n                    <input class=\"form-control\" placeholder=\"Username\" type=\"email\" (focus)=\"focus=true\" (blur)=\"focus=false\">\n                  </div>\n                </div>\n                               <div class=\"text-center\">\n                  <button type=\"button\" class=\"btn btn-primary my-4\">Update Password</button>\n                </div>\n              </form>\n            </div>\n          </div>\n         \n        </div>\n      </div>\n    </div>\n  </section>\n</main>\n");
 
 /***/ }),
 
@@ -52,6 +413,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/create-sbs-admin/create-sbs-admin.component.html":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/create-sbs-admin/create-sbs-admin.component.html ***!
+  \********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<style>\n\n.category{\n    background:#fff;\n    font-size: 1.6rem;\n    border-radius:3px;\n   \n}\n.ctghead{\n    padding: 2px 40px;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.09);\n\n}\n.ctghead h3{\n    display: inline-flex;\n    align-items: center;\n    font-size: 0.9rem;\n}\n.ctghead h3 i{\n    font-size:0.9rem;\n    margin-right:7px;\n   \n}\n\n.ctgul{\n    margin-top:16px;\n    padding:0 0 16px 0;\n}\n.ctgulChild{\n    margin: 0 0 0 30px;\n    padding:0 0 10px 0;\n\n}\n\n.ctgliChild{\n    font-size: 0.9rem;\n    display: block;\n    position: relative;\n    list-style: none;\n    transition:.3s linear;\n    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */\n\n}\n\n.ctgli:hover{\n    border-left: 4px solid var(--hove);\n    background:#d2ffe221;\n    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */\n}\n\n.ctga, .ctgaChild{\n    \n    width: 100%;\n    display: inline-flex;\n    align-items: center;\n    cursor: pointer;\n    font-size: 0.9rem;\n    line-height: 2.3rem;\n    color: #333;\n    text-decoration: none;\n    padding: 13px 40px 13px 34px;\n    position: relative;\n    right: 0;\n    transition: right linear .3s;\n}\n.ctga i{\n    margin-right:10px;}\n\n.ctgaChild{\n    font-size: 0.9rem;\n    padding: 13px 13px 13px 36px;\n}\n.ctga:hover, .ctgaChild:hover{\n    /* right:-4px; */\n    color:var(--hove);\n    \n}\n.ctgaChild::before {\n    top: 50%;\n    transform:translateY(-50%);\n    left: 20px;\n    position: absolute;\n    border-style: solid;\n    border-color: transparent transparent transparent var(--hove);\n    border-width:4px;\n    content: \"\";\n    \n}\n.down{\n    position: absolute;\n    font-size:0.9rem;\n   right:10%;\n   top: 50%;\n   transform: translateY(-50%) rotate(360deg);\n}\n.ctgulChild{\n    \n    display:none;\n}\n.ctgli{\n    display: block;\n    position: relative;\n    list-style: none;\n    border-left: 4px solid transparent;\n    transition:.3s linear;\n}\n.showed{\n    background:#d2ffe221;;\n    border-left:4px solid var(--hove)!important;\n}\n\n.showed .ctga{\n    color: var(--hove);\n    font-weight:bold;\n   }\n\n.showed .ctga i{\n    \n    font-weight:bold;\n    \n}\n.down {\n  -webkit-transition: .5s ease;\n  transition: .5s ease;\n}\n.wtok .down {\n  -webkit-transform: translateY(-50%) rotate(180deg);\n          transform: translateY(-50%) rotate(180deg);\n}\n\n/*  base.css*/\n@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');\n\n:root{\n\n    --white:#fff;\n    --black:#000;\n    --textColor:#333;\n    --hove:#04ca88;\n}\nhtml{\n    font-size:62.5%;\n    font-family: 'Muli', sans-serif ;\n    line-height:1.6 rem;\n    box-sizing: border-box;\n}\n*{\n    box-sizing: inherit;\n}\na{\n  text-decoration: none;\n}\np{\n    font-size:1.6 rem;\n    /* 1.6 rem --> 16px */\n}\n\nh1{font-size:3rem;}\n.grid{\n    margin : 0 auto;\n    max-width: 1280px;\n}\n\n.row{\n  display:flex;\n  flex-wrap: wrap;\n  margin: 0 -12px 0 -12px;\n}\n\n\n.col-3{\n  padding:0 12px 0 12px;\n  width:calc((100%/12)*3);\n\n}\n\n\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n      <!--             <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n       -->          \n\n<div class=\"container-fluid\">\n\n  <div class=\"grid\">\n                <div class=\"row\">\n                    <div class=\"col-lg-3\">\n                        <!-- category -->\n                        <nav class=\"category\">\n\n                            <!-- <div class=\"ctghead\">\n\n                                <h3><i class=\"ti-list\"></i>Category</h3>\n                            </div>\n -->\n                            <ul class=\"ctgul\">\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/feedback-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Feedback</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/create-sbs-admin']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Create SBS Admin</a>\n                                </li>\n\n                                <li class=\"ctgli showed \">\n                                    <a [routerLink]=\"['/ddo-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        DDO Request</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/rco-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        RCO Request</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga\">\n                                        <div class=\"ok\"></div>\n                                        <i class=\"ti-layout\"></i>\n                                        Users\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n\n\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/ddo-users']\" class=\"ctgaChild\">DDO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/rco-users']\" class=\"ctgaChild\"> MIS/HOD/RCO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/admin-users']\" class=\"ctgaChild\"> Admin Users</a>\n                                        </li>\n                                    </ul>\n                                </li>\n\n                              \n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga \">\n                                        <i class=\"ti-write\"></i>\n                                        Reports\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\">Resource Allocation</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Receipt of Fund Statement</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Stmt of Resource Released</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Monthly Resource Releases</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Statement of Fund Surrender </a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Re-appropriation of Fund Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Scheme wise Info Status of Fund</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Budget Head DDO Mapping</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Expenditure Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Sanctionwise Analysis DDO Wise</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Report IT Deduction</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> GST Form 7</a>\n                                        </li>\n                                    </ul>\n                                      \n\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/sbs-upload']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        SBS Upload</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/update-password']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Update Password</a>\n                                </li>\n\n                                  <li class=\"ctgli\">\n                                    <a class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Logout</a>\n                                </li>\n\n                            </ul>\n\n\n\n                        </nav>\n\n\n\n\n                    </div>\n\n<div class=\"col-lg-9\">\n \n<div class=\"container pt-lg-md\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-8\">\n          <div class=\"card bg-secondary shadow border-0\">\n            <div class=\"card-header bg-white pb-3\">\n              <div class=\"text-muted text-center mb-0\">\n                <small>Add New Admin</small>\n              </div>\n            </div>\n            <div class=\"card-body px-lg-5 py-lg-5\">\n              <form role=\"form\">\n                <div class=\"form-group mb-3\" [ngClass]=\"{'focused':focus===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                    </div>\n                    <input class=\"form-control\" id=\"firstName\" placeholder=\"First Name\" type=\"text\" (focus)=\"focus=true\" (blur)=\"focus=false\">\n                  </div>\n                </div>\n                <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <input class=\"form-control\" id=\"lastName\" placeholder=\"Last Name\" type=\"text\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                  </div>\n                </div>\n                 <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <input class=\"form-control\" id=\"emailId\" placeholder=\"Email\" type=\"email\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                  </div>\n                </div>\n                 <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <input class=\"form-control\" id=\"password\" placeholder=\"Password\" type=\"password\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                  </div>\n                </div>\n                 <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <input class=\"form-control\" id=\"number\" placeholder=\"Mobile Number\" type=\"number\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                  </div>\n                </div>\n                 <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <select class=\"form-control\" id=\"departmentid\"  (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                      \n                    </select>\n                  </div>\n                </div>\n                                 <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <select class=\"form-control\" id=\"districtid\"  (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                  \n                    </select>\n                  </div>\n                </div>\n\n                 <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <select class=\"form-control\" id=\"designationid\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n           \n                    </select>\n                  </div>\n                </div>\n\n                               <div class=\"text-center\">\n                  <button type=\"button\" class=\"btn btn-primary my-4 submit\">Submit</button>\n                </div>\n              </form>\n            </div>\n          </div>\n        \n        </div>\n      </div>\n    </div>\n\n </div>\n</div>\n </div>\n</div>\n\n\n\n                \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/da-enhancement/da-enhancement.component.html":
 /*!****************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/da-enhancement/da-enhancement.component.html ***!
@@ -65,6 +439,45 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ddo-registeration/ddo-registeration.component.html":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ddo-registeration/ddo-registeration.component.html ***!
+  \**********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<style type=\"text/css\">\n  td{\nfont-size: 12px;\n  }\n  th{\n    font-size: 12px;\n  }\n</style>\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n            <!--       <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n             -->     \n\n\n<div class=\"container-fluid\">\n   \n    <div class=\"row\">\n\n<div class=\"col-sm-12 col-md-12 col-lg-4\">\n\n    <form action=\"mail.php\" method=\"post\">\n             <div class=\"card mb-3\">\n <div class=\"card-header\">\nInstructions\n </div>\n                <div class=\"card-body\">\n\n                 \n                    <div class=\"form-group\">\n                          \n                        <ul>\n                            <li style=\"margin: 2px;\">After submitting the form successfully you will get the User ID and password through email.</li>\n                            <li style=\"margin: 2px\"><span style=\"color:red\">*</span> Denotes Mandatory Fields</li>\n                            <li>If the field shown in <span style=\"color:red\">**</span> is not matched with DDO code then please contact +91-9474531378.</li>\n                        </ul>\n                       \n                        </div>\n\n\n                  \n                </div>\n\n            </div>\n        </form>\n        \n\n</div>\n\n        <div class=\"col-sm-12 col-md-12 col-lg-8 pb-5\">\n\n\n                    <!--Form with header-->\n\n                    <form action=\"mail.php\" method=\"post\">\n                        <div class=\"card mb-3\">\n <div class=\"card-header\">\nFill DDO Details\n </div>\n                            <div class=\"card-body\">\n\n                                <!--Body-->\n\n\n\n                                <div class=\"form-group\">\n                                    \n                                        <label>Department <span style=\"color: red;margin: 0px\">**</span></label>\n                                \n                                    <div class=\"input-group mb-2\">\n                                       \n                                        <select class=\"form-control\" id=\"categoryid\">\n   \n                                        </select>\n                                        \n                                    </div>\n                                </div>\n                                \n\n                                <div class=\"form-group\">\n                                        <label>DDO Code     <span style=\"color: red;margin: 0px\">*</span></label>\n                                    \n                                    <div class=\"input-group mb-2\">\n                                                \n                                            <select class=\"form-control\" id=\"ddo_code\">\n                                               \n                                                \n                                                </select>  \n                                        </div>\n                                    </div>\n\n               \n\n\n                                    <div class=\"form-group\">\n                                            <label>Name of DDO  <span style=\"color: red;margin: 0px\">**</span></label>\n                                    \n                                        <div class=\"input-group mb-2\">\n                                               \n                                               <input type=\"text\" id=\"ddo_name\" readonly=\"\" class=\"form-control\">\n                                                                                 \n                                                </div>\n                                        </div>\n\n\n\n                                        <div class=\"form-group\">\n                                                <label>Designation  <span style=\"color: red;margin: 0px\">**</span></label>\n                                       \n                                            <div class=\"input-group mb-2\">\n                                                   \n                                               <input type=\"text\" id=\"designationid\" readonly=\"\" class=\"form-control\">\n                                                                                     \n                                                    </div>\n                                            </div>\n\n\n                                            <div class=\"form-group\">\n                                                    <label>District  <span style=\"color: red;margin: 0px\">**</span></label>\n                                       \n                                                \n                                                <div class=\"input-group mb-2\">\n                                                        \n                                                     \n                                               <input type=\"text\" id=\"districtid\" readonly=\"\" class=\"form-control\">\n                                                                                         \n                                                        </div>\n                                                </div>\n\n\n\n\n                                                <div class=\"form-group\">\n                                                        <label>Office Address 1  <span style=\"color: red;margin: 0px\">*</span></label>\n                                      \n                                                    <div class=\"input-group mb-2\">\n                                                           \n                                                            \n                                                            <textarea class=\"form-control\" id=\"officeAddress1\" placeholder=\"Enter Office Address 1\" required></textarea>\n                                                        </div>\n                                                    </div>\n                    \n                    \n                    \n                                                    <div class=\"form-group\">\n                                                            <label>Offie Address 2  <span style=\"color: red;margin: 0px\"></span></label>\n                                    \n                                                        <div class=\"input-group mb-2\">\n                                                           \n                                                            <textarea class=\"form-control\" id=\"officeAddress2\" placeholder=\"Enter Office Address 2\" required></textarea>\n                                                        </div>\n                                                    </div>\n\n\n\n                                <div class=\"form-group\">\n                                        <label>TIN Number  <span style=\"color: red;margin: 0px\"></span></label>\n                                    \n                                    <div class=\"input-group mb-2\">\n                                        \n                                        <input type=\"text\" class=\"form-control\" id=\"tin\" name=\"name\" placeholder=\"TIN Number\" required>\n                                    </div>\n                                </div>\n\n\n                                <div class=\"form-group\">\n                                        <label>TAN Number  <span style=\"color: red;margin: 0px\">*</span></label>\n                                       \n                                    <div class=\"input-group mb-2\">\n                                           \n                                            <input type=\"text\" class=\"form-control\" id=\"tan\" name=\"name\" placeholder=\"TAN Number\" required>\n                                        </div>\n                                    </div>\n\n                                <div class=\"form-group\">\n                                        <label>Email ID  <span style=\"color: red;margin: 0px\">*</span></label>\n                                    \n                                    <div class=\"input-group mb-2\">\n                                       \n                                        <input type=\"email\" class=\"form-control\" id=\"emailId\" name=\"email\" placeholder=\"Enter Email\" required>\n                                    </div>\n                                </div>\n\n                                <div class=\"form-group\">\n                                        <label>Mobile Number  <span style=\"color: red;margin: 0px\">*</span></label>\n                                    \n                                    <div class=\"input-group mb-2\">\n                                        \n                                        <input type=\"number\" class=\"form-control\" id=\"contactNumber\" name=\"email\" placeholder=\"Enter Mobile Number\" required>\n                                    </div>\n                                </div>\n\n\n                                <div class=\"text-center\">\n                                    <input type=\"button\" id=\"submit\" value=\"Save & Send\" class=\"btn btn-primary btn-block rounded-0 py-2\">\n                                </div>\n                            </div>\n\n                        </div>\n                    </form>\n                    <!--Form with header-->\n\n\n                </div>\n    </div>\n</div>\n\n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ddo-report/ddo-report.component.html":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ddo-report/ddo-report.component.html ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<style>\n\n.category{\n    background:#fff;\n    font-size: 1.6rem;\n    border-radius:3px;\n   \n}\n.ctghead{\n    padding: 2px 40px;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.09);\n\n}\n.ctghead h3{\n    display: inline-flex;\n    align-items: center;\n    font-size: 0.9rem;\n}\n.ctghead h3 i{\n    font-size:0.9rem;\n    margin-right:7px;\n   \n}\n\n.ctgul{\n    margin-top:16px;\n    padding:0 0 16px 0;\n}\n.ctgulChild{\n    margin: 0 0 0 30px;\n    padding:0 0 10px 0;\n\n}\n\n.ctgliChild{\n    font-size: 0.9rem;\n    display: block;\n    position: relative;\n    list-style: none;\n    transition:.3s linear;\n    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */\n\n}\n\n.ctgli:hover{\n    border-left: 4px solid var(--hove);\n    background:#d2ffe221;\n    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */\n}\n\n.ctga, .ctgaChild{\n    \n    width: 100%;\n    display: inline-flex;\n    align-items: center;\n    cursor: pointer;\n    font-size: 0.9rem;\n    line-height: 2.3rem;\n    color: #333;\n    text-decoration: none;\n    padding: 13px 40px 13px 34px;\n    position: relative;\n    right: 0;\n    transition: right linear .3s;\n}\n.ctga i{\n    margin-right:10px;}\n\n.ctgaChild{\n    font-size: 0.9rem;\n    padding: 13px 13px 13px 36px;\n}\n.ctga:hover, .ctgaChild:hover{\n    /* right:-4px; */\n    color:var(--hove);\n    \n}\n.ctgaChild::before {\n    top: 50%;\n    transform:translateY(-50%);\n    left: 20px;\n    position: absolute;\n    border-style: solid;\n    border-color: transparent transparent transparent var(--hove);\n    border-width:4px;\n    content: \"\";\n    \n}\n.down{\n    position: absolute;\n    font-size:0.9rem;\n   right:10%;\n   top: 50%;\n   transform: translateY(-50%) rotate(360deg);\n}\n.ctgulChild{\n    \n    display:none;\n}\n.ctgli{\n    display: block;\n    position: relative;\n    list-style: none;\n    border-left: 4px solid transparent;\n    transition:.3s linear;\n}\n.showed{\n    background:#d2ffe221;;\n    border-left:4px solid var(--hove)!important;\n}\n\n.showed .ctga{\n    color: var(--hove);\n    font-weight:bold;\n   }\n\n.showed .ctga i{\n    \n    font-weight:bold;\n    \n}\n.down {\n  -webkit-transition: .5s ease;\n  transition: .5s ease;\n}\n.wtok .down {\n  -webkit-transform: translateY(-50%) rotate(180deg);\n          transform: translateY(-50%) rotate(180deg);\n}\n\n/*  base.css*/\n@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');\n\n:root{\n\n    --white:#fff;\n    --black:#000;\n    --textColor:#333;\n    --hove:#04ca88;\n}\nhtml{\n    font-size:62.5%;\n    font-family: 'Muli', sans-serif ;\n    line-height:1.6 rem;\n    box-sizing: border-box;\n}\n*{\n    box-sizing: inherit;\n}\na{\n  text-decoration: none;\n}\np{\n    font-size:1.6 rem;\n    /* 1.6 rem --> 16px */\n}\n\nh1{font-size:3rem;}\n.grid{\n    margin : 0 auto;\n    max-width: 1280px;\n}\n\n.row{\n  display:flex;\n  flex-wrap: wrap;\n  margin: 0 -12px 0 -12px;\n}\n\n\n.col-3{\n  padding:0 12px 0 12px;\n  width:calc((100%/12)*3);\n\n}\n\n\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n      <!--             <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n       -->          \n\n<div class=\"container-fluid\">\n\n  <div class=\"grid\">\n                <div class=\"row\">\n                    <div class=\"col-lg-3\">\n                        <!-- category -->\n                        <nav class=\"category\">\n\n                            <!-- <div class=\"ctghead\">\n\n                                <h3><i class=\"ti-list\"></i>Category</h3>\n                            </div>\n -->\n                            <ul class=\"ctgul\">\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/feedback-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Feedback</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/create-sbs-admin']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Create SBS Admin</a>\n                                </li>\n\n                                <li class=\"ctgli showed \">\n                                    <a [routerLink]=\"['/ddo-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        DDO Request</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/rco-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        RCO Request</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga\">\n                                        <div class=\"ok\"></div>\n                                        <i class=\"ti-layout\"></i>\n                                        Users\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n\n\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/ddo-users']\" class=\"ctgaChild\">DDO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/rco-users']\" class=\"ctgaChild\"> MIS/HOD/RCO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/admin-users']\" class=\"ctgaChild\"> Admin Users</a>\n                                        </li>\n                                    </ul>\n                                </li>\n\n                              \n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga \">\n                                        <i class=\"ti-write\"></i>\n                                        Reports\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\">Resource Allocation</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Receipt of Fund Statement</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Stmt of Resource Released</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Monthly Resource Releases</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Statement of Fund Surrender </a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Re-appropriation of Fund Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Scheme wise Info Status of Fund</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Budget Head DDO Mapping</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Expenditure Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Sanctionwise Analysis DDO Wise</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Report IT Deduction</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> GST Form 7</a>\n                                        </li>\n                                    </ul>\n                                      \n\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/sbs-upload']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        SBS Upload</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/update-password']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Update Password</a>\n                                </li>\n\n                                  <li class=\"ctgli\">\n                                    <a class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Logout</a>\n                                </li>\n\n                            </ul>\n\n\n\n                        </nav>\n\n\n\n\n                    </div>\n\n<div class=\"col-lg-9\">\n \n<div class=\"table-responsive\">\n            <div id=\"result\"></div>\n          </div>\n\n </div>\n</div>\n </div>\n</div>\n\n\n\n                \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/ddo-users/ddo-users.component.html":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/ddo-users/ddo-users.component.html ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<style>\n\n.category{\n    background:#fff;\n    font-size: 1.6rem;\n    border-radius:3px;\n   \n}\n.ctghead{\n    padding: 2px 40px;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.09);\n\n}\n.ctghead h3{\n    display: inline-flex;\n    align-items: center;\n    font-size: 0.9rem;\n}\n.ctghead h3 i{\n    font-size:0.9rem;\n    margin-right:7px;\n   \n}\n\n.ctgul{\n    margin-top:16px;\n    padding:0 0 16px 0;\n}\n.ctgulChild{\n    margin: 0 0 0 30px;\n    padding:0 0 10px 0;\n\n}\n\n.ctgliChild{\n    font-size: 0.9rem;\n    display: block;\n    position: relative;\n    list-style: none;\n    transition:.3s linear;\n    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */\n\n}\n\n.ctgli:hover{\n    border-left: 4px solid var(--hove);\n    background:#d2ffe221;\n    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */\n}\n\n.ctga, .ctgaChild{\n    \n    width: 100%;\n    display: inline-flex;\n    align-items: center;\n    cursor: pointer;\n    font-size: 0.9rem;\n    line-height: 2.3rem;\n    color: #333;\n    text-decoration: none;\n    padding: 13px 40px 13px 34px;\n    position: relative;\n    right: 0;\n    transition: right linear .3s;\n}\n.ctga i{\n    margin-right:10px;}\n\n.ctgaChild{\n    font-size: 0.9rem;\n    padding: 13px 13px 13px 36px;\n}\n.ctga:hover, .ctgaChild:hover{\n    /* right:-4px; */\n    color:var(--hove);\n    \n}\n.ctgaChild::before {\n    top: 50%;\n    transform:translateY(-50%);\n    left: 20px;\n    position: absolute;\n    border-style: solid;\n    border-color: transparent transparent transparent var(--hove);\n    border-width:4px;\n    content: \"\";\n    \n}\n.down{\n    position: absolute;\n    font-size:0.9rem;\n   right:10%;\n   top: 50%;\n   transform: translateY(-50%) rotate(360deg);\n}\n.ctgulChild{\n    \n    display:none;\n}\n.ctgli{\n    display: block;\n    position: relative;\n    list-style: none;\n    border-left: 4px solid transparent;\n    transition:.3s linear;\n}\n.showed{\n    background:#d2ffe221;;\n    border-left:4px solid var(--hove)!important;\n}\n\n.showed .ctga{\n    color: var(--hove);\n    font-weight:bold;\n   }\n\n.showed .ctga i{\n    \n    font-weight:bold;\n    \n}\n.down {\n  -webkit-transition: .5s ease;\n  transition: .5s ease;\n}\n.wtok .down {\n  -webkit-transform: translateY(-50%) rotate(180deg);\n          transform: translateY(-50%) rotate(180deg);\n}\n\n/*  base.css*/\n@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');\n\n:root{\n\n    --white:#fff;\n    --black:#000;\n    --textColor:#333;\n    --hove:#04ca88;\n}\nhtml{\n    font-size:62.5%;\n    font-family: 'Muli', sans-serif ;\n    line-height:1.6 rem;\n    box-sizing: border-box;\n}\n*{\n    box-sizing: inherit;\n}\na{\n  text-decoration: none;\n}\np{\n    font-size:1.6 rem;\n    /* 1.6 rem --> 16px */\n}\n\nh1{font-size:3rem;}\n.grid{\n    margin : 0 auto;\n    max-width: 1280px;\n}\n\n.row{\n  display:flex;\n  flex-wrap: wrap;\n  margin: 0 -12px 0 -12px;\n}\n\n\n.col-3{\n  padding:0 12px 0 12px;\n  width:calc((100%/12)*3);\n\n}\n\n\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n      <!--             <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n       -->          \n\n<div class=\"container-fluid\">\n\n  <div class=\"grid\">\n                <div class=\"row\">\n                    <div class=\"col-lg-3\">\n                        <!-- category -->\n                        <nav class=\"category\">\n\n                            <!-- <div class=\"ctghead\">\n\n                                <h3><i class=\"ti-list\"></i>Category</h3>\n                            </div>\n -->\n                            <ul class=\"ctgul\">\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/feedback-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Feedback</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/create-sbs-admin']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Create SBS Admin</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/ddo-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        DDO Request</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/rco-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        RCO Request</a>\n                                </li>\n\n                                <li class=\"ctgli showed\">\n                                    <a href=\"#\" class=\"ctga\">\n                                        <div class=\"ok\"></div>\n                                        <i class=\"ti-layout\"></i>\n                                        Users\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n\n\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/ddo-users']\" class=\"ctgaChild\">DDO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/rco-users']\" class=\"ctgaChild\"> MIS/HOD/RCO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/admin-users']\" class=\"ctgaChild\"> Admin Users</a>\n                                        </li>\n                                    </ul>\n                                </li>\n\n                              \n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga \">\n                                        <i class=\"ti-write\"></i>\n                                        Reports\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\">Resource Allocation</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Receipt of Fund Statement</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Stmt of Resource Released</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Monthly Resource Releases</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Statement of Fund Surrender </a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Re-appropriation of Fund Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Scheme wise Info Status of Fund</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Budget Head DDO Mapping</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Expenditure Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Sanctionwise Analysis DDO Wise</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Report IT Deduction</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> GST Form 7</a>\n                                        </li>\n                                    </ul>\n                                      \n\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/sbs-upload']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        SBS Upload</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/update-password']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Update Password</a>\n                                </li>\n\n                                  <li class=\"ctgli\">\n                                    <a class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Logout</a>\n                                </li>\n\n                            </ul>\n\n\n\n                        </nav>\n\n\n\n\n                    </div>\n\n<div class=\"col-lg-9\">\n \n<div class=\"table-responsive\">\n            <div id=\"result\"></div>\n          </div>\n\n </div>\n</div>\n </div>\n</div>\n\n\n\n                \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/empolyee-vacancies/empolyee-vacancies.component.html":
 /*!************************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/empolyee-vacancies/empolyee-vacancies.component.html ***!
@@ -75,6 +488,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<style type=\"text/css\">\n  td{\nfont-size: 12px;\n  }\n  th{\n    font-size: 12px;\n  }\n</style>\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n                  <!-- <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6> -->\n                 \n<div class=\"container\">\n  <h3 class=\"h4 text-success font-weight-bold mb-4\">Employee Vacancies</h3>\n  <div class=\"row justify-content-center\">\n    <div class=\"col-lg-12\">\n      <!-- Tabs with icons -->\n        <ngb-tabset [justify]=\"'center'\" class=\"custom-tab-content flex-column flex-md-row\" type=\"pills\">\n            <ngb-tab>\n              <ng-template ngbTabTitle>\n                   <i class=\"ni ni-bell-55 mr-2\"></i> 2016-17\n              </ng-template>\n                <ng-template ngbTabContent>\n                 <p style=\"text-align: center\">Vacancies Not Available</p>\n                </ng-template>\n            </ngb-tab>\n            <ngb-tab>\n              <ng-template ngbTabTitle>\n               <i class=\"ni ni-bell-55 mr-2\"></i> 2015-16 \n              </ng-template>\n                <ng-template ngbTabContent>\n                  <p style=\"text-align: center\">Training Not Available</p>\n                </ng-template>\n            </ngb-tab>\n            <ngb-tab>\n              <ng-template ngbTabTitle>\n                    <i class=\"ni ni-bell-55 mr-2\"></i> 2014-15\n              </ng-template>\n                <ng-template ngbTabContent>\n  <p style=\"text-align: center\">Vacancies Not Available</p>\n                </ng-template>\n            </ngb-tab>\n                 <ngb-tab>\n              <ng-template ngbTabTitle>\n                    <i class=\"ni ni-bell-55 mr-2\"></i> 2013-14\n              </ng-template>\n                <ng-template ngbTabContent>\n                    <ul>\n                        <li style=\"color: Black;\"><a href=\"http://sikkimfred.gov.in/Employees%20Corner/Documents/Final_Results_Of_Accounts_Clerk.NOTICE_DATED_17.6.2013.pdf\" style=\"color: Black; font-size: small;\">Final Result for Direct Recruitment of Accounts Clerk/Jr.Store Keeper</a></li>\n                    </ul>\n                    <ul>\n                        <li style=\"color: Black;\"><a href=\"http://sikkimfred.gov.in/Employees%20Corner/Documents/Results_for_examination_of_12th_May_2013.pdf\"style=\"color: Black; font-size: small;\">Results for Accounts Clerk/ Junior Storekeeper examination held on 12th May 2013.</a></li>\n                    </ul>\n                    <ul>\n                        <li style=\"color: Black;\"><a href=\"http://sikkimfred.gov.in/Employees%20Corner/Documents/Corringendum_to_Notice_no_1289-fin-accts.pdf\" style=\"color: Black; font-size: small;\">Open competitive examination for the post of Accounts Clerk/ Junior Storekeeper has been postponed to 12th May 2013(Sunday) instead of 5th May 2013 (Sunday).Dated:22-03-2013</a></li>\n                    </ul>\n                    <ul>\n                        <li style=\"color: Black;\"> <a href=\"http://sikkimfred.gov.in/Employees%20Corner/Documents/ISSUE_OF_ADMIT_CARD.pdf\" style=\"color: Black; font-size: small;\">Open Competitive exam for the post of Accounts Clerk/ Junior Storekeeper vide Memo No.1289/Fin/Acctts. Dated 02/03/2013</a></li>\n                    </ul>\n                     <ul>\n                        <li style=\"color: Black;\"><a href=\"http://sikkimfred.gov.in/Employees%20Corner/Vacancies_Sub.aspx\" style=\"color: Black; font-size: small;\">Employment Notice for filling up of 150 posts of Accounts Clerk/Junior Storekeeper under Sikkim Subordinate and Accounts Service.</a></li>\n                    </ul>\n                </ng-template>\n            </ngb-tab>\n            <ngb-tab>\n              <ng-template ngbTabTitle>\n                <i class=\"ni ni-bell-55 mr-2\"></i> 2012-13 \n              </ng-template>\n                <ng-template ngbTabContent>\n                      <p style=\"text-align: center\">Vacancies Not Available</p>\n                </ng-template>\n            </ngb-tab>\n          \n        </ngb-tabset>\n    </div>\n   \n  </div>\n\n  <!-- <div class=\"row row-grid justify-content-between align-items-center mt-lg\">\n    <div class=\"col-lg-5\">\n      <h3 class=\"h4 text-success font-weight-bold mb-4\">Progress bars</h3>\n      <div class=\"progress-wrapper\">\n        <div class=\"progress-info\">\n          <div class=\"progress-label\">\n            <span>Task completed</span>\n          </div>\n          <div class=\"progress-percentage\">\n            <span>40%</span>\n          </div>\n        </div>\n        <ngb-progressbar type=\"default\" [value]=\"25\"></ngb-progressbar>\n      </div>\n      <div class=\"progress-wrapper\">\n        <div class=\"progress-info\">\n          <div class=\"progress-label\">\n            <span>Task completed</span>\n          </div>\n          <div class=\"progress-percentage\">\n            <span>60%</span>\n          </div>\n        </div>\n        <ngb-progressbar type=\"primary\" [value]=\"60\"></ngb-progressbar>\n      </div>\n    </div> -->\n   <!--  <div class=\"col-lg-5\">\n      <h3 class=\"h4 text-success font-weight-bold mb-5\">Pagination</h3>\n      <nav aria-label=\"Page navigation example\" class=\"mb-4\">\n        <ngb-pagination [collectionSize]=\"50\" [(page)]=\"page\" [directionLinks]=\"false\"></ngb-pagination>\n      </nav>\n      <nav aria-label=\"Page navigation example\">\n        <ngb-pagination [collectionSize]=\"50\" [(page)]=\"page1\" aria-label=\"Default pagination\">\n          <ng-template ngbPaginationPrevious><i _ngcontent-c9=\"\" class=\"fa fa-angle-left\"></i></ng-template>\n          <ng-template ngbPaginationNext><i _ngcontent-c9=\"\" class=\"fa fa-angle-right\"></i></ng-template>\n        </ngb-pagination>\n      </nav>\n    </div>\n -->  <!-- </div> -->\n <!--  <div class=\"row row-grid justify-content-between\">\n  --> <!--   <div class=\"col-lg-5\">\n      <h3 class=\"h4 text-success font-weight-bold mb-5\">Navigation Pills</h3>\n      <ngb-tabset type=\"pills\" class=\"nav-pills-circle\">\n          <ngb-tab>\n            <ng-template ngbTabTitle>\n              <span class=\"nav-link-icon d-block\"><i class=\"ni ni-atom\"></i></span>\n            </ng-template>\n          </ngb-tab>\n          <ngb-tab>\n            <ng-template ngbTabTitle>\n              <span class=\"nav-link-icon d-block\"><i class=\"ni ni-chat-round\"></i></span>\n            </ng-template>\n          </ngb-tab>\n          <ngb-tab>\n            <ng-template ngbTabTitle>\n                <span class=\"nav-link-icon d-block\"><i class=\"ni ni-cloud-download-95\"></i></span>\n            </ng-template>\n          </ngb-tab>\n      </ngb-tabset>\n    </div> -->\n  <!--   <div class=\"col-lg-5\">\n      <h3 class=\"h4 text-success font-weight-bold mb-5\">Labels</h3>\n      <span class=\"badge badge-pill badge-primary text-uppercase\">Primary</span>\n      <span class=\"badge badge-pill badge-success text-uppercase\">Success</span>\n      <span class=\"badge badge-pill badge-danger text-uppercase\">Danger</span>\n      <span class=\"badge badge-pill badge-warning text-uppercase\">Warning</span>\n      <span class=\"badge badge-pill badge-info text-uppercase\">Info</span>\n    </div> -->\n<!--   </div> -->\n</div>\n\n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/feedback-report/feedback-report.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/feedback-report/feedback-report.component.html ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<style type=\"text/css\">\n  td{\nfont-size: 12px;\n  }\n  th{\n    font-size: 12px;\n  }\n</style>\n                 <div class=\"table-responsive\">\n            <div id=\"result\"></div>\n          </div>\n");
 
 /***/ }),
 
@@ -117,6 +543,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/gpf-login/gpf-login.component.html":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/gpf-login/gpf-login.component.html ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<main>\n  <section class=\"section section-shaped section-lg\">\n    <div class=\"shape shape-style-1 bg-gradient-default\">\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n    </div>\n    <div class=\"container pt-lg-md\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-5\">\n          <div class=\"card bg-secondary shadow border-0\">\n            <div class=\"card-header bg-white pb-3\">\n              <div class=\"text-muted text-center mb-0\">\n                <small>GPF Login</small>\n              </div>\n            </div>\n            <div class=\"card-body px-lg-5 py-lg-5\">\n              <form role=\"form\">\n                <div class=\"form-group mb-3\" [ngClass]=\"{'focused':focus===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                    </div>\n                    <input class=\"form-control\" placeholder=\"GPF Number\" type=\"number\" (focus)=\"focus=true\" (blur)=\"focus=false\">\n                  </div>\n                </div>\n                                             <div class=\"text-center\">\n                  <button type=\"button\" class=\"btn btn-primary my-4\">Sign in</button>\n                </div>\n              </form>\n            </div>\n          </div>\n          <div class=\"row mt-3\">\n           <!--  <div class=\"col-6\">\n              <a [routerLink]=\"['/forgot-password']\" class=\"text-light\">\n                <small>Forgot password?</small>\n              </a>\n            </div> -->\n           <!--  <div class=\"col-6 text-right\">\n              <a href=\"javascript:void(0)\" class=\"text-light\">\n              <small>Forgot password?</small>\n              </a>\n            </div> -->\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</main>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html":
 /*!********************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html ***!
@@ -139,7 +578,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-250\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n      </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <h1 class=\"display-3  text-white\">A beautiful Design System\n                <span>completed with examples</span>\n              </h1>\n              <p class=\"lead  text-white\">The design system comes with four pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>\n              <div class=\"btn-wrapper\">\n                <a href=\"https://demos.creative-tim.com/argon-design-system-angular/documentation/alerts?ref=adsa-landing-page\" class=\"btn btn-info btn-icon mb-3 mb-sm-0\">\n                  <span class=\"btn-inner--icon\"><i class=\"fa fa-code\"></i></span>\n                  <span class=\"btn-inner--text\">Components</span>\n                </a>\n                <a href=\"https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-landing-page\" class=\"btn btn-white btn-icon mb-3 mb-sm-0\">\n                  <span class=\"btn-inner--icon\"><i class=\"ni ni-cloud-download-95\"></i></span>\n                  <span class=\"btn-inner--text\">Download Angular</span>\n                </a>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n\n                 <section class=\"section section-lg bg-dark mt--10\" style=\"margin-right: 10px;margin-left: 10px;\">\n    <div class=\"container\">\n      <div class=\"row justify-content-center text-center mb-lg\">\n        <div class=\"col-lg-8\">\n          <h2 class=\"display-3\">The amazing Team</h2>\n          <p class=\"lead text-muted\">According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDClead scentist, puts the potentially record maximum.</p>\n        </div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-md-6 col-lg-4 mb-5 mb-lg-0\">\n          <div class=\"px-4\">\n            <img src=\"./assets/img/Minister/governor.jpg\" class=\"rounded-circle img-center img-fluid shadow shadow-lg--hover\" style=\"width: 200px;\">\n            <div class=\"pt-4 text-center\">\n              <h5 class=\"title\">\n                <span class=\"d-block mb-1 text-white\">Shri Ganga Prasad </span>\n                <small class=\"h6 text-muted\">Honble Governer of Sikkim</small>\n              </h5>\n              <div class=\"mt-3\">\n                <a href=\"javascript:void(0)\" class=\"btn btn-warning btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-twitter\"></i>\n                </a>\n                <a href=\"javascript:void(0)\" class=\"btn btn-warning btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-facebook\"></i>\n                </a>\n                <a href=\"javascript:void(0)\" class=\"btn btn-warning btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-dribbble\"></i>\n                </a>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-md-6 col-lg-4 mb-5 mb-lg-0\">\n          <div class=\"px-4\">\n            <img src=\"./assets/img/Minister/chiefminister.jpg\" class=\"rounded-circle img-center img-fluid shadow shadow-lg--hover\" style=\"width: 200px;\">\n            <div class=\"pt-4 text-center\">\n              <h5 class=\"title\">\n                <span class=\"d-block mb-1 text-white\">Shri Prem Singh Tamang</span>\n                <small class=\"h6 text-muted\">Honble Chief Minister of Sikkim</small>\n              </h5>\n              <div class=\"mt-3\">\n                <a href=\"javascript:void(0)\" class=\"btn btn-success btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-twitter\"></i>\n                </a>\n                <a href=\"javascript:void(0)\" class=\"btn btn-success btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-facebook\"></i>\n                </a>\n                <a href=\"javascript:void(0)\" class=\"btn btn-success btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-dribbble\"></i>\n                </a>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-md-6 col-lg-4 mb-5 mb-lg-0\">\n          <div class=\"px-4\">\n            <img src=\"./assets/img/Minister/chief.jpg\" class=\"rounded-circle img-center img-fluid shadow shadow-lg--hover\" style=\"width: 200px;\">\n            <div class=\"pt-4 text-center\">\n              <h5 class=\"title\">\n                <span class=\"d-block mb-1 text-white\">Shri V.B. Pathak (IAS)</span>\n                <small class=\"h6 text-muted\">Additional Chief Secretary , Finance</small>\n              </h5>\n              <div class=\"mt-3\">\n                <a href=\"javascript:void(0)\" class=\"btn btn-primary btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-twitter\"></i>\n                </a>\n                <a href=\"javascript:void(0)\" class=\"btn btn-primary btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-facebook\"></i>\n                </a>\n                <a href=\"javascript:void(0)\" class=\"btn btn-primary btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-dribbble\"></i>\n                </a>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n  \n        \n      </div>\n         </div>\n\n  </section>\n         <br/><br/>\n           <section class=\"section section-lg\" style=\"margin-left: 10px;margin-right: 10px;\">\n    <div class=\"container\">\n      <div class=\"row row-grid align-items-center\">\n        <div class=\"col-md-6 order-md-2\">\n          <img src=\"./assets/img/theme/promo-1.png\" class=\"img-fluid floating\">\n        </div>\n        <div class=\"col-md-6 order-md-1\">\n          <div class=\"pr-md-5\">\n            <div class=\"icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5\">\n              <i class=\"ni ni-settings-gear-65\"></i>\n            </div>\n            <h3>Awesome features</h3>\n            <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>\n            <ul class=\"list-unstyled mt-5\">\n              <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-success mr-3\">\n                      <i class=\"ni ni-settings-gear-65\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <h6 class=\"mb-0\">Carefully crafted components</h6>\n                  </div>\n                </div>\n              </li>\n              <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-success mr-3\">\n                      <i class=\"ni ni-html5\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <h6 class=\"mb-0\">Amazing page examples</h6>\n                  </div>\n                </div>\n              </li>\n              <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-success mr-3\">\n                      <i class=\"ni ni-satisfied\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <h6 class=\"mb-0\">Super friendly support team</h6>\n                  </div>\n                </div>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n  <section class=\"section section-lg section-shaped\" style=\"margin-left: 10px;margin-right: 10px;\">\n  <div class=\"shape shape-style-1 shape-default\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n  </div>\n  <div class=\"container py-md\">\n    <div class=\"row row-grid justify-content-between align-items-center\">\n      <div class=\"col-lg-6\">\n        <img src=\"./assets/img/mobile.png\" class=\"img-fluid floating\">\n       <!--  <h3 class=\"display-3 text-white\">A beautiful Design System\n          <span class=\"text-white\">completed with examples</span>\n        </h3>\n        <p class=\"lead text-white\">The Design System comes with four pre-built pages to help you get started faster. You can change the text and images and you're good to go. More importantly, looking at them will give you a picture of what you can built with this powerful Bootstrap 4 Design System.</p>\n        <div class=\"btn-wrapper\">\n          <a [routerLink]=\"['/login']\" class=\"btn btn-success\">Login Page</a>\n          <a [routerLink]=\"['/register']\" class=\"btn btn-white\">Register Page</a>\n        </div> -->\n      </div>\n      <div class=\"col-lg-5 mb-lg-auto\">\n        <div class=\"transform-perspective-right\">\n          <div class=\"card bg-secondary shadow border-0\">\n            <div class=\"card-header bg-white pb-3\">\n              <div class=\"text-muted text-center mb-0\">\n                <small>Download our app</small>\n              </div>\n            <!--   <div class=\"btn-wrapper text-center\">\n               \n              </div>\n -->            </div>\n            <div class=\"card-body px-lg-5 py-lg-5\">\n             \n              <form role=\"form\">\n                <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <input class=\"form-control\" placeholder=\"Mobile Number\" type=\"number\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                  </div>\n                </div>\n                               <div class=\"text-center\">\n                  <button type=\"button\" class=\"btn btn-primary my-4\">Send Link</button>\n                </div>\n              </form>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <!-- SVG separator -->\n  <div class=\"separator separator-bottom separator-skew\">\n    <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n      <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n    </svg>\n  </div>\n</section>\n        \n\n\n\n\n <!--  <section class=\"section bg-secondary\" style=\"margin-left: 10px;margin-right: 10px;\">\n    <div class=\"container\">\n      <div class=\"row row-grid align-items-center\">\n        <div class=\"col-md-6\">\n          <div class=\"card bg-default shadow border-0\">\n            <img src=\"./assets/img/theme/img-1-1200x1000.jpg\" class=\"card-img-top\">\n            <blockquote class=\"card-blockquote\">\n              <svg preserveAspectRatio=\"none\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 583 95\" class=\"svg-bg\">\n                <polygon points=\"0,52 583,95 0,95\" class=\"fill-default\" />\n                <polygon points=\"0,42 583,95 683,0 0,95\" opacity=\".2\" class=\"fill-default\" />\n              </svg>\n              <h4 class=\"display-3 font-weight-bold text-white\">Design System</h4>\n              <p class=\"lead text-italic text-white\">The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens.</p>\n            </blockquote>\n          </div>\n        </div>\n        <div class=\"col-md-6\">\n          <div class=\"pl-md-5\">\n            <div class=\"icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5\">\n              <i class=\"ni ni-settings\"></i>\n            </div>\n            <h3>Our customers</h3>\n            <p class=\"lead\">Don't let your uses guess by attaching tooltips and popoves to any element. Just make sure you enable them first via JavaScript.</p>\n            <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>\n            <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>\n            <a href=\"javascript:void(0)\" class=\"font-weight-bold text-warning mt-5\">A beautiful UI Kit for impactful websites</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section> -->\n\n  <app-sections></app-sections>\n  <app-buttons-section></app-buttons-section>\n<app-inputs-section></app-inputs-section>\n<app-crs-section></app-crs-section>\n<app-navigation-section></app-navigation-section>\n  <section class=\"section section-components\">\n  <app-tabs-section></app-tabs-section>\n  <app-alerts-section></app-alerts-section>\n  <app-typography-section></app-typography-section>\n  <app-angular-section></app-angular-section>\n</section>\n  <section class=\"section pb-0 bg-gradient-warning\" style=\"margin-left: 10px;margin-right: 10px;\">\n    <div class=\"container\">\n      <div class=\"row row-grid align-items-center\">\n        <div class=\"col-md-6 order-lg-2 ml-lg-auto\">\n          <div class=\"position-relative pl-md-5\">\n            <img src=\"./assets/img/ill/ill-2.svg\" class=\"img-center img-fluid\">\n          </div>\n        </div>\n        <div class=\"col-lg-6 order-lg-1\">\n          <div class=\"d-flex px-3\">\n            <div>\n              <div class=\"icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary\">\n                <i class=\"ni ni-building text-primary\"></i>\n              </div>\n            </div>\n            <div class=\"pl-4\">\n              <h4 class=\"display-3 text-white\">Modern Interface</h4>\n              <p class=\"text-white\">The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.</p>\n            </div>\n          </div>\n          <div class=\"card shadow shadow-lg--hover mt-5\">\n            <div class=\"card-body\">\n              <div class=\"d-flex px-3\">\n                <div>\n                  <div class=\"icon icon-shape bg-gradient-success rounded-circle text-white\">\n                    <i class=\"ni ni-satisfied\"></i>\n                  </div>\n                </div>\n                <div class=\"pl-4\">\n                  <h5 class=\"title text-success\">Awesome Support</h5>\n                  <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.</p>\n                  <a href=\"javascript:void(0)\" class=\"text-success\">Learn more</a>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"card shadow shadow-lg--hover mt-5\">\n            <div class=\"card-body\">\n              <div class=\"d-flex px-3\">\n                <div>\n                  <div class=\"icon icon-shape bg-gradient-warning rounded-circle text-white\">\n                    <i class=\"ni ni-active-40\"></i>\n                  </div>\n                </div>\n                <div class=\"pl-4\">\n                  <h5 class=\"title text-warning\">Modular Components</h5>\n                  <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.</p>\n                  <a href=\"javascript:void(0)\" class=\"text-warning\">Learn more</a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- SVG separator -->\n    <div class=\"separator separator-bottom separator-skew zindex-100\">\n      <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n        <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n      </svg>\n    </div>\n  </section>\n  \n<!--   <section class=\"section section-lg pt-0\">\n    <div class=\"container\">\n      <div class=\"card bg-gradient-warning shadow-lg border-0\">\n        <div class=\"p-5\">\n          <div class=\"row align-items-center\">\n            <div class=\"col-lg-8\">\n              <h3 class=\"text-white\">We made website building easier for you.</h3>\n              <p class=\"lead text-white mt-3\">I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture.</p>\n            </div>\n            <div class=\"col-lg-3 ml-lg-auto\">\n              <a href=\"https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-landing-page\" class=\"btn btn-lg btn-block btn-white\">Download Our App</a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section> -->\n  <section class=\"section section-lg bg-gradient-default\" style=\"margin-left: 10px;margin-right: 10px;\">\n    <div class=\"container pt-lg pb-300\">\n      <div class=\"row text-center justify-content-center\">\n        <div class=\"col-lg-10\">\n          <h2 class=\"display-3 text-white\">Build something</h2>\n          <p class=\"lead text-white\">According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent tihs year down to low ice.</p>\n        </div>\n      </div>\n      <div class=\"row row-grid mt-5\">\n        <div class=\"col-lg-4\">\n          <div class=\"icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary\">\n            <i class=\"ni ni-settings text-primary\"></i>\n          </div>\n          <h5 class=\"text-white mt-3\">Building tools</h5>\n          <p class=\"text-white mt-3\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n        </div>\n        <div class=\"col-lg-4\">\n          <div class=\"icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary\">\n            <i class=\"ni ni-ruler-pencil text-primary\"></i>\n          </div>\n          <h5 class=\"text-white mt-3\">Grow your market</h5>\n          <p class=\"text-white mt-3\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n        </div>\n        <div class=\"col-lg-4\">\n          <div class=\"icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary\">\n            <i class=\"ni ni-atom text-primary\"></i>\n          </div>\n          <h5 class=\"text-white mt-3\">Launch time</h5>\n          <p class=\"text-white mt-3\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n        </div>\n      </div>\n    </div>\n    <!-- SVG separator -->\n    <div class=\"separator separator-bottom separator-skew zindex-100\">\n      <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n        <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n      </svg>\n    </div>\n  </section>\n  <section class=\"section section-lg pt-lg-0 section-contact-us\">\n    <div class=\"container\">\n      <div class=\"row justify-content-center mt--300\">\n        <div class=\"col-lg-8\">\n          <div class=\"card bg-gradient-secondary shadow\">\n            <div class=\"card-body p-lg-5\">\n              <h4 class=\"mb-1\">Want to work with us?</h4>\n              <p class=\"mt-0\">Your Feedback is very important to us.</p>\n              <div class=\"form-group mt-5\" [ngClass]=\"{'focused':focus===true}\">\n                <div class=\"input-group input-group-alternative\">\n                  <div class=\"input-group-prepend\">\n                    <span class=\"input-group-text\"><i class=\"ni ni-user-run\"></i></span>\n                  </div>\n                  <input class=\"form-control\" placeholder=\"Your name\" type=\"text\" (focus)=\"focus=true\" (blur)=\"focus=false\">\n                </div>\n              </div>\n              <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                <div class=\"input-group input-group-alternative\">\n                  <div class=\"input-group-prepend\">\n                    <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                  </div>\n                  <input class=\"form-control\" placeholder=\"Email address\" type=\"email\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                </div>\n              </div>\n              <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                <div class=\"input-group input-group-alternative\">\n                  <div class=\"input-group-prepend\">\n                    <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                  </div>\n                  <input class=\"form-control\" placeholder=\"Mobile Number\" type=\"number\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                </div>\n              </div>\n              <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                <div class=\"input-group input-group-alternative\">\n                  <div class=\"input-group-prepend\">\n                    <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                  </div>\n                  <input class=\"form-control\" placeholder=\"Address\" type=\"text\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                </div>\n              </div>\n              <div class=\"form-group mb-4\">\n                <textarea class=\"form-control form-control-alternative\" name=\"name\" rows=\"4\" cols=\"80\" placeholder=\"Type a message...\"></textarea>\n              </div>\n              <div>\n                <button type=\"button\" class=\"btn btn-default btn-round btn-block btn-lg\">Send Message</button>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n  <section class=\"section section-lg\">\n    <div class=\"container\">\n      <div class=\"row row-grid justify-content-center\">\n        <div class=\"col-lg-8 text-center\">\n          <h2 class=\"display-3\">Do you love this awesome\n            <span class=\"text-success\">Design System for Angular?</span>\n          </h2>\n          <p class=\"lead\">Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim where you can find the Design System in Angular. Start a new project or give an old Angular project a new look!</p>\n          <div class=\"btn-wrapper\">\n            <a href=\"https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-landing-page\" class=\"btn btn-primary mb-3 mb-sm-0\">Download Angular</a>\n          </div>\n          <div class=\"text-center\">\n            <h4 class=\"display-4 mb-5 mt-5\">Available on these technologies</h4>\n            <div class=\"row justify-content-center\">\n              <div class=\"col-lg-2 col-4\">\n                <a href=\"https://www.creative-tim.com/product/argon-design-system?ref=adsa-landing-page\" target=\"_blank\" placement=\"top\" ngbTooltip=\"Bootstrap 4 - Most popular front-end component library\">\n                  <img src=\"https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg\" class=\"img-fluid\">\n                </a>\n              </div>\n              <div class=\"col-lg-2 col-4\">\n                <a href=\"https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-landing-page\" target=\"_blank\" placement=\"top\" ngbTooltip=\"Angular - One framework. Mobile &amp; desktop\">\n                  <img src=\"https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg\" class=\"img-fluid\">\n                </a>\n              </div>\n              <div class=\"col-lg-2 col-4\">\n                <a href=\"https://www.creative-tim.com/product/vue-argon-design-system?ref=adsa-landing-page\" target=\"_blank\" placement=\"top\" ngbTooltip=\"Vue.js - The progressive javascript framework\">\n                  <img src=\"https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg\" class=\"img-fluid\">\n                </a>\n              </div>\n              <div class=\"col-lg-2 col-4\">\n                <a href=\"https://www.sketchapp.com/?ref=creative-tim\" target=\"_blank\" placement=\"top\" ngbTooltip=\"[Coming Soon] Sketch - Digital design toolkit\">\n                  <img src=\"https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg\" class=\"img-fluid opacity-3\">\n                </a>\n              </div>\n              <div class=\"col-lg-2 col-4\">\n                <a href=\"https://www.adobe.com/products/photoshop.html?ref=creative-tim\" target=\"_blank\" placement=\"top\" ngbTooltip=\"[Coming Soon] Adobe Photoshop - Software for digital images manipulation\">\n                  <img src=\"https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg\" class=\"img-fluid opacity-3\">\n                </a>\n              </div>\n              <div class=\"col-lg-2 col-4\">\n                <a href=\"https://reactjs.org/?ref=creative-tim\" target=\"_blank\" placement=\"top\" ngbTooltip=\"[Coming Soon] React - A JavaScript library for building user interfaces\">\n                  <img src=\"https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg\" class=\"img-fluid opacity-3\">\n                </a>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n\n                  <a href=\"javascript:void(0)\" class=\"btn btn-primary mt-4\">Learn more</a> \n                </div>\n              </div>\n            </div>\n           <!--  <div class=\"col-lg-4\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n                  <div class=\"icon icon-shape icon-shape-success rounded-circle mb-4\">\n                    <i class=\"ni ni-istanbul\"></i>\n                  </div>\n                  <h6 class=\"text-success text-uppercase\">Revenue Department</h6>\n                   <ul class=\"list-unstyled mt-5\">\n                    <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-success mr-3\">\n                      <i class=\"ni ni-settings-gear-65\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <a [routerLink]=\"['/about-department']\"><h6 class=\"mb-0\">About Department</h6></a>\n                  </div>\n                </div>\n              </li>\n              <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-success mr-3\">\n                      <i class=\"ni ni-html5\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <a [routerLink]=\"['/contactus']\"><h6 class=\"mb-0\">Contact Details</h6></a>\n                  </div>\n                </div>\n              </li>\n            </ul> \n                  <p class=\"description mt-3\">Argon is a great free UI package based on Angular that includes the most important components and features.</p>\n                  <div>\n                    <span class=\"badge badge-pill badge-success\">business</span>\n                    <span class=\"badge badge-pill badge-success\">vision</span>\n                    <span class=\"badge badge-pill badge-success\">success</span>\n                  </div>\n                  <a href=\"javascript:void(0)\" class=\"btn btn-success mt-4\">Learn more</a> \n                </div>\n              </div>\n            </div> -->\n           <!--  <div class=\"col-lg-4\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n                  <div class=\"icon icon-shape icon-shape-warning rounded-circle mb-4\">\n                    <i class=\"ni ni-planet\"></i>\n                  </div>\n                  <h6 class=\"text-warning text-uppercase\">Expenditure Department</h6>\n                    <ul class=\"list-unstyled mt-5\">\n                    <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-warning mr-3\">\n                      <i class=\"ni ni-settings-gear-65\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <a [routerLink]=\"['/about-department']\"><h6 class=\"mb-0\">About Department</h6></a>\n                  </div>\n                </div>\n              </li>\n              <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-warning mr-3\">\n                      <i class=\"ni ni-html5\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <a [routerLink]=\"['/contactus']\"><h6 class=\"mb-0\">Contact Details</h6></a>\n                  </div>\n                </div>\n              </li>\n            </ul> \n                   <p class=\"description mt-3\">Argon is a great free UI package based on Angular that includes the most important components and features.</p>\n                  <div>\n                    <span class=\"badge badge-pill badge-warning\">marketing</span>\n                    <span class=\"badge badge-pill badge-warning\">product</span>\n                    <span class=\"badge badge-pill badge-warning\">launch</span>\n                  </div>\n                  <a href=\"javascript:void(0)\" class=\"btn btn-warning mt-4\">Learn more</a> \n                </div>\n              </div>\n            </div> -->\n          </div>\n        </div>\n      </div>\n    </div>\n  </section> \n  \n\n</main>\n\n<br/><br/>");
+/* harmony default export */ __webpack_exports__["default"] = ("<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-250\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n      </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <h1 class=\"display-3  text-white\">A beautiful Design System\n                <span>completed with examples</span>\n              </h1>\n              <p class=\"lead  text-white\">The design system comes with four pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>\n              <div class=\"btn-wrapper\">\n                <a href=\"https://demos.creative-tim.com/argon-design-system-angular/documentation/alerts?ref=adsa-landing-page\" class=\"btn btn-info btn-icon mb-3 mb-sm-0\">\n                  <span class=\"btn-inner--icon\"><i class=\"fa fa-code\"></i></span>\n                  <span class=\"btn-inner--text\">Components</span>\n                </a>\n                <a href=\"https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-landing-page\" class=\"btn btn-white btn-icon mb-3 mb-sm-0\">\n                  <span class=\"btn-inner--icon\"><i class=\"ni ni-cloud-download-95\"></i></span>\n                  <span class=\"btn-inner--text\">Download Angular</span>\n                </a>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n\n                 <section class=\"section section-lg bg-dark mt--10\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center text-center mb-lg\">\n        <div class=\"col-lg-8\">\n          <h2 class=\"display-3\">The amazing Team</h2>\n          <p class=\"lead text-muted\">According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDClead scentist, puts the potentially record maximum.</p>\n        </div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-md-6 col-lg-4 mb-5 mb-lg-0\">\n          <div class=\"px-4\">\n            <img src=\"./assets/img/Minister/governor.jpg\" class=\"rounded-circle img-center img-fluid shadow shadow-lg--hover\" style=\"width: 200px;\">\n            <div class=\"pt-4 text-center\">\n              <h5 class=\"title\">\n                <span class=\"d-block mb-1 text-white\">Shri Ganga Prasad </span>\n                <small class=\"h6 text-muted\">Honble Governer of Sikkim</small><br/>\n                <small class=\"h6 text-muted\">Ganga Prasad Chaurasia is an Indian politician who is currently the Governor of the state of Sikkim and former Governor of Meghalaya. He was member of Bihar legislative council and served as leader of opposition during the RJD regime. He also held the post of leader of Bihar legislative council </small>\n              </h5>\n              <div class=\"mt-3\">\n                <a href=\"javascript:void(0)\" class=\"btn btn-warning btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-twitter\"></i>\n                </a>\n                <a href=\"javascript:void(0)\" class=\"btn btn-warning btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-facebook\"></i>\n                </a>\n                <a href=\"javascript:void(0)\" class=\"btn btn-warning btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-dribbble\"></i>\n                </a>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-md-6 col-lg-4 mb-5 mb-lg-0\">\n          <div class=\"px-4\">\n            <img src=\"./assets/img/Minister/chiefminister.jpg\" class=\"rounded-circle img-center img-fluid shadow shadow-lg--hover\" style=\"width: 200px;\">\n            <div class=\"pt-4 text-center\">\n              <h5 class=\"title\">\n                <span class=\"d-block mb-1 text-white\">Shri Prem Singh Tamang</span>\n                <small class=\"h6 text-muted\">Honble Chief Minister of Sikkim</small><br/>\n                <small class=\"h6 text-muted\">Prem Singh Tamang (born 5 February 1968), better known as Golay, is an Indian politician and the current Chief Minister of Sikkim and leader and founder of the Sikkim Krantikari Morcha (SKM). Prior to forming the party, he was a key member of the Sikkim Democratic Front (SDF) Party </small>\n              </h5>\n              <div class=\"mt-3\">\n                <a href=\"javascript:void(0)\" class=\"btn btn-success btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-twitter\"></i>\n                </a>\n                <a href=\"javascript:void(0)\" class=\"btn btn-success btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-facebook\"></i>\n                </a>\n                <a href=\"javascript:void(0)\" class=\"btn btn-success btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-dribbble\"></i>\n                </a>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-md-6 col-lg-4 mb-5 mb-lg-0\">\n          <div class=\"px-4\">\n            <img src=\"./assets/img/Minister/chief.jpg\" class=\"rounded-circle img-center img-fluid shadow shadow-lg--hover\" style=\"width: 200px;\">\n            <div class=\"pt-4 text-center\">\n              <h5 class=\"title\">\n                <span class=\"d-block mb-1 text-white\">Shri V.B. Pathak (IAS)</span>\n                <small class=\"h6 text-muted\">Additional Chief Secretary , Finance</small><br/>\n                <small class=\"h6 text-muted\">Shri. V.B.Pathak, IAS, has assumed the charge of Principal Secretary, Finance. Revenue & Expenditure Department with effect from the forenoon of October 3 2017.\n                       </small>\n              </h5>\n              <div class=\"mt-3\">\n                <a href=\"javascript:void(0)\" class=\"btn btn-primary btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-twitter\"></i>\n                </a>\n                <a href=\"javascript:void(0)\" class=\"btn btn-primary btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-facebook\"></i>\n                </a>\n                <a href=\"javascript:void(0)\" class=\"btn btn-primary btn-icon-only rounded-circle\">\n                  <i class=\"fa fa-dribbble\"></i>\n                </a>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n  \n        \n      </div>\n         </div>\n\n  </section>\n         <br/><br/>\n           <section class=\"section section-lg\" style=\"margin-left: 10px;margin-right: 10px;\">\n    <div class=\"container\">\n      <div class=\"row row-grid align-items-center\">\n        <div class=\"col-md-6 order-md-2\">\n          <img src=\"./assets/img/theme/promo-1.png\" class=\"img-fluid floating\">\n        </div>\n        <div class=\"col-md-6 order-md-1\">\n          <div class=\"pr-md-5\">\n            <div class=\"icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5\">\n              <i class=\"ni ni-settings-gear-65\"></i>\n            </div>\n            <h3>Awesome features</h3>\n            <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>\n            <ul class=\"list-unstyled mt-5\">\n              <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-success mr-3\">\n                      <i class=\"ni ni-settings-gear-65\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <h6 class=\"mb-0\">Carefully crafted components</h6>\n                  </div>\n                </div>\n              </li>\n              <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-success mr-3\">\n                      <i class=\"ni ni-html5\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <h6 class=\"mb-0\">Amazing page examples</h6>\n                  </div>\n                </div>\n              </li>\n              <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-success mr-3\">\n                      <i class=\"ni ni-satisfied\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <h6 class=\"mb-0\">Super friendly support team</h6>\n                  </div>\n                </div>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n  <section class=\"section section-lg section-shaped\" style=\"margin-left: 10px;margin-right: 10px;\">\n  <div class=\"shape shape-style-1 shape-default\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n  </div>\n  <div class=\"container py-md\">\n    <div class=\"row row-grid justify-content-between align-items-center\">\n      <div class=\"col-lg-6\">\n        <img src=\"./assets/img/mobile.png\" class=\"img-fluid floating\">\n       <!--  <h3 class=\"display-3 text-white\">A beautiful Design System\n          <span class=\"text-white\">completed with examples</span>\n        </h3>\n        <p class=\"lead text-white\">The Design System comes with four pre-built pages to help you get started faster. You can change the text and images and you're good to go. More importantly, looking at them will give you a picture of what you can built with this powerful Bootstrap 4 Design System.</p>\n        <div class=\"btn-wrapper\">\n          <a [routerLink]=\"['/login']\" class=\"btn btn-success\">Login Page</a>\n          <a [routerLink]=\"['/register']\" class=\"btn btn-white\">Register Page</a>\n        </div> -->\n      </div>\n      <div class=\"col-lg-5 mb-lg-auto\">\n        <div class=\"transform-perspective-right\">\n          <div class=\"card bg-secondary shadow border-0\">\n            <div class=\"card-header bg-white pb-3\">\n              <div class=\"text-muted text-center mb-0\">\n                <small>Download our app</small>\n              </div>\n            <!--   <div class=\"btn-wrapper text-center\">\n               \n              </div>\n -->            </div>\n            <div class=\"card-body px-lg-5 py-lg-5\">\n             \n              <form role=\"form\">\n                <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <input class=\"form-control\" placeholder=\"Mobile Number\" type=\"number\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                  </div>\n                </div>\n                               <div class=\"text-center\">\n                  <button type=\"button\" class=\"btn btn-primary my-4\">Send Link</button>\n                </div>\n              </form>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <!-- SVG separator -->\n  <div class=\"separator separator-bottom separator-skew\">\n    <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n      <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n    </svg>\n  </div>\n</section>\n        \n\n\n\n\n <!--  <section class=\"section bg-secondary\" style=\"margin-left: 10px;margin-right: 10px;\">\n    <div class=\"container\">\n      <div class=\"row row-grid align-items-center\">\n        <div class=\"col-md-6\">\n          <div class=\"card bg-default shadow border-0\">\n            <img src=\"./assets/img/theme/img-1-1200x1000.jpg\" class=\"card-img-top\">\n            <blockquote class=\"card-blockquote\">\n              <svg preserveAspectRatio=\"none\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 583 95\" class=\"svg-bg\">\n                <polygon points=\"0,52 583,95 0,95\" class=\"fill-default\" />\n                <polygon points=\"0,42 583,95 683,0 0,95\" opacity=\".2\" class=\"fill-default\" />\n              </svg>\n              <h4 class=\"display-3 font-weight-bold text-white\">Design System</h4>\n              <p class=\"lead text-italic text-white\">The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens.</p>\n            </blockquote>\n          </div>\n        </div>\n        <div class=\"col-md-6\">\n          <div class=\"pl-md-5\">\n            <div class=\"icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5\">\n              <i class=\"ni ni-settings\"></i>\n            </div>\n            <h3>Our customers</h3>\n            <p class=\"lead\">Don't let your uses guess by attaching tooltips and popoves to any element. Just make sure you enable them first via JavaScript.</p>\n            <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>\n            <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>\n            <a href=\"javascript:void(0)\" class=\"font-weight-bold text-warning mt-5\">A beautiful UI Kit for impactful websites</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section> -->\n\n\n  <section class=\"section pb-10 bg-gradient-warning\" style=\"margin-left: 10px;margin-right: 10px;\">\n    <div class=\"container\">\n      <div class=\"row row-grid align-items-center\">\n        <div class=\"col-md-6 order-lg-2 ml-lg-auto\">\n          <div class=\"position-relative pl-md-5\">\n           <img src=\"./assets/img/mobile.png\" class=\"img-fluid floating\">\n          </div>\n        </div>\n        <div class=\"col-lg-6 order-lg-1\">\n          <div class=\"d-flex px-3\">\n            <div>\n              <div class=\"icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary\">\n                <i class=\"ni ni-building text-primary\"></i>\n              </div>\n            </div>\n            <div class=\"pl-4\">\n              <h4 class=\"display-3 text-white\">Download Our App</h4>\n              <p class=\"text-white\">You can see profile and payslip details via website or app <applet></applet></p>\n            </div>\n\n\n          </div>\n\n\n\n<div style=\"margin-left: 120px;\">\n\n   <a href=\"https://app.appsflyer.com/com.deloservices.deloservices?pid=MobileWeb&c=home_app_buttons\"> <img src=\"https://www.deloservices.com/images/googleplay.png\" style=\"width:110px\" height=\"38px\" alt=\"google play store\"></a>\n                <a href=\"https://app.appsflyer.com/id1497496631?pid=MobileWeb&c=home_app_buttons\"><img src=\"https://www.deloservices.com/images/1565330509033.png\" style=\"width: 110px\" height=\"44px\" alt=\"apple store\"> </a>\n\n</div>\n\n          <div class=\"card shadow shadow-lg--hover mt-5\">\n            <div class=\"card-body\">\n              <div class=\"d-flex px-3\">\n                <div>\n                  <div class=\"icon icon-shape bg-gradient-success rounded-circle text-white\">\n                    <i class=\"ni ni-satisfied\"></i>\n                  </div>\n                </div>\n                <div class=\"pl-4\">\n                  <h5 class=\"title text-success\">Profile Details</h5>\n<!--                   <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.</p>\n                  <a href=\"javascript:void(0)\" class=\"text-success\">Learn more</a> -->\n                </div>\n\n\n\n\n\n\n\n              </div>\n            </div>\n          </div>\n          <div class=\"card shadow shadow-lg--hover mt-5\">\n            <div class=\"card-body\">\n              <div class=\"d-flex px-3\">\n                <div>\n                  <div class=\"icon icon-shape bg-gradient-warning rounded-circle text-white\">\n                    <i class=\"ni ni-active-40\"></i>\n                  </div>\n                </div>\n                <div class=\"pl-4\">\n                  <h5 class=\"title text-warning\">Payslip Details</h5>\n                  <!-- <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.</p>\n                  <a href=\"javascript:void(0)\" class=\"text-warning\">Learn more</a> -->\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- SVG separator -->\n    <div class=\"separator separator-bottom separator-skew zindex-100\">\n      <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n        <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n      </svg>\n    </div>\n  </section>\n  \n<!--   <section class=\"section section-lg pt-0\">\n    <div class=\"container\">\n      <div class=\"card bg-gradient-warning shadow-lg border-0\">\n        <div class=\"p-5\">\n          <div class=\"row align-items-center\">\n            <div class=\"col-lg-8\">\n              <h3 class=\"text-white\">We made website building easier for you.</h3>\n              <p class=\"lead text-white mt-3\">I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture.</p>\n            </div>\n            <div class=\"col-lg-3 ml-lg-auto\">\n              <a href=\"https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-landing-page\" class=\"btn btn-lg btn-block btn-white\">Download Our App</a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section> -->\n  <section class=\"section section-lg bg-gradient-default\" style=\"margin-left: 10px;margin-right: 10px;\">\n    <div class=\"container pt-lg pb-300\">\n      <div class=\"row text-center justify-content-center\">\n        <div class=\"col-lg-10\">\n          <h2 class=\"display-3 text-white\">Build something</h2>\n          <p class=\"lead text-white\">According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent tihs year down to low ice.</p>\n        </div>\n      </div>\n      <div class=\"row row-grid mt-5\">\n        <div class=\"col-lg-4\">\n          <div class=\"icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary\">\n            <i class=\"ni ni-settings text-primary\"></i>\n          </div>\n          <h5 class=\"text-white mt-3\">Building tools</h5>\n          <p class=\"text-white mt-3\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n        </div>\n        <div class=\"col-lg-4\">\n          <div class=\"icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary\">\n            <i class=\"ni ni-ruler-pencil text-primary\"></i>\n          </div>\n          <h5 class=\"text-white mt-3\">Grow your market</h5>\n          <p class=\"text-white mt-3\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n        </div>\n        <div class=\"col-lg-4\">\n          <div class=\"icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary\">\n            <i class=\"ni ni-atom text-primary\"></i>\n          </div>\n          <h5 class=\"text-white mt-3\">Launch time</h5>\n          <p class=\"text-white mt-3\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n        </div>\n      </div>\n    </div>\n    <!-- SVG separator -->\n    <div class=\"separator separator-bottom separator-skew zindex-100\">\n      <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n        <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n      </svg>\n    </div>\n  </section>\n  <section class=\"section section-lg pt-lg-0 section-contact-us\">\n    <div class=\"container\">\n      <div class=\"row justify-content-center mt--300\">\n        <div class=\"col-lg-8\">\n          <div class=\"card bg-gradient-secondary shadow\">\n            <div class=\"card-body p-lg-5\">\n              <h4 class=\"mb-1\">Want to work with us?</h4>\n              <p class=\"mt-0\">Your Feedback is very important to us.</p>\n              <div class=\"form-group mt-5\" [ngClass]=\"{'focused':focus===true}\">\n                <div class=\"input-group input-group-alternative\">\n                  <div class=\"input-group-prepend\">\n                    <span class=\"input-group-text\"><i class=\"ni ni-user-run\"></i></span>\n                  </div>\n                  <input class=\"form-control\" placeholder=\"Your name\" type=\"text\" (focus)=\"focus=true\" (blur)=\"focus=false\">\n                </div>\n              </div>\n              <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                <div class=\"input-group input-group-alternative\">\n                  <div class=\"input-group-prepend\">\n                    <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                  </div>\n                  <input class=\"form-control\" placeholder=\"Email address\" type=\"email\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                </div>\n              </div>\n              <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                <div class=\"input-group input-group-alternative\">\n                  <div class=\"input-group-prepend\">\n                    <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                  </div>\n                  <input class=\"form-control\" placeholder=\"Mobile Number\" type=\"number\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                </div>\n              </div>\n              <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                <div class=\"input-group input-group-alternative\">\n                  <div class=\"input-group-prepend\">\n                    <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                  </div>\n                  <input class=\"form-control\" placeholder=\"Address\" type=\"text\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                </div>\n              </div>\n              <div class=\"form-group mb-4\">\n                <textarea class=\"form-control form-control-alternative\" name=\"name\" rows=\"4\" cols=\"80\" placeholder=\"Type a message...\"></textarea>\n              </div>\n              <div>\n                <button type=\"button\" class=\"btn btn-default btn-round btn-block btn-lg\">Send Message</button>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n  <section class=\"section section-lg\">\n    <div class=\"container\">\n      <div class=\"row row-grid justify-content-center\">\n        <div class=\"col-lg-8 text-center\">\n          <h2 class=\"display-3\">Do you love this awesome\n            <span class=\"text-success\">Design System for Angular?</span>\n          </h2>\n          <p class=\"lead\">Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim where you can find the Design System in Angular. Start a new project or give an old Angular project a new look!</p>\n          <div class=\"btn-wrapper\">\n            <a href=\"https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-landing-page\" class=\"btn btn-primary mb-3 mb-sm-0\">Download Angular</a>\n          </div>\n          <div class=\"text-center\">\n            <h4 class=\"display-4 mb-5 mt-5\">Available on these technologies</h4>\n            <div class=\"row justify-content-center\">\n              <div class=\"col-lg-2 col-4\">\n                <a href=\"https://www.creative-tim.com/product/argon-design-system?ref=adsa-landing-page\" target=\"_blank\" placement=\"top\" ngbTooltip=\"Bootstrap 4 - Most popular front-end component library\">\n                  <img src=\"https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg\" class=\"img-fluid\">\n                </a>\n              </div>\n              <div class=\"col-lg-2 col-4\">\n                <a href=\"https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-landing-page\" target=\"_blank\" placement=\"top\" ngbTooltip=\"Angular - One framework. Mobile &amp; desktop\">\n                  <img src=\"https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg\" class=\"img-fluid\">\n                </a>\n              </div>\n              <div class=\"col-lg-2 col-4\">\n                <a href=\"https://www.creative-tim.com/product/vue-argon-design-system?ref=adsa-landing-page\" target=\"_blank\" placement=\"top\" ngbTooltip=\"Vue.js - The progressive javascript framework\">\n                  <img src=\"https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg\" class=\"img-fluid\">\n                </a>\n              </div>\n              <div class=\"col-lg-2 col-4\">\n                <a href=\"https://www.sketchapp.com/?ref=creative-tim\" target=\"_blank\" placement=\"top\" ngbTooltip=\"[Coming Soon] Sketch - Digital design toolkit\">\n                  <img src=\"https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg\" class=\"img-fluid opacity-3\">\n                </a>\n              </div>\n              <div class=\"col-lg-2 col-4\">\n                <a href=\"https://www.adobe.com/products/photoshop.html?ref=creative-tim\" target=\"_blank\" placement=\"top\" ngbTooltip=\"[Coming Soon] Adobe Photoshop - Software for digital images manipulation\">\n                  <img src=\"https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg\" class=\"img-fluid opacity-3\">\n                </a>\n              </div>\n              <div class=\"col-lg-2 col-4\">\n                <a href=\"https://reactjs.org/?ref=creative-tim\" target=\"_blank\" placement=\"top\" ngbTooltip=\"[Coming Soon] React - A JavaScript library for building user interfaces\">\n                  <img src=\"https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg\" class=\"img-fluid opacity-3\">\n                </a>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n\n                  <a href=\"javascript:void(0)\" class=\"btn btn-primary mt-4\">Learn more</a> \n                </div>\n              </div>\n            </div>\n           <!--  <div class=\"col-lg-4\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n                  <div class=\"icon icon-shape icon-shape-success rounded-circle mb-4\">\n                    <i class=\"ni ni-istanbul\"></i>\n                  </div>\n                  <h6 class=\"text-success text-uppercase\">Revenue Department</h6>\n                   <ul class=\"list-unstyled mt-5\">\n                    <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-success mr-3\">\n                      <i class=\"ni ni-settings-gear-65\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <a [routerLink]=\"['/about-department']\"><h6 class=\"mb-0\">About Department</h6></a>\n                  </div>\n                </div>\n              </li>\n              <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-success mr-3\">\n                      <i class=\"ni ni-html5\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <a [routerLink]=\"['/contactus']\"><h6 class=\"mb-0\">Contact Details</h6></a>\n                  </div>\n                </div>\n              </li>\n            </ul> \n                  <p class=\"description mt-3\">Argon is a great free UI package based on Angular that includes the most important components and features.</p>\n                  <div>\n                    <span class=\"badge badge-pill badge-success\">business</span>\n                    <span class=\"badge badge-pill badge-success\">vision</span>\n                    <span class=\"badge badge-pill badge-success\">success</span>\n                  </div>\n                  <a href=\"javascript:void(0)\" class=\"btn btn-success mt-4\">Learn more</a> \n                </div>\n              </div>\n            </div> -->\n           <!--  <div class=\"col-lg-4\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n                  <div class=\"icon icon-shape icon-shape-warning rounded-circle mb-4\">\n                    <i class=\"ni ni-planet\"></i>\n                  </div>\n                  <h6 class=\"text-warning text-uppercase\">Expenditure Department</h6>\n                    <ul class=\"list-unstyled mt-5\">\n                    <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-warning mr-3\">\n                      <i class=\"ni ni-settings-gear-65\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <a [routerLink]=\"['/about-department']\"><h6 class=\"mb-0\">About Department</h6></a>\n                  </div>\n                </div>\n              </li>\n              <li class=\"py-2\">\n                <div class=\"d-flex align-items-center\">\n                  <div>\n                    <div class=\"badge badge-circle badge-warning mr-3\">\n                      <i class=\"ni ni-html5\"></i>\n                    </div>\n                  </div>\n                  <div>\n                    <a [routerLink]=\"['/contactus']\"><h6 class=\"mb-0\">Contact Details</h6></a>\n                  </div>\n                </div>\n              </li>\n            </ul> \n                   <p class=\"description mt-3\">Argon is a great free UI package based on Angular that includes the most important components and features.</p>\n                  <div>\n                    <span class=\"badge badge-pill badge-warning\">marketing</span>\n                    <span class=\"badge badge-pill badge-warning\">product</span>\n                    <span class=\"badge badge-pill badge-warning\">launch</span>\n                  </div>\n                  <a href=\"javascript:void(0)\" class=\"btn btn-warning mt-4\">Learn more</a> \n                </div>\n              </div>\n            </div> -->\n          </div>\n        </div>\n      </div>\n    </div>\n  </section> \n  \n\n</main>\n\n");
 
 /***/ }),
 
@@ -195,6 +634,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/payslip-details/payslip-details.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/payslip-details/payslip-details.component.html ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>payslip-details works!</p>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/press-release/press-release.component.html":
 /*!**************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/press-release/press-release.component.html ***!
@@ -205,6 +657,32 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<style type=\"text/css\">\n  a{\nfont-size: 14px;\n  }\n  li{\n    font-size: 12px;\n  }\n</style>\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n                  <!-- <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6> -->\n                 \n<div class=\"container\">\n  <h3 class=\"h4 text-success font-weight-bold mb-4\">Press Release</h3>\n  <div class=\"row justify-content-center\">\n    <div class=\"col-lg-12\">\n      <!-- Tabs with icons -->\n        <ngb-tabset [justify]=\"'center'\" class=\"custom-tab-content flex-column flex-md-row\" type=\"pills\">\n            <ngb-tab>\n              <ng-template ngbTabTitle>\n                   <i class=\"ni ni-bell-55 mr-2\"></i> All Press Release Details\n              </ng-template>\n                <ng-template ngbTabContent>\n                 <ul>\n                                <li><a href=\"http://www.sikkimfred.gov.in/Press%20Release/Documents/TOUR_REPORt.pdf\" target=\"_blank\" style=\"color: Black; text-align: center;\">\n                                    Districts Visit by CCS, FRED.\n</a>\n                                </li>\n                            </ul>\n                            \n                </ng-template>\n            </ngb-tab>\n          \n        </ngb-tabset>\n    </div>\n   \n  </div>\n\n  <!-- <div class=\"row row-grid justify-content-between align-items-center mt-lg\">\n    <div class=\"col-lg-5\">\n      <h3 class=\"h4 text-success font-weight-bold mb-4\">Progress bars</h3>\n      <div class=\"progress-wrapper\">\n        <div class=\"progress-info\">\n          <div class=\"progress-label\">\n            <span>Task completed</span>\n          </div>\n          <div class=\"progress-percentage\">\n            <span>40%</span>\n          </div>\n        </div>\n        <ngb-progressbar type=\"default\" [value]=\"25\"></ngb-progressbar>\n      </div>\n      <div class=\"progress-wrapper\">\n        <div class=\"progress-info\">\n          <div class=\"progress-label\">\n            <span>Task completed</span>\n          </div>\n          <div class=\"progress-percentage\">\n            <span>60%</span>\n          </div>\n        </div>\n        <ngb-progressbar type=\"primary\" [value]=\"60\"></ngb-progressbar>\n      </div>\n    </div> -->\n   <!--  <div class=\"col-lg-5\">\n      <h3 class=\"h4 text-success font-weight-bold mb-5\">Pagination</h3>\n      <nav aria-label=\"Page navigation example\" class=\"mb-4\">\n        <ngb-pagination [collectionSize]=\"50\" [(page)]=\"page\" [directionLinks]=\"false\"></ngb-pagination>\n      </nav>\n      <nav aria-label=\"Page navigation example\">\n        <ngb-pagination [collectionSize]=\"50\" [(page)]=\"page1\" aria-label=\"Default pagination\">\n          <ng-template ngbPaginationPrevious><i _ngcontent-c9=\"\" class=\"fa fa-angle-left\"></i></ng-template>\n          <ng-template ngbPaginationNext><i _ngcontent-c9=\"\" class=\"fa fa-angle-right\"></i></ng-template>\n        </ngb-pagination>\n      </nav>\n    </div>\n -->  <!-- </div> -->\n <!--  <div class=\"row row-grid justify-content-between\">\n  --> <!--   <div class=\"col-lg-5\">\n      <h3 class=\"h4 text-success font-weight-bold mb-5\">Navigation Pills</h3>\n      <ngb-tabset type=\"pills\" class=\"nav-pills-circle\">\n          <ngb-tab>\n            <ng-template ngbTabTitle>\n              <span class=\"nav-link-icon d-block\"><i class=\"ni ni-atom\"></i></span>\n            </ng-template>\n          </ngb-tab>\n          <ngb-tab>\n            <ng-template ngbTabTitle>\n              <span class=\"nav-link-icon d-block\"><i class=\"ni ni-chat-round\"></i></span>\n            </ng-template>\n          </ngb-tab>\n          <ngb-tab>\n            <ng-template ngbTabTitle>\n                <span class=\"nav-link-icon d-block\"><i class=\"ni ni-cloud-download-95\"></i></span>\n            </ng-template>\n          </ngb-tab>\n      </ngb-tabset>\n    </div> -->\n  <!--   <div class=\"col-lg-5\">\n      <h3 class=\"h4 text-success font-weight-bold mb-5\">Labels</h3>\n      <span class=\"badge badge-pill badge-primary text-uppercase\">Primary</span>\n      <span class=\"badge badge-pill badge-success text-uppercase\">Success</span>\n      <span class=\"badge badge-pill badge-danger text-uppercase\">Danger</span>\n      <span class=\"badge badge-pill badge-warning text-uppercase\">Warning</span>\n      <span class=\"badge badge-pill badge-info text-uppercase\">Info</span>\n    </div> -->\n<!--   </div> -->\n</div>\n\n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/profile-and-payslip/profile-and-payslip.component.html":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/profile-and-payslip/profile-and-payslip.component.html ***!
+  \**************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n<style>\n    body{\n  padding: 2rem 0rem;\n}\n.card-img-overlay {\n  background-color: rgba(#000, 0.4);\n}\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n                 <!--  <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6> -->\n                 \n                 <div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col-12 col-sm-8 col-md-6 col-lg-2\">\n        </div>\n        <div class=\"col-12 col-sm-8 col-md-6 col-lg-4\">\n            <a [routerLink]=\"['/profile-details']\">\n            <div class=\"card\">\n               <img class=\"card-img\" src=\"https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/bologna-3.jpg\" alt=\"Bologna\" style=\"height:200px;\">\n              <div class=\"card-img-overlay text-white d-flex flex-column justify-content-center\">\n                <h4 class=\"card-title justify-content-center\" style=\"text-align: center;\">Profile</h4>\n               \n              </div>\n            </div>\n        </a>\n          </div>\n\n      <div class=\"col-12 col-sm-8 col-md-6 col-lg-4\">\n           <a [routerLink]=\"['/payslip-details']\">\n        <div class=\"card\">\n           <img class=\"card-img\" src=\"https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/bologna-3.jpg\" alt=\"Bologna\" style=\"height:200px;\">\n          <div class=\"card-img-overlay text-white d-flex flex-column justify-content-center\">\n            <h4 class=\"card-title justify-content-center\" style=\"text-align: center;\">Payslip</h4>\n           \n          </div>\n        </div>\n      </a>\n      </div>\n   \n\n    </div>\n  </div>\n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/profile-details/profile-details.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/profile-details/profile-details.component.html ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>profile-details works!</p>\n");
 
 /***/ }),
 
@@ -221,6 +699,58 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/rco-registeration/rco-registeration.component.html":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/rco-registeration/rco-registeration.component.html ***!
+  \**********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<style type=\"text/css\">\n  td{\nfont-size: 12px;\n  }\n  th{\n    font-size: 12px;\n  }\n</style>\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n            <!--       <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n             -->     \n\n\n<div class=\"container-fluid\">\n   \n    <div class=\"row\">\n\n<div class=\"col-sm-12 col-md-12 col-lg-4\">\n\n    <form action=\"mail.php\" method=\"post\">\n             <div class=\"card mb-3\">\n <div class=\"card-header\">\nInstructions\n </div>\n                <div class=\"card-body\">\n\n                 \n                    <div class=\"form-group\">\n                          \n                       \n                            <ul>\n                                <li style=\"margin: 2px;\">After submitting the form successfully you will get the User ID\n                                    and password through email.</li>\n                                <li style=\"margin: 2px\"><span style=\"color:red\">*</span> Denotes Mandatory Fields</li>\n                            </ul>\n\n                        </div>\n\n\n                  \n                </div>\n\n            </div>\n        </form>\n        \n\n</div>\n\n        <div class=\"col-sm-12 col-md-12 col-lg-8 pb-5\">\n\n\n                    <!--Form with header-->\n\n                    <form action=\"mail.php\" method=\"post\">\n                 <div class=\"card mb-3\">\n <div class=\"card-header\">\n                             RCO Registration / MIS User Registration\n\n                        </div>\n                    \n                    <div class=\"card-body p-3\">\n\n                        <!--Body-->\n\n\n\n                        <div class=\"form-group\">\n\n                            <label>Type of Registration <span style=\"color: red;margin: 0px\">*</span></label>\n\n                            <div class=\"input-group mb-2\">\n\n                                <select class=\"form-control\" id=\"RegistrationType\">\n                                    <option value=\"null\">Please Select a Type</option>\n                                    <option value=\"MIS\">MIS</option>\n                                    <option value=\"HOD\">HOD</option>\n                                    <option value=\"RCO\">RCO</option>\n                                </select>\n\n                            </div>\n                        </div>\n\n\n\n\n                        <div class=\"form-group\">\n                            <label>Name <span style=\"color: red;margin: 0px\">*</span></label>\n\n                            <div class=\"input-group mb-2\">\n\n                                <input type=\"text\" class=\"form-control\" id=\"adminName\" name=\"name\"\n                                    placeholder=\"Enter Name\" required>\n                            </div>\n                        </div>\n\n                        <div class=\"form-group\">\n                            <label>Department <span style=\"color: red;margin: 0px\">*</span></label>\n\n                            <div class=\"input-group mb-2\">\n                                <select class=\"form-control\" id=\"department\"></select>\n                            </div>\n                        </div>\n\n                        <div class=\"form-group\">\n                            <label>Designation <span style=\"color: red;margin: 0px\">*</span></label>\n\n                            <div class=\"input-group mb-2\">\n                                <input type=\"text\" class=\"form-control\" id=\"designation\" name=\"name\"\n                                    placeholder=\"Designation\" required>\n                            </div>\n                        </div>\n\n\n                        <div class=\"form-group\">\n                            <label>District <span style=\"color: red;margin: 0px\">*</span></label>\n\n\n                            <div class=\"input-group mb-2\">\n\n                                <input type=\"text\" class=\"form-control\" id=\"district\" name=\"name\"\n                                    placeholder=\"Enter District\" required>\n\n\n                            </div>\n                        </div>\n\n\n\n\n                        <div class=\"form-group\">\n                            <label>Office Address 1 <span style=\"color: red;margin: 0px\">*</span></label>\n\n                            <div class=\"input-group mb-2\">\n\n\n                                <textarea class=\"form-control\" placeholder=\"Enter Office Address 1\" id=\"officeAddress1\"\n                                    required></textarea>\n                            </div>\n                        </div>\n\n\n\n                        <div class=\"form-group\">\n                            <label>Offie Address 2 <span style=\"color: red;margin: 0px\">*</span></label>\n\n                            <div class=\"input-group mb-2\">\n\n                                <textarea class=\"form-control\" placeholder=\"Enter Office Address 2\" id=\"officeAddress2\"\n                                    required></textarea>\n                            </div>\n                        </div>\n\n\n\n                        <div class=\"form-group\">\n                            <label>TIN Number <span style=\"color: red;margin: 0px\"></span></label>\n\n                            <div class=\"input-group mb-2\">\n\n                                <input type=\"text\" class=\"form-control\" id=\"tinNumber\" name=\"name\"\n                                    placeholder=\"TIN Number\" required>\n                            </div>\n                        </div>\n\n\n                        <div class=\"form-group\">\n                            <label>TAN Number <span style=\"color: red;margin: 0px\"></span></label>\n\n                            <div class=\"input-group mb-2\">\n\n                                <input type=\"text\" class=\"form-control\" id=\"tanNumber\" name=\"name\"\n                                    placeholder=\"TAN Number\" required>\n                            </div>\n                        </div>\n\n                        <div class=\"form-group\">\n                            <label>Email ID <span style=\"color: red;margin: 0px\">*</span></label>\n\n                            <div class=\"input-group mb-2\">\n\n                                <input type=\"email\" class=\"form-control\" id=\"emailId\" name=\"email\"\n                                    placeholder=\"Enter Email\" required>\n                            </div>\n                        </div>\n\n                        <div class=\"form-group\">\n                            <label>Mobile Number <span style=\"color: red;margin: 0px\">*</span></label>\n\n                            <div class=\"input-group mb-2\">\n\n                                <input type=\"number\" class=\"form-control\" id=\"contactNumber\" name=\"email\"\n                                    placeholder=\"Enter Mobile Number\" required>\n                            </div>\n                        </div>\n\n                        <div class=\"text-center\">\n                            <input type=\"button\" value=\"Save & Send\" id=\"submit\" class=\"btn btn-primary btn-block rounded-0 py-2\">\n                        </div>\n                    </div>\n\n                </div>\n            </form>\n\n                    <!--Form with header-->\n\n\n                </div>\n    </div>\n</div>\n\n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/rco-report/rco-report.component.html":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/rco-report/rco-report.component.html ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<style>\n\n.category{\n    background:#fff;\n    font-size: 1.6rem;\n    border-radius:3px;\n   \n}\n.ctghead{\n    padding: 2px 40px;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.09);\n\n}\n.ctghead h3{\n    display: inline-flex;\n    align-items: center;\n    font-size: 0.9rem;\n}\n.ctghead h3 i{\n    font-size:0.9rem;\n    margin-right:7px;\n   \n}\n\n.ctgul{\n    margin-top:16px;\n    padding:0 0 16px 0;\n}\n.ctgulChild{\n    margin: 0 0 0 30px;\n    padding:0 0 10px 0;\n\n}\n\n.ctgliChild{\n    font-size: 0.9rem;\n    display: block;\n    position: relative;\n    list-style: none;\n    transition:.3s linear;\n    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */\n\n}\n\n.ctgli:hover{\n    border-left: 4px solid var(--hove);\n    background:#d2ffe221;\n    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */\n}\n\n.ctga, .ctgaChild{\n    \n    width: 100%;\n    display: inline-flex;\n    align-items: center;\n    cursor: pointer;\n    font-size: 0.9rem;\n    line-height: 2.3rem;\n    color: #333;\n    text-decoration: none;\n    padding: 13px 40px 13px 34px;\n    position: relative;\n    right: 0;\n    transition: right linear .3s;\n}\n.ctga i{\n    margin-right:10px;}\n\n.ctgaChild{\n    font-size: 0.9rem;\n    padding: 13px 13px 13px 36px;\n}\n.ctga:hover, .ctgaChild:hover{\n    /* right:-4px; */\n    color:var(--hove);\n    \n}\n.ctgaChild::before {\n    top: 50%;\n    transform:translateY(-50%);\n    left: 20px;\n    position: absolute;\n    border-style: solid;\n    border-color: transparent transparent transparent var(--hove);\n    border-width:4px;\n    content: \"\";\n    \n}\n.down{\n    position: absolute;\n    font-size:0.9rem;\n   right:10%;\n   top: 50%;\n   transform: translateY(-50%) rotate(360deg);\n}\n.ctgulChild{\n    \n    display:none;\n}\n.ctgli{\n    display: block;\n    position: relative;\n    list-style: none;\n    border-left: 4px solid transparent;\n    transition:.3s linear;\n}\n.showed{\n    background:#d2ffe221;;\n    border-left:4px solid var(--hove)!important;\n}\n\n.showed .ctga{\n    color: var(--hove);\n    font-weight:bold;\n   }\n\n.showed .ctga i{\n    \n    font-weight:bold;\n    \n}\n.down {\n  -webkit-transition: .5s ease;\n  transition: .5s ease;\n}\n.wtok .down {\n  -webkit-transform: translateY(-50%) rotate(180deg);\n          transform: translateY(-50%) rotate(180deg);\n}\n\n/*  base.css*/\n@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');\n\n:root{\n\n    --white:#fff;\n    --black:#000;\n    --textColor:#333;\n    --hove:#04ca88;\n}\nhtml{\n    font-size:62.5%;\n    font-family: 'Muli', sans-serif ;\n    line-height:1.6 rem;\n    box-sizing: border-box;\n}\n*{\n    box-sizing: inherit;\n}\na{\n  text-decoration: none;\n}\np{\n    font-size:1.6 rem;\n    /* 1.6 rem --> 16px */\n}\n\nh1{font-size:3rem;}\n.grid{\n    margin : 0 auto;\n    max-width: 1280px;\n}\n\n.row{\n  display:flex;\n  flex-wrap: wrap;\n  margin: 0 -12px 0 -12px;\n}\n\n\n.col-3{\n  padding:0 12px 0 12px;\n  width:calc((100%/12)*3);\n\n}\n\n\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n      <!--             <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n       -->          \n\n<div class=\"container-fluid\">\n\n  <div class=\"grid\">\n                <div class=\"row\">\n                    <div class=\"col-lg-3\">\n                        <!-- category -->\n                        <nav class=\"category\">\n\n                            <!-- <div class=\"ctghead\">\n\n                                <h3><i class=\"ti-list\"></i>Category</h3>\n                            </div>\n -->\n                            <ul class=\"ctgul\">\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/feedback-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Feedback</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/create-sbs-admin']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Create SBS Admin</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/ddo-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        DDO Request</a>\n                                </li>\n\n                                <li class=\"ctgli showed \">\n                                    <a [routerLink]=\"['/rco-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        RCO Request</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga\">\n                                        <div class=\"ok\"></div>\n                                        <i class=\"ti-layout\"></i>\n                                        Users\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n\n\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/ddo-users']\" class=\"ctgaChild\">DDO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/rco-users']\" class=\"ctgaChild\"> MIS/HOD/RCO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/admin-users']\" class=\"ctgaChild\"> Admin Users</a>\n                                        </li>\n                                    </ul>\n                                </li>\n\n                              \n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga \">\n                                        <i class=\"ti-write\"></i>\n                                        Reports\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\">Resource Allocation</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Receipt of Fund Statement</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Stmt of Resource Released</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Monthly Resource Releases</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Statement of Fund Surrender </a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Re-appropriation of Fund Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Scheme wise Info Status of Fund</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Budget Head DDO Mapping</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Expenditure Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Sanctionwise Analysis DDO Wise</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Report IT Deduction</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> GST Form 7</a>\n                                        </li>\n                                    </ul>\n                                      \n\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/sbs-upload']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        SBS Upload</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/update-password']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Update Password</a>\n                                </li>\n\n                                  <li class=\"ctgli\">\n                                    <a class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Logout</a>\n                                </li>\n\n                            </ul>\n\n\n\n                        </nav>\n\n\n\n\n                    </div>\n\n<div class=\"col-lg-9\">\n \n<div class=\"table-responsive\">\n            <div id=\"result\"></div>\n          </div>\n\n </div>\n</div>\n </div>\n</div>\n\n\n\n                \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/rco-users/rco-users.component.html":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/rco-users/rco-users.component.html ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<style>\n\n.category{\n    background:#fff;\n    font-size: 1.6rem;\n    border-radius:3px;\n   \n}\n.ctghead{\n    padding: 2px 40px;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.09);\n\n}\n.ctghead h3{\n    display: inline-flex;\n    align-items: center;\n    font-size: 0.9rem;\n}\n.ctghead h3 i{\n    font-size:0.9rem;\n    margin-right:7px;\n   \n}\n\n.ctgul{\n    margin-top:16px;\n    padding:0 0 16px 0;\n}\n.ctgulChild{\n    margin: 0 0 0 30px;\n    padding:0 0 10px 0;\n\n}\n\n.ctgliChild{\n    font-size: 0.9rem;\n    display: block;\n    position: relative;\n    list-style: none;\n    transition:.3s linear;\n    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */\n\n}\n\n.ctgli:hover{\n    border-left: 4px solid var(--hove);\n    background:#d2ffe221;\n    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */\n}\n\n.ctga, .ctgaChild{\n    \n    width: 100%;\n    display: inline-flex;\n    align-items: center;\n    cursor: pointer;\n    font-size: 0.9rem;\n    line-height: 2.3rem;\n    color: #333;\n    text-decoration: none;\n    padding: 13px 40px 13px 34px;\n    position: relative;\n    right: 0;\n    transition: right linear .3s;\n}\n.ctga i{\n    margin-right:10px;}\n\n.ctgaChild{\n    font-size: 0.9rem;\n    padding: 13px 13px 13px 36px;\n}\n.ctga:hover, .ctgaChild:hover{\n    /* right:-4px; */\n    color:var(--hove);\n    \n}\n.ctgaChild::before {\n    top: 50%;\n    transform:translateY(-50%);\n    left: 20px;\n    position: absolute;\n    border-style: solid;\n    border-color: transparent transparent transparent var(--hove);\n    border-width:4px;\n    content: \"\";\n    \n}\n.down{\n    position: absolute;\n    font-size:0.9rem;\n   right:10%;\n   top: 50%;\n   transform: translateY(-50%) rotate(360deg);\n}\n.ctgulChild{\n    \n    display:none;\n}\n.ctgli{\n    display: block;\n    position: relative;\n    list-style: none;\n    border-left: 4px solid transparent;\n    transition:.3s linear;\n}\n.showed{\n    background:#d2ffe221;;\n    border-left:4px solid var(--hove)!important;\n}\n\n.showed .ctga{\n    color: var(--hove);\n    font-weight:bold;\n   }\n\n.showed .ctga i{\n    \n    font-weight:bold;\n    \n}\n.down {\n  -webkit-transition: .5s ease;\n  transition: .5s ease;\n}\n.wtok .down {\n  -webkit-transform: translateY(-50%) rotate(180deg);\n          transform: translateY(-50%) rotate(180deg);\n}\n\n/*  base.css*/\n@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');\n\n:root{\n\n    --white:#fff;\n    --black:#000;\n    --textColor:#333;\n    --hove:#04ca88;\n}\nhtml{\n    font-size:62.5%;\n    font-family: 'Muli', sans-serif ;\n    line-height:1.6 rem;\n    box-sizing: border-box;\n}\n*{\n    box-sizing: inherit;\n}\na{\n  text-decoration: none;\n}\np{\n    font-size:1.6 rem;\n    /* 1.6 rem --> 16px */\n}\n\nh1{font-size:3rem;}\n.grid{\n    margin : 0 auto;\n    max-width: 1280px;\n}\n\n.row{\n  display:flex;\n  flex-wrap: wrap;\n  margin: 0 -12px 0 -12px;\n}\n\n\n.col-3{\n  padding:0 12px 0 12px;\n  width:calc((100%/12)*3);\n\n}\n\n\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n      <!--             <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n       -->          \n\n<div class=\"container-fluid\">\n\n  <div class=\"grid\">\n                <div class=\"row\">\n                    <div class=\"col-lg-3\">\n                        <!-- category -->\n                        <nav class=\"category\">\n\n                            <!-- <div class=\"ctghead\">\n\n                                <h3><i class=\"ti-list\"></i>Category</h3>\n                            </div>\n -->\n                            <ul class=\"ctgul\">\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/feedback-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Feedback</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/create-sbs-admin']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Create SBS Admin</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/ddo-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        DDO Request</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/rco-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        RCO Request</a>\n                                </li>\n\n                                <li class=\"ctgli showed\">\n                                    <a href=\"#\" class=\"ctga\">\n                                        <div class=\"ok\"></div>\n                                        <i class=\"ti-layout\"></i>\n                                        Users\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n\n\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/ddo-users']\" class=\"ctgaChild\">DDO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/rco-users']\" class=\"ctgaChild\"> MIS/HOD/RCO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/admin-users']\" class=\"ctgaChild\"> Admin Users</a>\n                                        </li>\n                                    </ul>\n                                </li>\n\n                              \n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga \">\n                                        <i class=\"ti-write\"></i>\n                                        Reports\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\">Resource Allocation</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Receipt of Fund Statement</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Stmt of Resource Released</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Monthly Resource Releases</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Statement of Fund Surrender </a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Re-appropriation of Fund Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Scheme wise Info Status of Fund</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Budget Head DDO Mapping</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Expenditure Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Sanctionwise Analysis DDO Wise</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Report IT Deduction</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> GST Form 7</a>\n                                        </li>\n                                    </ul>\n                                      \n\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/sbs-upload']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        SBS Upload</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/update-password']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Update Password</a>\n                                </li>\n\n                                  <li class=\"ctgli\">\n                                    <a class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Logout</a>\n                                </li>\n\n                            </ul>\n\n\n\n                        </nav>\n\n\n\n\n                    </div>\n\n<div class=\"col-lg-9\">\n \n<div class=\"table-responsive\">\n            <div id=\"result\"></div>\n          </div>\n\n </div>\n</div>\n </div>\n</div>\n\n\n\n                \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/reports-form/reports-form.component.html":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/reports-form/reports-form.component.html ***!
+  \************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<style>\n\n.category{\n    background:#fff;\n    font-size: 1.6rem;\n    border-radius:3px;\n   \n}\n.ctghead{\n    padding: 2px 40px;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.09);\n\n}\n.ctghead h3{\n    display: inline-flex;\n    align-items: center;\n    font-size: 0.9rem;\n}\n.ctghead h3 i{\n    font-size:0.9rem;\n    margin-right:7px;\n   \n}\n\n.ctgul{\n    margin-top:16px;\n    padding:0 0 16px 0;\n}\n.ctgulChild{\n    margin: 0 0 0 30px;\n    padding:0 0 10px 0;\n\n}\n\n.ctgliChild{\n    font-size: 0.9rem;\n    display: block;\n    position: relative;\n    list-style: none;\n    transition:.3s linear;\n    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */\n\n}\n\n.ctgli:hover{\n    border-left: 4px solid var(--hove);\n    background:#d2ffe221;\n    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */\n}\n\n.ctga, .ctgaChild{\n    \n    width: 100%;\n    display: inline-flex;\n    align-items: center;\n    cursor: pointer;\n    font-size: 0.9rem;\n    line-height: 2.3rem;\n    color: #333;\n    text-decoration: none;\n    padding: 13px 40px 13px 34px;\n    position: relative;\n    right: 0;\n    transition: right linear .3s;\n}\n.ctga i{\n    margin-right:10px;}\n\n.ctgaChild{\n    font-size: 0.9rem;\n    padding: 13px 13px 13px 36px;\n}\n.ctga:hover, .ctgaChild:hover{\n    /* right:-4px; */\n    color:var(--hove);\n    \n}\n.ctgaChild::before {\n    top: 50%;\n    transform:translateY(-50%);\n    left: 20px;\n    position: absolute;\n    border-style: solid;\n    border-color: transparent transparent transparent var(--hove);\n    border-width:4px;\n    content: \"\";\n    \n}\n.down{\n    position: absolute;\n    font-size:0.9rem;\n   right:10%;\n   top: 50%;\n   transform: translateY(-50%) rotate(360deg);\n}\n.ctgulChild{\n    \n    display:none;\n}\n.ctgli{\n    display: block;\n    position: relative;\n    list-style: none;\n    border-left: 4px solid transparent;\n    transition:.3s linear;\n}\n.showed{\n    background:#d2ffe221;;\n    border-left:4px solid var(--hove)!important;\n}\n\n.showed .ctga{\n    color: var(--hove);\n    font-weight:bold;\n   }\n\n.showed .ctga i{\n    \n    font-weight:bold;\n    \n}\n.down {\n  -webkit-transition: .5s ease;\n  transition: .5s ease;\n}\n.wtok .down {\n  -webkit-transform: translateY(-50%) rotate(180deg);\n          transform: translateY(-50%) rotate(180deg);\n}\n\n/*  base.css*/\n@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');\n\n:root{\n\n    --white:#fff;\n    --black:#000;\n    --textColor:#333;\n    --hove:#04ca88;\n}\nhtml{\n    font-size:62.5%;\n    font-family: 'Muli', sans-serif ;\n    line-height:1.6 rem;\n    box-sizing: border-box;\n}\n*{\n    box-sizing: inherit;\n}\na{\n  text-decoration: none;\n}\np{\n    font-size:1.6 rem;\n    /* 1.6 rem --> 16px */\n}\n\nh1{font-size:3rem;}\n.grid{\n    margin : 0 auto;\n    max-width: 1280px;\n}\n\n.row{\n  display:flex;\n  flex-wrap: wrap;\n  margin: 0 -12px 0 -12px;\n}\n\n\n.col-3{\n  padding:0 12px 0 12px;\n  width:calc((100%/12)*3);\n\n}\n\n\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n      <!--             <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n       -->          \n\n<div class=\"container-fluid\">\n\n  <div class=\"grid\">\n                <div class=\"row\">\n                    <div class=\"col-lg-3\">\n                        <!-- category -->\n                        <nav class=\"category\">\n\n                            <!-- <div class=\"ctghead\">\n\n                                <h3><i class=\"ti-list\"></i>Category</h3>\n                            </div>\n -->\n                            <ul class=\"ctgul\">\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/feedback-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Feedback</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/create-sbs-admin']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Create SBS Admin</a>\n                                </li>\n\n                                <li class=\"ctgli showed \">\n                                    <a [routerLink]=\"['/ddo-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        DDO Request</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/rco-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        RCO Request</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga\">\n                                        <div class=\"ok\"></div>\n                                        <i class=\"ti-layout\"></i>\n                                        Users\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n\n\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/ddo-users']\" class=\"ctgaChild\">DDO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/rco-users']\" class=\"ctgaChild\"> MIS/HOD/RCO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/admin-users']\" class=\"ctgaChild\"> Admin Users</a>\n                                        </li>\n                                    </ul>\n                                </li>\n\n                              \n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga \">\n                                        <i class=\"ti-write\"></i>\n                                        Reports\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\">Resource Allocation</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Receipt of Fund Statement</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Stmt of Resource Released</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Monthly Resource Releases</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Statement of Fund Surrender </a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Re-appropriation of Fund Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Scheme wise Info Status of Fund</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Budget Head DDO Mapping</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Expenditure Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Sanctionwise Analysis DDO Wise</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Report IT Deduction</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> GST Form 7</a>\n                                        </li>\n                                    </ul>\n                                      \n\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/sbs-upload']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        SBS Upload</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/update-password']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Update Password</a>\n                                </li>\n\n                                  <li class=\"ctgli\">\n                                    <a class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Logout</a>\n                                </li>\n\n                            </ul>\n\n\n\n                        </nav>\n\n\n\n\n                    </div>\n\n<div class=\"col-lg-9\">\n \n<div class=\"container pt-lg-md\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-6\">\n          <div class=\"card bg-secondary shadow border-0\">\n            <div class=\"card-header bg-white pb-3\">\n              <div class=\"text-muted text-center mb-0\">\n                <small>Show Reports</small>\n              </div>\n            </div>\n            <div class=\"card-body px-lg-5 py-lg-5\">\n              <form role=\"form\">\n                <div class=\"form-group mb-3\" [ngClass]=\"{'focused':focus===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                    </div>\n                     <select class=\"form-control\" id=\"departmentid\"  (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                   <option>Select Department</option>\n                     </select>\n                  </div>\n                </div>\n                <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                     <select class=\"form-control\" id=\"departmentid\"  (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                      <option>Select Year</option>\n                    </select>\n                  </div>\n                </div>\n                 <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                   <select class=\"form-control\" id=\"departmentid\"  (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                      <option>Choose Plan</option>\n                    </select>\n                  </div>\n                </div>\n                Select Date Range\n                 <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <input class=\"form-control\"  type=\"date\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                  </div>\n                </div>\n                 <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <input class=\"form-control\" type=\"date\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                  </div>\n                </div>\n                \n                               <div class=\"text-center\">\n                  <button type=\"button\" class=\"btn btn-primary my-4 submit\">Submit</button>\n                </div>\n              </form>\n            </div>\n          </div>\n        \n        </div>\n      </div>\n    </div>\n\n </div>\n</div>\n </div>\n</div>\n\n\n\n                \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/rules/rules.component.html":
 /*!**********************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/rules/rules.component.html ***!
@@ -230,7 +760,72 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (" <!-- Sidenav -->\n  <nav class=\"sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white\" id=\"sidenav-main\">\n    <div class=\"scrollbar-inner\">\n      <!-- Brand -->\n      <div class=\"sidenav-header  align-items-center\">\n        <a class=\"navbar-brand\" href=\"javascript:void(0)\">\n          <img src=\"../assets/img/brand/blue.png\" class=\"navbar-brand-img\" alt=\"...\">\n        </a>\n      </div>\n      <div class=\"navbar-inner\">\n        <!-- Collapse -->\n        <div class=\"collapse navbar-collapse\" id=\"sidenav-collapse-main\">\n          <!-- Nav items -->\n          <ul class=\"navbar-nav\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link active\" href=\"dashboard.html\">\n                <i class=\"ni ni-tv-2 text-primary\"></i>\n                <span class=\"nav-link-text\">Dashboard</span>\n              </a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"icons.html\">\n                <i class=\"ni ni-planet text-orange\"></i>\n                <span class=\"nav-link-text\">Icons</span>\n              </a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"map.html\">\n                <i class=\"ni ni-pin-3 text-primary\"></i>\n                <span class=\"nav-link-text\">Google</span>\n              </a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"profile.html\">\n                <i class=\"ni ni-single-02 text-yellow\"></i>\n                <span class=\"nav-link-text\">Profile</span>\n              </a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"tables.html\">\n                <i class=\"ni ni-bullet-list-67 text-default\"></i>\n                <span class=\"nav-link-text\">Tables</span>\n              </a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"login.html\">\n                <i class=\"ni ni-key-25 text-info\"></i>\n                <span class=\"nav-link-text\">Login</span>\n              </a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"register.html\">\n                <i class=\"ni ni-circle-08 text-pink\"></i>\n                <span class=\"nav-link-text\">Register</span>\n              </a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"upgrade.html\">\n                <i class=\"ni ni-send text-dark\"></i>\n                <span class=\"nav-link-text\">Upgrade</span>\n              </a>\n            </li>\n          </ul>\n          <!-- Divider -->\n          <hr class=\"my-3\">\n          <!-- Heading -->\n          <h6 class=\"navbar-heading p-0 text-muted\">\n            <span class=\"docs-normal\">Documentation</span>\n          </h6>\n          <!-- Navigation -->\n          <ul class=\"navbar-nav mb-md-3\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html\" target=\"_blank\">\n                <i class=\"ni ni-spaceship\"></i>\n                <span class=\"nav-link-text\">Getting started</span>\n              </a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"https://demos.creative-tim.com/argon-dashboard/docs/foundation/colors.html\" target=\"_blank\">\n                <i class=\"ni ni-palette\"></i>\n                <span class=\"nav-link-text\">Foundation</span>\n              </a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"https://demos.creative-tim.com/argon-dashboard/docs/components/alerts.html\" target=\"_blank\">\n                <i class=\"ni ni-ui-04\"></i>\n                <span class=\"nav-link-text\">Components</span>\n              </a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"https://demos.creative-tim.com/argon-dashboard/docs/plugins/charts.html\" target=\"_blank\">\n                <i class=\"ni ni-chart-pie-35\"></i>\n                <span class=\"nav-link-text\">Plugins</span>\n              </a>\n            </li>\n            <li class=\"nav-item\">\n              <a class=\"nav-link active active-pro\" href=\"upgrade.html\">\n                <i class=\"ni ni-send text-dark\"></i>\n                <span class=\"nav-link-text\">Upgrade to PRO</span>\n              </a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </div>\n  </nav>\n  <!-- Main content -->\n  <div class=\"main-content\" id=\"panel\">\n    <!-- Topnav -->\n    <nav class=\"navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom\">\n      <div class=\"container-fluid\">\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <!-- Search form -->\n          <form class=\"navbar-search navbar-search-light form-inline mr-sm-3\" id=\"navbar-search-main\">\n            <div class=\"form-group mb-0\">\n              <div class=\"input-group input-group-alternative input-group-merge\">\n                <div class=\"input-group-prepend\">\n                  <span class=\"input-group-text\"><i class=\"fas fa-search\"></i></span>\n                </div>\n                <input class=\"form-control\" placeholder=\"Search\" type=\"text\">\n              </div>\n            </div>\n            <button type=\"button\" class=\"close\" data-action=\"search-close\" data-target=\"#navbar-search-main\" aria-label=\"Close\">\n              <span aria-hidden=\"true\">×</span>\n            </button>\n          </form>\n          <!-- Navbar links -->\n          <ul class=\"navbar-nav align-items-center  ml-md-auto \">\n            <li class=\"nav-item d-xl-none\">\n              <!-- Sidenav toggler -->\n              <div class=\"pr-3 sidenav-toggler sidenav-toggler-dark\" data-action=\"sidenav-pin\" data-target=\"#sidenav-main\">\n                <div class=\"sidenav-toggler-inner\">\n                  <i class=\"sidenav-toggler-line\"></i>\n                  <i class=\"sidenav-toggler-line\"></i>\n                  <i class=\"sidenav-toggler-line\"></i>\n                </div>\n              </div>\n            </li>\n            <li class=\"nav-item d-sm-none\">\n              <a class=\"nav-link\" href=\"#\" data-action=\"search-show\" data-target=\"#navbar-search-main\">\n                <i class=\"ni ni-zoom-split-in\"></i>\n              </a>\n            </li>\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link\" href=\"#\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                <i class=\"ni ni-bell-55\"></i>\n              </a>\n              <div class=\"dropdown-menu dropdown-menu-xl  dropdown-menu-right  py-0 overflow-hidden\">\n                <!-- Dropdown header -->\n                <div class=\"px-3 py-3\">\n                  <h6 class=\"text-sm text-muted m-0\">You have <strong class=\"text-primary\">13</strong> notifications.</h6>\n                </div>\n                <!-- List group -->\n                <div class=\"list-group list-group-flush\">\n                  <a href=\"#!\" class=\"list-group-item list-group-item-action\">\n                    <div class=\"row align-items-center\">\n                      <div class=\"col-auto\">\n                        <!-- Avatar -->\n                        <img alt=\"Image placeholder\" src=\"../assets/img/theme/team-1.jpg\" class=\"avatar rounded-circle\">\n                      </div>\n                      <div class=\"col ml--2\">\n                        <div class=\"d-flex justify-content-between align-items-center\">\n                          <div>\n                            <h4 class=\"mb-0 text-sm\">John Snow</h4>\n                          </div>\n                          <div class=\"text-right text-muted\">\n                            <small>2 hrs ago</small>\n                          </div>\n                        </div>\n                        <p class=\"text-sm mb-0\">Let's meet at Starbucks at 11:30. Wdyt?</p>\n                      </div>\n                    </div>\n                  </a>\n                  <a href=\"#!\" class=\"list-group-item list-group-item-action\">\n                    <div class=\"row align-items-center\">\n                      <div class=\"col-auto\">\n                        <!-- Avatar -->\n                        <img alt=\"Image placeholder\" src=\"../assets/img/theme/team-2.jpg\" class=\"avatar rounded-circle\">\n                      </div>\n                      <div class=\"col ml--2\">\n                        <div class=\"d-flex justify-content-between align-items-center\">\n                          <div>\n                            <h4 class=\"mb-0 text-sm\">John Snow</h4>\n                          </div>\n                          <div class=\"text-right text-muted\">\n                            <small>3 hrs ago</small>\n                          </div>\n                        </div>\n                        <p class=\"text-sm mb-0\">A new issue has been reported for Argon.</p>\n                      </div>\n                    </div>\n                  </a>\n                  <a href=\"#!\" class=\"list-group-item list-group-item-action\">\n                    <div class=\"row align-items-center\">\n                      <div class=\"col-auto\">\n                        <!-- Avatar -->\n                        <img alt=\"Image placeholder\" src=\"../assets/img/theme/team-3.jpg\" class=\"avatar rounded-circle\">\n                      </div>\n                      <div class=\"col ml--2\">\n                        <div class=\"d-flex justify-content-between align-items-center\">\n                          <div>\n                            <h4 class=\"mb-0 text-sm\">John Snow</h4>\n                          </div>\n                          <div class=\"text-right text-muted\">\n                            <small>5 hrs ago</small>\n                          </div>\n                        </div>\n                        <p class=\"text-sm mb-0\">Your posts have been liked a lot.</p>\n                      </div>\n                    </div>\n                  </a>\n                  <a href=\"#!\" class=\"list-group-item list-group-item-action\">\n                    <div class=\"row align-items-center\">\n                      <div class=\"col-auto\">\n                        <!-- Avatar -->\n                        <img alt=\"Image placeholder\" src=\"../assets/img/theme/team-4.jpg\" class=\"avatar rounded-circle\">\n                      </div>\n                      <div class=\"col ml--2\">\n                        <div class=\"d-flex justify-content-between align-items-center\">\n                          <div>\n                            <h4 class=\"mb-0 text-sm\">John Snow</h4>\n                          </div>\n                          <div class=\"text-right text-muted\">\n                            <small>2 hrs ago</small>\n                          </div>\n                        </div>\n                        <p class=\"text-sm mb-0\">Let's meet at Starbucks at 11:30. Wdyt?</p>\n                      </div>\n                    </div>\n                  </a>\n                  <a href=\"#!\" class=\"list-group-item list-group-item-action\">\n                    <div class=\"row align-items-center\">\n                      <div class=\"col-auto\">\n                        <!-- Avatar -->\n                        <img alt=\"Image placeholder\" src=\"../assets/img/theme/team-5.jpg\" class=\"avatar rounded-circle\">\n                      </div>\n                      <div class=\"col ml--2\">\n                        <div class=\"d-flex justify-content-between align-items-center\">\n                          <div>\n                            <h4 class=\"mb-0 text-sm\">John Snow</h4>\n                          </div>\n                          <div class=\"text-right text-muted\">\n                            <small>3 hrs ago</small>\n                          </div>\n                        </div>\n                        <p class=\"text-sm mb-0\">A new issue has been reported for Argon.</p>\n                      </div>\n                    </div>\n                  </a>\n                </div>\n                <!-- View all -->\n                <a href=\"#!\" class=\"dropdown-item text-center text-primary font-weight-bold py-3\">View all</a>\n              </div>\n            </li>\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link\" href=\"#\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                <i class=\"ni ni-ungroup\"></i>\n              </a>\n              <div class=\"dropdown-menu dropdown-menu-lg dropdown-menu-dark bg-default  dropdown-menu-right \">\n                <div class=\"row shortcuts px-4\">\n                  <a href=\"#!\" class=\"col-4 shortcut-item\">\n                    <span class=\"shortcut-media avatar rounded-circle bg-gradient-red\">\n                      <i class=\"ni ni-calendar-grid-58\"></i>\n                    </span>\n                    <small>Calendar</small>\n                  </a>\n                  <a href=\"#!\" class=\"col-4 shortcut-item\">\n                    <span class=\"shortcut-media avatar rounded-circle bg-gradient-orange\">\n                      <i class=\"ni ni-email-83\"></i>\n                    </span>\n                    <small>Email</small>\n                  </a>\n                  <a href=\"#!\" class=\"col-4 shortcut-item\">\n                    <span class=\"shortcut-media avatar rounded-circle bg-gradient-info\">\n                      <i class=\"ni ni-credit-card\"></i>\n                    </span>\n                    <small>Payments</small>\n                  </a>\n                  <a href=\"#!\" class=\"col-4 shortcut-item\">\n                    <span class=\"shortcut-media avatar rounded-circle bg-gradient-green\">\n                      <i class=\"ni ni-books\"></i>\n                    </span>\n                    <small>Reports</small>\n                  </a>\n                  <a href=\"#!\" class=\"col-4 shortcut-item\">\n                    <span class=\"shortcut-media avatar rounded-circle bg-gradient-purple\">\n                      <i class=\"ni ni-pin-3\"></i>\n                    </span>\n                    <small>Maps</small>\n                  </a>\n                  <a href=\"#!\" class=\"col-4 shortcut-item\">\n                    <span class=\"shortcut-media avatar rounded-circle bg-gradient-yellow\">\n                      <i class=\"ni ni-basket\"></i>\n                    </span>\n                    <small>Shop</small>\n                  </a>\n                </div>\n              </div>\n            </li>\n          </ul>\n          <ul class=\"navbar-nav align-items-center  ml-auto ml-md-0 \">\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link pr-0\" href=\"#\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                <div class=\"media align-items-center\">\n                  <span class=\"avatar avatar-sm rounded-circle\">\n                    <img alt=\"Image placeholder\" src=\"../assets/img/theme/team-4.jpg\">\n                  </span>\n                  <div class=\"media-body  ml-2  d-none d-lg-block\">\n                    <span class=\"mb-0 text-sm  font-weight-bold\">John Snow</span>\n                  </div>\n                </div>\n              </a>\n              <div class=\"dropdown-menu  dropdown-menu-right \">\n                <div class=\"dropdown-header noti-title\">\n                  <h6 class=\"text-overflow m-0\">Welcome!</h6>\n                </div>\n                <a href=\"#!\" class=\"dropdown-item\">\n                  <i class=\"ni ni-single-02\"></i>\n                  <span>My profile</span>\n                </a>\n                <a href=\"#!\" class=\"dropdown-item\">\n                  <i class=\"ni ni-settings-gear-65\"></i>\n                  <span>Settings</span>\n                </a>\n                <a href=\"#!\" class=\"dropdown-item\">\n                  <i class=\"ni ni-calendar-grid-58\"></i>\n                  <span>Activity</span>\n                </a>\n                <a href=\"#!\" class=\"dropdown-item\">\n                  <i class=\"ni ni-support-16\"></i>\n                  <span>Support</span>\n                </a>\n                <div class=\"dropdown-divider\"></div>\n                <a href=\"#!\" class=\"dropdown-item\">\n                  <i class=\"ni ni-user-run\"></i>\n                  <span>Logout</span>\n                </a>\n              </div>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n    <!-- Header -->\n    <!-- Header -->\n    <div class=\"header bg-primary pb-6\">\n      <div class=\"container-fluid\">\n        <div class=\"header-body\">\n          <div class=\"row align-items-center py-4\">\n            <div class=\"col-lg-6 col-7\">\n              <h6 class=\"h2 text-white d-inline-block mb-0\">Default</h6>\n              <nav aria-label=\"breadcrumb\" class=\"d-none d-md-inline-block ml-md-4\">\n                <ol class=\"breadcrumb breadcrumb-links breadcrumb-dark\">\n                  <li class=\"breadcrumb-item\"><a href=\"#\"><i class=\"fas fa-home\"></i></a></li>\n                  <li class=\"breadcrumb-item\"><a href=\"#\">Dashboards</a></li>\n                  <li class=\"breadcrumb-item active\" aria-current=\"page\">Default</li>\n                </ol>\n              </nav>\n            </div>\n            <div class=\"col-lg-6 col-5 text-right\">\n              <a href=\"#\" class=\"btn btn-sm btn-neutral\">New</a>\n              <a href=\"#\" class=\"btn btn-sm btn-neutral\">Filters</a>\n            </div>\n          </div>\n          <!-- Card stats -->\n          <div class=\"row\">\n            <div class=\"col-xl-3 col-md-6\">\n              <div class=\"card card-stats\">\n                <!-- Card body -->\n                <div class=\"card-body\">\n                  <div class=\"row\">\n                    <div class=\"col\">\n                      <h5 class=\"card-title text-uppercase text-muted mb-0\">Total traffic</h5>\n                      <span class=\"h2 font-weight-bold mb-0\">350,897</span>\n                    </div>\n                    <div class=\"col-auto\">\n                      <div class=\"icon icon-shape bg-gradient-red text-white rounded-circle shadow\">\n                        <i class=\"ni ni-active-40\"></i>\n                      </div>\n                    </div>\n                  </div>\n                  <p class=\"mt-3 mb-0 text-sm\">\n                    <span class=\"text-success mr-2\"><i class=\"fa fa-arrow-up\"></i> 3.48%</span>\n                    <span class=\"text-nowrap\">Since last month</span>\n                  </p>\n                </div>\n              </div>\n            </div>\n            <div class=\"col-xl-3 col-md-6\">\n              <div class=\"card card-stats\">\n                <!-- Card body -->\n                <div class=\"card-body\">\n                  <div class=\"row\">\n                    <div class=\"col\">\n                      <h5 class=\"card-title text-uppercase text-muted mb-0\">New users</h5>\n                      <span class=\"h2 font-weight-bold mb-0\">2,356</span>\n                    </div>\n                    <div class=\"col-auto\">\n                      <div class=\"icon icon-shape bg-gradient-orange text-white rounded-circle shadow\">\n                        <i class=\"ni ni-chart-pie-35\"></i>\n                      </div>\n                    </div>\n                  </div>\n                  <p class=\"mt-3 mb-0 text-sm\">\n                    <span class=\"text-success mr-2\"><i class=\"fa fa-arrow-up\"></i> 3.48%</span>\n                    <span class=\"text-nowrap\">Since last month</span>\n                  </p>\n                </div>\n              </div>\n            </div>\n            <div class=\"col-xl-3 col-md-6\">\n              <div class=\"card card-stats\">\n                <!-- Card body -->\n                <div class=\"card-body\">\n                  <div class=\"row\">\n                    <div class=\"col\">\n                      <h5 class=\"card-title text-uppercase text-muted mb-0\">Sales</h5>\n                      <span class=\"h2 font-weight-bold mb-0\">924</span>\n                    </div>\n                    <div class=\"col-auto\">\n                      <div class=\"icon icon-shape bg-gradient-green text-white rounded-circle shadow\">\n                        <i class=\"ni ni-money-coins\"></i>\n                      </div>\n                    </div>\n                  </div>\n                  <p class=\"mt-3 mb-0 text-sm\">\n                    <span class=\"text-success mr-2\"><i class=\"fa fa-arrow-up\"></i> 3.48%</span>\n                    <span class=\"text-nowrap\">Since last month</span>\n                  </p>\n                </div>\n              </div>\n            </div>\n            <div class=\"col-xl-3 col-md-6\">\n              <div class=\"card card-stats\">\n                <!-- Card body -->\n                <div class=\"card-body\">\n                  <div class=\"row\">\n                    <div class=\"col\">\n                      <h5 class=\"card-title text-uppercase text-muted mb-0\">Performance</h5>\n                      <span class=\"h2 font-weight-bold mb-0\">49,65%</span>\n                    </div>\n                    <div class=\"col-auto\">\n                      <div class=\"icon icon-shape bg-gradient-info text-white rounded-circle shadow\">\n                        <i class=\"ni ni-chart-bar-32\"></i>\n                      </div>\n                    </div>\n                  </div>\n                  <p class=\"mt-3 mb-0 text-sm\">\n                    <span class=\"text-success mr-2\"><i class=\"fa fa-arrow-up\"></i> 3.48%</span>\n                    <span class=\"text-nowrap\">Since last month</span>\n                  </p>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- Page content -->\n    <div class=\"container-fluid mt--6\">\n      <div class=\"row\">\n        <div class=\"col-xl-8\">\n          <div class=\"card bg-default\">\n            <div class=\"card-header bg-transparent\">\n              <div class=\"row align-items-center\">\n                <div class=\"col\">\n                  <h6 class=\"text-light text-uppercase ls-1 mb-1\">Overview</h6>\n                  <h5 class=\"h3 text-white mb-0\">Sales value</h5>\n                </div>\n                <div class=\"col\">\n                  <ul class=\"nav nav-pills justify-content-end\">\n                    <li class=\"nav-item mr-2 mr-md-0\" data-toggle=\"chart\" data-target=\"#chart-sales-dark\" data-update='{\"data\":{\"datasets\":[{\"data\":[0, 20, 10, 30, 15, 40, 20, 60, 60]}]}}' data-prefix=\"$\" data-suffix=\"k\">\n                      <a href=\"#\" class=\"nav-link py-2 px-3 active\" data-toggle=\"tab\">\n                        <span class=\"d-none d-md-block\">Month</span>\n                        <span class=\"d-md-none\">M</span>\n                      </a>\n                    </li>\n                    <li class=\"nav-item\" data-toggle=\"chart\" data-target=\"#chart-sales-dark\" data-update='{\"data\":{\"datasets\":[{\"data\":[0, 20, 5, 25, 10, 30, 15, 40, 40]}]}}' data-prefix=\"$\" data-suffix=\"k\">\n                      <a href=\"#\" class=\"nav-link py-2 px-3\" data-toggle=\"tab\">\n                        <span class=\"d-none d-md-block\">Week</span>\n                        <span class=\"d-md-none\">W</span>\n                      </a>\n                    </li>\n                  </ul>\n                </div>\n              </div>\n            </div>\n            <div class=\"card-body\">\n              <!-- Chart -->\n              <div class=\"chart\">\n                <!-- Chart wrapper -->\n                <canvas id=\"chart-sales-dark\" class=\"chart-canvas\"></canvas>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-xl-4\">\n          <div class=\"card\">\n            <div class=\"card-header bg-transparent\">\n              <div class=\"row align-items-center\">\n                <div class=\"col\">\n                  <h6 class=\"text-uppercase text-muted ls-1 mb-1\">Performance</h6>\n                  <h5 class=\"h3 mb-0\">Total orders</h5>\n                </div>\n              </div>\n            </div>\n            <div class=\"card-body\">\n              <!-- Chart -->\n              <div class=\"chart\">\n                <canvas id=\"chart-bars\" class=\"chart-canvas\"></canvas>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-xl-8\">\n          <div class=\"card\">\n            <div class=\"card-header border-0\">\n              <div class=\"row align-items-center\">\n                <div class=\"col\">\n                  <h3 class=\"mb-0\">Page visits</h3>\n                </div>\n                <div class=\"col text-right\">\n                  <a href=\"#!\" class=\"btn btn-sm btn-primary\">See all</a>\n                </div>\n              </div>\n            </div>\n            <div class=\"table-responsive\">\n              <!-- Projects table -->\n              <table class=\"table align-items-center table-flush\">\n                <thead class=\"thead-light\">\n                  <tr>\n                    <th scope=\"col\">Page name</th>\n                    <th scope=\"col\">Visitors</th>\n                    <th scope=\"col\">Unique users</th>\n                    <th scope=\"col\">Bounce rate</th>\n                  </tr>\n                </thead>\n                <tbody>\n                  <tr>\n                    <th scope=\"row\">\n                      /argon/\n                    </th>\n                    <td>\n                      4,569\n                    </td>\n                    <td>\n                      340\n                    </td>\n                    <td>\n                      <i class=\"fas fa-arrow-up text-success mr-3\"></i> 46,53%\n                    </td>\n                  </tr>\n                  <tr>\n                    <th scope=\"row\">\n                      /argon/index.html\n                    </th>\n                    <td>\n                      3,985\n                    </td>\n                    <td>\n                      319\n                    </td>\n                    <td>\n                      <i class=\"fas fa-arrow-down text-warning mr-3\"></i> 46,53%\n                    </td>\n                  </tr>\n                  <tr>\n                    <th scope=\"row\">\n                      /argon/charts.html\n                    </th>\n                    <td>\n                      3,513\n                    </td>\n                    <td>\n                      294\n                    </td>\n                    <td>\n                      <i class=\"fas fa-arrow-down text-warning mr-3\"></i> 36,49%\n                    </td>\n                  </tr>\n                  <tr>\n                    <th scope=\"row\">\n                      /argon/tables.html\n                    </th>\n                    <td>\n                      2,050\n                    </td>\n                    <td>\n                      147\n                    </td>\n                    <td>\n                      <i class=\"fas fa-arrow-up text-success mr-3\"></i> 50,87%\n                    </td>\n                  </tr>\n                  <tr>\n                    <th scope=\"row\">\n                      /argon/profile.html\n                    </th>\n                    <td>\n                      1,795\n                    </td>\n                    <td>\n                      190\n                    </td>\n                    <td>\n                      <i class=\"fas fa-arrow-down text-danger mr-3\"></i> 46,53%\n                    </td>\n                  </tr>\n                </tbody>\n              </table>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-xl-4\">\n          <div class=\"card\">\n            <div class=\"card-header border-0\">\n              <div class=\"row align-items-center\">\n                <div class=\"col\">\n                  <h3 class=\"mb-0\">Social traffic</h3>\n                </div>\n                <div class=\"col text-right\">\n                  <a href=\"#!\" class=\"btn btn-sm btn-primary\">See all</a>\n                </div>\n              </div>\n            </div>\n            <div class=\"table-responsive\">\n              <!-- Projects table -->\n              <table class=\"table align-items-center table-flush\">\n                <thead class=\"thead-light\">\n                  <tr>\n                    <th scope=\"col\">Referral</th>\n                    <th scope=\"col\">Visitors</th>\n                    <th scope=\"col\"></th>\n                  </tr>\n                </thead>\n                <tbody>\n                  <tr>\n                    <th scope=\"row\">\n                      Facebook\n                    </th>\n                    <td>\n                      1,480\n                    </td>\n                    <td>\n                      <div class=\"d-flex align-items-center\">\n                        <span class=\"mr-2\">60%</span>\n                        <div>\n                          <div class=\"progress\">\n                            <div class=\"progress-bar bg-gradient-danger\" role=\"progressbar\" aria-valuenow=\"60\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 60%;\"></div>\n                          </div>\n                        </div>\n                      </div>\n                    </td>\n                  </tr>\n                  <tr>\n                    <th scope=\"row\">\n                      Facebook\n                    </th>\n                    <td>\n                      5,480\n                    </td>\n                    <td>\n                      <div class=\"d-flex align-items-center\">\n                        <span class=\"mr-2\">70%</span>\n                        <div>\n                          <div class=\"progress\">\n                            <div class=\"progress-bar bg-gradient-success\" role=\"progressbar\" aria-valuenow=\"70\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 70%;\"></div>\n                          </div>\n                        </div>\n                      </div>\n                    </td>\n                  </tr>\n                  <tr>\n                    <th scope=\"row\">\n                      Google\n                    </th>\n                    <td>\n                      4,807\n                    </td>\n                    <td>\n                      <div class=\"d-flex align-items-center\">\n                        <span class=\"mr-2\">80%</span>\n                        <div>\n                          <div class=\"progress\">\n                            <div class=\"progress-bar bg-gradient-primary\" role=\"progressbar\" aria-valuenow=\"80\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 80%;\"></div>\n                          </div>\n                        </div>\n                      </div>\n                    </td>\n                  </tr>\n                  <tr>\n                    <th scope=\"row\">\n                      Instagram\n                    </th>\n                    <td>\n                      3,678\n                    </td>\n                    <td>\n                      <div class=\"d-flex align-items-center\">\n                        <span class=\"mr-2\">75%</span>\n                        <div>\n                          <div class=\"progress\">\n                            <div class=\"progress-bar bg-gradient-info\" role=\"progressbar\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 75%;\"></div>\n                          </div>\n                        </div>\n                      </div>\n                    </td>\n                  </tr>\n                  <tr>\n                    <th scope=\"row\">\n                      twitter\n                    </th>\n                    <td>\n                      2,645\n                    </td>\n                    <td>\n                      <div class=\"d-flex align-items-center\">\n                        <span class=\"mr-2\">30%</span>\n                        <div>\n                          <div class=\"progress\">\n                            <div class=\"progress-bar bg-gradient-warning\" role=\"progressbar\" aria-valuenow=\"30\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 30%;\"></div>\n                          </div>\n                        </div>\n                      </div>\n                    </td>\n                  </tr>\n                </tbody>\n              </table>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- Footer -->\n      <footer class=\"footer pt-0\">\n        <div class=\"row align-items-center justify-content-lg-between\">\n          <div class=\"col-lg-6\">\n            <div class=\"copyright text-center  text-lg-left  text-muted\">\n              &copy; 2020 <a href=\"https://www.creative-tim.com\" class=\"font-weight-bold ml-1\" target=\"_blank\">Creative Tim</a>\n            </div>\n          </div>\n          <div class=\"col-lg-6\">\n            <ul class=\"nav nav-footer justify-content-center justify-content-lg-end\">\n              <li class=\"nav-item\">\n                <a href=\"https://www.creative-tim.com\" class=\"nav-link\" target=\"_blank\">Creative Tim</a>\n              </li>\n              <li class=\"nav-item\">\n                <a href=\"https://www.creative-tim.com/presentation\" class=\"nav-link\" target=\"_blank\">About Us</a>\n              </li>\n              <li class=\"nav-item\">\n                <a href=\"http://blog.creative-tim.com\" class=\"nav-link\" target=\"_blank\">Blog</a>\n              </li>\n              <li class=\"nav-item\">\n                <a href=\"https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md\" class=\"nav-link\" target=\"_blank\">MIT License</a>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </footer>\n    </div>\n  </div>");
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<style>\n\n.category{\n    background:#fff;\n    font-size: 1.6rem;\n    border-radius:3px;\n   \n}\n.ctghead{\n    padding: 2px 40px;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.09);\n\n}\n.ctghead h3{\n    display: inline-flex;\n    align-items: center;\n    font-size: 0.9rem;\n}\n.ctghead h3 i{\n    font-size:0.9rem;\n    margin-right:7px;\n   \n}\n\n.ctgul{\n    margin-top:16px;\n    padding:0 0 16px 0;\n}\n.ctgulChild{\n    margin: 0 0 0 30px;\n    padding:0 0 10px 0;\n\n}\n\n.ctgliChild{\n    font-size: 0.9rem;\n    display: block;\n    position: relative;\n    list-style: none;\n    transition:.3s linear;\n    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */\n\n}\n\n.ctgli:hover{\n    border-left: 4px solid var(--hove);\n    background:#d2ffe221;\n    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */\n}\n\n.ctga, .ctgaChild{\n    \n    width: 100%;\n    display: inline-flex;\n    align-items: center;\n    cursor: pointer;\n    font-size: 0.9rem;\n    line-height: 2.3rem;\n    color: #333;\n    text-decoration: none;\n    padding: 13px 40px 13px 34px;\n    position: relative;\n    right: 0;\n    transition: right linear .3s;\n}\n.ctga i{\n    margin-right:10px;}\n\n.ctgaChild{\n    font-size: 0.9rem;\n    padding: 13px 13px 13px 36px;\n}\n.ctga:hover, .ctgaChild:hover{\n    /* right:-4px; */\n    color:var(--hove);\n    \n}\n.ctgaChild::before {\n    top: 50%;\n    transform:translateY(-50%);\n    left: 20px;\n    position: absolute;\n    border-style: solid;\n    border-color: transparent transparent transparent var(--hove);\n    border-width:4px;\n    content: \"\";\n    \n}\n.down{\n    position: absolute;\n    font-size:0.9rem;\n   right:10%;\n   top: 50%;\n   transform: translateY(-50%) rotate(360deg);\n}\n.ctgulChild{\n    \n    display:none;\n}\n.ctgli{\n    display: block;\n    position: relative;\n    list-style: none;\n    border-left: 4px solid transparent;\n    transition:.3s linear;\n}\n.showed{\n    background:#d2ffe221;;\n    border-left:4px solid var(--hove)!important;\n}\n\n.showed .ctga{\n    color: var(--hove);\n    font-weight:bold;\n   }\n\n.showed .ctga i{\n    \n    font-weight:bold;\n    \n}\n.down {\n  -webkit-transition: .5s ease;\n  transition: .5s ease;\n}\n.wtok .down {\n  -webkit-transform: translateY(-50%) rotate(180deg);\n          transform: translateY(-50%) rotate(180deg);\n}\n\n/*  base.css*/\n@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');\n\n:root{\n\n    --white:#fff;\n    --black:#000;\n    --textColor:#333;\n    --hove:#04ca88;\n}\nhtml{\n    font-size:62.5%;\n    font-family: 'Muli', sans-serif ;\n    line-height:1.6 rem;\n    box-sizing: border-box;\n}\n*{\n    box-sizing: inherit;\n}\na{\n  text-decoration: none;\n}\np{\n    font-size:1.6 rem;\n    /* 1.6 rem --> 16px */\n}\n\nh1{font-size:3rem;}\n.grid{\n    margin : 0 auto;\n    max-width: 1280px;\n}\n\n.row{\n  display:flex;\n  flex-wrap: wrap;\n  margin: 0 -12px 0 -12px;\n}\n\n\n.col-3{\n  padding:0 12px 0 12px;\n  width:calc((100%/12)*3);\n\n}\n\n\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n      <!--             <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n       -->          \n\n<div class=\"container-fluid\">\n\n  <div class=\"grid\">\n                <div class=\"row\">\n                    <div class=\"col-lg-3\">\n                        <!-- category -->\n                        <nav class=\"category\">\n\n                            <!-- <div class=\"ctghead\">\n\n                                <h3><i class=\"ti-list\"></i>Category</h3>\n                            </div>\n -->\n                            <ul class=\"ctgul\">\n                                <li class=\"ctgli showed\">\n                                    <a [routerLink]=\"['/feedback-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Feedback</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/create-sbs-admin']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Create SBS Admin</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/ddo-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        DDO Request</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/rco-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        RCO Request</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga\">\n                                        <div class=\"ok\"></div>\n                                        <i class=\"ti-layout\"></i>\n                                        Users\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n\n\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/ddo-users']\" class=\"ctgaChild\">DDO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/rco-users']\" class=\"ctgaChild\"> MIS/HOD/RCO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/admin-users']\" class=\"ctgaChild\"> Admin Users</a>\n                                        </li>\n                                    </ul>\n                                </li>\n\n                              \n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga \">\n                                        <i class=\"ti-write\"></i>\n                                        Reports\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\">Resource Allocation</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Receipt of Fund Statement</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Stmt of Resource Released</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Monthly Resource Releases</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Statement of Fund Surrender </a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Re-appropriation of Fund Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Scheme wise Info Status of Fund</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Budget Head DDO Mapping</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Expenditure Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Sanctionwise Analysis DDO Wise</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> Report IT Deduction</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a href=\"\" class=\"ctgaChild\"> GST Form 7</a>\n                                        </li>\n                                    </ul>\n                                      \n\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/sbs-upload']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        SBS Upload</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/update-password']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Update Password</a>\n                                </li>\n\n                                  <li class=\"ctgli\">\n                                    <a class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Logout</a>\n                                </li>\n\n                            </ul>\n\n\n\n                        </nav>\n\n\n\n\n                    </div>\n\n<div class=\"col-lg-3\">Hello</div>\n</div>\n </div>\n</div>\n\n\n\n                \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-admin-login/sbs-admin-login.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-admin-login/sbs-admin-login.component.html ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<main>\n  <section class=\"section section-shaped section-lg\">\n    <div class=\"shape shape-style-1 bg-gradient-default\">\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n    </div>\n    <div class=\"container pt-lg-md\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-5\">\n          <div class=\"card bg-secondary shadow border-0\">\n            <div class=\"card-header bg-white pb-3\">\n              <div class=\"text-muted text-center mb-0\">\n                <small>SBS Admin Login</small>\n              </div>\n            </div>\n            <div class=\"card-body px-lg-5 py-lg-5\">\n              <form role=\"form\">\n                <div class=\"form-group mb-3\" [ngClass]=\"{'focused':focus===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                    </div>\n                    <input class=\"form-control\" placeholder=\"Email\" type=\"email\" (focus)=\"focus=true\" (blur)=\"focus=false\">\n                  </div>\n                </div>\n                <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <input class=\"form-control\" placeholder=\"Password\" type=\"password\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                  </div>\n                </div>\n                               <div class=\"text-center\">\n                  <button type=\"button\" class=\"btn btn-primary my-4\">Sign in</button>\n                </div>\n              </form>\n            </div>\n          </div>\n          <div class=\"row mt-3\">\n           <!--  <div class=\"col-6\">\n              <a [routerLink]=\"['/forgot-password']\" class=\"text-light\">\n                <small>Forgot password?</small>\n              </a>\n            </div> -->\n           <!--  <div class=\"col-6 text-right\">\n              <a href=\"javascript:void(0)\" class=\"text-light\">\n              <small>Forgot password?</small>\n              </a>\n            </div> -->\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-payment-and-receipt/sbs-payment-and-receipt.component.html":
+/*!**********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-payment-and-receipt/sbs-payment-and-receipt.component.html ***!
+  \**********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n<style>\n    body{\n  padding: 2rem 0rem;\n}\n.card-img-overlay {\n  background-color: rgba(#000, 0.4);\n}\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n                 <!--  <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6> -->\n                 \n                 <div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col-12 col-sm-8 col-md-6 col-lg-2\">\n        </div>\n        <div class=\"col-12 col-sm-8 col-md-6 col-lg-4\">\n            <a [routerLink]=\"['/sbs-payment-details']\">\n            <div class=\"card\">\n               <img class=\"card-img\" src=\"https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/bologna-3.jpg\" alt=\"Bologna\" style=\"height:200px;\">\n              <div class=\"card-img-overlay text-white d-flex flex-column justify-content-center\">\n                <h4 class=\"card-title justify-content-center\" style=\"text-align: center;\">Payment</h4>\n               \n              </div>\n            </div>\n        </a>\n          </div>\n\n      <div class=\"col-12 col-sm-8 col-md-6 col-lg-4\">\n           <a [routerLink]=\"['/sbs-receipt-details']\">\n        <div class=\"card\">\n           <img class=\"card-img\" src=\"https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/bologna-3.jpg\" alt=\"Bologna\" style=\"height:200px;\">\n          <div class=\"card-img-overlay text-white d-flex flex-column justify-content-center\">\n            <h4 class=\"card-title justify-content-center\" style=\"text-align: center;\">Reciept</h4>\n           \n          </div>\n        </div>\n      </a>\n      </div>\n   \n\n    </div>\n  </div>\n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-payment-details/sbs-payment-details.component.html":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-payment-details/sbs-payment-details.component.html ***!
+  \**************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<style type=\"text/css\">\n  td{\nfont-size: 12px;\n  }\n  th{\n    font-size: 12px;\n  }\n</style>\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n                  <h6 class=\"text-primary text-uppercase\"> Payment Details </h6>\n\n\n\n\n\n\n\n<div class=\"content-wrapper\">\n   <div class=\"container-fluid\">\n     <!-- Breadcrumbs-->\n    <br/><br/>\n     <!-- Icon Cards-->\n     \n     <!-- Area Chart Example-->\n\n\n<div class=\"row\">\n<div class=\"col-lg-4\">\n   <div class=\"card mb-3\">\n <div class=\"card-header\">\n Payment Details\n</div>\n\n <div class=\"card-body\">\n  \n<div>\n    <p>Choose Year</p> \n    <input type=\"date\" name=\"\" id=\"from_date1\" class=\"form-control\"><br>\n</div>\n \n         </div>\n           <div class=\"modal-footer\">\n            <a class=\"btn btn-primary show_yearly\" style=\"color: white\" >Show Yearly Report</a>\n         </div>\n\n\n\n   </div>\n</div>\n<div class=\"col-lg-4\">\n     <div class=\"card mb-3\">\n <div class=\"card-header\">\n Payment Details\n</div>\n\n <div class=\"card-body\">\n  \n<div>\n    <p>Choose Year</p> \n    <input type=\"date\" name=\"\" id=\"from_date\" class=\"form-control\"><br>\n</div>\n\n\n<div>\n    <p>Choose Year</p> \n    <input type=\"date\" name=\"\" id=\"to_date\" class=\"form-control\"><br>\n</div>\n\n \n         </div>\n           <div class=\"modal-footer\">\n            <a class=\"btn btn-primary show\" style=\"color: white\" >Show Difference Report</a>\n         </div>\n\n\n\n   </div>\n</div>\n<div class=\"col-lg-4\">\n    <div class=\"card mb-3\">\n <div class=\"card-header\">\n Payment Details\n</div>\n\n <div class=\"card-body\">\n  \n<div>\n    <p>Choose From Month</p> \n    <input type=\"date\" name=\"\" id=\"from_month\" class=\"form-control\"><br>\n</div>\n\n\n<div>\n    <p>ChooseTo Month</p> \n    <input type=\"date\" name=\"\" id=\"to_month\" class=\"form-control\"><br>\n</div>\n\n \n         </div>\n           <div class=\"modal-footer\">\n            <a class=\"btn btn-primary show_month\" style=\"color: white\" >Show Monthly Report</a>\n         </div>\n\n\n\n   </div>\n</div>\n</div>\n\n   \n\n   <div class=\"container-fluid\">\n   \t<div class=\"row\">\n   \t\t<div class=\"col-lg-5\">\n\n   \t\t <div class=\"card mb-3\">\n             <div class=\"card-header\">\n                 Payment Report\n              </div>\n\n <div class=\"card-body\">\n  \n               <div id=\"chart-container\">\n                  <canvas id=\"mycanvas\"></canvas>\n\n              </div>\n\n              <br/>\n              <br/>\n\n                                                               <div id=\"chart-container\">\n\n                                                    <canvas id=\"mycanvas1\"></canvas>\n                                                </div>\n \n         </div>\n         \n   \t\t\t\n\n   \t\t</div>\n   \t</div>\n   \t\t<div class=\"col-lg-7\">\n   \t\t\t <div class=\"table-responsive\">\n   \t\t\t<div id=\"result\"></div>\n   \t\t</div>\n   \t\t</div>\n   \t</div>\n   </div>\n\n\n\n\n\n                                                \n                                            </div>\n\n\n     \n  \n </div>\n\n\n\n\n\n                 \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-receipt-details/sbs-receipt-details.component.html":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-receipt-details/sbs-receipt-details.component.html ***!
+  \**************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<style type=\"text/css\">\n  td{\nfont-size: 12px;\n  }\n  th{\n    font-size: 12px;\n  }\n</style>\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n                  <h6 class=\"text-primary text-uppercase\">Receipt Details </h6>\n\n\n\n\n\n\n\n<div class=\"content-wrapper\">\n   <div class=\"container-fluid\">\n     <!-- Breadcrumbs-->\n    <br/><br/>\n     <!-- Icon Cards-->\n     \n     <!-- Area Chart Example-->\n\n\n<div class=\"row\">\n<div class=\"col-lg-4\">\n   <div class=\"card mb-3\">\n <div class=\"card-header\">\nReceipt Details\n</div>\n\n <div class=\"card-body\">\n  \n<div>\n    <p>Choose Year</p> \n    <input type=\"date\" name=\"\" id=\"from_date1\" class=\"form-control\"><br>\n</div>\n \n         </div>\n           <div class=\"modal-footer\">\n            <a class=\"btn btn-primary show_yearly\" style=\"color: white\" >Show Yearly Report</a>\n         </div>\n\n\n\n   </div>\n</div>\n<div class=\"col-lg-4\">\n     <div class=\"card mb-3\">\n <div class=\"card-header\">\nReceipt Details\n</div>\n\n <div class=\"card-body\">\n  \n<div>\n    <p>Choose Year</p> \n    <input type=\"date\" name=\"\" id=\"from_date\" class=\"form-control\"><br>\n</div>\n\n\n<div>\n    <p>Choose Year</p> \n    <input type=\"date\" name=\"\" id=\"to_date\" class=\"form-control\"><br>\n</div>\n\n \n         </div>\n           <div class=\"modal-footer\">\n            <a class=\"btn btn-primary show\" style=\"color: white\" >Show Difference Report</a>\n         </div>\n\n\n\n   </div>\n</div>\n<div class=\"col-lg-4\">\n    <div class=\"card mb-3\">\n <div class=\"card-header\">\nReceipt Details\n</div>\n\n <div class=\"card-body\">\n  \n<div>\n    <p>Choose From Month</p> \n    <input type=\"date\" name=\"\" id=\"from_month\" class=\"form-control\"><br>\n</div>\n\n\n<div>\n    <p>ChooseTo Month</p> \n    <input type=\"date\" name=\"\" id=\"to_month\" class=\"form-control\"><br>\n</div>\n\n \n         </div>\n           <div class=\"modal-footer\">\n            <a class=\"btn btn-primary show_month\" style=\"color: white\" >Show Monthly Report</a>\n         </div>\n\n\n\n   </div>\n</div>\n</div>\n\n   \n\n\n\n\n\n\n\n\n   <div class=\"container-fluid\">\n    <div class=\"row\">\n      <div class=\"col-lg-5\">\n\n       <div class=\"card mb-3\">\n             <div class=\"card-header\">\n                 Receipt Report\n              </div>\n\n <div class=\"card-body\">\n  \n               <div id=\"chart-container\">\n                  <canvas id=\"mycanvas\"></canvas>\n\n              </div>\n\n              <br/>\n              <br/>\n\n                                                               <div id=\"chart-container\">\n\n                                                    <canvas id=\"mycanvas1\"></canvas>\n                                                </div>\n \n         </div>\n         \n        \n\n      </div>\n    </div>\n      <div class=\"col-lg-7\">\n         <div class=\"table-responsive\">\n        <div id=\"result\"></div>\n      </div>\n      </div>\n    </div>\n   </div>\n\n\n\n\n\n                                                \n                                            </div>\n\n\n     \n  \n </div>\n\n\n\n\n\n                 \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-upload/sbs-upload.component.html":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-upload/sbs-upload.component.html ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<style>\n\n.category{\n    background:#fff;\n    font-size: 1.6rem;\n    border-radius:3px;\n   \n}\n.ctghead{\n    padding: 2px 40px;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.09);\n\n}\n.ctghead h3{\n    display: inline-flex;\n    align-items: center;\n    font-size: 0.9rem;\n}\n.ctghead h3 i{\n    font-size:0.9rem;\n    margin-right:7px;\n   \n}\n\n.ctgul{\n    margin-top:16px;\n    padding:0 0 16px 0;\n}\n.ctgulChild{\n    margin: 0 0 0 30px;\n    padding:0 0 10px 0;\n\n}\n\n.ctgliChild{\n    font-size: 0.9rem;\n    display: block;\n    position: relative;\n    list-style: none;\n    transition:.3s linear;\n    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */\n\n}\n\n.ctgli:hover{\n    border-left: 4px solid var(--hove);\n    background:#d2ffe221;\n    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */\n}\n\n.ctga, .ctgaChild{\n    \n    width: 100%;\n    display: inline-flex;\n    align-items: center;\n    cursor: pointer;\n    font-size: 0.9rem;\n    line-height: 2.3rem;\n    color: #333;\n    text-decoration: none;\n    padding: 13px 40px 13px 34px;\n    position: relative;\n    right: 0;\n    transition: right linear .3s;\n}\n.ctga i{\n    margin-right:10px;}\n\n.ctgaChild{\n    font-size: 0.9rem;\n    padding: 13px 13px 13px 36px;\n}\n.ctga:hover, .ctgaChild:hover{\n    /* right:-4px; */\n    color:var(--hove);\n    \n}\n.ctgaChild::before {\n    top: 50%;\n    transform:translateY(-50%);\n    left: 20px;\n    position: absolute;\n    border-style: solid;\n    border-color: transparent transparent transparent var(--hove);\n    border-width:4px;\n    content: \"\";\n    \n}\n.down{\n    position: absolute;\n    font-size:0.9rem;\n   right:10%;\n   top: 50%;\n   transform: translateY(-50%) rotate(360deg);\n}\n.ctgulChild{\n    \n    display:none;\n}\n.ctgli{\n    display: block;\n    position: relative;\n    list-style: none;\n    border-left: 4px solid transparent;\n    transition:.3s linear;\n}\n.showed{\n    background:#d2ffe221;;\n    border-left:4px solid var(--hove)!important;\n}\n\n.showed .ctga{\n    color: var(--hove);\n    font-weight:bold;\n   }\n\n.showed .ctga i{\n    \n    font-weight:bold;\n    \n}\n.down {\n  -webkit-transition: .5s ease;\n  transition: .5s ease;\n}\n.wtok .down {\n  -webkit-transform: translateY(-50%) rotate(180deg);\n          transform: translateY(-50%) rotate(180deg);\n}\n\n/*  base.css*/\n@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');\n\n:root{\n\n    --white:#fff;\n    --black:#000;\n    --textColor:#333;\n    --hove:#04ca88;\n}\nhtml{\n    font-size:62.5%;\n    font-family: 'Muli', sans-serif ;\n    line-height:1.6 rem;\n    box-sizing: border-box;\n}\n*{\n    box-sizing: inherit;\n}\na{\n  text-decoration: none;\n}\np{\n    font-size:1.6 rem;\n    /* 1.6 rem --> 16px */\n}\n\nh1{font-size:3rem;}\n.grid{\n    margin : 0 auto;\n    max-width: 1280px;\n}\n\n.row{\n  display:flex;\n  flex-wrap: wrap;\n  margin: 0 -12px 0 -12px;\n}\n\n\n.col-3{\n  padding:0 12px 0 12px;\n  width:calc((100%/12)*3);\n\n}\n\n\n</style>\n\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n      <!--             <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6>\n       -->          \n\n<div class=\"container-fluid\">\n\n  <div class=\"grid\">\n                <div class=\"row\">\n                    <div class=\"col-lg-3\">\n                        <!-- category -->\n                        <nav class=\"category\">\n\n                            <!-- <div class=\"ctghead\">\n\n                                <h3><i class=\"ti-list\"></i>Category</h3>\n                            </div>\n -->\n                            <ul class=\"ctgul\">\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/feedback-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Feedback</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/create-sbs-admin']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        Create SBS Admin</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/ddo-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        DDO Request</a>\n                                </li>\n\n                                <li class=\"ctgli \">\n                                    <a [routerLink]=\"['/rco-report']\" class=\"ctga\">\n                                        <i class=\"ti-user\"></i>\n                                        RCO Request</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga\">\n                                        <div class=\"ok\"></div>\n                                        <i class=\"ti-layout\"></i>\n                                        Users\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n\n\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/ddo-users']\" class=\"ctgaChild\">DDO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/rco-users']\" class=\"ctgaChild\"> MIS/HOD/RCO Users</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/admin-users']\" class=\"ctgaChild\"> Admin Users</a>\n                                        </li>\n                                    </ul>\n                                </li>\n\n                              \n\n                                <li class=\"ctgli\">\n                                    <a href=\"#\" class=\"ctga \">\n                                        <i class=\"ti-write\"></i>\n                                        Reports\n                                        <i class=\"ti-angle-down down \"></i>\n                                    </a>\n                                    <ul class=\"ctgulChild\">\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\">Resource Allocation</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Receipt of Fund Statement</a>\n                                        </li>\n                                        <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Stmt of Resource Released</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Monthly Resource Releases</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Statement of Fund Surrender </a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Re-appropriation of Fund Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Scheme wise Info Status of Fund</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Budget Head DDO Mapping</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Expenditure Statement</a>\n                                        </li>\n                                            <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Sanctionwise Analysis DDO Wise</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> Report IT Deduction</a>\n                                        </li>\n\n   <li class=\"ctgliChild\">\n                                            <a [routerLink]=\"['/reports']\" class=\"ctgaChild\"> GST Form 7</a>\n                                        </li>\n                                    </ul>\n                                      \n\n                                </li>\n\n                                <li class=\"ctgli showed\">\n                                    <a [routerLink]=\"['/sbs-upload']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        SBS Upload</a>\n                                </li>\n\n                                <li class=\"ctgli\">\n                                    <a [routerLink]=\"['/update-password']\" class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Update Password</a>\n                                </li>\n\n                                  <li class=\"ctgli\">\n                                    <a class=\"ctga\">\n                                        <i class=\"ti-comment\"></i>\n                                        Logout</a>\n                                </li>\n\n                            </ul>\n\n\n\n                        </nav>\n\n\n\n\n                    </div>\n\n<div class=\"col-lg-9\">\n \n<div class=\"container pt-lg-md\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-6\">\n          <div class=\"card bg-secondary shadow border-0\">\n            <div class=\"card-header bg-white pb-3\">\n              <div class=\"text-muted text-center mb-0\">\n                <small>SBS Upload</small>\n              </div>\n            </div>\n            <div class=\"card-body px-lg-5 py-lg-5\">\n              <form role=\"form\" [formGroup]=\"form\" (ngSubmit)=\"submitForm()\">\n                <div class=\"form-group mb-3\" [ngClass]=\"{'focused':focus===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                    </div>\n                      <select class=\"form-control\" name=\"FileType\" id=\"fileType\" formControlName=\"name\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                        <option>Choose Category</option>\n                        <option value=\"Receipt\">Reciept</option>\n                        <option value=\"Payment\">Payment</option>\n                    </select>\n                  </div>\n                </div>\n                \n                 <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                           <input class=\"form-control\" name=\"File\" type=\"file\" (change)=\"uploadFile($event)\" (focus)=\"focus=true\" (blur)=\"focus=false\">\n           \n                    \n                  </div>\n                </div>\n\n                               <div class=\"text-center\">\n                  <button type=\"button\" class=\"btn btn-primary my-4 submit\">Submit</button>\n                </div>\n              </form>\n            </div>\n          </div>\n        \n        </div>\n      </div>\n    </div>\n\n </div>\n</div>\n </div>\n</div>\n\n\n\n                \n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
 
 /***/ }),
 
@@ -412,7 +1007,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav id=\"navbar-main\" class=\"navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned\">\n  <div class=\"container\">\n    <a class=\"navbar-brand mr-lg-5\" [routerLink]=\"['/home']\">\n      <img src=\"./assets/img/icons/logo.png\">\n    </a>\n    <button class=\"navbar-toggler\" type=\"button\" (click)=\"isCollapsed = !isCollapsed\"\n          [attr.aria-expanded]=\"!isCollapsed\" aria-controls=\"navbar_global\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"navbar-collapse collapse\" id=\"navbar_global\" [ngbCollapse]=\"isCollapsed\">\n      <div class=\"navbar-collapse-header\">\n        <div class=\"row\">\n          <div class=\"col-6 collapse-brand\">\n            <a [routerLink]=\"['/home']\">\n              <img src=\"./assets/img/brand/blue.png\">\n            </a>\n          </div>\n          <div class=\"col-6 collapse-close\">\n            <button type=\"button\" class=\"navbar-toggler\" (click)=\"isCollapsed = !isCollapsed\"\n                  [attr.aria-expanded]=\"!isCollapsed\" aria-controls=\"navbar_global\">\n              <span></span>\n              <span></span>\n            </button>\n          </div>\n        </div>\n      </div>\n      <ul class=\"navbar-nav navbar-nav-hover align-items-lg-center\">\n       <!--  <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-ui-04 d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">Components</span>\n          </a>\n          <div class=\"dropdown-menu-xl dropdown-menu\" >\n            <div class=\"dropdown-menu-inner\">\n              <a routerLinkActive=\"active\" [routerLink]=\"['documentation/tutorial']\" class=\"media d-flex align-items-center\">\n                <div class=\"icon icon-shape bg-gradient-primary rounded-circle text-white\">\n                  <i class=\"ni ni-spaceship\"></i>\n                </div>\n                <div class=\"media-body ml-3\">\n                  <h6 class=\"heading text-primary mb-md-1\">Getting started</h6>\n                  <p class=\"description d-none d-md-inline-block mb-0\">Learn how to use Argon compiling Scss, change brand colors and more.</p>\n                </div>\n              </a>\n              <a routerLinkActive=\"active\" [routerLink]=\"['documentation/colors']\" class=\"media d-flex align-items-center\">\n                <div class=\"icon icon-shape bg-gradient-success rounded-circle text-white\">\n                  <i class=\"ni ni-palette\"></i>\n                </div>\n                <div class=\"media-body ml-3\">\n                  <h6 class=\"heading text-primary mb-md-1\">Foundation</h6>\n                  <p class=\"description d-none d-md-inline-block mb-0\">Learn more about colors, typography, icons and the grid system we used for Argon.</p>\n                </div>\n              </a>\n              <a routerLinkActive=\"active\" [routerLink]=\"['documentation/alerts']\" class=\"media d-flex align-items-center\">\n                <div class=\"icon icon-shape bg-gradient-warning rounded-circle text-white\">\n                  <i class=\"ni ni-ui-04\"></i>\n                </div>\n                <div class=\"media-body ml-3\">\n                  <h5 class=\"heading text-warning mb-md-1\">Components</h5>\n                  <p class=\"description d-none d-md-inline-block mb-0\">Browse our 50 beautiful handcrafted components offered in the Free version.</p>\n                </div>\n              </a>\n            </div>\n          </div>\n        </li> -->\n        <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-collection d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">Divisions</span>\n          </a>\n          <div class=\"dropdown-menu\">\n           <a [routerLink]=\"['/home']\" class=\"dropdown-item\">FRBM</a>\n                                \n                           \n                    <a [routerLink]=\"['/home']\" class=\"dropdown-item\">Accounts</a>\n                    \n                    <a [routerLink]=\"['/home']\" class=\"dropdown-item\">Loan</a>\n                    \n                    <a [routerLink]=\"['/home']\" class=\"dropdown-item\">FCD</a>\n                    \n                    <a [routerLink]=\"['/home']\" class=\"dropdown-item\">Budget</a>\n                    \n                    <a href=\"http://www.sikkimtax.gov.in/\" class=\"dropdown-item\">Commercial Tax</a>\n                    \n                    <a href=\"http://sikkimlotteries.com/\" class=\"dropdown-item\">State Lotteries</a>\n                    \n                    <a [routerLink]=\"['/pension']\" class=\"dropdown-item\">Pension</a>\n                    \n                    <a [routerLink]=\"['/home']\" class=\"dropdown-item\">GPF/GIS/CPF</a>\n                    \n                    <a [routerLink]=\"['/']\" class=\"dropdown-item\">Internal Audit</a>\n                    \n                    <a [routerLink]=\"['/']\" class=\"dropdown-item\">LFA</a>\n\n          </div>\n        </li>\n          <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-collection d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">Orders</span>\n          </a>\n          <div class=\"dropdown-menu\">\n            <a [routerLink]=\"['/letter']\" class=\"dropdown-item\">Letters</a>\n\n                    \n                    <a [routerLink]=\"['/notification']\" class=\"dropdown-item\">Notifications</a>\n                    \n                    <a [routerLink]=\"['/rules']\" class=\"dropdown-item\">Rules</a>\n                    \n                    <a [routerLink]=\"['/DA-Enhancement']\" class=\"dropdown-item\">D.A.</a>\n                    \n                    <a [routerLink]=\"['/curculars']\" class=\"dropdown-item\">Circulars</a>\n                    \n                    <a [routerLink]=\"['/act']\" class=\"dropdown-item\">ACT</a>\n                    \n                    <a [routerLink]=\"['/office']\" class=\"dropdown-item\">Office Memo.</a>\n                    \n                    <a [routerLink]=\"['/press-release']\" class=\"dropdown-item\">Press Release</a>\n                    \n                    <a [routerLink]=\"['/gazette']\" class=\"dropdown-item\">Gazette</a>\n\n          </div>\n        </li>\n          <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-collection d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">Employees Corner</span>\n          </a>\n          <div class=\"dropdown-menu\">\n            <a [routerLink]=\"['/employees-vacancies']\" class=\"dropdown-item\">Vacancies</a>\n                                \n                                <a [routerLink]=\"['/transfer-and-promotion']\" class=\"dropdown-item\"> Transfer/Promotion</a>\n                                \n                                <a [routerLink]=\"['/forms']\" class=\"dropdown-item\">Forms</a>\n                                \n                                <a [routerLink]=\"['/training']\" class=\"dropdown-item\">Trainings</a>\n          </div>\n        </li>\n          <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-collection d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">RTI</span>\n          </a>\n          <div class=\"dropdown-menu\">\n            <a href=\"http://sikkimfred.gov.in/RTI/RTI%20Notification.pdf\" class=\"dropdown-item\" >Notification</a>\n                                \n                <a href=\"http://sikkimfred.gov.in/RTI/rti-act%20(1).pdf\" class=\"dropdown-item\" >ACT</a>\n               \n          </div>\n        </li>\n          <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-collection d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">SIFMS</span>\n          </a>\n          <div class=\"dropdown-menu\">\n           <a href=\"http://sikkimfred.gov.in/Office%20Memorandum/Documents/OM_Reconciliation_of_Accounts.pdf\" class=\"dropdown-item\" >Reconciliation of Accounts</a>\n                                \n                <a href=\"http://sikkimfred.gov.in/SIFMS/Documents/Support%20for%20SIFMSNew.pdf\" class=\"dropdown-item\" >Contacts for SIFMS Help Desk.</a>\n               \n                \n                  <a href=\"http://sikkimfred.gov.in/SIFMS/Documents/Sikkim_Integrated_Financial_Management_System.pdf\" class=\"dropdown-item\" >Instructions on SIFMS I.</a>\n                  \n  <a href=\"http://sikkimfred.gov.in/SIFMS/Documents/Sikkim_Integrated_Financial_Management_System.pdf\" class=\"dropdown-item\" >Instructions on SIFMS II.</a>\n  \n  <a href=\"http://sikkimfred.gov.in/Office%20Memorandum/Documents/OFFICE%20MEMORANDUM%20%20SIFMS.pdf\" class=\"dropdown-item\" >Office Memorandum on implementation of SIFMS.\n  </a>\n          </div>\n        </li>\n          <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-collection d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">Login</span>\n          </a>\n          <div class=\"dropdown-menu\">\n            <a [routerLink]=\"['/login']\" class=\"dropdown-item\">Login</a>\n                    \n                    <a [routerLink]=\"['/DDO-Registeration']\" class=\"dropdown-item\">DDO Registeration</a>\n\n                    \n                    <a [routerLink]=\"['/RCO-Registeration']\" class=\"dropdown-item\">MIS/HOD/RCO User Registration</a>\n                    \n                    <a [routerLink]=\"['/ExpenditureReceipt-Login']\" class=\"dropdown-item\">Sbs Admin</a>\n          </div>\n        </li>\n\n      </ul>\n      <ul class=\"navbar-nav align-items-lg-center ml-lg-auto\">\n        <!-- <li class=\"nav-item\">\n          <a class=\"nav-link nav-link-icon\" href=\"https://www.facebook.com/creativetim\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Like us on Facebook\">\n            <i class=\"fa fa-facebook-square\"></i>\n            <span class=\"nav-link-inner--text d-lg-none\">Facebook</span>\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link nav-link-icon\" href=\"https://www.instagram.com/creativetimofficial\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Follow us on Instagram\">\n            <i class=\"fa fa-instagram\"></i>\n            <span class=\"nav-link-inner--text d-lg-none\">Instagram</span>\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link nav-link-icon\" href=\"https://twitter.com/creativetim\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Follow us on Twitter\">\n            <i class=\"fa fa-twitter-square\"></i>\n            <span class=\"nav-link-inner--text d-lg-none\">Twitter</span>\n          </a>\n        </li> -->\n       \n        <li class=\"nav-item d-none d-lg-block ml-lg-4\">\n          <a [routerLink]=\"['/contact-us']\" class=\"btn btn-neutral btn-icon\">\n            <span class=\"btn-inner--icon\">\n              <i class=\"fa fa-phone mr-2\"></i>\n            </span>\n            <span class=\"nav-link-inner--text\">Contact Us</span>\n          </a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav id=\"navbar-main\" class=\"navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned\">\n  <div class=\"container\">\n    <a class=\"navbar-brand mr-lg-5\" [routerLink]=\"['/home']\">\n      <img src=\"./assets/img/icons/logo.png\">\n    </a>\n    <button class=\"navbar-toggler\" type=\"button\" (click)=\"isCollapsed = !isCollapsed\"\n          [attr.aria-expanded]=\"!isCollapsed\" aria-controls=\"navbar_global\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"navbar-collapse collapse\" id=\"navbar_global\" [ngbCollapse]=\"isCollapsed\">\n      <div class=\"navbar-collapse-header\">\n        <div class=\"row\">\n          <div class=\"col-6 collapse-brand\">\n            <a [routerLink]=\"['/home']\">\n              <img src=\"./assets/img/brand/blue.png\">\n            </a>\n          </div>\n          <div class=\"col-6 collapse-close\">\n            <button type=\"button\" class=\"navbar-toggler\" (click)=\"isCollapsed = !isCollapsed\"\n                  [attr.aria-expanded]=\"!isCollapsed\" aria-controls=\"navbar_global\">\n              <span></span>\n              <span></span>\n            </button>\n          </div>\n        </div>\n      </div>\n      <ul class=\"navbar-nav navbar-nav-hover align-items-lg-center\">\n       <!--  <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-ui-04 d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">Components</span>\n          </a>\n          <div class=\"dropdown-menu-xl dropdown-menu\" >\n            <div class=\"dropdown-menu-inner\">\n              <a routerLinkActive=\"active\" [routerLink]=\"['documentation/tutorial']\" class=\"media d-flex align-items-center\">\n                <div class=\"icon icon-shape bg-gradient-primary rounded-circle text-white\">\n                  <i class=\"ni ni-spaceship\"></i>\n                </div>\n                <div class=\"media-body ml-3\">\n                  <h6 class=\"heading text-primary mb-md-1\">Getting started</h6>\n                  <p class=\"description d-none d-md-inline-block mb-0\">Learn how to use Argon compiling Scss, change brand colors and more.</p>\n                </div>\n              </a>\n              <a routerLinkActive=\"active\" [routerLink]=\"['documentation/colors']\" class=\"media d-flex align-items-center\">\n                <div class=\"icon icon-shape bg-gradient-success rounded-circle text-white\">\n                  <i class=\"ni ni-palette\"></i>\n                </div>\n                <div class=\"media-body ml-3\">\n                  <h6 class=\"heading text-primary mb-md-1\">Foundation</h6>\n                  <p class=\"description d-none d-md-inline-block mb-0\">Learn more about colors, typography, icons and the grid system we used for Argon.</p>\n                </div>\n              </a>\n              <a routerLinkActive=\"active\" [routerLink]=\"['documentation/alerts']\" class=\"media d-flex align-items-center\">\n                <div class=\"icon icon-shape bg-gradient-warning rounded-circle text-white\">\n                  <i class=\"ni ni-ui-04\"></i>\n                </div>\n                <div class=\"media-body ml-3\">\n                  <h5 class=\"heading text-warning mb-md-1\">Components</h5>\n                  <p class=\"description d-none d-md-inline-block mb-0\">Browse our 50 beautiful handcrafted components offered in the Free version.</p>\n                </div>\n              </a>\n            </div>\n          </div>\n        </li> -->\n        <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-collection d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">Divisions</span>\n          </a>\n          <div class=\"dropdown-menu\">\n           <a [routerLink]=\"['/home']\" class=\"dropdown-item\">FRBM</a>\n                                \n                           \n                    <a [routerLink]=\"['/home']\" class=\"dropdown-item\">Accounts</a>\n                    \n                    <a [routerLink]=\"['/home']\" class=\"dropdown-item\">Loan</a>\n                    \n                    <a [routerLink]=\"['/home']\" class=\"dropdown-item\">FCD</a>\n                    \n                    <a [routerLink]=\"['/home']\" class=\"dropdown-item\">Budget</a>\n                    \n                    <a href=\"http://www.sikkimtax.gov.in/\" class=\"dropdown-item\">Commercial Tax</a>\n                    \n                    <a href=\"http://sikkimlotteries.com/\" class=\"dropdown-item\">State Lotteries</a>\n                    \n                    <a [routerLink]=\"['/pension']\" class=\"dropdown-item\">Pension</a>\n                    \n                    <a [routerLink]=\"['/home']\" class=\"dropdown-item\">GPF/GIS/CPF</a>\n                    \n                    <a [routerLink]=\"['/']\" class=\"dropdown-item\">Internal Audit</a>\n                    \n                    <a [routerLink]=\"['/']\" class=\"dropdown-item\">LFA</a>\n\n          </div>\n        </li>\n          <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-collection d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">Orders</span>\n          </a>\n          <div class=\"dropdown-menu\">\n            <a [routerLink]=\"['/letter']\" class=\"dropdown-item\">Letters</a>\n\n                    \n                    <a [routerLink]=\"['/notification']\" class=\"dropdown-item\">Notifications</a>\n                    \n                    <a [routerLink]=\"['/rules']\" class=\"dropdown-item\">Rules</a>\n                    \n                    <a [routerLink]=\"['/DA-Enhancement']\" class=\"dropdown-item\">D.A.</a>\n                    \n                    <a [routerLink]=\"['/curculars']\" class=\"dropdown-item\">Circulars</a>\n                    \n                    <a [routerLink]=\"['/act']\" class=\"dropdown-item\">ACT</a>\n                    \n                    <a [routerLink]=\"['/office']\" class=\"dropdown-item\">Office Memo.</a>\n                    \n                    <a [routerLink]=\"['/press-release']\" class=\"dropdown-item\">Press Release</a>\n                    \n                    <a [routerLink]=\"['/gazette']\" class=\"dropdown-item\">Gazette</a>\n\n          </div>\n        </li>\n          <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-collection d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">Employees Corner</span>\n          </a>\n          <div class=\"dropdown-menu\">\n            <a [routerLink]=\"['/employees-vacancies']\" class=\"dropdown-item\">Vacancies</a>\n                                \n                                <a [routerLink]=\"['/transfer-and-promotion']\" class=\"dropdown-item\"> Transfer/Promotion</a>\n                                \n                                <a [routerLink]=\"['/forms']\" class=\"dropdown-item\">Forms</a>\n                                \n                                <a [routerLink]=\"['/training']\" class=\"dropdown-item\">Trainings</a>\n          </div>\n        </li>\n          <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-collection d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">RTI</span>\n          </a>\n          <div class=\"dropdown-menu\">\n            <a href=\"http://sikkimfred.gov.in/RTI/RTI%20Notification.pdf\" class=\"dropdown-item\" >Notification</a>\n                                \n                <a href=\"http://sikkimfred.gov.in/RTI/rti-act%20(1).pdf\" class=\"dropdown-item\" >ACT</a>\n               \n          </div>\n        </li>\n          <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-collection d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">SIFMS</span>\n          </a>\n          <div class=\"dropdown-menu\">\n           <a href=\"http://sikkimfred.gov.in/Office%20Memorandum/Documents/OM_Reconciliation_of_Accounts.pdf\" class=\"dropdown-item\" >Reconciliation of Accounts</a>\n                                \n                <a href=\"http://sikkimfred.gov.in/SIFMS/Documents/Support%20for%20SIFMSNew.pdf\" class=\"dropdown-item\" >Contacts for SIFMS Help Desk.</a>\n               \n                \n                  <a href=\"http://sikkimfred.gov.in/SIFMS/Documents/Sikkim_Integrated_Financial_Management_System.pdf\" class=\"dropdown-item\" >Instructions on SIFMS I.</a>\n                  \n  <a href=\"http://sikkimfred.gov.in/SIFMS/Documents/Sikkim_Integrated_Financial_Management_System.pdf\" class=\"dropdown-item\" >Instructions on SIFMS II.</a>\n  \n  <a href=\"http://sikkimfred.gov.in/Office%20Memorandum/Documents/OFFICE%20MEMORANDUM%20%20SIFMS.pdf\" class=\"dropdown-item\" >Office Memorandum on implementation of SIFMS.\n  </a>\n          </div>\n        </li>\n          <li class=\"nav-item dropdown\">\n          <a class=\"nav-link no-caret\" data-toggle=\"dropdown\" role=\"button\">\n            <i class=\"ni ni-collection d-lg-none\"></i>\n            <span class=\"nav-link-inner--text\">Login</span>\n          </a>\n          <div class=\"dropdown-menu\">\n            <a [routerLink]=\"['/login']\" class=\"dropdown-item\">Login</a>\n                    \n                    <a [routerLink]=\"['/DDO-Registeration']\" class=\"dropdown-item\">DDO Registeration</a>\n\n                    \n                    <a [routerLink]=\"['/RCO-Registeration']\" class=\"dropdown-item\">MIS/HOD/RCO User Registration</a>\n                    \n                    <a [routerLink]=\"['/sbs-admin-login']\" class=\"dropdown-item\">Sbs Admin</a>\n          </div>\n        </li>\n\n      </ul>\n      <ul class=\"navbar-nav align-items-lg-center ml-lg-auto\">\n        <!-- <li class=\"nav-item\">\n          <a class=\"nav-link nav-link-icon\" href=\"https://www.facebook.com/creativetim\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Like us on Facebook\">\n            <i class=\"fa fa-facebook-square\"></i>\n            <span class=\"nav-link-inner--text d-lg-none\">Facebook</span>\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link nav-link-icon\" href=\"https://www.instagram.com/creativetimofficial\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Follow us on Instagram\">\n            <i class=\"fa fa-instagram\"></i>\n            <span class=\"nav-link-inner--text d-lg-none\">Instagram</span>\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link nav-link-icon\" href=\"https://twitter.com/creativetim\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Follow us on Twitter\">\n            <i class=\"fa fa-twitter-square\"></i>\n            <span class=\"nav-link-inner--text d-lg-none\">Twitter</span>\n          </a>\n        </li> -->\n       \n        <li class=\"nav-item d-none d-lg-block ml-lg-4\">\n          <a [routerLink]=\"['/contact-us']\" class=\"btn btn-neutral btn-icon\">\n            <span class=\"btn-inner--icon\">\n              <i class=\"fa fa-phone mr-2\"></i>\n            </span>\n            <span class=\"nav-link-inner--text\">Contact Us</span>\n          </a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n");
 
 /***/ }),
 
@@ -452,6 +1047,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<style type=\"text/css\">\n  td{\nfont-size: 12px;\n  }\n  th{\n    font-size: 12px;\n  }\n</style>\n<main>\n  <div class=\"position-relative\">\n    <!-- shape Hero -->\n    <section class=\"section section-lg section-shaped pb-50\">\n      <div class=\"shape shape-style-1 shape-default\">\n        <span></span>\n        <span></span>\n        <span></span>\n        </div>\n      <div class=\"container py-lg-md d-flex\">\n        <div class=\"col px-0\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"btn-wrapper\">\n               \n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <!-- SVG separator -->\n      <div class=\"separator separator-bottom separator-skew\">\n        <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n        </svg>\n      </div>\n    </section>\n    <!-- 1st Hero Variation -->\n  </div>\n   <section class=\"section section-lg pt-lg-0 mt--100\">\n    <div class=\"container-fluid\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"row row-grid\">\n            <div class=\"col-lg-12\">\n              <div class=\"card card-lift--hover shadow border-0\">\n                <div class=\"card-body py-5\">\n                  <!-- <h6 class=\"text-primary text-uppercase\"> Contact List- Finance Department As On 23/10/2019</h6> -->\n                 \n<div class=\"container\">\n  <h3 class=\"h4 text-success font-weight-bold mb-4\">Transfer & Promotions </h3>\n  <div class=\"row justify-content-center\">\n    <div class=\"col-lg-12\">\n      <!-- Tabs with icons -->\n        <ngb-tabset [justify]=\"'center'\" class=\"custom-tab-content flex-column flex-md-row\" type=\"pills\">\n        \t<ngb-tab>\n              <ng-template ngbTabTitle>\n                   <i class=\"ni ni-bell-55 mr-2\"></i> 2019-20\n              </ng-template>\n                <ng-template ngbTabContent>\n                 <ul>\n                                        <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/New Doc 2020-03-02 14.31.09_2.pdf\"\n                                            target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Employee of Urban Development Department Gangtok, Transfer to Department Of Personnel Gangtok.\n                                            Vide Office Order No55/FIN/SSAS Dated:27.02.2020\n                                            <img border=\"0\" src=\"http://sikkimfred.gov.in/images/new.gif\" width=\"28\" height=\"15\" style=\"padding-left: 5px;\" /></a>\n                                        </li>\n                                    </ul>\n\n                                    <ul>\n                                        <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/New Doc 2020-03-02 14.31.09.pdf\"\n                                            target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Employee of Treasury Pay And Accounts Office East, Transfer to Roads And Bridges Department South.\n                                            Vide Office Order No.54/FIN/SSAS Dated:26.02.2020\n                                            <img border=\"0\" src=\"http://sikkimfred.gov.in/images/new.gif\" width=\"28\" height=\"15\" style=\"padding-left: 5px;\" /></a>\n                                        </li>\n                                    </ul>\n\n                                     <ul>\n                                        <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/New Doc 2020-02-11 10.27.06.pdf\"\n                                            target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Officer temporarily attached to the District Hospital Mangan, as Drawing and Disbursing Officer.\n                                            Vide Office Order No.123/FIN/Adm Dated:10.02.2020\n                                            </a>\n                                        </li>\n                                    </ul>\n                                    <ul>\n                                        <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/New Doc 2020-01-20 15.14.18.pdf\"\n                                            target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">The following\n                                            members of the Sub-ordinate Accounts Service are hereby temporarily attached to the Budget Division of Finance Department, as testing team to take up the trial budget prepration for the fiscal year 2020-21.\n                                            Vide Office Order No.51/FIN/SSAS Dated:17.01.2020\n                                           </a>\n                                        </li>\n                                    </ul>\n                                    <ul>\n                                        <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Promotion order of Joonon Rai and other 20190710.pdf\"\n                                            target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">The following\n                                            members of the Sub-ordinate Accounts Service in the grade-III (Junior Accountant/Cashier)\n                                            are hereby promoted to Grade-II (as Accountant) of Sikkim Subordinate Accounts Service.\n                                            Vide Office Order No.42/FIN/SSAS Dated:08.07.2019\n                                           </a>\n                                        </li>\n                                    </ul>\n                                    <ul>\n                                        <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Promotion  of Nar Bahadur Gurung and other on officiating 20190710.pdf\"\n                                            target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">The following\n                                            members of the Sub-ordinate Accounts Service in the grade-II (Accountant/Chief Cashier)\n                                            are hereby promoted to Grade-I (as Sr. Accountant) of Sikkim Subordinate Accounts\n                                            Service. Vide Office Order No.41/FIN/SSAS Dated:08.07.2019\n                                            </a>\n                                        </li>\n                                        </ul>\n                </ng-template>\n            </ngb-tab>\n            <ngb-tab>\n              <ng-template ngbTabTitle>\n                   <i class=\"ni ni-bell-55 mr-2\"></i> 2018-19\n              </ng-template>\n                <ng-template ngbTabContent>\n                <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Promoted as Sr Accountant.pdf\"\n                                                target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">The Governor,\n                                                on the recommendation of the Departmental Promotion Committee is pleased to promote\n                                                the following members of the Sikkim Subordinate Accounts Service as Senior Accountant\n                                                in Level- 14 of the Pay Matrix. Vide Office Order No.35/FIN/SSAS Dated:28.02.2019\n                                               </a>\n                                            </li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Promoted as Accountant.pdf\"\n                                                target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">The Governor,\n                                                on the recommendation of the Departmental Promotion Committee is pleased to promote\n                                                the following members of the Sikkim Subordinate Accounts Service as Accountant/Chief\n                                                Cashier in Level-11 of the Pay Matrix . Vide Office Order No.34/FIN/SSAS Dated:28.02.2019\n                                                </a>\n                                            </li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Promoted as Jr Accountant.pdf\"\n                                                target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">The Governor,\n                                                on the recommendation of the Departmental Promotion Committee is pleased to promote\n                                                the following members of the Sikkim Subordinate Accounts Service as Junior Accountant/Cashier/\n                                                Sr. Storekeeper in Level-9 of the Pay Matrix . Vide Office Order No.33/FIN/SSAS\n                                                Dated:28.02.2019\n                                                </a>\n                                            </li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Office Order 2019-03-04 10.43.19.pdf\"\n                                                target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Temporarily\n                                                attached a employee for the purpose of General election 2019. Vide Office Order\n                                                No.291/Fin/Adm Dated:02.02.2019\n                                                </a> </li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Grade II To I 2019-02-04 11.58.36.pdf\"\n                                                target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Promotion\n                                                of Grade II(Jr Accountant/ Chief Cashier) employees are Promoted to Grade I. Vide\n                                                Office Order No.29/FIN/SSAS Dated:29.01.2019\n                                                </a> </li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Grade III To II 2019-02-04 11.58.36.pdf\"\n                                                target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Promotion\n                                                of Grade III(Jr Accountant/Cashier/Sr. Storekeeper) employees are Promoted to Grade\n                                                II. Vide Office Order No.28/FIN/SSAS Dated:29.01.2019\n                                                </a> </li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Corrigendum to Office Order.pdf\"\n                                                target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Corrigendum\n                                                to Office Order No. 21/FIN/Acctts. Dated:17.12.2018 Vide Office Order No.23/FIN/Acctts.\n                                                Dated:07.01.2019 </a></li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer and Posting.pdf\"\n                                                target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Transfer and\n                                                Posting of officers under Sikkim Subordinate Accounts Service. Vide Office Order\n                                                No.20/FIN/Acctts. Dated:05.12.2018 </a></li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/Voluntary retirement.pdf\" target=\"_blank\"\n                                                style=\"color: Black; font-size: small; width: 800px;\">Junior Accountant- Voluntary\n                                                retirement from service. Vide Office Order No.19/FIN/Acctts. Dated:23.11.2018 </a>\n                                            </li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/Distribution of works.pdf\" target=\"_blank\"\n                                                style=\"color: Black; font-size: small; width: 800px;\">In view of recent transfers\n                                                and promotion in the Department, the distribution of works and assignments are hereby\n                                                re-allocated as under in supersession of to all Office Orders issued on the subject.\n                                                Vide Office Order No.177/Fin/Adm. Dated:23.11.2018 </a></li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/Transfer And Posting-11-21 12.12.05.pdf\"\n                                                target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Transfer and\n                                                Postings of Employees Under Sikkim Subordinate Accounts Service. Vide Office Order\n                                                No.18/FIN/Acctts. Dated:20.11.2018 </a></li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/Transfer of Menber Of SFAS 2018-11-19 11.11.28.pdf\"\n                                                target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Transfer of\n                                                Officers. Vide Office Order No.2512/G/DOP. Dated:16.11.2018 </a></li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/Transfer of Junior Accountant 2018-11-19 11.16.47.pdf\"\n                                                target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Transfer of\n                                                Junior Accountant of Human Resource Development Department(HQ). Office Order No.17/Fin/Adm.\n                                                Dated:16.11.2018 </a></li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/Accountant To Sr Accountant.pdf\" target=\"_blank\"\n                                                style=\"color: Black; font-size: small; width: 800px;\">Promotion of members from\n                                                Accountant to Sr. Accountant under Sikkim Subordinate Accounts Service. Office Order\n                                                No.01/Fin/SSAS. Dated:10.04.2018\n                                                </a> </li>\n                                        </ul>\n                                        <ul>\n                                            <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/Jr Accountant To Accountant.pdf\" target=\"_blank\"\n                                                style=\"color: Black; font-size: small; width: 800px;\">Promotion of members from\n                                                Jr. Accountant to Accountant under Sikkim Subordinate Accounts Service. Office Order\n                                                No.02/Fin/SSAS. Dated:10.04.2018\n                                                </a> </li>\n                                        </ul>\n                </ng-template>\n            </ngb-tab>\n            <ngb-tab>\n              <ng-template ngbTabTitle>\n                   <i class=\"ni ni-bell-55 mr-2\"></i> 2017-18\n              </ng-template>\n                <ng-template ngbTabContent>\n                 <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/Transfer Order 20180104.pdf\" target=\"_blank\"\n                                                    style=\"color: Black; font-size: small; width: 800px;\">Transfer and Postings of members\n                                                    under Sikkim Subordinate Accounts Service. Office Order No.14/Fin/Acct. Dated:02.01.2018\n                                                    <img border=\"0\" src=\"http://sikkimfred.gov.in/images/new.gif\" width=\"28\" height=\"15\" style=\"padding-left: 5px;\" /></a>\n                                                </li>\n                                            </ul>\n                                            <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/Transfer Order 20180104 2.pdf\" target=\"_blank\"\n                                                    style=\"color: Black; font-size: small; width: 800px;\">Re-employ of an employee in\n                                                    Sikkim Nationalized Transport Department, Siliguri Office Order No.13/Fin/SSAS.\n                                                    Dated:02.01.2018\n                                                    <img border=\"0\" src=\"http://sikkimfred.gov.in/images/new.gif\" width=\"28\" height=\"15\" style=\"padding-left: 5px;\" /></a>\n                                                </li>\n                                            </ul>\n                                            <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/Office Order 20171212.pdf\" target=\"_blank\"\n                                                    style=\"color: Black; font-size: small; width: 800px;\">Invitation for the discussion\n                                                    of development of new Sikkim Integrated Financial Management System (SIFMS V 2.0)\n                                                    Office Order No.357/Fin/Adm. Dated:11.12.2017 </a></li>\n                                            </ul>\n                                            <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Corrigendum Office Order 20170826.pdf\"\n                                                    target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Corrigendum\n                                                    of Office Order No.9/Fin/SSAS. Dated:19.08.2017</a> </li>\n                                            </ul>\n                                            <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer Order 20170822.pdf\"\n                                                    target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Office Order:\n                                                    Transfer and postings of Members under Sikkim Subordinate Accounts Service(SSAS)\n                                                    O.O. No.10/Fin/Acctt. Dated:22.08.2017 </a></li>\n                                            </ul>\n                                            <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transferred  Order 20170819.pdf\"\n                                                    target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Office Order:\n                                                    Transfer and postings of members under Sikkim Subordinate Accounts Service(SSAS)\n                                                    O.O. No.09/Fin/Acctt. Dated:19.08.2017</a> </li>\n                                            </ul>\n                                            <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer and Promotion 20170819.pdf\"\n                                                    target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Office Order:Members\n                                                    of the Sub-ordinate Accounts Service in the grade III (Junior Accountant/Senior\n                                                    Storekeeper/Cashier) are promoted to Grade II (as Accountant) in Sikkim Subordinate\n                                                    Accounts Service O.O. No.08/Fin/SSAS. Dated:19.08.2017</a></li>\n                                            </ul>\n                                            <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer and Promotion 20170820.pdf\"\n                                                    target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Office Order:Members\n                                                    of the Sub-ordinate Accounts Service in the grade II (Accountant/Chief Cashier)\n                                                    are promoted to Grade I (as Sr. Accountant) in Sikkim Subordinate Accounts Service\n                                                    O.O. No. 07/Fin/SSAS. Dated:19.08.2017</a> </li>\n                                            </ul>\n                                            <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Office Order 20170722.pdf\"\n                                                    target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Office Order:Promotion\n                                                    of employees under Sikkim Subordinate Accounts Service to post of Accounts Officer\n                                                    O.O. No. 2449/G/DOP. Dated:21.07.2017</a></li>\n                                            </ul>\n                                            <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Office Order 20170705.pdf\"\n                                                    target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Office Order:Transfer\n                                                    and postings of employees under Sikkim Subordinate Accounts Service O.O. No. 06/Fin/Acctt.\n                                                    Dated:05.07.2017</a></li>\n                                            </ul>\n                                            <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer Order 20170602.pdf\"\n                                                    target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Office Order:Transfer\n                                                    and postings of employees under Sikkim Subordinate Accounts Service O.O. No. 05/Fin/Acctt.\n                                                    Dated:01.06.2017</a></li>\n                                            </ul>\n                                            <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Accounts Clerk 20170512.pdf\"\n                                                    target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Office Order:Promotion\n                                                    of grade IV Accounts Clerk/ Jr. Storekeeper to Grade III Junior Accountant/Sr. Storekeeper.\n                                                    O.O. No. 04 /Fin/SSAS. Dated: 12.05.2017</a></li>\n                                            </ul>\n                                            <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Jr.  Accountant 20170512.pdf\"\n                                                    target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Office Order:Promotion\n                                                    of grade III Junior Accountant/Sr. Storekeeper to Grade II Accountant/Chief Cashier\n                                                    O.O. No. 04 /Fin/SSAS. Dated: 12.05.2017 O.O. No.03/Fin/SSAS. Dated: 12.05.2017</a></li>\n                                            </ul>\n                                            <ul>\n                                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Accountant 20170512.pdf\"\n                                                    target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Office Order:Promotion\n                                                    of grade II Accountant/Chief Cashier to Grade I Sr. Accountant. O.O. No. 02/Fin/SSAS.\n                                                    Dated: 12.05.2017</a></li>\n                                            </ul>\n                </ng-template>\n            </ngb-tab>\n            <ngb-tab>\n              <ng-template ngbTabTitle>\n                   <i class=\"ni ni-bell-55 mr-2\"></i> 2016-17\n              </ng-template>\n                <ng-template ngbTabContent>\n                 <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/corrigendum20170119.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Corrigendum:\n                                        Corrigendum to O.O. No.28/Fin/Acctt. Dated:17/01/2017<img border=\"0\" src=\"http://sikkimfred.gov.in/images/new.gif\"\n                                            width=\"28\" height=\"15\" style=\"padding-left: 5px;\" /></a> </li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer order20170119.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Transfer And\n                                        Postings Of Member Of Sikkim Subordinate Accounts Service. vide O.O. No.28/Fin/Acctt.\n                                        Dated:17/01/2017<img border=\"0\" src=\"http://sikkimfred.gov.in/images/new.gif\" width=\"28\" height=\"15\" style=\"padding-left: 5px;\" /></a>\n                                    </li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Junior accountant20161121.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Transfer of\n                                        Jr. Accountants vide O.O. No.25/Fin/Acctt. Dated:17/11/2016</a></li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/senior accountant20161121.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Transfer of\n                                        Senior Accountants vide O.O. No.23/Fin/Acctt. Dated:17/11/2016</a></li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Accoutants20161121.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Transfer of\n                                        Accountants vide O.O. No.24/Fin/Acctt. Dated:17/11/2016</a></li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Account clerk20161121.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Transfer of\n                                        Accounts Clerk vide O.O. No.26/Fin/Acctt. Dated:17/11/2016</a></li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/officeorder20161001.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small; width: 800px;\">Transfer of\n                                        two Jr. Accountants vide O.O. No.22/Fin/SSAS. Dated:30/09/2016</a></li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/promotion of employee 26.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Promotion of Accountants\n                                        under Sikkim Subordinate Accounts Service vide O.O. No.21/Fin/Acctts. Dated:26/08/2016</a></li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/promotion order of 29 Accountant.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Promotion of Accountants\n                                        under Sikkim Subordinate Accounts Service vide O.O. No.20 /Fin/Acctts. Dated:10/08/2016</a></li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer of Jr.accountant.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer of Jr. Accountant\n                                        vide order No: 18/Fin/Acctts. Dated: 29.07.2016</a></li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer of accountant.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer of Accountant vide\n                                        order No: 17/Fin/Acctts. Dated: 22.07.2016</a></li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Senior Accountants 7.6.2016.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Sr. Accountant\n                                        vide order No: 07/Fin/Acctt. Dated: 07.06.2016</a></li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Accountants 7.6.2016.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Accountant\n                                        vide order No: 08/Fin/Acctt. Dated: 07.06.2016</a></li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Junior Accountants 7.6.2016.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Jr.Accountant\n                                        vide order No: 09/Fin/Acctt. Dated: 07.06.2016</a></li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Account clerk 7.6.2016.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Accounts\n                                        Clerk vide order No: 10/Fin/Acctt Dated: 07.06.2016</a></li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/TransferorderofSonamLepchaSr.Accttandother 8.3.2016.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer and posting of\n                                        members of Sikkim Subordinate Accounts Service vide order No.63/Fin/SSAS dated.\n                                        08.03.2016</a> </li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_and_Posting_of_Sr.Actt.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Sr. Accountant\n                                        vide order No.57/Fin/Acctt dated. 04.01.2016</a> </li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_and_Posting_of_Accountant.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Accountant\n                                        vide order No.59/Fin/Acctt dated. 05.01.2016</a> </li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_and_Posting_of_Jr.Accountant.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Jr.Accountant\n                                        vide order No.58/Fin/Acctt dated. 04.01.2016</a> </li>\n                                </ul>\n                                <ul>\n                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_and_Posting_of_Accounts_Clerk.pdf\"\n                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Accounts\n                                        Clerk vide order No.60/Fin/Acctt dated. 05.01.2016</a> </li>\n                                </ul>\n                </ng-template>\n            </ngb-tab>\n            <ngb-tab>\n              <ng-template ngbTabTitle>\n               <i class=\"ni ni-bell-55 mr-2\"></i> 2015-16 \n              </ng-template>\n                <ng-template ngbTabContent>\n                  <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/TransferOrder.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer of the member of\n                                    Sikkim Subordinate and Accounts Service vide order No.50/Fin/Actt dated. 19.10.2015</a>\n                                </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Promotion Actt to SrActt.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Promoted to grade-I for\n                                    the post of Sr. Accountants against the Limited Departmental Examination vide order\n                                    No.42/Fin/SSAS dated:27-06-2015</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Promotion JrActt to Actt.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Promoted to grade-II for\n                                    the post of Accountants against the Limited Departmental Examination vide order\n                                    No.43/Fin/SSAS dated:27-06-2015</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_and_Posting_of_Sr.Actt1.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Sr. Accountant\n                                    vide order No.29/Fin/SSAS dated. 08.04.2015</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_and_Posting_of_Sr.Actt2.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Sr. Accountant\n                                    vide order No.30/Fin/SSAS dated. 08.04.2015</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_and_Posting_of_Sr.Actt3.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Sr. Accountant\n                                    vide order No.31/Fin/SSAS dated. 08.04.2015</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_and_Posting_of_Actt1.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Accountant\n                                    vide order No.26/Fin/SSAS dated. 07.04.2015</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_and_Posting_of_Actt2.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Accountant\n                                    vide order No.27/Fin/SSAS dated. 07.04.2015</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_and_Posting_of_Actt3.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Accountant\n                                    vide order No.28/Fin/SSAS dated. 07.04.2015</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_and_Posting_of_Jr.Actt1.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Jr. Accountant\n                                    vide order No.22/Fin/SSAS dated. 06.04.2015</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_and_Posting_of_Jr.Actt2.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Jr. Accountant\n                                    vide order No.23/Fin/SSAS dated. 06.04.2015</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Inter_Departmental_Transfer_AC1.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Accounts\n                                    Clerk vide order No.24/Fin/SSAS dated. 06.04.2015</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Inter_Departmental_Transfer_Jr.Actt.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer List of Jr. Accountant\n                                    vide order No.25/Fin/SSAS dated. 06.04.2015</a> </li>\n                            </ul>\n                </ng-template>\n            </ngb-tab>\n            <ngb-tab>\n              <ng-template ngbTabTitle>\n                    <i class=\"ni ni-bell-55 mr-2\"></i> 2014-15\n              </ng-template>\n                <ng-template ngbTabContent>\n  <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_Order_of_Ms._Diki_Bhutia_ Accounts_Clerk_UDHD.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer of the member of\n                                                        Sikkim Subordinate and Accounts Service order No.18/Fin/SSAS dated. 02.12.2014</a>\n                                                    </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Accounts_clerk_exam_2014.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Promoted to grade-III for\n                                                        the post of Jr.Accountants against the Limited Departmental Examination quota order\n                                                        No.11/Fin/SSAS dated:30.10.14</a> </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Accounts_Clerk_Seniority_cum_Merit_2014.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Promoted to grade-III for\n                                                        the post of Jr. Accountants against the Seniority quota order No.12/Fin/SSAS dated:30.10.14</a>\n                                                    </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Junior_Accountant_exam_2014.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Promoted to grade-II for\n                                                        the post of Accountants against the Limited Departmental Examination quota order\n                                                        No.13/Fin/SSAS dated:30.10.14</a> </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Junior_Accountant_Seniority_cum_merit_2014.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Promoted to grade-II for\n                                                        the post of Accountants against the Seniority quota order No.14/Fin/SSAS dated:30.10.14</a>\n                                                    </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Accountant_to_Sr._Accountant_Exam_2014.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Promoted to grade-I for\n                                                        the post of Sr. Accountants against the Limited Departmental Examination quota order\n                                                        No.15/Fin/SSAS dated:30.10.14</a> </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Accountant_to_Sr._Accountant_Seniority _2014.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Promoted to grade-I for\n                                                        the post of Sr. Accountants against the Seniority quota order No.16/Fin/SSAS dated:30.10.14</a>\n                                                    </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_Order_August 2014.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer of the member of\n                                                        Sikkim Subordinate and Accounts Service order No.03/Fin/SSAS dated. 14.08.2014</a>\n                                                    </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/TransferOrderOfSSAS_Member 24.2.2014.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer of the member of\n                                                        Sikkim Subordinate and Accounts Service order No.159/Fin/SSAS dated. 24.02.2014</a>\n                                                    </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/TransferOrdeDated6-02-2014.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer of the member of\n                                                        Sikkim Subordinate and Accounts Service order No.158/Fin/SSAS dated. 6.02.2014</a>\n                                                    </li>\n                                                </ul>\n                </ng-template>\n            </ngb-tab>\n                 <ngb-tab>\n              <ng-template ngbTabTitle>\n                    <i class=\"ni ni-bell-55 mr-2\"></i> 2013-14\n              </ng-template>\n                <ng-template ngbTabContent>\n                                     <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/TRANSFER_ORDER_DEC_2013.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer of the member of\n                                                        Sikkim Subordinate and Accounts Service order No.153/Fin/SSAS dated. 10.12.2013</a>\n                                                    </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/TransferOrderOfSSASon6.9.2013.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer of the member of\n                                                        Sikkim Subordinate and Accounts Service order No.150/Fin/SSAS dated. 06.09.2013</a>\n                                                    </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/Transfer_Order_No_5.pdf\" target=\"_blank\"\n                                                        style=\"color: Black; font-size: small;\">Transfer of the member of Sikkim Subordinate\n                                                        and Accounts Service order No.05 /Fin/SSAS dated. 04.07.2013</a> </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/Transfer_Order_No_4.pdf\" target=\"_blank\"\n                                                        style=\"color: Black; font-size: small;\">Transfer of the member of Sikkim Subordinate\n                                                        and Accounts Service order No.04/Fin/Acctt. dated:01.07.2013</a> </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/Transfer_Order_oo_NO_03__DATED_27.6.13_PDF.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer of the member of\n                                                        Sikkim Subordinate and Accounts Service order No. 03/Fin/SSAS dated:27-06-2013 </a>\n                                                    </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/OO 02.pdf\" target=\"_blank\"\n                                                        style=\"color: Black; font-size: small;\">Transfer of the member of Sikkim Subordinate\n                                                        and Accounts Service order No. 02/Fin/SSAS dated:04-06-2013 </a></li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Transfer_Dated_18-05-13.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">Transfer of the member of\n                                                        Sikkim Subordinate and Accounts Service order No.01/Fin/SSAS dated:18-05-2013 </a>\n                                                    </li>\n                                                </ul>\n                                                <ul>\n                                                    <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/transfer_order_dt.13.3.2013.pdf\"\n                                                        target=\"_blank\" style=\"color: Black; font-size: small;\">The Inter- Departmental\n                                                        transfer of the following members of Sikkim Subordinate and Accounts Service order\n                                                        No. 21/Fin/SSAS dated:13-03-2013 </a></li>\n                                                </ul>\n                </ng-template>\n            </ngb-tab>\n            <ngb-tab>\n              <ng-template ngbTabTitle>\n                <i class=\"ni ni-bell-55 mr-2\"></i> 2012-13 \n              </ng-template>\n                <ng-template ngbTabContent>\n                     <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/PromotionOf_Jr_Actt_by Examination.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Promoted to grade-II for\n                                    the post of Accountants against the Limited Departmental Examination quota order\n                                    No.17/Fin/SSAS dated:26-12-2012</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Promotion_by_Seniority_Quota.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Promoted to grade-III for\n                                    the post of Jr. Accountants against the Seniority quota order No.16/Fin/SSAS dated:26-12-2012</a>\n                                </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Promotion_by_examination.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Promoted to grade-III for\n                                    the post of Jr. Accountants against the Limited Departmental Examination quota order\n                                    No.15/Fin/SSAS dated:26-12-2012</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Promotion Against Seniority Quota.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Promoted to grade-I for\n                                    the post of Senior Accountants. Dated:30-11-2012 </a></li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Transfer_Promotion_Documents/Promotion against limited departmental Examination.pdf\"\n                                    target=\"_blank\" style=\"color: Black; font-size: small;\">Promoted to grade-I for\n                                    the post of Senior Accountants. Dated:30-11-2012</a> </li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/TransferOrderSSASPart-I.pdf\" target=\"_blank\"\n                                    style=\"color: Black; font-size: small;\">Transfer Order - SSAS Part-I Dated:17-09-2012.</a></li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/TransferOrderSSASPartIIUpdated.pdf\" target=\"_blank\"\n                                    style=\"color: Black; font-size: small;\">Transfer Order - SSAS Part-II Dated:17-092012.</a></li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/TransferListOfSSAS_Aug_2012.pdf\" target=\"_blank\"\n                                    style=\"color: Black; font-size: small;\">Transfer List SSAS Dated:24-08-2012.</a></li>\n                            </ul>\n                            <ul>\n                                <li><a href=\"http://sikkimfred.gov.in/Employees Corner/Documents/General_transfer_of_July_2012.pdf\" target=\"_blank\"\n                                    style=\"color: Black; font-size: small;\">Transfer List SSAS Dated:4-07-2012. </a>\n                                </li>\n                            </ul>\n                </ng-template>\n            </ngb-tab>\n          \n        </ngb-tabset>\n    </div>\n   \n  </div>\n\n  <!-- <div class=\"row row-grid justify-content-between align-items-center mt-lg\">\n    <div class=\"col-lg-5\">\n      <h3 class=\"h4 text-success font-weight-bold mb-4\">Progress bars</h3>\n      <div class=\"progress-wrapper\">\n        <div class=\"progress-info\">\n          <div class=\"progress-label\">\n            <span>Task completed</span>\n          </div>\n          <div class=\"progress-percentage\">\n            <span>40%</span>\n          </div>\n        </div>\n        <ngb-progressbar type=\"default\" [value]=\"25\"></ngb-progressbar>\n      </div>\n      <div class=\"progress-wrapper\">\n        <div class=\"progress-info\">\n          <div class=\"progress-label\">\n            <span>Task completed</span>\n          </div>\n          <div class=\"progress-percentage\">\n            <span>60%</span>\n          </div>\n        </div>\n        <ngb-progressbar type=\"primary\" [value]=\"60\"></ngb-progressbar>\n      </div>\n    </div> -->\n   <!--  <div class=\"col-lg-5\">\n      <h3 class=\"h4 text-success font-weight-bold mb-5\">Pagination</h3>\n      <nav aria-label=\"Page navigation example\" class=\"mb-4\">\n        <ngb-pagination [collectionSize]=\"50\" [(page)]=\"page\" [directionLinks]=\"false\"></ngb-pagination>\n      </nav>\n      <nav aria-label=\"Page navigation example\">\n        <ngb-pagination [collectionSize]=\"50\" [(page)]=\"page1\" aria-label=\"Default pagination\">\n          <ng-template ngbPaginationPrevious><i _ngcontent-c9=\"\" class=\"fa fa-angle-left\"></i></ng-template>\n          <ng-template ngbPaginationNext><i _ngcontent-c9=\"\" class=\"fa fa-angle-right\"></i></ng-template>\n        </ngb-pagination>\n      </nav>\n    </div>\n -->  <!-- </div> -->\n <!--  <div class=\"row row-grid justify-content-between\">\n  --> <!--   <div class=\"col-lg-5\">\n      <h3 class=\"h4 text-success font-weight-bold mb-5\">Navigation Pills</h3>\n      <ngb-tabset type=\"pills\" class=\"nav-pills-circle\">\n          <ngb-tab>\n            <ng-template ngbTabTitle>\n              <span class=\"nav-link-icon d-block\"><i class=\"ni ni-atom\"></i></span>\n            </ng-template>\n          </ngb-tab>\n          <ngb-tab>\n            <ng-template ngbTabTitle>\n              <span class=\"nav-link-icon d-block\"><i class=\"ni ni-chat-round\"></i></span>\n            </ng-template>\n          </ngb-tab>\n          <ngb-tab>\n            <ng-template ngbTabTitle>\n                <span class=\"nav-link-icon d-block\"><i class=\"ni ni-cloud-download-95\"></i></span>\n            </ng-template>\n          </ngb-tab>\n      </ngb-tabset>\n    </div> -->\n  <!--   <div class=\"col-lg-5\">\n      <h3 class=\"h4 text-success font-weight-bold mb-5\">Labels</h3>\n      <span class=\"badge badge-pill badge-primary text-uppercase\">Primary</span>\n      <span class=\"badge badge-pill badge-success text-uppercase\">Success</span>\n      <span class=\"badge badge-pill badge-danger text-uppercase\">Danger</span>\n      <span class=\"badge badge-pill badge-warning text-uppercase\">Warning</span>\n      <span class=\"badge badge-pill badge-info text-uppercase\">Info</span>\n    </div> -->\n<!--   </div> -->\n</div>\n\n\n                 </div>\n              </div>\n            </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </section>  \n \n \n  \n\n  \n</main>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/update-password/update-password.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/update-password/update-password.component.html ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<main>\n  <section class=\"section section-shaped section-lg\">\n    <div class=\"shape shape-style-1 bg-gradient-default\">\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n      <span></span>\n    </div>\n    <div class=\"container pt-lg-md\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-5\">\n          <div class=\"card bg-secondary shadow border-0\">\n            <div class=\"card-header bg-white pb-3\">\n              <div class=\"text-muted text-center mb-0\">\n                <small>Update Password</small>\n              </div>\n            </div>\n            <div class=\"card-body px-lg-5 py-lg-5\">\n              <form role=\"form\">\n                <div class=\"form-group mb-3\" [ngClass]=\"{'focused':focus===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                         <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <input class=\"form-control\" placeholder=\"New Password\" type=\"password\" (focus)=\"focus=true\" (blur)=\"focus=false\">\n                  </div>\n                </div>\n                <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <input class=\"form-control\" placeholder=\"Confirm New Password\" type=\"password\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                  </div>\n                </div>\n                               <div class=\"text-center\">\n                  <button type=\"button\" class=\"btn btn-primary my-4\">Update Password</button>\n                </div>\n              </form>\n            </div>\n          </div>\n          \n        </div>\n      </div>\n    </div>\n  </section>\n</main>\n");
 
 /***/ }),
 
@@ -529,6 +1137,322 @@ var ActComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], ActComponent);
     return ActComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/admin-dashboard/admin-dashboard.component.css":
+/*!***************************************************************!*\
+  !*** ./src/app/admin-dashboard/admin-dashboard.component.css ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FkbWluLWRhc2hib2FyZC9hZG1pbi1kYXNoYm9hcmQuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/admin-dashboard/admin-dashboard.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/admin-dashboard/admin-dashboard.component.ts ***!
+  \**************************************************************/
+/*! exports provided: AdminDashboardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminDashboardComponent", function() { return AdminDashboardComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var AdminDashboardComponent = /** @class */ (function () {
+    function AdminDashboardComponent() {
+    }
+    AdminDashboardComponent.prototype.ngOnInit = function () {
+        $(document).ready(function () {
+            console.log('hii');
+            $(".ctgli:has(.ctgulChild)").click(function (e) {
+                e.preventDefault();
+                //li_HAVE_Child-hasShowed-hasSlideD
+                if ($(this).hasClass('showed')) {
+                    //-x-hasShowed
+                    $('.ctgli').removeClass('showed');
+                    //-x-hasSlideD
+                    $(this).children('.ctgulChild').slideUp();
+                }
+                else {
+                    $('.ctgulChild').slideUp();
+                    $('.ctgli').removeClass('showed');
+                    $(this).addClass('showed');
+                    $(this).children('.ctgulChild').slideToggle();
+                }
+            });
+            $('.ctgli').click(function () {
+                $(this).toggleClass('wtok');
+            });
+        });
+    };
+    AdminDashboardComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-admin-dashboard',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./admin-dashboard.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/admin-dashboard/admin-dashboard.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./admin-dashboard.component.css */ "./src/app/admin-dashboard/admin-dashboard.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], AdminDashboardComponent);
+    return AdminDashboardComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/admin-navbar-end/admin-navbar-end.component.css":
+/*!*****************************************************************!*\
+  !*** ./src/app/admin-navbar-end/admin-navbar-end.component.css ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FkbWluLW5hdmJhci1lbmQvYWRtaW4tbmF2YmFyLWVuZC5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/admin-navbar-end/admin-navbar-end.component.ts":
+/*!****************************************************************!*\
+  !*** ./src/app/admin-navbar-end/admin-navbar-end.component.ts ***!
+  \****************************************************************/
+/*! exports provided: AdminNavbarEndComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminNavbarEndComponent", function() { return AdminNavbarEndComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var AdminNavbarEndComponent = /** @class */ (function () {
+    function AdminNavbarEndComponent() {
+    }
+    AdminNavbarEndComponent.prototype.ngOnInit = function () {
+    };
+    AdminNavbarEndComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-admin-navbar-end',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./admin-navbar-end.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/admin-navbar-end/admin-navbar-end.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./admin-navbar-end.component.css */ "./src/app/admin-navbar-end/admin-navbar-end.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], AdminNavbarEndComponent);
+    return AdminNavbarEndComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/admin-navbar/admin-navbar.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/admin-navbar/admin-navbar.component.css ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FkbWluLW5hdmJhci9hZG1pbi1uYXZiYXIuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/admin-navbar/admin-navbar.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/admin-navbar/admin-navbar.component.ts ***!
+  \********************************************************/
+/*! exports provided: AdminNavbarComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminNavbarComponent", function() { return AdminNavbarComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var AdminNavbarComponent = /** @class */ (function () {
+    function AdminNavbarComponent() {
+    }
+    AdminNavbarComponent.prototype.ngOnInit = function () {
+        $(document).ready(function () {
+            console.log('hii');
+            $(".ctgli:has(.ctgulChild)").click(function (e) {
+                e.preventDefault();
+                //li_HAVE_Child-hasShowed-hasSlideD
+                if ($(this).hasClass('showed')) {
+                    //-x-hasShowed
+                    $('.ctgli').removeClass('showed');
+                    //-x-hasSlideD
+                    $(this).children('.ctgulChild').slideUp();
+                }
+                else {
+                    $('.ctgulChild').slideUp();
+                    $('.ctgli').removeClass('showed');
+                    $(this).addClass('showed');
+                    $(this).children('.ctgulChild').slideToggle();
+                }
+            });
+            $('.ctgli').click(function () {
+                $(this).toggleClass('wtok');
+            });
+        });
+    };
+    AdminNavbarComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-admin-navbar',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./admin-navbar.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/admin-navbar/admin-navbar.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./admin-navbar.component.css */ "./src/app/admin-navbar/admin-navbar.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], AdminNavbarComponent);
+    return AdminNavbarComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/admin-users/admin-users.component.css":
+/*!*******************************************************!*\
+  !*** ./src/app/admin-users/admin-users.component.css ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FkbWluLXVzZXJzL2FkbWluLXVzZXJzLmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/admin-users/admin-users.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/admin-users/admin-users.component.ts ***!
+  \******************************************************/
+/*! exports provided: AdminUsersComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminUsersComponent", function() { return AdminUsersComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var AdminUsersComponent = /** @class */ (function () {
+    function AdminUsersComponent() {
+    }
+    AdminUsersComponent.prototype.ngOnInit = function () {
+        $.getJSON('http://sikkimfred.local.api/api/user/admin', function (data) {
+            makeTable(data);
+        });
+        function makeTable(data) {
+            var table = "\n\n<style type=\"text/css\">\n  td{\nfont-size: 13px;\n  }\n  th{\n    font-size: 13px;\n  }\n</style>\n\n         <table class=\"table table-striped\">\n\n      <thead class=\"text-primary\">\n          <tr>\n              <th>SL No.</th> \n            <th>Name</th>\n           <th>User ID</th>\n            </tr>\n        </thead>\n       \n        <tbody>";
+            $.each(data, function (i, item) {
+                table += "  <tr>\n            <td>" + (i + 1) + "</td>\n            <td>" + item.emailId + "</td>\n              <td>" + item.id + "</td>\n          \n            <td><button class=\"btn btn-primary send\" email=\"" + item.emailId + "\">Send Details</button></td>\n           <td><button class=\"btn btn-danger delete\" id=\"" + item.id + "\">Delete User</button></td>\n          </tr>";
+            });
+            table += "</tbody>\n      </table>";
+            $('#result').html(table);
+        }
+        $('#result').on('click', '.send', function () {
+            var url = 'http://local.api.com/api/user/recoverpassword';
+            var email = $(this).attr('email');
+            var data = {
+                emailId: email,
+            };
+            console.log('sending data', data);
+            fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers: new Headers({
+                    'Content-Type': 'application/json'
+                })
+            }).then(function (res) { return res.json(); })
+                .catch(function (error) { return console.error("Error", error); })
+                .then(function (result) {
+                alert('User Details Sent to Email Id');
+            });
+        });
+        $('#result').on('click', '.delete', function () {
+            var id = $(this).attr('id');
+            console.log("id hai", id);
+            fetch('http://sikkimfred.local.api/api/user/' + id, {
+                method: 'DELETE',
+            }).then(function (res) { return res.text(); }) // or res.json()
+                .then(function (res) { return refresh(); });
+        });
+        function refresh() {
+            $.getJSON('http://sikkimfred.local.api/api/user/admin', function (data) {
+                makeTable(data);
+                alert("User Deleted Successfully");
+            });
+        }
+    };
+    AdminUsersComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-admin-users',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./admin-users.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/admin-users/admin-users.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./admin-users.component.css */ "./src/app/admin-users/admin-users.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], AdminUsersComponent);
+    return AdminUsersComponent;
 }());
 
 
@@ -687,35 +1611,60 @@ var AppComponent = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm5/platform-browser.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm5/forms.js");
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/__ivy_ngcc__/fesm5/ng-bootstrap.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm5/router.js");
-/* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.routing */ "./src/app/app.routing.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _signup_signup_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./signup/signup.component */ "./src/app/signup/signup.component.ts");
-/* harmony import */ var _landing_landing_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./landing/landing.component */ "./src/app/landing/landing.component.ts");
-/* harmony import */ var _profile_profile_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./profile/profile.component */ "./src/app/profile/profile.component.ts");
-/* harmony import */ var _shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./shared/navbar/navbar.component */ "./src/app/shared/navbar/navbar.component.ts");
-/* harmony import */ var _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./shared/footer/footer.component */ "./src/app/shared/footer/footer.component.ts");
-/* harmony import */ var _home_home_module__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./home/home.module */ "./src/app/home/home.module.ts");
-/* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
-/* harmony import */ var _contactus_contactus_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./contactus/contactus.component */ "./src/app/contactus/contactus.component.ts");
-/* harmony import */ var _forgot_password_forgot_password_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./forgot-password/forgot-password.component */ "./src/app/forgot-password/forgot-password.component.ts");
-/* harmony import */ var _empolyee_vacancies_empolyee_vacancies_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./empolyee-vacancies/empolyee-vacancies.component */ "./src/app/empolyee-vacancies/empolyee-vacancies.component.ts");
-/* harmony import */ var _transfer_and_promotion_transfer_and_promotion_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./transfer-and-promotion/transfer-and-promotion.component */ "./src/app/transfer-and-promotion/transfer-and-promotion.component.ts");
-/* harmony import */ var _forms_forms_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./forms/forms.component */ "./src/app/forms/forms.component.ts");
-/* harmony import */ var _trainings_trainings_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./trainings/trainings.component */ "./src/app/trainings/trainings.component.ts");
-/* harmony import */ var _letters_letters_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./letters/letters.component */ "./src/app/letters/letters.component.ts");
-/* harmony import */ var _notification_notification_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./notification/notification.component */ "./src/app/notification/notification.component.ts");
-/* harmony import */ var _da_enhancement_da_enhancement_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./da-enhancement/da-enhancement.component */ "./src/app/da-enhancement/da-enhancement.component.ts");
-/* harmony import */ var _office_memo_office_memo_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./office-memo/office-memo.component */ "./src/app/office-memo/office-memo.component.ts");
-/* harmony import */ var _gazette_gazette_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./gazette/gazette.component */ "./src/app/gazette/gazette.component.ts");
-/* harmony import */ var _rules_rules_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./rules/rules.component */ "./src/app/rules/rules.component.ts");
-/* harmony import */ var _circulars_circulars_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./circulars/circulars.component */ "./src/app/circulars/circulars.component.ts");
-/* harmony import */ var _act_act_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./act/act.component */ "./src/app/act/act.component.ts");
-/* harmony import */ var _press_release_press_release_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./press-release/press-release.component */ "./src/app/press-release/press-release.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm5/forms.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm5/http.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm5/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/__ivy_ngcc__/fesm5/ng-bootstrap.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm5/router.js");
+/* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.routing */ "./src/app/app.routing.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _signup_signup_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./signup/signup.component */ "./src/app/signup/signup.component.ts");
+/* harmony import */ var _landing_landing_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./landing/landing.component */ "./src/app/landing/landing.component.ts");
+/* harmony import */ var _profile_profile_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./profile/profile.component */ "./src/app/profile/profile.component.ts");
+/* harmony import */ var _shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./shared/navbar/navbar.component */ "./src/app/shared/navbar/navbar.component.ts");
+/* harmony import */ var _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./shared/footer/footer.component */ "./src/app/shared/footer/footer.component.ts");
+/* harmony import */ var _home_home_module__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./home/home.module */ "./src/app/home/home.module.ts");
+/* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
+/* harmony import */ var _contactus_contactus_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./contactus/contactus.component */ "./src/app/contactus/contactus.component.ts");
+/* harmony import */ var _forgot_password_forgot_password_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./forgot-password/forgot-password.component */ "./src/app/forgot-password/forgot-password.component.ts");
+/* harmony import */ var _empolyee_vacancies_empolyee_vacancies_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./empolyee-vacancies/empolyee-vacancies.component */ "./src/app/empolyee-vacancies/empolyee-vacancies.component.ts");
+/* harmony import */ var _transfer_and_promotion_transfer_and_promotion_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./transfer-and-promotion/transfer-and-promotion.component */ "./src/app/transfer-and-promotion/transfer-and-promotion.component.ts");
+/* harmony import */ var _forms_forms_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./forms/forms.component */ "./src/app/forms/forms.component.ts");
+/* harmony import */ var _trainings_trainings_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./trainings/trainings.component */ "./src/app/trainings/trainings.component.ts");
+/* harmony import */ var _letters_letters_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./letters/letters.component */ "./src/app/letters/letters.component.ts");
+/* harmony import */ var _notification_notification_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./notification/notification.component */ "./src/app/notification/notification.component.ts");
+/* harmony import */ var _da_enhancement_da_enhancement_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./da-enhancement/da-enhancement.component */ "./src/app/da-enhancement/da-enhancement.component.ts");
+/* harmony import */ var _office_memo_office_memo_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./office-memo/office-memo.component */ "./src/app/office-memo/office-memo.component.ts");
+/* harmony import */ var _gazette_gazette_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./gazette/gazette.component */ "./src/app/gazette/gazette.component.ts");
+/* harmony import */ var _rules_rules_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./rules/rules.component */ "./src/app/rules/rules.component.ts");
+/* harmony import */ var _circulars_circulars_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./circulars/circulars.component */ "./src/app/circulars/circulars.component.ts");
+/* harmony import */ var _act_act_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./act/act.component */ "./src/app/act/act.component.ts");
+/* harmony import */ var _press_release_press_release_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./press-release/press-release.component */ "./src/app/press-release/press-release.component.ts");
+/* harmony import */ var _feedback_report_feedback_report_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./feedback-report/feedback-report.component */ "./src/app/feedback-report/feedback-report.component.ts");
+/* harmony import */ var _ddo_report_ddo_report_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./ddo-report/ddo-report.component */ "./src/app/ddo-report/ddo-report.component.ts");
+/* harmony import */ var _rco_report_rco_report_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./rco-report/rco-report.component */ "./src/app/rco-report/rco-report.component.ts");
+/* harmony import */ var _ddo_users_ddo_users_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./ddo-users/ddo-users.component */ "./src/app/ddo-users/ddo-users.component.ts");
+/* harmony import */ var _rco_users_rco_users_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./rco-users/rco-users.component */ "./src/app/rco-users/rco-users.component.ts");
+/* harmony import */ var _create_sbs_admin_create_sbs_admin_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./create-sbs-admin/create-sbs-admin.component */ "./src/app/create-sbs-admin/create-sbs-admin.component.ts");
+/* harmony import */ var _admin_users_admin_users_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./admin-users/admin-users.component */ "./src/app/admin-users/admin-users.component.ts");
+/* harmony import */ var _update_password_update_password_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./update-password/update-password.component */ "./src/app/update-password/update-password.component.ts");
+/* harmony import */ var _change_password_change_password_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./change-password/change-password.component */ "./src/app/change-password/change-password.component.ts");
+/* harmony import */ var _reports_form_reports_form_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./reports-form/reports-form.component */ "./src/app/reports-form/reports-form.component.ts");
+/* harmony import */ var _sbs_upload_sbs_upload_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./sbs-upload/sbs-upload.component */ "./src/app/sbs-upload/sbs-upload.component.ts");
+/* harmony import */ var _ddo_registeration_ddo_registeration_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./ddo-registeration/ddo-registeration.component */ "./src/app/ddo-registeration/ddo-registeration.component.ts");
+/* harmony import */ var _rco_registeration_rco_registeration_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./rco-registeration/rco-registeration.component */ "./src/app/rco-registeration/rco-registeration.component.ts");
+/* harmony import */ var _sbs_admin_login_sbs_admin_login_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./sbs-admin-login/sbs-admin-login.component */ "./src/app/sbs-admin-login/sbs-admin-login.component.ts");
+/* harmony import */ var _sbs_payment_and_receipt_sbs_payment_and_receipt_component__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./sbs-payment-and-receipt/sbs-payment-and-receipt.component */ "./src/app/sbs-payment-and-receipt/sbs-payment-and-receipt.component.ts");
+/* harmony import */ var _sbs_payment_details_sbs_payment_details_component__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./sbs-payment-details/sbs-payment-details.component */ "./src/app/sbs-payment-details/sbs-payment-details.component.ts");
+/* harmony import */ var _sbs_receipt_details_sbs_receipt_details_component__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./sbs-receipt-details/sbs-receipt-details.component */ "./src/app/sbs-receipt-details/sbs-receipt-details.component.ts");
+/* harmony import */ var _profile_and_payslip_profile_and_payslip_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./profile-and-payslip/profile-and-payslip.component */ "./src/app/profile-and-payslip/profile-and-payslip.component.ts");
+/* harmony import */ var _profile_details_profile_details_component__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./profile-details/profile-details.component */ "./src/app/profile-details/profile-details.component.ts");
+/* harmony import */ var _payslip_details_payslip_details_component__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./payslip-details/payslip-details.component */ "./src/app/payslip-details/payslip-details.component.ts");
+/* harmony import */ var _gpf_login_gpf_login_component__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./gpf-login/gpf-login.component */ "./src/app/gpf-login/gpf-login.component.ts");
+/* harmony import */ var _admin_dashboard_admin_dashboard_component__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./admin-dashboard/admin-dashboard.component */ "./src/app/admin-dashboard/admin-dashboard.component.ts");
+/* harmony import */ var _admin_navbar_admin_navbar_component__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./admin-navbar/admin-navbar.component */ "./src/app/admin-navbar/admin-navbar.component.ts");
+/* harmony import */ var _admin_navbar_end_admin_navbar_end_component__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./admin-navbar-end/admin-navbar-end.component */ "./src/app/admin-navbar-end/admin-navbar-end.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -754,45 +1703,96 @@ var __importDefault = (undefined && undefined.__importDefault) || function (mod)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
-                _signup_signup_component__WEBPACK_IMPORTED_MODULE_7__["SignupComponent"],
-                _landing_landing_component__WEBPACK_IMPORTED_MODULE_8__["LandingComponent"],
-                _profile_profile_component__WEBPACK_IMPORTED_MODULE_9__["ProfileComponent"],
-                _shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_10__["NavbarComponent"],
-                _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_11__["FooterComponent"],
-                _login_login_component__WEBPACK_IMPORTED_MODULE_13__["LoginComponent"],
-                _contactus_contactus_component__WEBPACK_IMPORTED_MODULE_14__["ContactusComponent"],
-                _forgot_password_forgot_password_component__WEBPACK_IMPORTED_MODULE_15__["ForgotPasswordComponent"],
-                _empolyee_vacancies_empolyee_vacancies_component__WEBPACK_IMPORTED_MODULE_16__["EmpolyeeVacanciesComponent"],
-                _transfer_and_promotion_transfer_and_promotion_component__WEBPACK_IMPORTED_MODULE_17__["TransferAndPromotionComponent"],
-                _forms_forms_component__WEBPACK_IMPORTED_MODULE_18__["FormsComponent"],
-                _trainings_trainings_component__WEBPACK_IMPORTED_MODULE_19__["TrainingsComponent"],
-                _letters_letters_component__WEBPACK_IMPORTED_MODULE_20__["LettersComponent"],
-                _notification_notification_component__WEBPACK_IMPORTED_MODULE_21__["NotificationComponent"],
-                _da_enhancement_da_enhancement_component__WEBPACK_IMPORTED_MODULE_22__["DaEnhancementComponent"],
-                _office_memo_office_memo_component__WEBPACK_IMPORTED_MODULE_23__["OfficeMemoComponent"],
-                _gazette_gazette_component__WEBPACK_IMPORTED_MODULE_24__["GazetteComponent"],
-                _rules_rules_component__WEBPACK_IMPORTED_MODULE_25__["RulesComponent"],
-                _circulars_circulars_component__WEBPACK_IMPORTED_MODULE_26__["CircularsComponent"],
-                _act_act_component__WEBPACK_IMPORTED_MODULE_27__["ActComponent"],
-                _press_release_press_release_component__WEBPACK_IMPORTED_MODULE_28__["PressReleaseComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"],
+                _signup_signup_component__WEBPACK_IMPORTED_MODULE_8__["SignupComponent"],
+                _landing_landing_component__WEBPACK_IMPORTED_MODULE_9__["LandingComponent"],
+                _profile_profile_component__WEBPACK_IMPORTED_MODULE_10__["ProfileComponent"],
+                _shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_11__["NavbarComponent"],
+                _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_12__["FooterComponent"],
+                _login_login_component__WEBPACK_IMPORTED_MODULE_14__["LoginComponent"],
+                _contactus_contactus_component__WEBPACK_IMPORTED_MODULE_15__["ContactusComponent"],
+                _forgot_password_forgot_password_component__WEBPACK_IMPORTED_MODULE_16__["ForgotPasswordComponent"],
+                _empolyee_vacancies_empolyee_vacancies_component__WEBPACK_IMPORTED_MODULE_17__["EmpolyeeVacanciesComponent"],
+                _transfer_and_promotion_transfer_and_promotion_component__WEBPACK_IMPORTED_MODULE_18__["TransferAndPromotionComponent"],
+                _forms_forms_component__WEBPACK_IMPORTED_MODULE_19__["FormsComponent"],
+                _trainings_trainings_component__WEBPACK_IMPORTED_MODULE_20__["TrainingsComponent"],
+                _letters_letters_component__WEBPACK_IMPORTED_MODULE_21__["LettersComponent"],
+                _notification_notification_component__WEBPACK_IMPORTED_MODULE_22__["NotificationComponent"],
+                _da_enhancement_da_enhancement_component__WEBPACK_IMPORTED_MODULE_23__["DaEnhancementComponent"],
+                _office_memo_office_memo_component__WEBPACK_IMPORTED_MODULE_24__["OfficeMemoComponent"],
+                _gazette_gazette_component__WEBPACK_IMPORTED_MODULE_25__["GazetteComponent"],
+                _rules_rules_component__WEBPACK_IMPORTED_MODULE_26__["RulesComponent"],
+                _circulars_circulars_component__WEBPACK_IMPORTED_MODULE_27__["CircularsComponent"],
+                _act_act_component__WEBPACK_IMPORTED_MODULE_28__["ActComponent"],
+                _press_release_press_release_component__WEBPACK_IMPORTED_MODULE_29__["PressReleaseComponent"],
+                _feedback_report_feedback_report_component__WEBPACK_IMPORTED_MODULE_30__["FeedbackReportComponent"],
+                _ddo_report_ddo_report_component__WEBPACK_IMPORTED_MODULE_31__["DdoReportComponent"],
+                _rco_report_rco_report_component__WEBPACK_IMPORTED_MODULE_32__["RcoReportComponent"],
+                _ddo_users_ddo_users_component__WEBPACK_IMPORTED_MODULE_33__["DdoUsersComponent"],
+                _rco_users_rco_users_component__WEBPACK_IMPORTED_MODULE_34__["RcoUsersComponent"],
+                _create_sbs_admin_create_sbs_admin_component__WEBPACK_IMPORTED_MODULE_35__["CreateSbsAdminComponent"],
+                _admin_users_admin_users_component__WEBPACK_IMPORTED_MODULE_36__["AdminUsersComponent"],
+                _update_password_update_password_component__WEBPACK_IMPORTED_MODULE_37__["UpdatePasswordComponent"],
+                _change_password_change_password_component__WEBPACK_IMPORTED_MODULE_38__["ChangePasswordComponent"],
+                _reports_form_reports_form_component__WEBPACK_IMPORTED_MODULE_39__["ReportsFormComponent"],
+                _sbs_upload_sbs_upload_component__WEBPACK_IMPORTED_MODULE_40__["SbsUploadComponent"],
+                _ddo_registeration_ddo_registeration_component__WEBPACK_IMPORTED_MODULE_41__["DdoRegisterationComponent"],
+                _rco_registeration_rco_registeration_component__WEBPACK_IMPORTED_MODULE_42__["RcoRegisterationComponent"],
+                _sbs_admin_login_sbs_admin_login_component__WEBPACK_IMPORTED_MODULE_43__["SbsAdminLoginComponent"],
+                _sbs_payment_and_receipt_sbs_payment_and_receipt_component__WEBPACK_IMPORTED_MODULE_44__["SbsPaymentAndReceiptComponent"],
+                _sbs_payment_details_sbs_payment_details_component__WEBPACK_IMPORTED_MODULE_45__["SbsPaymentDetailsComponent"],
+                _sbs_receipt_details_sbs_receipt_details_component__WEBPACK_IMPORTED_MODULE_46__["SbsReceiptDetailsComponent"],
+                _profile_and_payslip_profile_and_payslip_component__WEBPACK_IMPORTED_MODULE_47__["ProfileAndPayslipComponent"],
+                _profile_details_profile_details_component__WEBPACK_IMPORTED_MODULE_48__["ProfileDetailsComponent"],
+                _payslip_details_payslip_details_component__WEBPACK_IMPORTED_MODULE_49__["PayslipDetailsComponent"],
+                _gpf_login_gpf_login_component__WEBPACK_IMPORTED_MODULE_50__["GpfLoginComponent"],
+                _admin_dashboard_admin_dashboard_component__WEBPACK_IMPORTED_MODULE_51__["AdminDashboardComponent"],
+                _admin_navbar_admin_navbar_component__WEBPACK_IMPORTED_MODULE_52__["AdminNavbarComponent"],
+                _admin_navbar_end_admin_navbar_end_component__WEBPACK_IMPORTED_MODULE_53__["AdminNavbarEndComponent"]
             ],
             imports: [
-                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
-                _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"],
-                _app_routing__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
-                _home_home_module__WEBPACK_IMPORTED_MODULE_12__["HomeModule"]
+                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["BrowserModule"],
+                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__["NgbModule"],
+                _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"],
+                _app_routing__WEBPACK_IMPORTED_MODULE_6__["AppRoutingModule"],
+                _home_home_module__WEBPACK_IMPORTED_MODULE_13__["HomeModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_0__["ReactiveFormsModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormsModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClientModule"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -836,6 +1836,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _circulars_circulars_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./circulars/circulars.component */ "./src/app/circulars/circulars.component.ts");
 /* harmony import */ var _act_act_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./act/act.component */ "./src/app/act/act.component.ts");
 /* harmony import */ var _press_release_press_release_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./press-release/press-release.component */ "./src/app/press-release/press-release.component.ts");
+/* harmony import */ var _feedback_report_feedback_report_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./feedback-report/feedback-report.component */ "./src/app/feedback-report/feedback-report.component.ts");
+/* harmony import */ var _ddo_report_ddo_report_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./ddo-report/ddo-report.component */ "./src/app/ddo-report/ddo-report.component.ts");
+/* harmony import */ var _rco_report_rco_report_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./rco-report/rco-report.component */ "./src/app/rco-report/rco-report.component.ts");
+/* harmony import */ var _ddo_users_ddo_users_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./ddo-users/ddo-users.component */ "./src/app/ddo-users/ddo-users.component.ts");
+/* harmony import */ var _rco_users_rco_users_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./rco-users/rco-users.component */ "./src/app/rco-users/rco-users.component.ts");
+/* harmony import */ var _create_sbs_admin_create_sbs_admin_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./create-sbs-admin/create-sbs-admin.component */ "./src/app/create-sbs-admin/create-sbs-admin.component.ts");
+/* harmony import */ var _admin_users_admin_users_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./admin-users/admin-users.component */ "./src/app/admin-users/admin-users.component.ts");
+/* harmony import */ var _update_password_update_password_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./update-password/update-password.component */ "./src/app/update-password/update-password.component.ts");
+/* harmony import */ var _change_password_change_password_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./change-password/change-password.component */ "./src/app/change-password/change-password.component.ts");
+/* harmony import */ var _reports_form_reports_form_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./reports-form/reports-form.component */ "./src/app/reports-form/reports-form.component.ts");
+/* harmony import */ var _sbs_upload_sbs_upload_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./sbs-upload/sbs-upload.component */ "./src/app/sbs-upload/sbs-upload.component.ts");
+/* harmony import */ var _ddo_registeration_ddo_registeration_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./ddo-registeration/ddo-registeration.component */ "./src/app/ddo-registeration/ddo-registeration.component.ts");
+/* harmony import */ var _rco_registeration_rco_registeration_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./rco-registeration/rco-registeration.component */ "./src/app/rco-registeration/rco-registeration.component.ts");
+/* harmony import */ var _sbs_admin_login_sbs_admin_login_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./sbs-admin-login/sbs-admin-login.component */ "./src/app/sbs-admin-login/sbs-admin-login.component.ts");
+/* harmony import */ var _sbs_payment_and_receipt_sbs_payment_and_receipt_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./sbs-payment-and-receipt/sbs-payment-and-receipt.component */ "./src/app/sbs-payment-and-receipt/sbs-payment-and-receipt.component.ts");
+/* harmony import */ var _sbs_payment_details_sbs_payment_details_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./sbs-payment-details/sbs-payment-details.component */ "./src/app/sbs-payment-details/sbs-payment-details.component.ts");
+/* harmony import */ var _sbs_receipt_details_sbs_receipt_details_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./sbs-receipt-details/sbs-receipt-details.component */ "./src/app/sbs-receipt-details/sbs-receipt-details.component.ts");
+/* harmony import */ var _profile_and_payslip_profile_and_payslip_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./profile-and-payslip/profile-and-payslip.component */ "./src/app/profile-and-payslip/profile-and-payslip.component.ts");
+/* harmony import */ var _profile_details_profile_details_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./profile-details/profile-details.component */ "./src/app/profile-details/profile-details.component.ts");
+/* harmony import */ var _payslip_details_payslip_details_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./payslip-details/payslip-details.component */ "./src/app/payslip-details/payslip-details.component.ts");
+/* harmony import */ var _gpf_login_gpf_login_component__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./gpf-login/gpf-login.component */ "./src/app/gpf-login/gpf-login.component.ts");
+/* harmony import */ var _admin_dashboard_admin_dashboard_component__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./admin-dashboard/admin-dashboard.component */ "./src/app/admin-dashboard/admin-dashboard.component.ts");
+/* harmony import */ var _admin_navbar_admin_navbar_component__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./admin-navbar/admin-navbar.component */ "./src/app/admin-navbar/admin-navbar.component.ts");
+/* harmony import */ var _admin_navbar_end_admin_navbar_end_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./admin-navbar-end/admin-navbar-end.component */ "./src/app/admin-navbar-end/admin-navbar-end.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -845,6 +1869,30 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
   return (mod && mod.__esModule) ? mod : { "default": mod };
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -890,7 +1938,31 @@ var routes = [
     { path: 'rules', component: _rules_rules_component__WEBPACK_IMPORTED_MODULE_20__["RulesComponent"] },
     { path: 'circular', component: _circulars_circulars_component__WEBPACK_IMPORTED_MODULE_21__["CircularsComponent"] },
     { path: 'act', component: _act_act_component__WEBPACK_IMPORTED_MODULE_22__["ActComponent"] },
-    { path: 'press-release', component: _press_release_press_release_component__WEBPACK_IMPORTED_MODULE_23__["PressReleaseComponent"] }
+    { path: 'press-release', component: _press_release_press_release_component__WEBPACK_IMPORTED_MODULE_23__["PressReleaseComponent"] },
+    { path: 'feedback-report', component: _feedback_report_feedback_report_component__WEBPACK_IMPORTED_MODULE_24__["FeedbackReportComponent"] },
+    { path: 'ddo-report', component: _ddo_report_ddo_report_component__WEBPACK_IMPORTED_MODULE_25__["DdoReportComponent"] },
+    { path: 'rco-report', component: _rco_report_rco_report_component__WEBPACK_IMPORTED_MODULE_26__["RcoReportComponent"] },
+    { path: 'ddo-users', component: _ddo_users_ddo_users_component__WEBPACK_IMPORTED_MODULE_27__["DdoUsersComponent"] },
+    { path: 'rco-users', component: _rco_users_rco_users_component__WEBPACK_IMPORTED_MODULE_28__["RcoUsersComponent"] },
+    { path: 'create-sbs-admin', component: _create_sbs_admin_create_sbs_admin_component__WEBPACK_IMPORTED_MODULE_29__["CreateSbsAdminComponent"] },
+    { path: 'admin-users', component: _admin_users_admin_users_component__WEBPACK_IMPORTED_MODULE_30__["AdminUsersComponent"] },
+    { path: 'update-password', component: _update_password_update_password_component__WEBPACK_IMPORTED_MODULE_31__["UpdatePasswordComponent"] },
+    { path: 'change-password', component: _change_password_change_password_component__WEBPACK_IMPORTED_MODULE_32__["ChangePasswordComponent"] },
+    { path: 'reports', component: _reports_form_reports_form_component__WEBPACK_IMPORTED_MODULE_33__["ReportsFormComponent"] },
+    { path: 'sbs-upload', component: _sbs_upload_sbs_upload_component__WEBPACK_IMPORTED_MODULE_34__["SbsUploadComponent"] },
+    { path: 'DDO-Registeration', component: _ddo_registeration_ddo_registeration_component__WEBPACK_IMPORTED_MODULE_35__["DdoRegisterationComponent"] },
+    { path: 'RCO-Registeration', component: _rco_registeration_rco_registeration_component__WEBPACK_IMPORTED_MODULE_36__["RcoRegisterationComponent"] },
+    { path: 'sbs-admin-login', component: _sbs_admin_login_sbs_admin_login_component__WEBPACK_IMPORTED_MODULE_37__["SbsAdminLoginComponent"] },
+    { path: 'sbs-payment-receipt', component: _sbs_payment_and_receipt_sbs_payment_and_receipt_component__WEBPACK_IMPORTED_MODULE_38__["SbsPaymentAndReceiptComponent"] },
+    { path: 'sbs-payment-details', component: _sbs_payment_details_sbs_payment_details_component__WEBPACK_IMPORTED_MODULE_39__["SbsPaymentDetailsComponent"] },
+    { path: 'sbs-receipt-details', component: _sbs_receipt_details_sbs_receipt_details_component__WEBPACK_IMPORTED_MODULE_40__["SbsReceiptDetailsComponent"] },
+    { path: 'profile-payslip', component: _profile_and_payslip_profile_and_payslip_component__WEBPACK_IMPORTED_MODULE_41__["ProfileAndPayslipComponent"] },
+    { path: 'profile-details', component: _profile_details_profile_details_component__WEBPACK_IMPORTED_MODULE_42__["ProfileDetailsComponent"] },
+    { path: 'payslip-details', component: _payslip_details_payslip_details_component__WEBPACK_IMPORTED_MODULE_43__["PayslipDetailsComponent"] },
+    { path: 'gpf-login', component: _gpf_login_gpf_login_component__WEBPACK_IMPORTED_MODULE_44__["GpfLoginComponent"] },
+    { path: 'Admin-Dahsboard', component: _admin_dashboard_admin_dashboard_component__WEBPACK_IMPORTED_MODULE_45__["AdminDashboardComponent"] },
+    { path: 'admin-navbar', component: _admin_navbar_admin_navbar_component__WEBPACK_IMPORTED_MODULE_46__["AdminNavbarComponent"] },
+    { path: 'admin-navbar-end', component: _admin_navbar_end_admin_navbar_end_component__WEBPACK_IMPORTED_MODULE_47__["AdminNavbarEndComponent"] }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -908,6 +1980,63 @@ var AppRoutingModule = /** @class */ (function () {
         })
     ], AppRoutingModule);
     return AppRoutingModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/change-password/change-password.component.css":
+/*!***************************************************************!*\
+  !*** ./src/app/change-password/change-password.component.css ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NoYW5nZS1wYXNzd29yZC9jaGFuZ2UtcGFzc3dvcmQuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/change-password/change-password.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/change-password/change-password.component.ts ***!
+  \**************************************************************/
+/*! exports provided: ChangePasswordComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChangePasswordComponent", function() { return ChangePasswordComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var ChangePasswordComponent = /** @class */ (function () {
+    function ChangePasswordComponent() {
+    }
+    ChangePasswordComponent.prototype.ngOnInit = function () {
+    };
+    ChangePasswordComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-change-password',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./change-password.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/change-password/change-password.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./change-password.component.css */ "./src/app/change-password/change-password.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ChangePasswordComponent);
+    return ChangePasswordComponent;
 }());
 
 
@@ -1028,6 +2157,161 @@ var ContactusComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/create-sbs-admin/create-sbs-admin.component.css":
+/*!*****************************************************************!*\
+  !*** ./src/app/create-sbs-admin/create-sbs-admin.component.css ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NyZWF0ZS1zYnMtYWRtaW4vY3JlYXRlLXNicy1hZG1pbi5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/create-sbs-admin/create-sbs-admin.component.ts":
+/*!****************************************************************!*\
+  !*** ./src/app/create-sbs-admin/create-sbs-admin.component.ts ***!
+  \****************************************************************/
+/*! exports provided: CreateSbsAdminComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CreateSbsAdminComponent", function() { return CreateSbsAdminComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var CreateSbsAdminComponent = /** @class */ (function () {
+    function CreateSbsAdminComponent() {
+    }
+    CreateSbsAdminComponent.prototype.ngOnInit = function () {
+        $(document).ready(function () {
+            $(".ctgli:has(.ctgulChild)").click(function (e) {
+                e.preventDefault();
+                //li_HAVE_Child-hasShowed-hasSlideD
+                if ($(this).hasClass('showed')) {
+                    //-x-hasShowed
+                    $('.ctgli').removeClass('showed');
+                    //-x-hasSlideD
+                    $(this).children('.ctgulChild').slideUp();
+                }
+                else {
+                    $('.ctgulChild').slideUp();
+                    $('.ctgli').removeClass('showed');
+                    $(this).addClass('showed');
+                    $(this).children('.ctgulChild').slideToggle();
+                }
+            });
+            $('.ctgli').click(function () {
+                $(this).toggleClass('wtok');
+            });
+            var department = [];
+            var district = [];
+            var designation = [];
+            $.getJSON('http://sikkimfred.local.api/api/department', function (data) {
+                department = data;
+                console.log(data);
+                fillDropDown('departmentid', data, 'Choose Department', 0);
+            });
+            $.getJSON('http://sikkimfred.local.api/api/district', function (data) {
+                district = data;
+                fillDropDown('districtid', data, 'Choose District', 0);
+            });
+            $.getJSON('http://sikkimfred.local.api/api/designation', function (data) {
+                designation = data;
+                fillDropDown('designationid', data, 'Choose Designation', 0);
+            });
+            $('.submit').click(function () {
+                if ($('#firstName').val() == null || $('#firstName').val() == "null" || $('#firstName').val() == [] || $('#firstName').val() == "")
+                    alert("Enter First Name...");
+                else if ($('#lastName').val() == null || $('#lastName').val() == "null" || $('#lastName').val() == [] || $('#lastName').val() == "")
+                    alert("Enter Last Name...");
+                else if ($('#password').val() == null || $('#password').val() == "null" || $('#password').val() == [] || $('#password').val() == "")
+                    alert("Enter Password...");
+                else if ($('#emailId').val() == null || $('#emailId').val() == "null" || $('#emailId').val() == [] || $('#emailId').val() == "")
+                    alert("Enter Email ID...");
+                else if ($('#number').val() == null || $('#number').val() == "null" || $('#number').val() == [] || $('#number').val() == "")
+                    alert("Enter Mobile Number...");
+                else if ($('#departmentid').val() == null || $('#departmentid').val() == "null" || $('#departmentid').val() == [] || $('#departmentid').val() == "")
+                    alert("Choose Department Name...");
+                else if ($('#districtid').val() == null || $('#districtid').val() == "null" || $('#districtid').val() == [] || $('#districtid').val() == "")
+                    alert("Choose District...");
+                else if ($('#designationid').val() == null || $('#designationid').val() == "null" || $('#designationid').val() == [] || $('#designationid').val() == "")
+                    alert("Choose Designation...");
+                else {
+                    var url = 'http://sikkimfred.local.api/api/user';
+                    var insertobj = {
+                        firstName: $('#firstName').val(),
+                        lastName: $('#lastName').val(),
+                        password: $('#password').val(),
+                        userType: 'SuperAdmin',
+                        emailId: $('#emailId').val(),
+                        mobileNumber: $('#number').val(),
+                        departmentId: parseInt($('#departmentid').val()),
+                        districtId: parseInt($('#districtid').val()),
+                        designationId: parseInt($('#designationid').val())
+                    };
+                    console.log("InsertObj", insertobj);
+                    fetch(url, {
+                        method: 'POST',
+                        body: JSON.stringify(insertobj),
+                        headers: new Headers({
+                            'Content-Type': 'application/json'
+                        })
+                    }).then(function (res) { return res.json(); })
+                        .catch(function (error) { return console.error("Error", error); })
+                        .then(function (result) {
+                        console.log("result hai", result);
+                        if (result.msg == "success")
+                            alert("Successfully Inserted");
+                        else
+                            alert("An error occured..Please try again later");
+                    });
+                }
+            });
+            function fillDropDown(id, data, label, selectedid) {
+                if (selectedid === void 0) { selectedid = 0; }
+                $("#" + id).empty();
+                $("#" + id).append($('<option>').val("null").text(label));
+                $.each(data, function (i, item) {
+                    if (item.id == selectedid) {
+                        $("#" + id).append($('<option selected>').val(item.id).text(item.name));
+                    }
+                    else {
+                        $("#" + id).append($('<option>').val(item.id).text(item.name));
+                    }
+                });
+            }
+        });
+    };
+    CreateSbsAdminComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-create-sbs-admin',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./create-sbs-admin.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/create-sbs-admin/create-sbs-admin.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./create-sbs-admin.component.css */ "./src/app/create-sbs-admin/create-sbs-admin.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], CreateSbsAdminComponent);
+    return CreateSbsAdminComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/da-enhancement/da-enhancement.component.css":
 /*!*************************************************************!*\
   !*** ./src/app/da-enhancement/da-enhancement.component.css ***!
@@ -1085,6 +2369,427 @@ var DaEnhancementComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/ddo-registeration/ddo-registeration.component.css":
+/*!*******************************************************************!*\
+  !*** ./src/app/ddo-registeration/ddo-registeration.component.css ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Rkby1yZWdpc3RlcmF0aW9uL2Rkby1yZWdpc3RlcmF0aW9uLmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/ddo-registeration/ddo-registeration.component.ts":
+/*!******************************************************************!*\
+  !*** ./src/app/ddo-registeration/ddo-registeration.component.ts ***!
+  \******************************************************************/
+/*! exports provided: DdoRegisterationComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DdoRegisterationComponent", function() { return DdoRegisterationComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var DdoRegisterationComponent = /** @class */ (function () {
+    function DdoRegisterationComponent() {
+    }
+    DdoRegisterationComponent.prototype.ngOnInit = function () {
+        $(document).ready(function () {
+            var department = [];
+            var ddo_code = [];
+            var district = [];
+            $.getJSON('http://sikkimfred.local.api/api/department', function (data) {
+                department = data;
+                fillDropDown('categoryid', data, 'Choose Department', 0);
+            });
+            $.getJSON('http://sikkimfred.local.api/api/ddo', function (data) {
+                console.log('ddo_code', data);
+                ddo_code = data;
+                fillDropDown1('ddo_code', [], 'Choose DDO Code', 0);
+            });
+            $('#ddo_code').change(function () {
+                var code = $('#ddo_code').val();
+                $.getJSON("http://sikkimfred.local.api/api/ddo/details?ddocode=" + code, function (data) {
+                    console.log(data);
+                    document.getElementById("ddo_name").value = data.name;
+                    document.getElementById("designationid").value = data.designationName;
+                    document.getElementById("districtid").value = data.districtName;
+                });
+            });
+            $('#categoryid').change(function () {
+                var filteredData = ddo_code.filter(function (item) { return item.departmentId == $('#categoryid').val(); });
+                console.log("filter", filteredData);
+                fillDropDown1('ddo_code', filteredData, 'Choose DDO Code', 0);
+            });
+            function fillDropDown(id, data, label, selectedid) {
+                if (selectedid === void 0) { selectedid = 0; }
+                $("#" + id).empty();
+                $("#" + id).append($('<option>').val("null").text(label));
+                $.each(data, function (i, item) {
+                    if (item.id == selectedid) {
+                        $("#" + id).append($('<option selected>').val(item.id).text(item.name));
+                    }
+                    else {
+                        $("#" + id).append($('<option>').val(item.id).text(item.name));
+                    }
+                });
+            }
+            function fillDropDown1(id, data, label, selectedid) {
+                if (selectedid === void 0) { selectedid = 0; }
+                $("#" + id).empty();
+                $("#" + id).append($('<option>').val("null").text(label));
+                $.each(data, function (i, item) {
+                    if (item.id == selectedid) {
+                        $("#" + id).append($('<option selected>').val(item.code).text(item.code));
+                    }
+                    else {
+                        $("#" + id).append($('<option>').val(item.code).text(item.code));
+                    }
+                });
+            }
+            $('#submit').click(function () {
+                if ($('#categoryid').val() == null || $('#categoryid').val() == "null" || $('#categoryid').val() == [] || $('#categoryid').val() == "")
+                    alert("Select Department Name...");
+                else if ($('#ddo_code').val() == null || $('#ddo_code').val() == "null" || $('#ddo_code').val() == [] || $('#ddo_code').val() == "")
+                    alert("Select DDO Code...");
+                else if ($('#ddo_name').val() == null || $('#ddo_name').val() == "null" || $('#ddo_name').val() == [] || $('#ddo_name').val() == "")
+                    alert("Select DDO Name...");
+                else if ($('#officeAddress1').val() == null || $('#officeAddress1').val() == "null" || $('#officeAddress1').val() == [] || $('#officeAddress1').val() == "")
+                    alert("Enter Office Address...");
+                else if ($('#officeAddress2').val() == null || $('#officeAddress2').val() == "null" || $('#officeAddress2').val() == [] || $('#officeAddress2').val() == "")
+                    alert("Enter Office Address...");
+                // else if ($('#tinNumber').val() == null || $('#tinNumber').val() == "null" || $('#tinNumber').val() == [] || $('#tinNumber').val() == "") alert("Enter Tin Number...")
+                // else if ($('#tanNumber').val() == null || $('#tanNumber').val() == "null" || $('#tanNumber').val() == [] || $('#tanNumber').val() == "") alert("Enter Tan Number...")
+                else if ($('#emailId').val() == null || $('#emailId').val() == "null" || $('#emailId').val() == [] || $('#emailId').val() == "")
+                    alert("Enter Email ID...");
+                else if ($('#contactNumber').val() == null || $('#contactNumber').val() == "null" || $('#contactNumber').val() == [] || $('#contactNumber').val() == "")
+                    alert("Enter Contact Number...");
+                else if (!$('#contactNumber').val().match('[0-9]{10}')) {
+                    alert("Please put 10 digit mobile number");
+                }
+                else {
+                    var url = 'http://sikkimfred.local.api/api/DDORegistration';
+                    var insertobj = {
+                        ddoCode: $('#ddo_code').val(),
+                        departmentId: parseInt($('#categoryid').val()),
+                        designationId: 5,
+                        districtId: 1,
+                        officeAddress1: $('#officeAddress1').val(),
+                        officeAddress2: $('#officeAddress2').val(),
+                        tinNumber: $('#tin').val(),
+                        tanNumber: $('#tan').val(),
+                        emailId: $('#emailId').val(),
+                        contactNumber: $('#contactNumber').val()
+                    };
+                    console.log("InsertObj", insertobj);
+                    fetch(url, {
+                        method: 'POST',
+                        body: JSON.stringify(insertobj),
+                        headers: new Headers({
+                            'Content-Type': 'application/json'
+                        })
+                    }).then(function (res) { return res.json(); })
+                        .catch(function (error) { return console.error("Error", error); })
+                        .then(function (result) {
+                        console.log("result", result);
+                        if (result.errors) {
+                            alert("Enter Correct Emailid format");
+                        }
+                        else if (result.error) {
+                            alert("Emailid already exists");
+                        }
+                        else {
+                            alert("Succesfully Inserted");
+                            done();
+                        }
+                    });
+                }
+            });
+            function done() {
+                window.location.href = "/home";
+            }
+        });
+    };
+    DdoRegisterationComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-ddo-registeration',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./ddo-registeration.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ddo-registeration/ddo-registeration.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./ddo-registeration.component.css */ "./src/app/ddo-registeration/ddo-registeration.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], DdoRegisterationComponent);
+    return DdoRegisterationComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/ddo-report/ddo-report.component.css":
+/*!*****************************************************!*\
+  !*** ./src/app/ddo-report/ddo-report.component.css ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Rkby1yZXBvcnQvZGRvLXJlcG9ydC5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/ddo-report/ddo-report.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/ddo-report/ddo-report.component.ts ***!
+  \****************************************************/
+/*! exports provided: DdoReportComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DdoReportComponent", function() { return DdoReportComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var DdoReportComponent = /** @class */ (function () {
+    function DdoReportComponent() {
+    }
+    DdoReportComponent.prototype.ngOnInit = function () {
+        $.getJSON('http://sikkimfred.local.api/api/DDORegistration/pending', function (data) {
+            console.log(data);
+            makeTable(data);
+        });
+        $(".ctgli:has(.ctgulChild)").click(function (e) {
+            e.preventDefault();
+            //li_HAVE_Child-hasShowed-hasSlideD
+            if ($(this).hasClass('showed')) {
+                //-x-hasShowed
+                $('.ctgli').removeClass('showed');
+                //-x-hasSlideD
+                $(this).children('.ctgulChild').slideUp();
+            }
+            else {
+                $('.ctgulChild').slideUp();
+                $('.ctgli').removeClass('showed');
+                $(this).addClass('showed');
+                $(this).children('.ctgulChild').slideToggle();
+            }
+        });
+        $('.ctgli').click(function () {
+            $(this).toggleClass('wtok');
+        });
+        function makeTable(data) {
+            var table = "  \n\n\n<style type=\"text/css\">\n  td{\nfont-size: 13px;\n  }\n  th{\n    font-size: 13px;\n  }\n</style>\n\n        <table class=\"table table-striped\">\n\n      <thead class=\"text-primary\">\n          <tr>\n          <th>SL No.</th> \n         <th>EmailID</th>\n          <th>Department</th>\n          <th>Designation</th> \n          <th>District</th>\n          <th>Office Address(1)</th>\n          <th>Office Address(2)</th>\n          <th>Tin No</th> \n          <th>Tan No</th>\n          <th>Contact Number</th>\n           <th>Accept</th>\n          <th>Delete</th>\n            </tr>\n        </thead>\n       \n        <tbody>";
+            $.each(data, function (i, item) {
+                table += "  <tr>\n        <td>" + (i + 1) + "</td>\n            <td>" + item.emailId + "</td>\n        <td>" + item.departmentName + "</td>\n        <td>" + item.desginationName + "</td>\n        <td>" + item.districtName + "</td>\n        <td>" + item.officeAddress1 + "</td>\n        <td>" + item.officeAddress2 + "</td>\n        <td>" + item.tinNumber + "</td>\n        <td>" + item.tanNumber + "</td>\n        <td>" + item.contactNumber + "</td>\n        \n        <td><button class=\"btn btn-success accept\" regid=\"" + item.id + "\">Accept</button></td>\n       <td><button class=\"btn btn-danger delete\" id=\"" + item.id + "\">Delete</button></td>\n      </tr>";
+            });
+            table += "</tbody>\n      </table>";
+            $('#result').html(table);
+        }
+        $('#result').on('click', '.accept', function () {
+            var url = 'http://sikkimfred.local.api/api/DDORegistration/approve';
+            var regId = $(this).attr('regid');
+            var data = {
+                regId: parseInt(regId),
+                approvedBy: 1
+            };
+            console.log('sending data', data);
+            fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers: new Headers({
+                    'Content-Type': 'application/json'
+                })
+            }).then(function (res) { return res.json(); })
+                .catch(function (error) { return console.error("Error", error); })
+                .then(function (result) {
+                // console.log("response",result)
+                refresh1();
+            });
+        });
+        $('#result').on('click', '.delete', function () {
+            var id = $(this).attr('id');
+            console.log("id hai", id);
+            fetch('http://sikkimfred.local.api/api/DDORegistration/' + id, {
+                method: 'DELETE',
+            }).then(function (res) { return res.text(); }) // or res.json()
+                .then(function (res) { return refresh(); });
+        });
+        function refresh() {
+            $.getJSON('http://sikkimfred.local.api/api/DDORegistration/pending', function (data) {
+                makeTable(data);
+                alert("Request Deleted Successfully");
+            });
+        }
+        function refresh1() {
+            $.getJSON('http://sikkimfred.local.api/api/DDORegistration/pending', function (data) {
+                makeTable(data);
+                alert("Request Accepted Successfully");
+            });
+        }
+    };
+    DdoReportComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-ddo-report',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./ddo-report.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ddo-report/ddo-report.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./ddo-report.component.css */ "./src/app/ddo-report/ddo-report.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], DdoReportComponent);
+    return DdoReportComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/ddo-users/ddo-users.component.css":
+/*!***************************************************!*\
+  !*** ./src/app/ddo-users/ddo-users.component.css ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Rkby11c2Vycy9kZG8tdXNlcnMuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/ddo-users/ddo-users.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/ddo-users/ddo-users.component.ts ***!
+  \**************************************************/
+/*! exports provided: DdoUsersComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DdoUsersComponent", function() { return DdoUsersComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var DdoUsersComponent = /** @class */ (function () {
+    function DdoUsersComponent() {
+    }
+    DdoUsersComponent.prototype.ngOnInit = function () {
+        $.getJSON('http://sikkimfred.local.api/api/user/ddo', function (data) {
+            makeTable(data);
+        });
+        $(".ctgli:has(.ctgulChild)").click(function (e) {
+            e.preventDefault();
+            //li_HAVE_Child-hasShowed-hasSlideD
+            if ($(this).hasClass('showed')) {
+                //-x-hasShowed
+                $('.ctgli').removeClass('showed');
+                //-x-hasSlideD
+                $(this).children('.ctgulChild').slideUp();
+            }
+            else {
+                $('.ctgulChild').slideUp();
+                $('.ctgli').removeClass('showed');
+                $(this).addClass('showed');
+                $(this).children('.ctgulChild').slideToggle();
+            }
+        });
+        $('.ctgli').click(function () {
+            $(this).toggleClass('wtok');
+        });
+        function makeTable(data) {
+            var table = " \n<style type=\"text/css\">\n  td{\nfont-size: 13px;\n  }\n  th{\n    font-size: 13px;\n  }\n</style>\n\n         <table class=\"table table-striped\">\n\n      <thead class=\"text-primary\">\n\n          <tr>\n              <th>SL No.</th> \n            <th>Name</th>\n            <th>DDO Code</th>\n            <th>User ID</th>\n            </tr>\n        </thead>\n       \n        <tbody>";
+            $.each(data, function (i, item) {
+                table += "  <tr>\n            <td>" + (i + 1) + "</td>\n            <td>" + item.emailId + "</td>\n            <td>" + item.ddoCode + "</td>\n            <td>" + item.id + "</td>\n          \n            <td><button class=\"btn btn-primary send\" email=\"" + item.emailId + "\">Send Details</button></td>\n            <td><button class=\"btn btn-danger delete\" id=\"" + item.id + "\">Delete User</button></td>\n          </tr>";
+            });
+            table += "</tbody>\n      </table>";
+            $('#result').html(table);
+        }
+        $('#result').on('click', '.send', function () {
+            var url = 'http://local.api.com/api/user/recoverpassword';
+            var email = $(this).attr('email');
+            var data = {
+                emailId: email,
+            };
+            console.log('sending data', data);
+            fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers: new Headers({
+                    'Content-Type': 'application/json'
+                })
+            }).then(function (res) { return res.json(); })
+                .catch(function (error) { return console.error("Error", error); })
+                .then(function (result) {
+                alert('User Details Sent to Email Id');
+            });
+        });
+        $('#result').on('click', '.delete', function () {
+            var id = $(this).attr('id');
+            console.log("id hai", id);
+            fetch('http://sikkimfred.local.api/api/user/' + id, {
+                method: 'DELETE',
+            }).then(function (res) { return res.text(); }) // or res.json()
+                .then(function (res) { return refresh(); });
+        });
+        function refresh() {
+            $.getJSON('http://sikkimfred.local.api/api/user/ddo', function (data) {
+                makeTable(data);
+                alert("User Deleted Successfully");
+            });
+        }
+    };
+    DdoUsersComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-ddo-users',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./ddo-users.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/ddo-users/ddo-users.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./ddo-users.component.css */ "./src/app/ddo-users/ddo-users.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], DdoUsersComponent);
+    return DdoUsersComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/empolyee-vacancies/empolyee-vacancies.component.css":
 /*!*********************************************************************!*\
   !*** ./src/app/empolyee-vacancies/empolyee-vacancies.component.css ***!
@@ -1136,6 +2841,91 @@ var EmpolyeeVacanciesComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], EmpolyeeVacanciesComponent);
     return EmpolyeeVacanciesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/feedback-report/feedback-report.component.css":
+/*!***************************************************************!*\
+  !*** ./src/app/feedback-report/feedback-report.component.css ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2ZlZWRiYWNrLXJlcG9ydC9mZWVkYmFjay1yZXBvcnQuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/feedback-report/feedback-report.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/feedback-report/feedback-report.component.ts ***!
+  \**************************************************************/
+/*! exports provided: FeedbackReportComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FeedbackReportComponent", function() { return FeedbackReportComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var FeedbackReportComponent = /** @class */ (function () {
+    function FeedbackReportComponent() {
+    }
+    FeedbackReportComponent.prototype.ngOnInit = function () {
+        $(document).ready(function () {
+            $.getJSON('http://sikkimfred.local.api/api/feedback', function (data) {
+                console.log("data", data);
+                makeTable(data);
+            });
+            function makeTable(data) {
+                var table = "\n\n<style type=\"text/css\">\n  td{\nfont-size: 13px;\n  }\n  th{\n    font-size: 13px;\n  }\n</style>\n\n         <table class=\"table table-striped\">\n\n      <thead class=\"text-primary\">\n          <tr>\n          <th>SL No.</th> \n          <th>Name</th>\n          <th>Email</th>\n          <th>Address</th>\n          <th>Mobile Number</th>\n          <th>Feedback</th> \n          <th>Date</th>\n         \n            </tr>\n        </thead>\n       \n        <tbody>";
+                $.each(data, function (i, item) {
+                    table += "  <tr>\n        <td>" + (i + 1) + "</td>\n        <td>" + item.name + "</td>\n        <td>" + item.emailID + "</td>\n        <td>" + item.address + "</td>\n        <td>" + item.contactNumber + "</td>\n        <td>" + item.comments + "</td>\n        <td>" + item.createdDate + "</td>\n        \n       \n       <td><button class=\"btn btn-danger delete\" id=\"" + item.id + "\">Delete</button></td>\n      </tr>";
+                });
+                table += "</tbody>\n      </table>";
+                $('#result').html(table);
+            }
+            $('#result').on('click', '.delete', function () {
+                var id = $(this).attr('id');
+                console.log("id hai", id);
+                fetch('http://sikkimfred.local.api/api/feedback/' + id, {
+                    method: 'DELETE',
+                }).then(function (res) { return res.text(); }) // or res.json()
+                    .then(function (res) { return refresh(); });
+            });
+            function refresh() {
+                $.getJSON('http://sikkimfred.local.api/api/feedback', function (data) {
+                    makeTable(data);
+                    alert("Feedback Deleted Successfully");
+                });
+            }
+        });
+    };
+    FeedbackReportComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-feedback-report',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./feedback-report.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/feedback-report/feedback-report.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./feedback-report.component.css */ "./src/app/feedback-report/feedback-report.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], FeedbackReportComponent);
+    return FeedbackReportComponent;
 }());
 
 
@@ -1307,6 +3097,63 @@ var GazetteComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], GazetteComponent);
     return GazetteComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/gpf-login/gpf-login.component.css":
+/*!***************************************************!*\
+  !*** ./src/app/gpf-login/gpf-login.component.css ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2dwZi1sb2dpbi9ncGYtbG9naW4uY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/gpf-login/gpf-login.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/gpf-login/gpf-login.component.ts ***!
+  \**************************************************/
+/*! exports provided: GpfLoginComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GpfLoginComponent", function() { return GpfLoginComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var GpfLoginComponent = /** @class */ (function () {
+    function GpfLoginComponent() {
+    }
+    GpfLoginComponent.prototype.ngOnInit = function () {
+    };
+    GpfLoginComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-gpf-login',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./gpf-login.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/gpf-login/gpf-login.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./gpf-login.component.css */ "./src/app/gpf-login/gpf-login.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], GpfLoginComponent);
+    return GpfLoginComponent;
 }());
 
 
@@ -1715,6 +3562,63 @@ var OfficeMemoComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/payslip-details/payslip-details.component.css":
+/*!***************************************************************!*\
+  !*** ./src/app/payslip-details/payslip-details.component.css ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BheXNsaXAtZGV0YWlscy9wYXlzbGlwLWRldGFpbHMuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/payslip-details/payslip-details.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/payslip-details/payslip-details.component.ts ***!
+  \**************************************************************/
+/*! exports provided: PayslipDetailsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PayslipDetailsComponent", function() { return PayslipDetailsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var PayslipDetailsComponent = /** @class */ (function () {
+    function PayslipDetailsComponent() {
+    }
+    PayslipDetailsComponent.prototype.ngOnInit = function () {
+    };
+    PayslipDetailsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-payslip-details',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./payslip-details.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/payslip-details/payslip-details.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./payslip-details.component.css */ "./src/app/payslip-details/payslip-details.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], PayslipDetailsComponent);
+    return PayslipDetailsComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/press-release/press-release.component.css":
 /*!***********************************************************!*\
   !*** ./src/app/press-release/press-release.component.css ***!
@@ -1766,6 +3670,120 @@ var PressReleaseComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], PressReleaseComponent);
     return PressReleaseComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/profile-and-payslip/profile-and-payslip.component.css":
+/*!***********************************************************************!*\
+  !*** ./src/app/profile-and-payslip/profile-and-payslip.component.css ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Byb2ZpbGUtYW5kLXBheXNsaXAvcHJvZmlsZS1hbmQtcGF5c2xpcC5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/profile-and-payslip/profile-and-payslip.component.ts":
+/*!**********************************************************************!*\
+  !*** ./src/app/profile-and-payslip/profile-and-payslip.component.ts ***!
+  \**********************************************************************/
+/*! exports provided: ProfileAndPayslipComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProfileAndPayslipComponent", function() { return ProfileAndPayslipComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var ProfileAndPayslipComponent = /** @class */ (function () {
+    function ProfileAndPayslipComponent() {
+    }
+    ProfileAndPayslipComponent.prototype.ngOnInit = function () {
+    };
+    ProfileAndPayslipComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-profile-and-payslip',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./profile-and-payslip.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/profile-and-payslip/profile-and-payslip.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./profile-and-payslip.component.css */ "./src/app/profile-and-payslip/profile-and-payslip.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ProfileAndPayslipComponent);
+    return ProfileAndPayslipComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/profile-details/profile-details.component.css":
+/*!***************************************************************!*\
+  !*** ./src/app/profile-details/profile-details.component.css ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Byb2ZpbGUtZGV0YWlscy9wcm9maWxlLWRldGFpbHMuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/profile-details/profile-details.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/profile-details/profile-details.component.ts ***!
+  \**************************************************************/
+/*! exports provided: ProfileDetailsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProfileDetailsComponent", function() { return ProfileDetailsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var ProfileDetailsComponent = /** @class */ (function () {
+    function ProfileDetailsComponent() {
+    }
+    ProfileDetailsComponent.prototype.ngOnInit = function () {
+    };
+    ProfileDetailsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-profile-details',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./profile-details.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/profile-details/profile-details.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./profile-details.component.css */ "./src/app/profile-details/profile-details.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ProfileDetailsComponent);
+    return ProfileDetailsComponent;
 }());
 
 
@@ -1828,6 +3846,481 @@ var ProfileComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/rco-registeration/rco-registeration.component.css":
+/*!*******************************************************************!*\
+  !*** ./src/app/rco-registeration/rco-registeration.component.css ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Jjby1yZWdpc3RlcmF0aW9uL3Jjby1yZWdpc3RlcmF0aW9uLmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/rco-registeration/rco-registeration.component.ts":
+/*!******************************************************************!*\
+  !*** ./src/app/rco-registeration/rco-registeration.component.ts ***!
+  \******************************************************************/
+/*! exports provided: RcoRegisterationComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RcoRegisterationComponent", function() { return RcoRegisterationComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var RcoRegisterationComponent = /** @class */ (function () {
+    function RcoRegisterationComponent() {
+    }
+    RcoRegisterationComponent.prototype.ngOnInit = function () {
+        $(document).ready(function () {
+            var department = [];
+            $.getJSON('http://sikkimfred.local.api/api/department', function (data) {
+                department = data;
+                console.log(data);
+                fillDropDown('department', data, 'Choose Department', 0);
+            });
+            $('#submit').click(function () {
+                if ($('#RegistrationType').val() == null || $('#RegistrationType').val() == "null" || $('#RegistrationType').val() == [] || $('#RegistrationType').val() == "")
+                    alert("Select Registeration Type...");
+                else if ($('#adminName').val() == null || $('#adminName').val() == "null" || $('#adminName').val() == [] || $('#adminName').val() == "")
+                    alert("Enter Name...");
+                else if ($('#department').val() == null || $('#department').val() == "null" || $('#department').val() == [] || $('#department').val() == "")
+                    alert("Select Department...");
+                else if ($('#designation').val() == null || $('#designation').val() == "null" || $('#designation').val() == [] || $('#designation').val() == "")
+                    alert("Enter Designation...");
+                else if ($('#district').val() == null || $('#district').val() == "null" || $('#district').val() == [] || $('#district').val() == "")
+                    alert("Enter District...");
+                else if ($('#officeAddress1').val() == null || $('#officeAddress1').val() == "null" || $('#officeAddress1').val() == [] || $('#officeAddress1').val() == "")
+                    alert("Enter Office Address...");
+                else if ($('#officeAddress2').val() == null || $('#officeAddress2').val() == "null" || $('#officeAddress2').val() == [] || $('#officeAddress2').val() == "")
+                    alert("Enter Office Address...");
+                // else if ($('#tinNumber').val() == null || $('#tinNumber').val() == "null" || $('#tinNumber').val() == [] || $('#tinNumber').val() == "") alert("Enter Tin Number...")
+                // else if ($('#tanNumber').val() == null || $('#tanNumber').val() == "null" || $('#tanNumber').val() == [] || $('#tanNumber').val() == "") alert("Enter Tan Number...")
+                else if ($('#emailId').val() == null || $('#emailId').val() == "null" || $('#emailId').val() == [] || $('#emailId').val() == "")
+                    alert("Enter Email ID...");
+                else if ($('#contactNumber').val() == null || $('#contactNumber').val() == "null" || $('#contactNumber').val() == [] || $('#contactNumber').val() == "")
+                    alert("Enter Contact Number...");
+                else if (!$('#contactNumber').val().match('[0-9]{10}')) {
+                    alert("Please put 10 digit mobile number");
+                }
+                else {
+                    var url = 'http://sikkimfred.local.api/api/RCORegistration';
+                    var insertobj = {
+                        RegistrationType: $('#RegistrationType').val(),
+                        adminName: $('#adminName').val(),
+                        departmentId: parseInt($('#department').val()),
+                        designation: $('#designation').val(),
+                        district: $('#district').val(),
+                        officeAddress1: $('#officeAddress1').val(),
+                        officeAddress2: $('#officeAddress2').val(),
+                        tinNumber: $('#tinNumber').val(),
+                        tanNumber: $('#tanNumber').val(),
+                        emailId: $('#emailId').val(),
+                        contactNumber: $('#contactNumber').val()
+                    };
+                    console.log("InsertObj", insertobj);
+                    fetch(url, {
+                        method: 'POST',
+                        body: JSON.stringify(insertobj),
+                        headers: new Headers({
+                            'Content-Type': 'application/json'
+                        })
+                    }).then(function (res) { return res.json(); })
+                        .catch(function (error) { return console.error("Error", error); })
+                        .then(function (result) {
+                        console.log("result", result);
+                        if (result.errors) {
+                            alert("Enter Correct Emailid format");
+                        }
+                        else if (result.error) {
+                            alert("Emailid already exists");
+                        }
+                        else {
+                            alert("Succesfully Inserted");
+                            done();
+                        }
+                    });
+                }
+            });
+            function fillDropDown(id, data, label, selectedid) {
+                if (selectedid === void 0) { selectedid = 0; }
+                $("#" + id).empty();
+                $("#" + id).append($('<option>').val("null").text(label));
+                $.each(data, function (i, item) {
+                    if (item.id == selectedid) {
+                        $("#" + id).append($('<option selected>').val(item.id).text(item.name));
+                    }
+                    else {
+                        $("#" + id).append($('<option>').val(item.id).text(item.name));
+                    }
+                });
+            }
+            function done() {
+                window.location.href = "/home";
+            }
+        });
+    };
+    RcoRegisterationComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-rco-registeration',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./rco-registeration.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/rco-registeration/rco-registeration.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./rco-registeration.component.css */ "./src/app/rco-registeration/rco-registeration.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], RcoRegisterationComponent);
+    return RcoRegisterationComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/rco-report/rco-report.component.css":
+/*!*****************************************************!*\
+  !*** ./src/app/rco-report/rco-report.component.css ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Jjby1yZXBvcnQvcmNvLXJlcG9ydC5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/rco-report/rco-report.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/rco-report/rco-report.component.ts ***!
+  \****************************************************/
+/*! exports provided: RcoReportComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RcoReportComponent", function() { return RcoReportComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var RcoReportComponent = /** @class */ (function () {
+    function RcoReportComponent() {
+    }
+    RcoReportComponent.prototype.ngOnInit = function () {
+        $.getJSON('http://sikkimfred.local.api/api/RCORegistration/pending', function (data) {
+            var users = data[0];
+            // for(var key in users){
+            //   console.log(key + ':' + users[key])
+            // }
+            makeTable(data);
+        });
+        $(".ctgli:has(.ctgulChild)").click(function (e) {
+            e.preventDefault();
+            //li_HAVE_Child-hasShowed-hasSlideD
+            if ($(this).hasClass('showed')) {
+                //-x-hasShowed
+                $('.ctgli').removeClass('showed');
+                //-x-hasSlideD
+                $(this).children('.ctgulChild').slideUp();
+            }
+            else {
+                $('.ctgulChild').slideUp();
+                $('.ctgli').removeClass('showed');
+                $(this).addClass('showed');
+                $(this).children('.ctgulChild').slideToggle();
+            }
+        });
+        $('.ctgli').click(function () {
+            $(this).toggleClass('wtok');
+        });
+        function makeTable(users) {
+            var table = "\n\n<style type=\"text/css\">\n  td{\nfont-size: 13px;\n  }\n  th{\n    font-size: 13px;\n  }\n</style>\n\n         <table class=\"table table-striped\">\n\n      <thead class=\"text-primary\">\n          <tr>\n          <th>SL No.</th> \n          <th>Name</th>\n          <th>REG.Type</th>\n          <th>Department</th>\n          <th>Designation</th> \n          <th>District</th>\n          <th>Office Address(1)</th>\n          <th>Office Address(2)</th>\n          <th>Tin No</th> \n          <th>Tan No</th>\n          <th>Email</th>\n           <th>Accept</th>\n          <th>Delete</th>\n            </tr>\n        </thead>\n       \n        <tbody>";
+            $.each(users, function (i, item) {
+                table += "  <tr>\n        <td>" + (i + 1) + "</td>\n        <td>" + item.emailId + "</td>\n        <td>" + item.registrationType + "</td>\n        <td>" + item.department + "</td>\n        <td>" + item.designation + "</td>\n        <td>" + item.district + "</td>\n        <td>" + item.officeAddress1 + "</td>\n        <td>" + item.officeAddress2 + "</td>\n        <td>" + item.tinNumber + "</td>\n        <td>" + item.tanNumber + "</td>\n        <td>" + item.emailId + "</td>\n        \n        <td><button class=\"btn btn-success accept\" regid=\"" + item.id + "\">Accept</button></td>\n       <td><button class=\"btn btn-danger delete\" id=\"" + item.id + "\">Delete</button></td>\n      </tr>";
+            });
+            table += "</tbody>\n      </table>";
+            $('#result').html(table);
+        }
+        $('#result').on('click', '.accept', function () {
+            var url = 'http://sikkimfred.local.api/api/RCORegistration/approve';
+            var regId = $(this).attr('regid');
+            var data = {
+                regId: parseInt(regId),
+                approvedBy: 1
+            };
+            console.log('sending data', data);
+            fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers: new Headers({
+                    'Content-Type': 'application/json'
+                })
+            }).then(function (res) { return res.json(); })
+                .catch(function (error) { return console.error("Error", error); })
+                .then(function (result) {
+                refresh1();
+            });
+        });
+        $('#result').on('click', '.delete', function () {
+            var id = $(this).attr('id');
+            console.log("id hai", id);
+            fetch('http://sikkimfred.local.api/api/RCORegistration/' + id, {
+                method: 'DELETE',
+            }).then(function (res) { return res.text(); }) // or res.json()
+                .then(function (res) { return refresh(); });
+        });
+        function refresh() {
+            $.getJSON('http://sikkimfred.local.api/api/RCORegistration/pending', function (data) {
+                makeTable(data);
+                alert("Request Deleted Successfully");
+            });
+        }
+        function refresh1() {
+            $.getJSON('http://sikkimfred.local.api/api/RCORegistration/pending', function (data) {
+                makeTable(data);
+                alert("Request Accepted Successfully");
+            });
+        }
+    };
+    RcoReportComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-rco-report',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./rco-report.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/rco-report/rco-report.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./rco-report.component.css */ "./src/app/rco-report/rco-report.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], RcoReportComponent);
+    return RcoReportComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/rco-users/rco-users.component.css":
+/*!***************************************************!*\
+  !*** ./src/app/rco-users/rco-users.component.css ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Jjby11c2Vycy9yY28tdXNlcnMuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/rco-users/rco-users.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/rco-users/rco-users.component.ts ***!
+  \**************************************************/
+/*! exports provided: RcoUsersComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RcoUsersComponent", function() { return RcoUsersComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var RcoUsersComponent = /** @class */ (function () {
+    function RcoUsersComponent() {
+    }
+    RcoUsersComponent.prototype.ngOnInit = function () {
+        $.getJSON('http://sikkimfred.local.api/api/user/rco', function (data) {
+            console.log(data);
+            makeTable(data);
+        });
+        $(".ctgli:has(.ctgulChild)").click(function (e) {
+            e.preventDefault();
+            //li_HAVE_Child-hasShowed-hasSlideD
+            if ($(this).hasClass('showed')) {
+                //-x-hasShowed
+                $('.ctgli').removeClass('showed');
+                //-x-hasSlideD
+                $(this).children('.ctgulChild').slideUp();
+            }
+            else {
+                $('.ctgulChild').slideUp();
+                $('.ctgli').removeClass('showed');
+                $(this).addClass('showed');
+                $(this).children('.ctgulChild').slideToggle();
+            }
+        });
+        $('.ctgli').click(function () {
+            $(this).toggleClass('wtok');
+        });
+        function makeTable(data) {
+            var table = "\n        <style type=\"text/css\">\n  td{\nfont-size: 13px;\n  }\n  th{\n    font-size: 13px;\n  }\n</style>\n\n         <table class=\"table table-striped\">\n\n      <thead class=\"text-primary\">\n\n          <tr>\n              <th>SL No.</th> \n            <th>Name</th>\n            <th>Reg. Type</th>\n            <th>User ID</th>\n            </tr>\n        </thead>\n       \n        <tbody>";
+            $.each(data, function (i, item) {
+                table += "  <tr>\n            <td>" + (i + 1) + "</td>\n            <td>" + item.emailId + "</td>\n            <td>" + item.registrationType + "</td>\n            <td>" + item.id + "</td>\n          \n           <td><button class=\"btn btn-primary send\" email=\"" + item.emailId + "\">Send Details</button></td>\n           <td><button class=\"btn btn-danger delete\" id=\"" + item.id + "\">Delete User</button></td>\n          </tr>";
+            });
+            table += "</tbody>\n      </table>";
+            $('#result').html(table);
+        }
+        $('#result').on('click', '.send', function () {
+            var url = 'http://local.api.com/api/user/recoverpassword';
+            var email = $(this).attr('email');
+            var data = {
+                emailId: email,
+            };
+            console.log('sending data', data);
+            fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers: new Headers({
+                    'Content-Type': 'application/json'
+                })
+            }).then(function (res) { return res.json(); })
+                .catch(function (error) { return console.error("Error", error); })
+                .then(function (result) {
+                alert('User Details Sent to Email Id');
+            });
+        });
+        $('#result').on('click', '.delete', function () {
+            var id = $(this).attr('id');
+            console.log("id yo ho", id);
+            fetch('http://sikkimfred.local.api/api/user/' + id, {
+                method: 'DELETE',
+            }).then(function (res) { return res.text(); }) // or res.json()
+                .then(function (res) { return refresh(); });
+        });
+        function refresh() {
+            $.getJSON('http://sikkimfred.local.api/api/user/rco', function (data) {
+                makeTable(data);
+                alert("User Deleted Successfully");
+            });
+        }
+    };
+    RcoUsersComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-rco-users',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./rco-users.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/rco-users/rco-users.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./rco-users.component.css */ "./src/app/rco-users/rco-users.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], RcoUsersComponent);
+    return RcoUsersComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/reports-form/reports-form.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/reports-form/reports-form.component.css ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3JlcG9ydHMtZm9ybS9yZXBvcnRzLWZvcm0uY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/reports-form/reports-form.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/reports-form/reports-form.component.ts ***!
+  \********************************************************/
+/*! exports provided: ReportsFormComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReportsFormComponent", function() { return ReportsFormComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var ReportsFormComponent = /** @class */ (function () {
+    function ReportsFormComponent() {
+    }
+    ReportsFormComponent.prototype.ngOnInit = function () {
+        $(document).ready(function () {
+            console.log('hii');
+            $(".ctgli:has(.ctgulChild)").click(function (e) {
+                e.preventDefault();
+                //li_HAVE_Child-hasShowed-hasSlideD
+                if ($(this).hasClass('showed')) {
+                    //-x-hasShowed
+                    $('.ctgli').removeClass('showed');
+                    //-x-hasSlideD
+                    $(this).children('.ctgulChild').slideUp();
+                }
+                else {
+                    $('.ctgulChild').slideUp();
+                    $('.ctgli').removeClass('showed');
+                    $(this).addClass('showed');
+                    $(this).children('.ctgulChild').slideToggle();
+                }
+            });
+            $('.ctgli').click(function () {
+                $(this).toggleClass('wtok');
+            });
+        });
+    };
+    ReportsFormComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-reports-form',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./reports-form.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/reports-form/reports-form.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./reports-form.component.css */ "./src/app/reports-form/reports-form.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ReportsFormComponent);
+    return ReportsFormComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/rules/rules.component.css":
 /*!*******************************************!*\
   !*** ./src/app/rules/rules.component.css ***!
@@ -1852,6 +4345,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RulesComponent", function() { return RulesComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1865,20 +4359,807 @@ var __importDefault = (undefined && undefined.__importDefault) || function (mod)
   return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 
+
 var RulesComponent = /** @class */ (function () {
-    function RulesComponent() {
+    function RulesComponent(router) {
+        this.router = router;
     }
     RulesComponent.prototype.ngOnInit = function () {
+        $(document).ready(function () {
+            console.log('hii');
+            $(".ctgli:has(.ctgulChild)").click(function (e) {
+                e.preventDefault();
+                //li_HAVE_Child-hasShowed-hasSlideD
+                if ($(this).hasClass('showed')) {
+                    //-x-hasShowed
+                    $('.ctgli').removeClass('showed');
+                    //-x-hasSlideD
+                    $(this).children('.ctgulChild').slideUp();
+                }
+                else {
+                    $('.ctgulChild').slideUp();
+                    $('.ctgli').removeClass('showed');
+                    $(this).addClass('showed');
+                    $(this).children('.ctgulChild').slideToggle();
+                }
+            });
+            $('.ctgli').click(function () {
+                $(this).toggleClass('wtok');
+            });
+        });
     };
+    RulesComponent.ctorParameters = function () { return [
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"] }
+    ]; };
     RulesComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-rules',
             template: __importDefault(__webpack_require__(/*! raw-loader!./rules.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/rules/rules.component.html")).default,
             styles: [__importDefault(__webpack_require__(/*! ./rules.component.css */ "./src/app/rules/rules.component.css")).default]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
     ], RulesComponent);
     return RulesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/sbs-admin-login/sbs-admin-login.component.css":
+/*!***************************************************************!*\
+  !*** ./src/app/sbs-admin-login/sbs-admin-login.component.css ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Nicy1hZG1pbi1sb2dpbi9zYnMtYWRtaW4tbG9naW4uY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/sbs-admin-login/sbs-admin-login.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/sbs-admin-login/sbs-admin-login.component.ts ***!
+  \**************************************************************/
+/*! exports provided: SbsAdminLoginComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SbsAdminLoginComponent", function() { return SbsAdminLoginComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var SbsAdminLoginComponent = /** @class */ (function () {
+    function SbsAdminLoginComponent() {
+    }
+    SbsAdminLoginComponent.prototype.ngOnInit = function () {
+    };
+    SbsAdminLoginComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-sbs-admin-login',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./sbs-admin-login.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-admin-login/sbs-admin-login.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./sbs-admin-login.component.css */ "./src/app/sbs-admin-login/sbs-admin-login.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], SbsAdminLoginComponent);
+    return SbsAdminLoginComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/sbs-payment-and-receipt/sbs-payment-and-receipt.component.css":
+/*!*******************************************************************************!*\
+  !*** ./src/app/sbs-payment-and-receipt/sbs-payment-and-receipt.component.css ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Nicy1wYXltZW50LWFuZC1yZWNlaXB0L3Nicy1wYXltZW50LWFuZC1yZWNlaXB0LmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/sbs-payment-and-receipt/sbs-payment-and-receipt.component.ts":
+/*!******************************************************************************!*\
+  !*** ./src/app/sbs-payment-and-receipt/sbs-payment-and-receipt.component.ts ***!
+  \******************************************************************************/
+/*! exports provided: SbsPaymentAndReceiptComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SbsPaymentAndReceiptComponent", function() { return SbsPaymentAndReceiptComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var SbsPaymentAndReceiptComponent = /** @class */ (function () {
+    function SbsPaymentAndReceiptComponent() {
+    }
+    SbsPaymentAndReceiptComponent.prototype.ngOnInit = function () {
+    };
+    SbsPaymentAndReceiptComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-sbs-payment-and-receipt',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./sbs-payment-and-receipt.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-payment-and-receipt/sbs-payment-and-receipt.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./sbs-payment-and-receipt.component.css */ "./src/app/sbs-payment-and-receipt/sbs-payment-and-receipt.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], SbsPaymentAndReceiptComponent);
+    return SbsPaymentAndReceiptComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/sbs-payment-details/sbs-payment-details.component.css":
+/*!***********************************************************************!*\
+  !*** ./src/app/sbs-payment-details/sbs-payment-details.component.css ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Nicy1wYXltZW50LWRldGFpbHMvc2JzLXBheW1lbnQtZGV0YWlscy5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/sbs-payment-details/sbs-payment-details.component.ts":
+/*!**********************************************************************!*\
+  !*** ./src/app/sbs-payment-details/sbs-payment-details.component.ts ***!
+  \**********************************************************************/
+/*! exports provided: SbsPaymentDetailsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SbsPaymentDetailsComponent", function() { return SbsPaymentDetailsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var chart_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! chart.js */ "./node_modules/chart.js/dist/Chart.js");
+/* harmony import */ var chart_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(chart_js__WEBPACK_IMPORTED_MODULE_1__);
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+var SbsPaymentDetailsComponent = /** @class */ (function () {
+    function SbsPaymentDetailsComponent() {
+    }
+    SbsPaymentDetailsComponent.prototype.ngOnInit = function () {
+        $(document).ready(function () {
+            //Show Monthly Wise
+            $('.show_month').click(function () {
+                if ($('#from_month').val() == null || $('#from_month').val() == "null" || $('#from_month').val() == [] || $('#from_month').val() == "")
+                    alert("Select From Month");
+                else if ($('#to_month').val() == null || $('#to_month').val() == "null" || $('#to_month').val() == [] || $('#to_month').val() == "")
+                    alert("Select To Month");
+                else {
+                    var from_month = $('#from_month').val();
+                    var to_month = $('#to_month').val();
+                    var vals = from_month.split('-');
+                    var years1 = vals[0];
+                    var months1 = vals[1];
+                    var vals1 = to_month.split('-');
+                    var years2 = vals1[0];
+                    var months2 = vals1[1];
+                    console.log("final1", years2);
+                    console.log("final2", months2);
+                    $.ajax({
+                        url: "http://sikkimfred.local.api/api/sbspayment/permonth/" + months1 + "-" + years1 + "/" + months2 + "-" + years2,
+                        method: "GET",
+                        success: function (data) {
+                            console.log(data);
+                            var month = [];
+                            var totalprice = [];
+                            for (var i in data) {
+                                month.push(data[i].month);
+                                totalprice.push(data[i].amount);
+                            }
+                            var chartdata = {
+                                labels: month,
+                                datasets: [{
+                                        label: "Monthly Income",
+                                        backgroundColor: '#36A2EB',
+                                        borderColor: '#FF6384',
+                                        hoverBackgroundColor: 'red',
+                                        hoverBorderColor: 'rgba(200,200,200,0.75)',
+                                        data: totalprice
+                                    }]
+                            };
+                            var ctx = $('#mycanvas');
+                            var barGraph = new chart_js__WEBPACK_IMPORTED_MODULE_1__["Chart"](ctx, {
+                                type: 'bar',
+                                data: chartdata
+                            });
+                        },
+                        error: function (data) {
+                            alert('Error Occured');
+                        }
+                    });
+                    var url = "http://sikkimfred.local.api/api/sbspayment/" + months1 + "-" + years1 + "/" + months2 + "-" + years2;
+                    fetch(url, {
+                        method: 'GET',
+                    }).then(function (res) { return res.json(); })
+                        .catch(function (error) { return console.error("Error", error); })
+                        .then(function (result) {
+                        makeTableDate(result);
+                    });
+                }
+            });
+            // Show Yearly Report
+            $('.show_yearly').click(function () {
+                if ($('#from_date1').val() == null || $('#from_date1').val() == "null" || $('#from_date1').val() == [] || $('#from_date1').val() == "")
+                    alert("Select From Date");
+                else {
+                    var from_date1 = $('#from_date1').val();
+                    var vals = from_date1.split('-');
+                    var years1 = vals[0];
+                    $.ajax({
+                        url: "http://sikkimfred.local.api/api/sbspayment/permonth/" + years1 + "-" + years1,
+                        method: "GET",
+                        success: function (data) {
+                            console.log(data);
+                            var month = [];
+                            var totalprice = [];
+                            for (var i in data) {
+                                month.push(data[i].month);
+                                totalprice.push(data[i].amount);
+                            }
+                            var chartdata = {
+                                labels: month,
+                                datasets: [{
+                                        label: "Yearly Income",
+                                        backgroundColor: '#36A2EB',
+                                        borderColor: '#FF6384',
+                                        hoverBackgroundColor: 'red',
+                                        hoverBorderColor: 'rgba(200,200,200,0.75)',
+                                        data: totalprice
+                                    }]
+                            };
+                            var ctx = $('#mycanvas');
+                            var barGraph = new chart_js__WEBPACK_IMPORTED_MODULE_1__["Chart"](ctx, {
+                                type: 'bar',
+                                data: chartdata
+                            });
+                        },
+                        error: function (data) {
+                            alert('Error Occured');
+                        }
+                    });
+                    var url = "http://sikkimfred.local.api/api/sbspayment/" + years1 + "-" + years1;
+                    fetch(url, {
+                        method: 'GET',
+                    }).then(function (res) { return res.json(); })
+                        .catch(function (error) { return console.error("Error", error); })
+                        .then(function (result) {
+                        console.log("result", result);
+                        makeTableDate(result);
+                    });
+                }
+            });
+            //Show Difference Report Yearly 
+            $('.show').click(function () {
+                if ($('#from_date').val() == null || $('#from_date').val() == "null" || $('#from_date').val() == [] || $('#from_date').val() == "")
+                    alert("Select From Date");
+                else if ($('#to_date').val() == null || $('#to_date').val() == "null" || $('#to_date').val() == [] || $('#to_date').val() == "")
+                    alert("Select To Date");
+                else {
+                    var from_date = $('#from_date').val();
+                    var to_date = $('#to_date').val();
+                    var vals = from_date.split('-');
+                    var years1 = vals[0];
+                    var vals2 = to_date.split('-');
+                    var years2 = vals2[0];
+                    console.log("year", years1);
+                    console.log("year", years2);
+                    $.ajax({
+                        url: "http://sikkimfred.local.api/api/sbspayment/permonth/" + years1 + "-" + years1,
+                        method: "GET",
+                        success: function (data) {
+                            console.log(data);
+                            var month = [];
+                            var totalprice = [];
+                            for (var i in data) {
+                                month.push(data[i].month);
+                                totalprice.push(data[i].amount);
+                            }
+                            var chartdata = {
+                                labels: month,
+                                datasets: [{
+                                        label: "Difference Report",
+                                        backgroundColor: '#36A2EB',
+                                        borderColor: '#FF6384',
+                                        hoverBackgroundColor: 'red',
+                                        hoverBorderColor: 'rgba(200,200,200,0.75)',
+                                        data: totalprice
+                                    }]
+                            };
+                            var ctx = $('#mycanvas');
+                            var barGraph = new chart_js__WEBPACK_IMPORTED_MODULE_1__["Chart"](ctx, {
+                                type: 'bar',
+                                data: chartdata
+                            });
+                        },
+                        error: function (data) {
+                            alert('Error Occured');
+                        }
+                    });
+                    $.ajax({
+                        url: "http://sikkimfred.local.api/api/sbspayment/permonth/" + years2 + "-" + years2,
+                        method: "GET",
+                        success: function (data) {
+                            console.log(data);
+                            var month = [];
+                            var totalprice = [];
+                            for (var i in data) {
+                                month.push(data[i].month);
+                                totalprice.push(data[i].amount);
+                            }
+                            var chartdata = {
+                                labels: month,
+                                datasets: [{
+                                        backgroundColor: '#36A2EB',
+                                        borderColor: '#FF6384',
+                                        hoverBackgroundColor: 'red',
+                                        hoverBorderColor: 'rgba(200,200,200,0.75)',
+                                        data: totalprice
+                                    }]
+                            };
+                            var ctx = $('#mycanvas1');
+                            var barGraph = new chart_js__WEBPACK_IMPORTED_MODULE_1__["Chart"](ctx, {
+                                type: 'bar',
+                                data: chartdata
+                            });
+                        },
+                        error: function (data) {
+                            alert('Error Occured');
+                        }
+                    });
+                    var url = "http://sikkimfred.local.api/api/sbspayment/" + years1 + "-" + years2;
+                    fetch(url, {
+                        method: 'GET',
+                    }).then(function (res) { return res.json(); })
+                        .catch(function (error) { return console.error("Error", error); })
+                        .then(function (result) {
+                        makeTableDate(result);
+                    });
+                }
+            });
+            function makeTableDate(result) {
+                var table = " \n\n    <style type=\"text/css\">\n  td{\nfont-size: 13px;\n  }\n  th{\n    font-size: 13px;\n  }\n</style>\n\n        <table class=\"table table-striped\">\n\n      <thead class=\"text-primary\">\n          <tr>\n              <th>SL No.</th> \n            <th>Id</th>\n            <th>Branch Code</th>\n            <th>Branch Name</th>\n             <th>Department ID</th>\n              <th>Major Head</th>\n               <th>Cheque Amount</th>\n               <th>Cheque Date</th>\n               <th>Cheque Number</th>\n                <th>PAO Code</th>\n                <th>Plan / Non Plan</th>\n                <th>Work</th>\n               <th>Payment Date</th>\n                <th>Created Date</th>\n\n            </tr>\n        </thead>\n       \n        <tbody>";
+                $.each(result, function (i, item) {
+                    table += "  <tr>\n            <td>" + (i + 1) + "</td>\n            <td>" + item.id + "</td>\n            <td>" + item.branchCode + "</td>\n            <td>" + item.branchName + "</td>\n             <td>" + item.departmentID + "</td>\n            <td>" + item.majorHead + "</td>\n            <td>" + item.chequeAmount + "</td>\n             <td>" + item.chequeDate + "</td>\n            <td>" + item.chequeNumber + "</td>\n            <td>" + item.paoCode + "</td>\n            <td>" + item.planNonPlan + "</td>\n             <td>" + item.isWorks + "</td>\n            <td>" + item.paymentDate + "</td>\n            <td>" + item.createdDate + "</td>\n          \n           \n          </tr>";
+                });
+                table += "</tbody>\n      </table>";
+                $('#result').html(table);
+            }
+        });
+    };
+    SbsPaymentDetailsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-sbs-payment-details',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./sbs-payment-details.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-payment-details/sbs-payment-details.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./sbs-payment-details.component.css */ "./src/app/sbs-payment-details/sbs-payment-details.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], SbsPaymentDetailsComponent);
+    return SbsPaymentDetailsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/sbs-receipt-details/sbs-receipt-details.component.css":
+/*!***********************************************************************!*\
+  !*** ./src/app/sbs-receipt-details/sbs-receipt-details.component.css ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Nicy1yZWNlaXB0LWRldGFpbHMvc2JzLXJlY2VpcHQtZGV0YWlscy5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/sbs-receipt-details/sbs-receipt-details.component.ts":
+/*!**********************************************************************!*\
+  !*** ./src/app/sbs-receipt-details/sbs-receipt-details.component.ts ***!
+  \**********************************************************************/
+/*! exports provided: SbsReceiptDetailsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SbsReceiptDetailsComponent", function() { return SbsReceiptDetailsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var chart_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! chart.js */ "./node_modules/chart.js/dist/Chart.js");
+/* harmony import */ var chart_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(chart_js__WEBPACK_IMPORTED_MODULE_1__);
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+var SbsReceiptDetailsComponent = /** @class */ (function () {
+    function SbsReceiptDetailsComponent() {
+    }
+    SbsReceiptDetailsComponent.prototype.ngOnInit = function () {
+        $(document).ready(function () {
+            //Show Monthly Wise
+            $('.show_month').click(function () {
+                if ($('#from_month').val() == null || $('#from_month').val() == "null" || $('#from_month').val() == [] || $('#from_month').val() == "")
+                    alert("Select From Month");
+                else if ($('#to_month').val() == null || $('#to_month').val() == "null" || $('#to_month').val() == [] || $('#to_month').val() == "")
+                    alert("Select To Month");
+                else {
+                    var from_month = $('#from_month').val();
+                    var to_month = $('#to_month').val();
+                    var vals = from_month.split('-');
+                    var years1 = vals[0];
+                    var months1 = vals[1];
+                    var vals1 = to_month.split('-');
+                    var years2 = vals1[0];
+                    var months2 = vals1[1];
+                    console.log("final1", years2);
+                    console.log("final2", months2);
+                    $.ajax({
+                        url: "http://sikkimfred.local.api/api/sbsreceipt/permonth/" + months1 + "-" + years1 + "/" + months2 + "-" + years2,
+                        method: "GET",
+                        success: function (data) {
+                            console.log(data);
+                            var month = [];
+                            var totalprice = [];
+                            for (var i in data) {
+                                month.push(data[i].month);
+                                totalprice.push(data[i].amount);
+                            }
+                            var chartdata = {
+                                labels: month,
+                                datasets: [{
+                                        label: "Monthly Income",
+                                        backgroundColor: '#36A2EB',
+                                        borderColor: '#FF6384',
+                                        hoverBackgroundColor: 'red',
+                                        hoverBorderColor: 'rgba(200,200,200,0.75)',
+                                        data: totalprice
+                                    }]
+                            };
+                            var ctx = $('#mycanvas');
+                            this.chart = new chart_js__WEBPACK_IMPORTED_MODULE_1__["Chart"](ctx, {
+                                type: 'bar',
+                                data: chartdata
+                            });
+                        },
+                        error: function (data) {
+                            alert('Error Occured');
+                        }
+                    });
+                    var url = "http://sikkimfred.local.api/api/sbsreceipt/" + months1 + "-" + years1 + "/" + months2 + "-" + years2;
+                    fetch(url, {
+                        method: 'GET',
+                    }).then(function (res) { return res.json(); })
+                        .catch(function (error) { return console.error("Error", error); })
+                        .then(function (result) {
+                        makeTableDate(result);
+                    });
+                }
+            });
+            // Show Yearly Report
+            $('.show_yearly').click(function () {
+                if ($('#from_date1').val() == null || $('#from_date1').val() == "null" || $('#from_date1').val() == [] || $('#from_date1').val() == "")
+                    alert("Select From Date");
+                else {
+                    var from_date1 = $('#from_date1').val();
+                    var vals = from_date1.split('-');
+                    var years1 = vals[0];
+                    console.log("years1", years1);
+                    $.ajax({
+                        url: "http://sikkimfred.local.api/api/sbsreceipt/permonth/" + years1 + "-" + years1,
+                        method: "GET",
+                        success: function (data) {
+                            console.log(data);
+                            var month = [];
+                            var totalprice = [];
+                            for (var i in data) {
+                                month.push(data[i].month);
+                                totalprice.push(data[i].amount);
+                            }
+                            var chartdata = {
+                                labels: month,
+                                datasets: [{
+                                        label: "Monthly Income",
+                                        backgroundColor: '#36A2EB',
+                                        borderColor: '#FF6384',
+                                        hoverBackgroundColor: 'red',
+                                        hoverBorderColor: 'rgba(200,200,200,0.75)',
+                                        data: totalprice
+                                    }]
+                            };
+                            var ctx = $('#mycanvas');
+                            this.chart = new chart_js__WEBPACK_IMPORTED_MODULE_1__["Chart"](ctx, {
+                                type: 'bar',
+                                data: chartdata
+                            });
+                        },
+                        error: function (data) {
+                            alert('Error Occured');
+                        }
+                    });
+                    var url = "http://sikkimfred.local.api/api/sbsreceipt/" + years1 + "-" + years1;
+                    fetch(url, {
+                        method: 'GET',
+                    }).then(function (res) { return res.json(); })
+                        .catch(function (error) { return console.error("Error", error); })
+                        .then(function (result) {
+                        makeTableDate(result);
+                    });
+                }
+            });
+            //Show Difference Report Yearly 
+            $('.show').click(function () {
+                if ($('#from_date').val() == null || $('#from_date').val() == "null" || $('#from_date').val() == [] || $('#from_date').val() == "")
+                    alert("Select From Date");
+                else if ($('#to_date').val() == null || $('#to_date').val() == "null" || $('#to_date').val() == [] || $('#to_date').val() == "")
+                    alert("Select To Date");
+                else {
+                    var from_date = $('#from_date').val();
+                    var to_date = $('#to_date').val();
+                    var vals = from_date.split('-');
+                    var years1 = vals[0];
+                    var vals2 = to_date.split('-');
+                    var years2 = vals2[0];
+                    console.log("year", years1);
+                    console.log("year", years2);
+                    $.ajax({
+                        url: "http://sikkimfred.local.api/api/sbspayment/permonth/" + years1 + "-" + years1,
+                        method: "GET",
+                        success: function (data) {
+                            console.log(data);
+                            var month = [];
+                            var totalprice = [];
+                            for (var i in data) {
+                                month.push(data[i].month);
+                                totalprice.push(data[i].amount);
+                            }
+                            var chartdata = {
+                                labels: month,
+                                datasets: [{
+                                        label: "Monthly Income",
+                                        backgroundColor: '#36A2EB',
+                                        borderColor: '#FF6384',
+                                        hoverBackgroundColor: 'red',
+                                        hoverBorderColor: 'rgba(200,200,200,0.75)',
+                                        data: totalprice
+                                    }]
+                            };
+                            var ctx = $('#mycanvas');
+                            this.chart = new chart_js__WEBPACK_IMPORTED_MODULE_1__["Chart"](ctx, {
+                                type: 'bar',
+                                data: chartdata
+                            });
+                        },
+                        error: function (data) {
+                            alert('Error Occured');
+                        }
+                    });
+                    $.ajax({
+                        url: "http://sikkimfred.local.api/api/sbsreceipt/permonth/" + years2 + "-" + years2,
+                        method: "GET",
+                        success: function (data) {
+                            console.log(data);
+                            var month = [];
+                            var totalprice = [];
+                            for (var i in data) {
+                                month.push(data[i].month);
+                                totalprice.push(data[i].amount);
+                            }
+                            var chartdata = {
+                                labels: month,
+                                datasets: [{
+                                        label: "Monthly Income",
+                                        backgroundColor: '#36A2EB',
+                                        borderColor: '#FF6384',
+                                        hoverBackgroundColor: 'red',
+                                        hoverBorderColor: 'rgba(200,200,200,0.75)',
+                                        data: totalprice
+                                    }]
+                            };
+                            var ctx = $('#mycanvas1');
+                            this.chart = new chart_js__WEBPACK_IMPORTED_MODULE_1__["Chart"](ctx, {
+                                type: 'bar',
+                                data: chartdata
+                            });
+                        },
+                        error: function (data) {
+                            alert('Error Occured');
+                        }
+                    });
+                    var url = "http://sikkimfred.local.api/api/sbsreceipt/" + years1 + "-" + years2;
+                    fetch(url, {
+                        method: 'GET',
+                    }).then(function (res) { return res.json(); })
+                        .catch(function (error) { return console.error("Error", error); })
+                        .then(function (result) {
+                        makeTableDate(result);
+                    });
+                }
+            });
+            function makeTableDate(result) {
+                var table = " \n\n      <style type=\"text/css\">\n  td{\nfont-size: 13px;\n  }\n  th{\n    font-size: 13px;\n  }\n</style>\n\n        <table class=\"table table-striped\">\n\n      <thead class=\"text-primary\">\n  \n          <tr>\n              <th>SL No.</th> \n            <th>Id</th>\n            <th>Branch Code</th>\n            <th>Branch Name</th>\n             <th>Branch Challan No.</th>\n              <th>Major Head</th>\n               <th>Amount</th>\n                <th>Receipt Payment</th>\n               <th>Transaction Date</th>\n                <th>Created Date</th>\n\n            </tr>\n        </thead>\n       \n        <tbody>";
+                $.each(result, function (i, item) {
+                    table += "  <tr>\n            <td>" + (i + 1) + "</td>\n            <td>" + item.id + "</td>\n            <td>" + item.branchCode + "</td>\n            <td>" + item.branchName + "</td>\n             <td>" + item.branchChallanNo + "</td>\n            <td>" + item.majorHead + "</td>\n            <td>" + item.amount + "</td>\n             <td>" + item.receiptPayment + "</td>\n            <td>" + item.transactionDate + "</td>\n            <td>" + item.createdDate + "</td>\n          \n           \n          </tr>";
+                });
+                table += "</tbody>\n      </table>";
+                $('#result').html(table);
+            }
+        });
+    };
+    SbsReceiptDetailsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-sbs-receipt-details',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./sbs-receipt-details.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-receipt-details/sbs-receipt-details.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./sbs-receipt-details.component.css */ "./src/app/sbs-receipt-details/sbs-receipt-details.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], SbsReceiptDetailsComponent);
+    return SbsReceiptDetailsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/sbs-upload/sbs-upload.component.css":
+/*!*****************************************************!*\
+  !*** ./src/app/sbs-upload/sbs-upload.component.css ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Nicy11cGxvYWQvc2JzLXVwbG9hZC5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/sbs-upload/sbs-upload.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/sbs-upload/sbs-upload.component.ts ***!
+  \****************************************************/
+/*! exports provided: SbsUploadComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SbsUploadComponent", function() { return SbsUploadComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm5/http.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm5/forms.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+
+
+var SbsUploadComponent = /** @class */ (function () {
+    function SbsUploadComponent(fb, http) {
+        this.fb = fb;
+        this.http = http;
+        this.form = this.fb.group({
+            name: [''],
+            avatar: [null]
+        });
+    }
+    SbsUploadComponent.prototype.ngOnInit = function () {
+        $(document).ready(function () {
+            console.log('hii');
+            $(".ctgli:has(.ctgulChild)").click(function (e) {
+                e.preventDefault();
+                //li_HAVE_Child-hasShowed-hasSlideD
+                if ($(this).hasClass('showed')) {
+                    //-x-hasShowed
+                    $('.ctgli').removeClass('showed');
+                    //-x-hasSlideD
+                    $(this).children('.ctgulChild').slideUp();
+                }
+                else {
+                    $('.ctgulChild').slideUp();
+                    $('.ctgli').removeClass('showed');
+                    $(this).addClass('showed');
+                    $(this).children('.ctgulChild').slideToggle();
+                }
+            });
+            $('.ctgli').click(function () {
+                $(this).toggleClass('wtok');
+            });
+        });
+    };
+    SbsUploadComponent.prototype.uploadFile = function (event) {
+        var file = event.target.files[0];
+        this.form.patchValue({
+            avatar: file
+        });
+        this.form.get('avatar').updateValueAndValidity();
+    };
+    SbsUploadComponent.prototype.submitForm = function () {
+        console.log(this.form.value);
+        var formData = new FormData();
+        formData.append("FileType", this.form.get('name').value);
+        formData.append("File", this.form.get('avatar').value);
+        console.log("formdata", formData);
+        this.http.post('http://sikkimfred.local.api/api/sbsfile/upload', formData).subscribe(function (response) { return console.log(response); }, function (error) { return console.log(error); });
+    };
+    SbsUploadComponent.ctorParameters = function () { return [
+        { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] },
+        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] }
+    ]; };
+    SbsUploadComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-sbs-upload',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./sbs-upload.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/sbs-upload/sbs-upload.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./sbs-upload.component.css */ "./src/app/sbs-upload/sbs-upload.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
+    ], SbsUploadComponent);
+    return SbsUploadComponent;
 }());
 
 
@@ -3162,6 +6443,63 @@ var TransferAndPromotionComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], TransferAndPromotionComponent);
     return TransferAndPromotionComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/update-password/update-password.component.css":
+/*!***************************************************************!*\
+  !*** ./src/app/update-password/update-password.component.css ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3VwZGF0ZS1wYXNzd29yZC91cGRhdGUtcGFzc3dvcmQuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/update-password/update-password.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/update-password/update-password.component.ts ***!
+  \**************************************************************/
+/*! exports provided: UpdatePasswordComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UpdatePasswordComponent", function() { return UpdatePasswordComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+
+var UpdatePasswordComponent = /** @class */ (function () {
+    function UpdatePasswordComponent() {
+    }
+    UpdatePasswordComponent.prototype.ngOnInit = function () {
+    };
+    UpdatePasswordComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-update-password',
+            template: __importDefault(__webpack_require__(/*! raw-loader!./update-password.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/update-password/update-password.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./update-password.component.css */ "./src/app/update-password/update-password.component.css")).default]
+        }),
+        __metadata("design:paramtypes", [])
+    ], UpdatePasswordComponent);
+    return UpdatePasswordComponent;
 }());
 
 

@@ -23,6 +23,31 @@ import { RulesComponent } from './rules/rules.component';
 import { CircularsComponent } from './circulars/circulars.component';
 import { ActComponent } from './act/act.component';
 import { PressReleaseComponent } from './press-release/press-release.component';
+import { FeedbackReportComponent } from './feedback-report/feedback-report.component';
+import { DdoReportComponent } from './ddo-report/ddo-report.component';
+import { RcoReportComponent } from './rco-report/rco-report.component';
+import { DdoUsersComponent } from './ddo-users/ddo-users.component';
+import { RcoUsersComponent } from './rco-users/rco-users.component';
+import { CreateSbsAdminComponent } from './create-sbs-admin/create-sbs-admin.component';
+import { AdminUsersComponent } from './admin-users/admin-users.component';
+import { UpdatePasswordComponent } from './update-password/update-password.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
+import { ReportsFormComponent } from './reports-form/reports-form.component';
+import { SbsUploadComponent } from './sbs-upload/sbs-upload.component';
+import { DdoRegisterationComponent } from './ddo-registeration/ddo-registeration.component';
+import { RcoRegisterationComponent } from './rco-registeration/rco-registeration.component';
+import { SbsAdminLoginComponent } from './sbs-admin-login/sbs-admin-login.component';
+import { SbsPaymentAndReceiptComponent } from './sbs-payment-and-receipt/sbs-payment-and-receipt.component';
+import { SbsPaymentDetailsComponent } from './sbs-payment-details/sbs-payment-details.component';
+import { SbsReceiptDetailsComponent } from './sbs-receipt-details/sbs-receipt-details.component';
+import { ProfileAndPayslipComponent } from './profile-and-payslip/profile-and-payslip.component';
+import { ProfileDetailsComponent } from './profile-details/profile-details.component';
+import { PayslipDetailsComponent } from './payslip-details/payslip-details.component';
+import { GpfLoginComponent } from './gpf-login/gpf-login.component';
+import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
+import { AdminNavbarComponent } from './admin-navbar/admin-navbar.component';
+import { AdminNavbarEndComponent } from './admin-navbar-end/admin-navbar-end.component';
+
 
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
@@ -45,7 +70,31 @@ const routes: Routes =[
     {path:'rules' , component : RulesComponent},
     {path:'circular' , component : CircularsComponent},
     {path: 'act' , component : ActComponent},
-    {path: 'press-release' , component : PressReleaseComponent }
+    {path: 'press-release' , component : PressReleaseComponent },
+    {path: 'feedback-report' , component : FeedbackReportComponent },
+    {path : 'ddo-report', component : DdoReportComponent},
+    {path:'rco-report' , component : RcoReportComponent},
+    {path:'ddo-users' , component : DdoUsersComponent},
+    {path: 'rco-users' , component : RcoUsersComponent},
+    {path: 'create-sbs-admin' , component : CreateSbsAdminComponent },
+    {path:'admin-users' , component : AdminUsersComponent},
+    {path:'update-password' , component : UpdatePasswordComponent},
+    {path:'change-password' , component : ChangePasswordComponent},
+    {path:'reports' , component : ReportsFormComponent},
+    {path:'sbs-upload' , component : SbsUploadComponent},
+    {path:'DDO-Registeration' , component : DdoRegisterationComponent},
+    {path:'RCO-Registeration' , component : RcoRegisterationComponent},
+    {path: 'sbs-admin-login' , component : SbsAdminLoginComponent},
+    {path:'sbs-payment-receipt' , component : SbsPaymentAndReceiptComponent},
+    {path:'sbs-payment-details' , component : SbsPaymentDetailsComponent},
+    {path:'sbs-receipt-details' , component : SbsReceiptDetailsComponent},
+    {path:'profile-payslip' , component : ProfileAndPayslipComponent},
+    {path:'profile-details' , component : ProfileDetailsComponent},
+    {path:'payslip-details' , component : PayslipDetailsComponent},
+    {path:'gpf-login' , component : GpfLoginComponent},
+    {path:'Admin-Dahsboard' , component : AdminDashboardComponent},
+    {path:'admin-navbar' , component : AdminNavbarComponent},
+    {path:'admin-navbar-end' , component : AdminNavbarEndComponent}
 ];
 
 @NgModule({
