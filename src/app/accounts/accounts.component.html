@@ -1,0 +1,523 @@
+
+
+<style>
+
+.category{
+    background:#fff;
+    font-size: 1.6rem;
+    border-radius:3px;
+   
+}
+.ctghead{
+    padding: 2px 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+
+}
+.ctghead h3{
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.ctghead h3 i{
+    font-size:0.9rem;
+    margin-right:7px;
+   
+}
+
+.ctgul{
+    margin-top:16px;
+    padding:0 0 16px 0;
+}
+.ctgulChild{
+    margin: 0 0 0 30px;
+    padding:0 0 10px 0;
+
+}
+
+.ctgliChild{
+    font-size: 0.9rem;
+    display: block;
+    position: relative;
+    list-style: none;
+    transition:.3s linear;
+    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */
+
+}
+
+.ctgli:hover{
+    border-left: 4px solid var(--hove);
+    background:#d2ffe221;
+    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */
+}
+
+.ctga, .ctgaChild{
+    
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.9rem;
+    line-height: 2.3rem;
+    color: #333;
+    text-decoration: none;
+    padding: 13px 40px 13px 34px;
+    position: relative;
+    right: 0;
+    transition: right linear .3s;
+}
+.ctga i{
+    margin-right:10px;}
+
+.ctgaChild{
+    font-size: 0.9rem;
+    padding: 13px 13px 13px 36px;
+}
+.ctga:hover, .ctgaChild:hover{
+    /* right:-4px; */
+    color:var(--hove);
+    
+}
+.ctgaChild::before {
+    top: 50%;
+    transform:translateY(-50%);
+    left: 20px;
+    position: absolute;
+    border-style: solid;
+    border-color: transparent transparent transparent var(--hove);
+    border-width:4px;
+    content: "";
+    
+}
+.down{
+    position: absolute;
+    font-size:0.9rem;
+   right:10%;
+   top: 50%;
+   transform: translateY(-50%) rotate(360deg);
+}
+.ctgulChild{
+    
+    display:none;
+}
+.ctgli{
+    display: block;
+    position: relative;
+    list-style: none;
+    border-left: 4px solid transparent;
+    transition:.3s linear;
+}
+.showed{
+    background:#d2ffe221;;
+    border-left:4px solid var(--hove)!important;
+}
+
+.showed .ctga{
+    color: var(--hove);
+    font-weight:bold;
+   }
+
+.showed .ctga i{
+    
+    font-weight:bold;
+    
+}
+.down {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.wtok .down {
+  -webkit-transform: translateY(-50%) rotate(180deg);
+          transform: translateY(-50%) rotate(180deg);
+}
+
+/*  base.css*/
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+:root{
+
+    --white:#fff;
+    --black:#000;
+    --textColor:#333;
+    --hove:#04ca88;
+}
+html{
+    font-size:62.5%;
+    font-family: 'Muli', sans-serif ;
+    line-height:1.6 rem;
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+a{
+  text-decoration: none;
+}
+p{
+    font-size:0.4 rem;
+    /* 1.6 rem --> 16px */
+}
+
+h1{font-size:3rem;}
+.grid{
+    margin : 0 auto;
+    max-width: 1280px;
+}
+
+.row{
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0 -12px 0 -12px;
+}
+
+
+.col-3{
+  padding:0 12px 0 12px;
+  width:calc((100%/12)*3);
+
+}
+
+td{
+    font-size: 13px;
+}
+tr{
+    font-size: 13px;
+}
+
+
+</style>
+
+<main>
+  <div class="position-relative">
+    <!-- shape Hero -->
+    <section class="section section-lg section-shaped pb-50">
+      <div class="shape shape-style-1 shape-default">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+      <div class="container py-lg-md d-flex">
+        <div class="col px-0">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="btn-wrapper">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SVG separator -->
+      <div class="separator separator-bottom separator-skew">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </section>
+    <!-- 1st Hero Variation -->
+  </div>
+   <section class="section section-lg pt-lg-0 mt--100">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="row row-grid">
+            <div class="col-lg-12">
+              <div class="card card-lift--hover shadow border-0">
+                <div class="card-body py-5">
+      <!--             <h6 class="text-primary text-uppercase"> Contact List- Finance Department As On 23/10/2019</h6>
+       -->          
+
+<div class="container-fluid">
+
+  <div class="grid">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <!-- category -->
+                        <nav class="category">
+
+                            <!-- <div class="ctghead">
+
+                                <h3><i class="ti-list"></i>Category</h3>
+                            </div>
+ -->
+                            <ul class="ctgul">
+                                <li class="ctgli showed">
+                                    <a href="#" class="ctga">
+                                        <i class="ti-user"></i>
+                                        Emplament of CA</a>
+                                </li>
+
+                                <li class="ctgli ">
+                                    <a [routerLink]="['/tendering-account']" class="ctga">
+                                        <i class="ti-user"></i>
+                                        E-Tendering</a>
+                                </li>
+
+
+                                <li class="ctgli ">
+                                    <a href="http://www.sikkimfred.gov.in/Accounts/Documents/LIST%20OF%20MEMBERS%20OF%20SIKKIM%20FINANCE%20AND%20ACCOUNTS%20SERVICE%20AS%20ON%2010.06.2020.pdf" class="ctga">
+                                        <i class="ti-user"></i>
+                                        S.A.F.S</a>
+                                </li>
+
+                                <li class="ctgli">
+                                    <a href="#" class="ctga">
+                                        <div class="ok"></div>
+                                        <i class="ti-layout"></i>
+                                        S.S.F.S
+                                        <i class="ti-angle-down down "></i>
+                                    </a>
+
+
+                                    <ul class="ctgulChild">
+                                        <li class="ctgliChild">
+                                            <a href="http://www.sikkimfred.gov.in/Accounts/Documents/SENIORITY%20LIST%20OF%20SENIOR%20ACCOUNTANT%2010.06.2020.pdf" class="ctgaChild">List of SR Act</a>
+                                        </li>
+                                        <li class="ctgliChild">
+                                            <a href="http://www.sikkimfred.gov.in/Accounts/Documents/SENIORITY%20LIST%20OF%20ACCOUNTANTS%20AS%20ON%20%2001.06.%202020.pdf" class="ctgaChild">List of Accountant</a>
+                                        </li>
+                                        <li class="ctgliChild">
+                                            <a href="http://www.sikkimfred.gov.in/Accounts/Documents/SENIORITY%20%20LIST%20OF%20JUNIOR%20ACCOUNTANT%20AS%20ON%201.06.2020.pdf" class="ctgaChild">List of JR Act</a>
+                                        </li>
+                                        <li class="ctgliChild">
+                                            <a href="http://www.sikkimfred.gov.in/Accounts/Documents/SENORITY%20LIST%20OF%20ACCOUNTS%20CLERK%20AS%20ON%2001.06.2020.pdf" class="ctgaChild">List of Accounts Clerk</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                              
+      <li class="ctgli">
+                                    <a href="#" class="ctga">
+                                        <i class="ti-user"></i>
+                                       Conveyance Loan</a>
+                                </li>
+
+                                <li class="ctgli ">
+                                    <a href="#" class="ctga">
+                                        <i class="ti-user"></i>
+                                        HBA to AIS Office</a>
+                                </li>
+
+
+                                <li class="ctgli ">
+                                    <a href="http://www.sikkimfred.gov.in/Accounts/Documents/DDO_Report_New.pdf" class="ctga">
+                                        <i class="ti-user"></i>
+                                        DDO Codes</a>
+                                </li>
+
+
+ <li class="ctgli ">
+                                    <a href="#" class="ctga">
+                                        <i class="ti-user"></i>
+                                        Head of Office</a>
+                                </li>
+                            
+
+
+
+
+
+
+
+
+                            </ul>
+
+
+
+                        </nav>
+
+
+
+
+                    </div>
+
+<div class="col-lg-3">
+    
+<table style="border:solid 1px gray; width:857px;" class="table-responsive table table-striped">
+<tr>
+        <td colspan="2" style="border-bottom:solid 1px gray; text-align:center; height:30px;"><h2>Department of Finance</h2>
+            </td>
+</tr>
+
+<tr >
+                <td colspan="2" class="td2"
+                        
+                        style="border:1px solid; text-align:CENTER; color: #FFFFFF; font-size:medium;">Empanelment of Chartered Accountants.</td>
+                </tr>
+                
+                
+<tr>
+    <td style="vertical-align:top;">
+        <center >    
+        <table >
+            <tr>
+            
+           
+                <td class=" FCD_VOl_II" style="vertical-align:top; height:10px;">
+                <ul>
+                    <li style="text-align:center; color:White;"><a href="../Accounts/Documents/LIST_OF_EMPANELLED_CA_ WITH_GOSpdf.pdf" target="_blank"  style="color:Black; font-size:small; font-weight:bold;">List of Empanelled Chartered Accountants
+</a></li>
+                </ul>
+                
+                <ul>
+                    <li style="text-align:center; color:White;"><a href="../Accounts/Documents/APPLICATION_FORM_FOR_EMPANELMENT.pdf" target="_blank"  style="color:Black; font-size:small; font-weight:bold;">Application Form for Empanelment of Chartered Accountant Firm </a></li>
+                </ul>
+                
+                </td>
+            </tr>
+             <tr>
+                       
+                <td class=" FCD_VOl_II" style="vertical-align:top;">
+                <ul>
+                    <li style="text-align:center; color:White;"><a href="../Accounts/Documents/RENEWAL_OF_C.A_FIRM.pdf" target=_blank  style="color:Black; font-size:small; font-weight:bold;">Renewal Application Form for Empanelment of chartered Accountant Firm </a></li>
+                </ul>
+                
+                </td>
+            </tr>
+             
+<tr>
+        <td colspan="2" style="color:Black; padding-left:5px; padding-right:5px;">
+        <hr />
+        
+      
+<p LANG="en-US" ALIGN=CENTER STYLE="margin-bottom: 0cm; line-height: 100%">
+    <b><span style="font-size: small">GOVERNMENT OF SIKKIM</span></b></p>
+<p LANG="en-US" ALIGN=CENTER STYLE="margin-bottom: 0cm; line-height: 100%"><b><br>
+FINANCE, REVENUE &amp; EXPENDITURE DEPARTMENT</b></p>
+<p LANG="en-US" ALIGN=CENTER STYLE="margin-bottom: 0cm; line-height: 100%">
+    <b><span style="font-size: small"><br>
+GANGTOK - SIKKIM</span></b></p>
+<p><SPAN LANG="en-US"><b><span style="font-size: small">O.M.NO.09/Fin/Adm/&nbsp;&nbsp;&nbsp;</span></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    &nbsp;&nbsp;<b><span style="font-size: small">&nbsp;Date&nbsp; 02/08/2012</span></b></SPAN></p>
+<p LANG="en-US" ALIGN=CENTER style="font-size: medium"><b><U>OFFICE MEMORANDUM</U></b></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&nbsp; </b> 
+    <SPAN LANG="en-US" style="font-weight: bold">Whereas
+all Banks, Non-Banking Financial Institutions, Insurance Companies&nbsp;
+etc. operating in the State requiring the services of Chartered
+Accountants are required&nbsp; to avail the services of only the
+Firms&nbsp; Empanelled with the Government of Sikkim , Finance,
+Revenue &amp; Expenditure&nbsp; Department vide Circular No.
+11/Fin/Adm. dated 21.8.2007.</SPAN></p>
+<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b> 
+    <SPAN LANG="en-US" style="font-weight: bold">In
+order to regulate the empanelment of Chartered Accountants Firms in
+the State, following procedure are prescribed with immediate effect: </SPAN>
+</p>
+<p><SPAN LANG="en-US" style="font-weight: bold">1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Chartered Accountants Firms/Company interested for empanelment must
+submit application form as prescribed in Form CA-AF which can be
+obtained on deposit of `100/- ( One hundred) under 0070-OAS from FRED
+or alternatively the forms can be downloaded from Departmental
+website www.sikkimfred.gov.in. Completed forms alongwith Demand Draft
+drawn in favour of Senior Accounts Officer , FRED amounting to `100/-
+should be submitted to Controller of Accounts.</SPAN></p>
+<p LANG="en-US"><b>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Challan for
+deposit of prescribed fees be obtained from FRED.</b></p>
+<p LANG="en-US"><b>3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Completed
+forms in all respect in form CA-AF, alongwith Challan for deposit of
+Empanelment&nbsp;
+fee should be submitted to Controller of Accounts, FRED for
+Empanelment.</b></p>
+<p LANG="en-US"><b>4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Renewal of
+empanelment shall be done on submission of application by the
+Chartered Accountant Firm in Form CA-RF supported by necessary documents and
+challan for deposit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+of renewal fee.</b></p>
+<p><SPAN LANG="en-US" style="font-weight: bold">5)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; One time
+Empanelment fee fixed for `25000/-
+which shall cover renewal for a period of 3(three) years and thereafter renewal fee of `5000/-
+per annum.</SPAN></p>
+<p><SPAN LANG="en-US" style="font-weight: bold">6)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Non
+renewal of empanelment&nbsp; by any Chartered Accountant Firm shall
+qualify&nbsp; for deletion
+from the list of &ldquo;Empanelled
+C.A.Firm&rdquo; maintained by Finance, Revenue &amp;Expenditure
+Department.</SPAN></p>
+<p><SPAN LANG="en-US" style="font-weight: bold">7)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Any firm who fail to renew the empanelment within the 
+    period of three months from the due
+date of renewal shall have to Re-empanel as a fresh chartered
+Accountant Firm.</SPAN></p>
+<p><SPAN LANG="en-US" style="font-weight: bold">BY ORDER</SPAN></p>
+<p ALIGN=RIGHT STYLE="margin-bottom: 0.2cm"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;</b><SPAN LANG="en-US" style="font-weight: bold">Sd/-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN></p>
+<p ALIGN=RIGHT STYLE="margin-bottom: 0.2cm"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp;</b><SPAN LANG="en-US" style="font-weight: bold">COMMISONER-CUM-SECRETARY</SPAN></p>
+<p ALIGN=RIGHT STYLE="margin-bottom: 0.2cm"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </b>
+<SPAN LANG="en-US" style="font-weight: bold">FINANCE, REV. &amp; EXPDT.DEPARTMENT</SPAN></p>
+<p>&nbsp;<SPAN LANG="en-US" style="font-weight: bold"><b>Memo No. </b>GOS/Fin/Adm/C-2/Part
+III/12-13/.../Fin&nbsp;&nbsp;&nbsp;                                  
+                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dated: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2012</SPAN></p>
+<p LANG="en-US" style="font-weight: bold">Copy to:-</p>
+<p LANG="en-US" STYLE="margin-bottom: 0.2cm" style="font-weight: bold">1)All Secretaries/Heads
+of Departments, Govt.of Sikkim</p>
+<p LANG="en-US" STYLE="margin-bottom: 0.2cm" style="font-weight: bold">2)All Public Sector
+Undertakings/ Statutory Corporations,</p>
+<p LANG="en-US" STYLE="margin-bottom: 0.2cm" style="font-weight: bold">3)Executive Officer,
+G.M.C.,Gangtok</p>
+<p LANG="en-US" STYLE="margin-bottom: 0.2cm" style="font-weight: bold">4)All Nationalized /
+Private Banks operating in Sikkim,</p>
+<p LANG="en-US" STYLE="margin-bottom: 0.2cm" style="font-weight: bold">5)Home Department for
+publication in Govt. Gazette,</p>
+<p LANG="en-US" STYLE="margin-bottom: 0.2cm" style="font-weight: bold">6)File &amp;</p>
+<p LANG="en-US" STYLE="margin-bottom: 0.2cm" style="font-weight: bold">7)Guard File</p>
+<p>&nbsp;</p>
+<p ALIGN=RIGHT STYLE="margin-bottom: 0.1cm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;<SPAN LANG="en-US" style="font-weight: bold">DIRECTOR OF ACCOUNTS</SPAN></p>
+<p ALIGN=RIGHT STYLE="margin-bottom: 0.1cm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<SPAN LANG="en-US" style="font-weight: bold">FINANCE, REV. &amp; EXPDT.DEPARTMENT</SPAN></p>
+<p ALIGN=RIGHT STYLE="margin-bottom: 0.1cm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp; <SPAN LANG="en-US" style="font-weight: bold">( File No. GOS/Fin./Adm/C-2/Part
+III/12-13)</SPAN></p>
+
+        
+        
+        
+        
+        </td>
+        
+            
+      
+           
+</tr>
+             
+            
+            
+        </table>
+           </center>
+    </td>
+</tr>             
+                
+
+
+
+</table>
+
+</div>
+</div>
+ </div>
+</div>
+
+
+
+                
+
+                 </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+ 
+ 
+  
+
+  
+</main>

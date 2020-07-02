@@ -225,128 +225,88 @@ h1{font-size:3rem;}
                 <div class="row">
                     <div class="col-lg-3">
                         <!-- category -->
-                        <nav class="category">
+                        <nav class="category" >
 
                             <!-- <div class="ctghead">
 
                                 <h3><i class="ti-list"></i>Category</h3>
                             </div>
+
+
  -->
-                            <ul class="ctgul">
+ <h4 class="d-lg-none mb-3"><span class="text-muted">Search Filters</span>
+ <button class="navbar-toggler border"
+ type="button"
+ data-toggle="collapse"
+ data-target="#sidebar"
+ aria-expanded="false"
+ aria-label="Toggle filters">
+  <span><i class="fas fa-filter"></i></span>
+</button>
+ </h4>
+                            <ul class="ctgul d-none d-lg-block list-group mb-3" id="sidebar">
                                 <li class="ctgli showed">
-                                    <a [routerLink]="['/feedback-report']" class="ctga">
+                                    <a [routerLink]="['/rules']" class="ctga">
                                         <i class="ti-user"></i>
-                                        Feedback</a>
+                                        SIKKIM FINANCIAL RULES 1979 (2017) PLAN AND NON-PLAN MERGER</a>
                                 </li>
 
                                 <li class="ctgli ">
-                                    <a [routerLink]="['/create-sbs-admin']" class="ctga">
+                                    <a href="http://www.sikkimfred.gov.in/Rules/Rules_Documents/Amendment%20to%20Sikkim%20Travelling%20Allowance%20Rule.pdf" class="ctga">
                                         <i class="ti-user"></i>
-                                        Create SBS Admin</a>
+                                       Amendment to Sikkim Travelling Allowance Rules 2016</a>
                                 </li>
 
                                 <li class="ctgli ">
-                                    <a [routerLink]="['/ddo-report']" class="ctga">
+                                    <a [routerLink]="['/rules']" class="ctga">
                                         <i class="ti-user"></i>
-                                        DDO Request</a>
+                                      THE SIKKIM FINANCIAL RULES</a>
                                 </li>
 
                                 <li class="ctgli ">
-                                    <a [routerLink]="['/rco-report']" class="ctga">
+                                    <a href="http://www.sikkimfred.gov.in/Rules/Rules_Documents/REVISED%20APPENDIX.pdf" class="ctga">
                                         <i class="ti-user"></i>
-                                        RCO Request</a>
+                                        Amendment to Sikkim Financial Rules </a>
                                 </li>
 
+                            
                                 <li class="ctgli">
-                                    <a href="#" class="ctga">
-                                        <div class="ok"></div>
-                                        <i class="ti-layout"></i>
-                                        Users
-                                        <i class="ti-angle-down down "></i>
-                                    </a>
-
-
-                                    <ul class="ctgulChild">
-                                        <li class="ctgliChild">
-                                            <a [routerLink]="['/ddo-users']" class="ctgaChild">DDO Users</a>
-                                        </li>
-                                        <li class="ctgliChild">
-                                            <a [routerLink]="['/rco-users']" class="ctgaChild"> MIS/HOD/RCO Users</a>
-                                        </li>
-                                        <li class="ctgliChild">
-                                            <a [routerLink]="['/admin-users']" class="ctgaChild"> Admin Users</a>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                              
-
-                                <li class="ctgli">
-                                    <a href="#" class="ctga ">
-                                        <i class="ti-write"></i>
-                                        Reports
-                                        <i class="ti-angle-down down "></i>
-                                    </a>
-                                    <ul class="ctgulChild">
-                                        <li class="ctgliChild">
-                                            <a href="" class="ctgaChild">Resource Allocation</a>
-                                        </li>
-                                        <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Receipt of Fund Statement</a>
-                                        </li>
-                                        <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Stmt of Resource Released</a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Monthly Resource Releases</a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Statement of Fund Surrender </a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Re-appropriation of Fund Statement</a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Scheme wise Info Status of Fund</a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Budget Head DDO Mapping</a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Expenditure Statement</a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Sanctionwise Analysis DDO Wise</a>
-                                        </li>
-
-   <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Report IT Deduction</a>
-                                        </li>
-
-   <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> GST Form 7</a>
-                                        </li>
-                                    </ul>
-                                      
-
-                                </li>
-
-                                <li class="ctgli">
-                                    <a [routerLink]="['/sbs-upload']" class="ctga">
+                                    <a [routerLink]="['/rules']" class="ctga">
                                         <i class="ti-comment"></i>
-                                        SBS Upload</a>
+                                       SIKKIM TRAVELING ALLOWANCES Rules </a>
                                 </li>
 
                                 <li class="ctgli">
-                                    <a [routerLink]="['/update-password']" class="ctga">
+                                    <a href="http://www.sikkimfred.gov.in/Notification/Documents/Not%20No%2008-Fin-Acctt%20%20dt.%2017.3.2012.pdf" class="ctga">
                                         <i class="ti-comment"></i>
-                                        Update Password</a>
+                                       Sikkim Travelling Allowances (Amendment) Rules, 2012.</a>
                                 </li>
 
                                   <li class="ctgli">
-                                    <a class="ctga">
+                                    <a [routerLink]="['/rules']" class="ctga">
                                         <i class="ti-comment"></i>
-                                        Logout</a>
+                                        SIKKIM SERVICES PENSION RULES 1990 & COMPUTATION OF PENSION RULES 1985 (Amended upto 1998)</a>
+                                </li>
+
+
+
+                                    <li class="ctgli">
+                                    <a href="http://www.sikkimfred.gov.in/User/Documents/RevisedPENSION.pdf" class="ctga">
+                                        <i class="ti-comment"></i>
+                                       SIKKIM GOVERNMENT SERVICES (REVISED PENSION)RULES, 2010)</a>
+                                </li>
+
+
+                                    <li class="ctgli">
+                                    <a [routerLink]="['/rules']" class="ctga">
+                                        <i class="ti-comment"></i>
+                                       SIKKIM GOVERNMENT EMPLOYEES GROUP INSURANCE SCHEME, 1993</a>
+                                </li>
+
+                                    <li class="ctgli">
+                                    <a [routerLink]="['/rules']" class="ctga">
+                                        <i class="ti-comment"></i>
+                                        SIKKIM GOVERNMENT SERVANTS Contributory Pension Rules</a>
                                 </li>
 
                             </ul>

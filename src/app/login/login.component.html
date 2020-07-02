@@ -26,7 +26,7 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Email" type="email" (focus)="focus=true" (blur)="focus=false">
+                    <input class="form-control" id="userName" placeholder="Email" type="email" (focus)="focus=true" (blur)="focus=false">
                   </div>
                 </div>
                 <div class="form-group" [ngClass]="{'focused':focus1===true}">
@@ -34,22 +34,22 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Password" type="password" (focus)="focus1=true" (blur)="focus1=false">
+                    <input class="form-control" id="password"  placeholder="Password" type="password" (focus)="focus1=true" (blur)="focus1=false">
                   </div>
                 </div>
                                <div class="text-center">
-                  <button type="button" class="btn btn-primary my-4">Sign in</button>
+                  <button type="button" class="btn btn-primary my-4" id="login">Sign in</button>
                 </div>
               </form>
+              <a [routerLink]="['/forgot-password']" class="text-light" style="float: right;">
+                <small style="float: right;">Forgot password?</small>
+              </a>
+
             </div>
+
           </div>
           <div class="row mt-3">
-            <div class="col-6">
-              <a [routerLink]="['/forgot-password']" class="text-light">
-                <small>Forgot password?</small>
-              </a>
-            </div>
-           <!--  <div class="col-6 text-right">
+                      <!--  <div class="col-6 text-right">
               <a href="javascript:void(0)" class="text-light">
               <small>Forgot password?</small>
               </a>

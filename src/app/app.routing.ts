@@ -47,6 +47,27 @@ import { GpfLoginComponent } from './gpf-login/gpf-login.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 import { AdminNavbarComponent } from './admin-navbar/admin-navbar.component';
 import { AdminNavbarEndComponent } from './admin-navbar-end/admin-navbar-end.component';
+import { FrbmComponent } from './frbm/frbm.component';
+import { FrbmSmrComponent } from './frbm-smr/frbm-smr.component';
+import { AccountsComponent } from './accounts/accounts.component';
+import { EmplanmentAccountsComponent } from './emplanment-accounts/emplanment-accounts.component';
+import { TenderingAccountsComponent } from './tendering-accounts/tendering-accounts.component';
+import { PaoComponent } from './pao/pao.component';
+import { GpfComponent } from './gpf/gpf.component';
+import { GisComponent } from './gis/gis.component';
+import { PensionComponent } from './pension/pension.component';
+import { PensionNotificationComponent } from './pension-notification/pension-notification.component';
+import { BudgetCircularComponent } from './budget-circular/budget-circular.component';
+import { FcdCircularComponent } from './fcd-circular/fcd-circular.component';
+import { AccountsCircularComponent } from './accounts-circular/accounts-circular.component';
+import { BudgetComponent } from './budget/budget.component';
+import { FcdComponent } from './fcd/fcd.component';
+import { SitemapComponent } from './sitemap/sitemap.component';
+
+
+
+
+
 
 
 const routes: Routes =[
@@ -92,9 +113,30 @@ const routes: Routes =[
     {path:'profile-details' , component : ProfileDetailsComponent},
     {path:'payslip-details' , component : PayslipDetailsComponent},
     {path:'gpf-login' , component : GpfLoginComponent},
-    {path:'Admin-Dahsboard' , component : AdminDashboardComponent},
+    {path:'Admin-Dashboard' , component : AdminDashboardComponent},
     {path:'admin-navbar' , component : AdminNavbarComponent},
-    {path:'admin-navbar-end' , component : AdminNavbarEndComponent}
+    {path:'admin-navbar-end' , component : AdminNavbarEndComponent},
+    {path:'FRBM', component : FrbmComponent },
+     {path:'FRBM-SMR', component : FrbmSmrComponent },
+     {path:'accounts' , component : AccountsComponent},
+    {path:'emaplment-account', component : EmplanmentAccountsComponent },
+     {path:'tendering-account', component : TenderingAccountsComponent },
+        {path:'pao', component : PaoComponent },
+        {path:'GPF', component : GpfComponent },
+        {path:'GIS', component : GisComponent },
+                {path:'pension', component : PensionComponent },
+        {path:'pension-notification', component : PensionNotificationComponent },
+        {path:'Budget-Circular', component : GisComponent },
+                {path:'FCD-Circular', component : PensionComponent },
+        {path:'Accounts-Circular', component : PensionNotificationComponent },
+  {path:'FCD', component : FcdComponent },
+        {path:'Budget', component : BudgetComponent },
+        {path:'sitemap', component : BudgetComponent }
+
+
+
+
+
 ];
 
 @NgModule({

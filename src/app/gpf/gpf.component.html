@@ -1,0 +1,4060 @@
+
+
+<style>
+
+.category{
+    background:#fff;
+    font-size: 1.6rem;
+    border-radius:3px;
+   
+}
+.ctghead{
+    padding: 2px 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+
+}
+.ctghead h3{
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.ctghead h3 i{
+    font-size:0.9rem;
+    margin-right:7px;
+   
+}
+
+.ctgul{
+    margin-top:16px;
+    padding:0 0 16px 0;
+}
+.ctgulChild{
+    margin: 0 0 0 30px;
+    padding:0 0 10px 0;
+
+}
+
+.ctgliChild{
+    font-size: 0.9rem;
+    display: block;
+    position: relative;
+    list-style: none;
+    transition:.3s linear;
+    /* box-shadow: transparent 0px 14px 13px -12px, transparent 0px 26px 32px -22px; */
+
+}
+
+.ctgli:hover{
+    border-left: 4px solid var(--hove);
+    background:#d2ffe221;
+    /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */
+}
+
+.ctga, .ctgaChild{
+    
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.9rem;
+    line-height: 2.3rem;
+    color: #333;
+    text-decoration: none;
+    padding: 13px 40px 13px 34px;
+    position: relative;
+    right: 0;
+    transition: right linear .3s;
+}
+.ctga i{
+    margin-right:10px;}
+
+.ctgaChild{
+    font-size: 0.9rem;
+    padding: 13px 13px 13px 36px;
+}
+.ctga:hover, .ctgaChild:hover{
+    /* right:-4px; */
+    color:var(--hove);
+    
+}
+.ctgaChild::before {
+    top: 50%;
+    transform:translateY(-50%);
+    left: 20px;
+    position: absolute;
+    border-style: solid;
+    border-color: transparent transparent transparent var(--hove);
+    border-width:4px;
+    content: "";
+    
+}
+.down{
+    position: absolute;
+    font-size:0.9rem;
+   right:10%;
+   top: 50%;
+   transform: translateY(-50%) rotate(360deg);
+}
+.ctgulChild{
+    
+    display:none;
+}
+.ctgli{
+    display: block;
+    position: relative;
+    list-style: none;
+    border-left: 4px solid transparent;
+    transition:.3s linear;
+}
+.showed{
+    background:#d2ffe221;;
+    border-left:4px solid var(--hove)!important;
+}
+
+.showed .ctga{
+    color: var(--hove);
+    font-weight:bold;
+   }
+
+.showed .ctga i{
+    
+    font-weight:bold;
+    
+}
+.down {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.wtok .down {
+  -webkit-transform: translateY(-50%) rotate(180deg);
+          transform: translateY(-50%) rotate(180deg);
+}
+
+/*  base.css*/
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+:root{
+
+    --white:#fff;
+    --black:#000;
+    --textColor:#333;
+    --hove:#04ca88;
+}
+html{
+    font-size:62.5%;
+    font-family: 'Muli', sans-serif ;
+    line-height:1.6 rem;
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+a{
+  text-decoration: none;
+}
+p{
+    font-size:0.4 rem;
+    /* 1.6 rem --> 16px */
+}
+
+h1{font-size:3rem;}
+.grid{
+    margin : 0 auto;
+    max-width: 1280px;
+}
+
+.row{
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0 -12px 0 -12px;
+}
+
+
+.col-3{
+  padding:0 12px 0 12px;
+  width:calc((100%/12)*3);
+
+}
+
+td{
+    font-size: 13px;
+}
+tr{
+    font-size: 13px;
+}
+
+
+</style>
+
+<main>
+  <div class="position-relative">
+    <!-- shape Hero -->
+    <section class="section section-lg section-shaped pb-50">
+      <div class="shape shape-style-1 shape-default">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+      <div class="container py-lg-md d-flex">
+        <div class="col px-0">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="btn-wrapper">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SVG separator -->
+      <div class="separator separator-bottom separator-skew">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </section>
+    <!-- 1st Hero Variation -->
+  </div>
+   <section class="section section-lg pt-lg-0 mt--100">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="row row-grid">
+            <div class="col-lg-12">
+              <div class="card card-lift--hover shadow border-0">
+                <div class="card-body py-5">
+      <!--             <h6 class="text-primary text-uppercase"> Contact List- Finance Department As On 23/10/2019</h6>
+       -->          
+
+<div class="container-fluid">
+
+  <div class="grid">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <!-- category -->
+                        <nav class="category">
+
+                            <!-- <div class="ctghead">
+
+                                <h3><i class="ti-list"></i>Category</h3>
+                            </div>
+ -->
+                            <ul class="ctgul">
+                                <li class="ctgli showed">
+                                    <a [routerLink]="['/GPF']" class="ctga">
+                                        <i class="ti-user"></i>
+                                        GPF Rules</a>
+                                </li>
+
+                                <li class="ctgli ">
+                                    <a [routerLink]="['/GIS']" class="ctga">
+                                        <i class="ti-user"></i>
+                                        GIS Rules</a>
+                                </li>
+
+                                  <li class="ctgli ">
+                                    <a href="http://www.sikkimfred.gov.in/Rules/CPF%20Rules/CPF_Rules.pdf" class="ctga">
+                                        <i class="ti-user"></i>
+                                        CPF Rules</a>
+                                </li>
+
+                                  <li class="ctgli ">
+                                    <a href="http://www.sikkimfred.gov.in/Rules/CPF%20Rules/CPF%20Code.pdf" class="ctga">
+                                        <i class="ti-user"></i>
+                                        Code Allocated For CPF</a>
+                                </li>
+
+                                <li class="ctgli">
+                                    <a href="#" class="ctga">
+                                        <div class="ok"></div>
+                                        <i class="ti-layout"></i>
+                                       RTI
+                                        <i class="ti-angle-down down "></i>
+                                    </a>
+
+
+                                    <ul class="ctgulChild">
+                                        <li class="ctgliChild">
+                                            <a href="http://www.sikkimfred.gov.in/RTI/RTI%20Officials.pdf" class="ctgaChild">RTI Officials</a>
+                                        </li>
+                                        <li class="ctgliChild">
+                                            <a href="http://www.sikkimfred.gov.in/RTI/RTI%20PGIPF%20CASES.pdf" class="ctgaChild">RTI Cases</a>
+                                        </li>
+                                                                          </ul>
+                                </li>
+
+                              
+
+                               
+
+                            </ul>
+
+
+
+                        </nav>
+
+
+
+
+                    </div>
+
+<div class="col-lg-3">
+    
+
+
+<table style="border:solid 1px gray; width:858px;"  class="table-responsive table table-striped">
+<tr>
+        <td colspan="2" style="border-bottom:solid 1px gray; text-align:center; height:30px;"><h4>Department of Finance</h4>
+            </td>
+</tr>
+
+<tr >
+                <td colspan="2" class="td2"
+                        
+                        style="border:1px solid; text-align:CENTER; color: #FFFFFF; font-size: large;">SIKKIM GOVERNMENT EMPLOYEES' GROUP INSURANCE SCHEME, 1993.</td>
+                </tr>
+                
+  <tr>
+    <td>
+        <table style="padding:5px;">
+        
+        
+        
+        
+<tr>
+        <td colspan="2" style="color:Black;">
+      
+        
+      <P>[Notification No.9/Fin dated 1st&nbsp;September 1993 of Finance
+			Department-published in Sikkim Government Gazette (Extraordinary)
+			No. 151 dated 8th&nbsp;November, 1993.]</P>
+			<P>&nbsp;</P>
+			<P>Whereas the ,Government of Sikkim had been considering for some
+			time past to introduce the Sikkim Government Employees' Group
+			Insurance Scheme, on the lines of similar schemes introduced in
+			the Central Government as also in some other State Government;</P>
+			<P>&nbsp;</P>
+			<P>And, whereas, the Government, after considering the matter in
+			detail, have decided to introduce and implement the scheme for the
+			benefit of the State Government employees;</P>
+			<P>&nbsp;</P>
+			<P>Now, therefore, the Government of Sikkim hereby makes the
+			following scheme, namely,-</P>
+			<P>&nbsp;</P>
+			<P>1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Short title and
+			commencement.-</P>
+			<P>(i) &nbsp;&nbsp;These schemes may be called the Sikkim
+			Government Employees' Group Insurance Scheme, 1993.</P>
+			<P>&nbsp;</P>
+			<P>(ii) It shall come into- force with effect from the date of
+			publication in the Official Gazette.</P>
+			<P>&nbsp;</P>
+			<P>2. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Objective.-</P>
+			<P>The &quot;Scheme&quot; is intended to provide for the Sikkim
+			Government Employees at a low cost and on a wholly contributory
+			and self financing basis, the twin benefits of an Insurance cover
+			to help their families in the event of death in service and lump
+			sum payment to augment their resources on retirement.</P>
+			<P>&nbsp;</P>
+			<P>3. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Application.-</P>
+			<P>The &quot;Scheme&quot; shall apply to all employees of the
+			Sikkim Government including those on deputation/Foreign Service.
+			It, however, shall not apply to</P>
+			<P>(i) Contract employees;</P>
+			<P>(ii) Persons on deputation from Central/other State
+			Governments, Public Sector &nbsp;&nbsp;Undertakings or other
+			Autonomous organizations;</P>
+			<P>(iii) Casual, part-time and ad hoc employees;</P>
+			<P>(iv) Work charged employees and employees paid from
+			Contingencies;</P>
+			<P>(v) All India Service Officers;</P>
+			<P>(vi) Persons recruited under Sikkim Government after attaining
+			age of 50 years; and</P>
+			<P>(vii) Persons whose terms and conditions of service are
+			regulated by or under the provisions of the Constitution or any
+			other law for the time being in force.</P>
+			<P>&nbsp;</P>
+			<P>Such Sikkim Government servants to whom the &quot;Scheme&quot;
+			applies will, hereafter, be referred to as &quot;employees&quot;.</P>
+			<P>&nbsp;</P>
+			<P>4. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Membership.-</P>
+			<P>(1) The 'Scheme' shall be compulsory for all those employees
+			who enter Sikkim Government Service after 1st&nbsp;April, 1993.</P>
+			<P>&nbsp;</P>
+			<P>(2) Those employees who are already in Sikkim Government
+			Service as on 1st&nbsp;&nbsp;April 1993 shall have an option to
+			opt out of the 'Scheme'. This option should be exercised within
+			sixty days from the date of publication of this scheme in the
+			official gazette. Those employees who do not opt out of the
+			'Scheme' within sixty days from the date of publication of this
+			scheme in the official gazette shall be deemed to have become</P>
+			<P>members of the 'Scheme' from the date the 'Scheme' is
+			implemented, i.e. 1st&nbsp;January 1994. The option once exercised
+			or not exercised shall be treated as final and no further choice
+			shall be available.</P>
+			<P>&nbsp;</P>
+			<P>(3) The employees of Police Department who have a separate
+			Group Insurance Scheme will also have option to become members of
+			this 'Scheme'. They should also exercise this option within sixty
+			days from the date of publication of the 'Scheme' in the official
+			gazette. Those such employees of the Policed Department who do not
+			opt for the 'Scheme' will be deemed to have opted out of the
+			scheme. The option once exercised</P>
+			<P>(or not exercised) will be treated as final and no further
+			choice will be available.</P>
+			<P>&nbsp;</P>
+			<P>(4) After the 'Scheme' has come into force, all employees who
+			enter service on or after 2nd&nbsp;January of any year shall be
+			enrolled as members of the 'Scheme' on the next anniversary of the
+			'Scheme', i.e. from 1st&nbsp;January next year as further
+			explained in paragraph 6 below.</P>
+			<P>&nbsp;</P>
+			<P>5. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Subscription for
+			Members.-</P>
+			<P>(1) The subscription for the 'Scheme' shall be in units of
+			Rs.15 per month. A Class IV employee shall subscribe for one unit,
+			a Class III employee for 2 units, a Class II employee for 4 units
+			and a Class I employee for a 8 units. Thus the rate of
+			subscription per moth for a member of the 'Scheme' shall be as
+			follows:-</P>
+			<P>&nbsp;</P>
+			<P>Rate of subscription per month</P>
+			<P>(a) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class IV employees
+			&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Rs. 15/-</P>
+			<P>(b) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class III employees
+			&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Rs. 30/-</P>
+			<P>(c) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class II employees
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Rs. 60/-</P>
+			<P>(d) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class I employees
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Rs. 120/-</P>
+			<P>(2) In the event of regular promotion of an employee from one
+			Class to another, his subscription shall be raised from the next
+			anniversary of the 'Scheme', to the level appropriate to the Class
+			to which he is promoted. Until the date of the next anniversary of
+			the 'Scheme', he shall continue to be covered for insurance for
+			the same amount for which he was eligible before such promotion.</P>
+			<P>&nbsp;</P>
+			<P>For example, if the 'Scheme' comes into force with effect from
+			1st&nbsp;January I994, a Class IV employees promoted on regular
+			basis to Class III in February 1994, shall continue to subscribe
+			at Rs.15/- per month up to December 1994 and be eligible for the
+			insurance cover of Rs.15,000/- only in addition to the benefits
+			from the Savings Fund appropriate to his subscription. From
+			January 1995, his subscription will be raised to Rs.30/- per month
+			and he will become eligible for an insurance cover of Rs,30,000/-
+			in addition to appropriate benefits from the Savings Fund.</P>
+			<P>&nbsp;</P>
+			<P>6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Premium and
+			Insurance Cover for employees, other than Members.-</P>
+			<P>The employees entering service after first January 1994, will
+			be given benefit of appropriate insurance cover from the date of
+			joining Sikkim Government Service to the date of their becoming
+			member of the 'Scheme' on payment of subscription of Rs.5t- per
+			month as the premium for every Rs.15,000t- of the Insurance Cover.
+			From the date of anniversary of the 'Scheme', i.e. 1st&nbsp;January
+			of the next year, they will pay subscription at the rates
+			indicated in paragraph 5(1) above.</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;For example, if the 'Scheme' comes into force with effect
+			from 1st&nbsp;January 1994, a Class IV employee entering service
+			in February 1994, shall pay subscription at the rate of Rs.5/- per
+			month as premium for an Insurance Cover of Rs.15,000/- for a
+			period of 11 months from February 1994 to December 1994 and from
+			January 1995, his subscription shall be raised to Rs.15/- per
+			month and he shall become eligible for the benefits from Savings
+			Fund in addition to Insurance Cover of Rs.15,000t-. Similarly, a
+			Class III employee entering Service in February 1994, will pay
+			subscription at the rate of Rs.10/- &nbsp;per month as the premium
+			for an Insurance Cover of Rs.30,000/- for a period of II months
+			from February 1994 to December 1994 and from January 1995, his
+			subscription shall be raised to Rs.30/- per month ad he shall
+			become eligible for the benefit from the Savings Fund in addition
+			to Insurance Cover of Rs.30,000/-</P>
+			<P>&nbsp;</P>
+			<P>7. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Insurance Fund
+			and Insurance Cover for Members.-</P>
+			<P>(1) In order to provide insurance cover to each member of the
+			'Scheme', a portion of the subscription (30 percent) shall be
+			credited to an Insurance Fund to be held in the Public Account of
+			the State Government. The amount of Insurance Cover shall be
+			Rs.15,000/- for each unit of subscription, i.e. it shall be Rs.
+			15,000, Rs.30,000, Rs.60,000, Rs.I,20,000 respectively for Class
+			IV, Class III, Class II and Class I employees. It shall be paid to
+			the families of those employees who unfortunately die, due to any
+			cause, while in Sikkim Government Service.</P>
+			<P>&nbsp;</P>
+			<P>(2) The positive or negative balance under the Insurance Fund
+			shall be credited or debited, as the case may be, with the amount
+			of interest calculated at the rate of 6 per cent per annum or as
+			fixed by the State Government from time to time.</P>
+			<P>&nbsp;</P>
+			<P>8. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Savings Fund.-</P>
+			<P>(1) The balance of the subscription, that is 70 per cent, shall
+			be credited to a Savings Fund. The amount in the Savings Fund
+			shall be held by the State Government in its Public Account. The
+			total accumulation of the savings together with interest thereon
+			shall be payable to the ,member on his retirement after attaining
+			the age of superannuation or on cessation of his employment with
+			the Sikkim Government or to his family on his death while in
+			Service.</P>
+			<P>&nbsp;</P>
+			<P>(2) The benefit from the Savings Fund shall be as shown in the
+			tables notified by the Government of Sikkim from year to year
+			based on the year of entry up to the end of month of cessation of
+			membership of the 'Scheme' on account of retirement, resignation,
+			removal from service, death, etc. These tables correspond to
+			subscription of Rs.15/- per month from the year of entry. These
+			tables are based on the individual's subscription per unit reduced
+			by the cost of insurance at mortality rate (presently 3.60 per
+			thousand per annum and the compound interest (present rate 12 per
+			cent compounded quarterly) thereon. If at any time the rate of
+			interest changes and/or the cost of Insurance changes, the
+			benefits available from the Savings Fund shall also change
+			correspondingly. Benefits from the Savings Fund per unit of
+			subscription from 1.1.1994 to 31.12.1995 are illustrated below:-</P>
+			<P>&nbsp;</P>
+			<P STYLE="margin-bottom: 0cm"><A NAME="table2"></A><BR>
+			</P>
+			<TABLE class="tab1" BORDER=1 CELLPADDING=0 CELLSPACING=0>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>1.1.95</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>1.1.94</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>1.1.94</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>Year of entry</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>1995</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>1995</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>1994</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>Year of cessation</P>
+						<P>of Membership</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>11</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>145</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>11</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>Jan</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>21</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>157</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>21</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>Feb</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>32</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>169</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>32</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>Mar</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>43</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>181</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>43</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>Apr</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>54</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>193</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>54</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>May</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>65</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>206</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>65</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>Jun</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>76</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>218</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>76</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>Jul</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>87</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>231</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>87</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>Aug</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>98</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>244</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>98</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>Sep</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>110</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>257</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>110</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>Oct</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>121</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>270</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>121</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>Nov</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=44>
+						<P>133</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>283</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>133</P>
+					</TD>
+					<TD WIDTH=176>
+						<P>Dec</P>
+					</TD>
+				</TR>
+			</TABLE>
+			<P>&nbsp;</P>
+			<P>(3) In the case of death of a member while in service, the
+			payment of the amount of Insurance will be in addition to the
+			payment from the Savings Fund.</P>
+			<P>&nbsp;</P>
+			<P>(4) The positive balance under the Savings Fund shall be
+			credited with the amount of interest calculated at the rate of
+			interest notified by the Government of India, Ministry of Finance,
+			Department of Economic Affairs for the purpose.</P>
+			<P>&nbsp;</P>
+			<P>(5) The present rate of interest allowed is 12 per cent per
+			annum, to be compounded quarterly on the balances in the Savings
+			Fund commencing from the date the scheme is implemented.</P>
+			<P>&nbsp;</P>
+			<P>9. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recovery of
+			subscription.-</P>
+			<P>(1) The subscription of a member for a month shall fall due at
+			the commencement of the normal working hours on the first of that
+			month.</P>
+			<P>&nbsp;</P>
+			<P>(2) The subscription as a premium for the insurance cover: from
+			the date of joining Sikkim Government Service (after 1st&nbsp;January,
+			1994) to the date of membership of the 'Scheme' shall initially
+			fall due from the date of joining and subsequently from the
+			commencement of normal working hours on first of every month.</P>
+			<P>&nbsp;</P>
+			<P>(3) The subscription for a month shall be recovered by
+			deduction from the salary/wages of the 'employee' for that moth
+			irrespective of the date of actual payment of salary/wage for that
+			month.</P>
+			<P>&nbsp;</P>
+			<P>(4) The subscription shall be recovered every month including
+			the month in which the 'employee' ceases to be in employment on
+			account of retirement, death, resignation, removal from service,
+			etc.</P>
+			<P>(5) The Drawing and Disbursing Officer shall recover the
+			subscription from the 'employee' irrespective of their being on
+			duty, leave, extra-ordinary leave, suspension, or any period of
+			absence from duty without leave.&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>(6) No interest shall be levied on arrears of subscription if
+			the non-recovery is due to delayed payments of salary/wage.</P>
+			<P>&nbsp;</P>
+			<P>(7) If an 'employee' is on extra-ordinary leave or on absence
+			from duty without leave and there is no payment of his salary/wage
+			for any period, his subscription for the months for which no
+			payment of salary/wage are made to him shall be recovered with
+			interest admissible under the 'Scheme' on the accretion to the
+			Savings Fund in nor more than three instalments commencing from
+			his salary/wage for the months following the month in which he
+			resumes duties after extra-ordinary leave or absence without
+			leave. If an 'employee' dies while on extraordinary leave or
+			absence without leave, the subscriptions due from him shall be
+			recovered with interest admissible under the 'Scheme' on the
+			accretions to the Savings Fund from the payments admissible to his
+			family under the 'Scheme'. Interest will be rounded off to nearest
+			whole rupee.</P>
+			<P>&nbsp;</P>
+			<P>For example, if a Class IV employee proceeds on extraordinary
+			leave from 15.2.94 to 4.12.94 and no salary/wage is paid to him
+			for any day for March 1994 to November 1994 but subscription for
+			February and December 1994 are recovered from salary/wage for
+			those months, his subscription for 9 months totalling Rs. 135/-
+			will be recovered together with the interest calculated at the
+			compound rate of interest (present rate 12 per cent per annum) in
+			not more than three instalments commencing from pay of January
+			1995.</P>
+			<P>&nbsp;</P>
+			<P>(8) If an 'employee' proceeds on deputation or on Foreign
+			Service, the borrowing authority/ foreign employer shall be
+			requested to effect the recovery of the subscription and transmit
+			it to the Sikkim Government by a bank draft on a bank in Gangtok
+			or a cheque on a bank in Gangtok. It shall be ensured that the
+			necessary clause to this effect is included in the terms of
+			deputation/Foreign Service in future as also in the existing terms
+			of those who are already on deputation/Foreign Service and covered
+			by the 'Scheme'. The recovery of those subscriptions will be
+			watched in the same manner as applicable to recoveries of General
+			Provident Fund subscriptions from employees on deputation/Foreign
+			Service. If at any time, the recovery of subscription under the
+			'Scheme' falls in arrears, the same shall be recovered with
+			interest admissible under the 'Scheme' on the accretions to the
+			Savings Fund in not more than three instalments.</P>
+			<P>&nbsp;</P>
+			<P>10. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Financing of subscription
+			from General Provident Fund (GPF).-&nbsp;The financing of
+			subscription to the 'Scheme' will be permissible from the GPF.</P>
+			<P>&nbsp;</P>
+			<P>11. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Payment from Insurance
+			Fund/Savings Fund.-</P>
+			<P>(1) If an 'employee' retires on attaining the age of
+			superannuation or otherwise ceases to be in Sikkim Government
+			Service and his service book discloses that he has been a member
+			of the 'Scheme', the Group Insurance Scheme Section of Finance
+			Department shall issue a sanction for the payment of the member's
+			accumulation in his Savings Fund after obtaining an application in
+			Form No.4 through the Head of Office/Department.</P>
+			<P>&nbsp;</P>
+			<P>(2) If an 'employee' dies while in service and his service'
+			book discloses that he was a member of the 'Scheme', the Head of
+			Office/Department shall address the nominee(s)/heirs of the
+			Government servant concerned in Form No.5 to submit an application
+			in Form No.6 and on receipt thereof shall process it for issue of
+			sanction for the payment of the amount of Insurance and the
+			accumulation in the Savings Fund by the Group' Insurance Scheme
+			Section of Finance Department to nominee(s)/heirs, as the case may
+			be. When an 'employee' leaves a family and no nomination in favour
+			of a member or members of the family of the subscriber subsists or
+			if such nomination relates to a part of the amount payable under
+			the 'Scheme', the whole amount or part thereof to which the
+			nomination does not relate, as the case may be, shall,
+			notwithstanding any nomination purporting to be in favour of any
+			person or persons other than a member or members of his family
+			becomes payable to the members of his family in equal shares.</P>
+			<P>&nbsp;</P>
+			<P>Provided that no share shall be payable to-</P>
+			<P>(a) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sons who have attained
+			majority;</P>
+			<P>(b) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sons of deceased son
+			who have attained majority;</P>
+			<P>(c) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; married daughters
+			whose husbands are alive; and</P>
+			<P>(d) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; married daughters or a
+			deceased son whose husbands are alive,</P>
+			<P>if there is any member of family other than those specified in
+			clause (a), (b), (c) and (d).</P>
+			<P>&nbsp;</P>
+			<P>Provided further that the widow or widows and child or children
+			of a deceased son shall receive between them in equal parts only
+			the share which that son would have received if he had survived
+			the subscriber and had been exempted from the provisions of clause
+			(a) of first proviso.</P>
+			<P>&nbsp;</P>
+			<P>(3) In the event of death of a member of the 'Scheme' while in
+			service, if a person, who is eligible to receive insurance
+			amounts, is charged with offence of murdering the member of the
+			'Scheme' or abetting in the commission of such an offence, his/her
+			claim to receive insurance amounts shall remain suspended till the
+			conclusion of the criminal proceedings instituted against such a
+			person. If, on the conclusion of the criminal proceedings, the
+			person concerned is convicted for the murder or abetting in the
+			murder, he/she shall be debarred from receiving his/her share of
+			insurance amounts, which shall be paid in equal shares to other
+			eligible persons. However, on the conclusion of the criminal
+			proceedings, if the person concerned is acquitted of the charge of
+			murdering or abetting in the murder, his/her share of insurance
+			amounts shall be paid to him/her without any interest thereon.</P>
+			<P>&nbsp;</P>
+			<P>(4) If a member of the 'Scheme' is missing and has not been
+			traced, the insurance cover shall be paid to the nominees/heirs of
+			the missing person after expiry of a period of seven years
+			following the month of disappearance of the member provided the
+			claimants produce a proper and indisputable proof of death or a
+			decree of the court that the employee concerned shall be presumed
+			to be dead as laid down in Section 108 of the Indian Evidence Act.
+			The accumulation in the Savings Fund may, however, be paid to the
+			nominee/heirs after lapse of a period of one year following the
+			month of disappearance subject to the fulfilment of the following
+			conditions:-&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>(i) The family must lodge a report with the concerned Police
+			Station and obtain a report that the employee has not been traced
+			after all efforts had been made by the Police.</P>
+			<P>&nbsp;</P>
+			<P>(ii) An Indemnity Bond should be taken from the nominees/heirs
+			of the employee that all payments shall be adjusted against the
+			payment due to the employee in case he/she appears on the scene
+			and makes any claim.</P>
+			<P>&nbsp;</P>
+			<P>(5) Full subscription at the rate applicable on the date of
+			disappearance of the 'employee' will continue to be recovered
+			every month from the nominee/heirs of the missing 'employee' for a
+			period of one year following the month of disappearance.
+			Thereafter premium for insurance cover at the rate of Rs.5/- per
+			month for every Rs.15000/- of the insurance cover will be
+			recovered later. It will, however, be permissible if recovery of
+			full subscription for one year together with interest thereon at
+			the rate admissible on the accumulation in the Savings Fund is
+			made from the Savings Fund amount to be paid after one year.
+			Similarly, premium for the next six years at the rate of Rs.5/-
+			per month for every Rs.15000/- of the insurance cover may also be
+			recovered together with interest thereon at the rate admissible on
+			the accumulation in the Savings Fund from the insurance amount to
+			be paid after expiry of the period of seven years following the
+			month of disappearance.</P>
+			<P>&nbsp;</P>
+			<P>(6) Insurance amount shall be paid to the nominee/heir of the
+			missing 'employee' subject to the fulfilment of the conditions
+			mentioned in para 11(4) even if the date of superannuation of the
+			missing 'employee' falls before the expiry of the period of seven
+			years following the month of disappearance.</P>
+			<P>&nbsp;</P>
+			<P>(7) The amount payable to the nominee(s)/heirs of an 'employee'
+			who has the benefit of insurance cover only will be the amount of
+			insurance appropriate to his Class.</P>
+			<P>&nbsp;</P>
+			<P>(8) The amount payable to the nominee(s)/heir(s) of a member of
+			the 'Scheme' who dies while in service shall be-</P>
+			<P>&nbsp;</P>
+			<P>(a) the amount of appropriate insurance to which he was
+			entitled to at the time of his death; plus</P>
+			<P>&nbsp;</P>
+			<P>(b) the amount due to him out of the Savings Fund for the
+			entire period of his membership in the lowest Class; and</P>
+			<P>&nbsp;</P>
+			<P>(c) the amount or amounts due to him for the additional units
+			by which his subscription was raised on each occasion due to
+			appointment/promotion to higher Class for the period for which the
+			rate of subscription was so raised to the date of his death.</P>
+			<P>&nbsp;</P>
+			<P>For example, if a Class IV 'employee' who is a member of the
+			'Scheme', acquires membership of class III, Class II and Class I
+			after 5 years. 15 years and 30 years, respectively, and dies while
+			in service after 31 years of total membership in all the Classes,
+			his nominee or nominees/heir(s) shall be paid the sum of the
+			following amounts:-</P>
+			<P>&nbsp;</P>
+			<P>(i) the amount of insurance of Rs. 1,20,000 due on a monthly
+			subscription of Rs. 120 being Class I employee on the date of his
+			death;</P>
+			<P>&nbsp;</P>
+			<P>(ii) the amount due from Savings Fund on a monthly subscription
+			of Rs. 15 for 31 years;</P>
+			<P>&nbsp;</P>
+			<P>(iii) the amount due from Savings Fund on a monthly
+			subscription of Rs. 15 (Rs.30 minus Rs.15) for 26 years;</P>
+			<P>&nbsp;</P>
+			<P>(iv) the amount due from Savings Fund on a , monthly
+			subscription of Rs.30 (Rs.60 minus Rs.30) for 16 years; and</P>
+			<P>&nbsp;</P>
+			<P>(v) the amount due from Savings Fund on a monthly subscription
+			of Rs.60 (Rs. 120 minus Rs.60) for 1year.</P>
+			<P>&nbsp;</P>
+			<P>(9) The amount payable to the 'employee' who ceases to be in
+			employment with the Sikkim Government on account of retirement.
+			resignation, removal from service, etc. shall be</P>
+			<P>&nbsp;</P>
+			<P>(a) the amount due to him out of the Savings Fund for the
+			entire period of his membership in the lowest Class; and</P>
+			<P>&nbsp;</P>
+			<P>(b) the amount or amounts due to him for the additional units
+			by which his subscription was raised on each occasion due to
+			appointment/promotion to higher Class for the period for which the
+			rate of subscription was so raised to the date of cessation of his
+			membership.</P>
+			<P>&nbsp;</P>
+			<P>For example, if a Class IV 'employee', who is a member of the
+			'Scheme', acquires membership of Class III and Class II after 10
+			years and 20 years of service, respectively, and retires on
+			superannuation after 30 years of total membership in all these
+			Classes, his shall be paid the sum of the following amounts:-</P>
+			<P>&nbsp;</P>
+			<P>(i) the amount due to him from the Savings Fund on a monthly
+			subscription of Rs.15 for 30 years;</P>
+			<P>&nbsp;</P>
+			<P>(ii) the amount due to him from the Savings Fund on a monthly
+			subscription of Rs. 15 (Rs.30 minus Rs.15) for 20 years; and</P>
+			<P>&nbsp;</P>
+			<P>(iii) the amount due to him from the Savings Fund on a monthly
+			subscription of Rs.30 (Rs.60 minus Rs.30) for 10 years.</P>
+			<P>&nbsp;</P>
+			<P>If a Class III 'employee' who is a member of the 'Scheme',
+			since January, 1994, acquires membership of Class II and Class I
+			after 10 years and 20 years, respectively, and retires on
+			superannuation after 30 years of total membership in all these
+			Classes, he shall be paid the sum of the following amounts:-</P>
+			<P>&nbsp;</P>
+			<P>(i) the amount due to him from Savings Fund on a monthly
+			subscription of Rs.30 for 30 years;</P>
+			<P>&nbsp;</P>
+			<P>(ii) the amount due to him from Savings Fund on a monthly
+			subscription of Rs.30 (Rs.60 minus Rs.30) for 20 years; and</P>
+			<P>&nbsp;</P>
+			<P>(iii) the amount due to him from Savings Fund on a monthly
+			subscription of Rs.60 (Rs.120 minus Rs.60) for 10 year.</P>
+			<P>&nbsp;</P>
+			<P>(10) If any 'employee' dies during a month before the recovery
+			of subscription for that month from him, his dues shall be paid
+			after deducting the subscription.</P>
+			<P>&nbsp;</P>
+			<P>(11) If any employee joins later on in All India Service, he
+			will either elect to continue to subscribe to the Sikkim
+			Government Employees' Group Scheme or to subscribe to All India
+			Service Group Insurance Scheme as per the All India Services
+			(Group Insurance) Rules, 1981.</P>
+			<P>&nbsp;</P>
+			<P>12. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Withdrawals from Insurance
+			Fund/Savings Fund,-</P>
+			<P>(1) It will not be permissible for any member or other
+			beneficiary of the 'Scheme' to withdraw any amount out of the
+			Insurance Fund to which he has been subscribing. The amount due
+			from the Fund on the death of a member of the 'Scheme' while in
+			service, shall be worked out in accordance with paragraph 11(8)
+			above and paid to his nominee(s)/heir(s) in accordance with
+			accounting procedure prescribed separately.</P>
+			<P>&nbsp;</P>
+			<P>(2) 'It will also not be permissible for any member or other
+			beneficiary of the 'Scheme' to withdraw any amount of the Savings
+			Fund to which he has been subscribing. The amount due to him from
+			the Fund on his cessation of employment on account of resignation,
+			retirement, removal from service, etc. shall be worked out in
+			accordance with paragraph 11 (9) and paid to him or his
+			nominee(s)/heir(s) in accordance with the accounting procedure
+			prescribed separately.</P>
+			<P>&nbsp;</P>
+			<P>13. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Loan/Advance from or against
+			accumulation in Insurance Fund/Savings &nbsp;Fund.-</P>
+			<P>&nbsp;</P>
+			<P>No loan or advance shall be paid to any member or beneficiary
+			of the 'Scheme' from or against his/her accumulations in the.
+			Insurance Fund/Savings Fund to which he/she has been subscribing.</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>14. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Utilisation of accumulation
+			in Insurance Fund/Savings Fund.-</P>
+			<P>&nbsp;</P>
+			<P>The accumulations in the Insurance Fund/Savings Fund shall be
+			at the disposal of the State Government of Sikkim. Since the
+			'Scheme' is self financing and self supporting, the bulk of
+			accumulations are proposed to be utilised for housing schemes and
+			other schemes for the benefit of the members of the 'Scheme'.</P>
+			<P>&nbsp;</P>
+			<P>15. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mode of notification of the
+			'Scheme'.-&nbsp;&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>The 'Scheme' shall be notified to the 'employees' by displaying
+			a copy thereof on the notice board or where no notice board is
+			provided at the prominent place in the premises where 'employees'
+			are working. A few copies of the 'Scheme' may also be supplied to
+			the recognised Unions/Associations of the 'employees'. It will
+			also be published in the Government Gazette.</P>
+			<P>&nbsp;</P>
+			<P>16. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Action on notification of
+			the 'Scheme'.-</P>
+			<P>&nbsp;</P>
+			<P>(1) After the 'Scheme' is notified, the Head of Office/Head of
+			Department shall keep record in a register separately of all Class
+			IV, Class III. Class II and Class I 'employee' appointed after
+			1.4.1993 for whom the 'Scheme' is compulsory. This record will
+			show name, Class of employee, date of birth and date of
+			appointment of each employee appointed.</P>
+			<P>&nbsp;</P>
+			<P>(2) On receipt of options to opt out of the 'Scheme' from the
+			'employee' who are already in service as on 1.4.1993, the Head of
+			Office/Head of Department will record on separate pages of the
+			register maintained as per paragraph 16(1), names, Class of
+			employees and dates of birth separately for Class IV, Class III,
+			Class II and Class I 'employees' who have not opted out of the
+			'Scheme' and who are to be enrolled as 'members' of the 'Scheme'
+			from 1st&nbsp;January 1994.</P>
+			<P>&nbsp;</P>
+			<P>17. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Action on the 'Scheme'
+			coming into force.-</P>
+			<P>&nbsp;</P>
+			<P>(1) Immediately after the 1st&nbsp;January 1994, but before
+			5th&nbsp;of January 1994, the Head of Office/Head of Department
+			shall supply, from the register maintained as per paragraph 16
+			above, to the Drawing and Disbursing Officers and the Finance
+			Department (Group Insurance Scheme Section) the following
+			statements separately for Class IV, Class III, Class II and Class
+			I 'employees', namely, -</P>
+			<P>&nbsp;</P>
+			<P>(i) statement showing names, Class of employees, dates of birth
+			and dates of appointment of all 'employees' appointed from 1st
+			April 1993 to 31stDecember,1993.</P>
+			<P>&nbsp;</P>
+			<P>(ii) Statement showing names, Class of employees and dates of
+			birth of all 'employees' who have been in Sikkim Government
+			service as on 1st&nbsp;April, 1993 but have not opted out of the
+			'Scheme'.</P>
+			<P>&nbsp;</P>
+			<P>The aforesaid statements shall be prepared separately for Class
+			IV, Class III, Class II and Class I 'employees'.</P>
+			<P>&nbsp;</P>
+			<P>Along with the Pay bill, deduction schedule for the
+			subscriptions under the 'Scheme' will be enclosed as in the case
+			of GPF. The Finance Department (Group Insurance Scheme Section)
+			will use the above statements received in making postings in a
+			register in Form No. 10 and give Account No. to each enrolled
+			member.</P>
+			<P>&nbsp;</P>
+			<P>(3) By 5th of every month following the month in which the
+			'Scheme' has come into force, the Head of Office/Head of
+			Department shall supply to the Drawing &amp; Disbursing Officers
+			and also the Group Insurance Scheme Section of Finance Department
+			statements showing names, Class of 'employee ',dates of birth and
+			dates of appointment of persons -</P>
+			<P>&nbsp;</P>
+			<P>(a) who are appointed to any Service or post under the State
+			Government during the preceding month and who would be eligible
+			for Insurance cover under the 'Scheme' under paragraph above;</P>
+			<P>&nbsp;</P>
+			<P>(b) who have been enrolled as members of the 'Scheme' under
+			paragraph 4(4) above;</P>
+			<P>&nbsp;</P>
+			<P>(c) who have been promoted/appointed from one Class of post to
+			a higher Class of post and whose rate of subscription is raised
+			under paragraph 5(2) above.</P>
+			<P>&nbsp;</P>
+			<P>(4) Every member of the 'Scheme' shall be informed by the Head
+			of Office/Head of Department in Form No. I, the date of his
+			enrolment, the subscription to be deducted and the benefits to
+			which he would be eligible. On his regular promotion one Class of
+			post to another, he will be similarly informed in Form No.2.</P>
+			<P>&nbsp;</P>
+			<P>(5) The option exercised by the 'employee' who is already in
+			the Sikkim Government Service as on 1st&nbsp;January 1993 shall be
+			in Form No.3 and will be pasted in the service of the concerned
+			'employee'.</P>
+			<P>&nbsp;</P>
+			<P>18. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Register of Members.-</P>
+			<P>(1) The Head of Office/Head of Department shall ensure that
+			Class-wise register of members is maintained in Form No.9 and kept
+			up to date. This register shall be sent to/inspected by the
+			Drawing &amp; Disbursing Officer concerned once a year to verify
+			whether appropriate subscriptions are being recovered from all
+			'employees' who have joined the Insurance Fund or both the
+			Insurance Fund and the Savings Fund under the 'Scheme' and to
+			record a certificate to that effect in the register. This register
+			will also be checked in Internal Audit with the deductions from
+			the Pay Bills to see that deductions are correctly made.</P>
+			<P>&nbsp;</P>
+			<P>(2) Group Insurance Scheme Section of Finance Department shall
+			maintain Class-wise register for each department, head office
+			wise/Drawing &amp; Disbursing Officer-wise in Form No.1O and make
+			postings of subscriptions received on the basis of Deduction
+			Schedules of subscription received every month, in the same month
+			from the salary of which deduction of subscription is made. In the
+			register or registers for a Department, separate pages shall be
+			allotted for each Head of Office/Drawing &amp; Disbursing Officer.
+			Among these pages separate pages shall be assigned for Class IV,
+			Class III, Class II and Class I 'employees' in that office. For
+			each 'employee' 2 pages can be allotted. Each page will contain
+			deductions made in 20 years. Whenever there is promotion from one
+			Class of post to a higher Class of post, the name of the
+			'employee' shall be continued in the existing pages assigned and a
+			note of promotion will be made in red ink and the subscriptions as
+			raised and deducted will be posted from the relevant year. In
+			cases of transfer from one department/office to another, the name
+			of the 'employee' will be transferred from the register of old
+			department/office to the register of new department/office by
+			making link reference in both registers in remarks column. The
+			purpose of maintaining the Consolidated Registers in the Group
+			Insurance Scheme Section is to have a proper check for regular and
+			correct deductions of the subscription and to enable a proper
+			check being exercised at the time of payment from Insurance
+			Fund/Savings Fund. The Group Insurance Scheme Section shall review
+			monthly all these registers with reference to postings for all
+			subscriptions to see that there are no omission of recovery of
+			subscriptions and to take up with the departmental officers
+			concerned where recoveries are not made by them.</P>
+			<P>&nbsp;</P>
+			<P>(3) The Drawing &amp; Disbursing Officer will also maintain the
+			register in Form No. 10 and make postings of the subscriptions
+			recovered from Pay Bills for the 'employee' whose salary is drawn
+			by him. Procedure as outlined in paragraph 18(2) will be followed
+			in making postings.</P>
+			<P>&nbsp;</P>
+			<P>19. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nominations.-</P>
+			<P>(1) The Head of Office/Head of Department shall obtain from
+			every Government Servant, who is a member of the 'Scheme', a
+			nomination conferring on one or more persons, the right t receive
+			the amount that may become payable under this 'Scheme' in the
+			event of his death while in serviced before attaining the age of
+			superannuation. In the case of 'employees' who are already in
+			Sikkim Government Service as on 151 April 1993 and who do not opt
+			out of the 'Scheme', such nomination shall be obtained
+			simultaneously with the options obtained from others and in the
+			case of 'employees' who join Sikkim Government Service after 1st
+			April 1993, such nomination shall be obtained along with the
+			joining report.</P>
+			<P>&nbsp;</P>
+			<P>(2) If a member of the 'Scheme' happens to be minor, he will be
+			required to make nomination on his attaining the age of majority.</P>
+			<P>&nbsp;</P>
+			<P>(3) If a member of the 'Scheme' has a family at the time of his
+			making the nomination he shall make such nomination only in favour
+			of a member or members of his family. For this purpose,</P>
+			<P>&nbsp;</P>
+			<P>(a) &nbsp;&nbsp;&nbsp;'Family', as in General Provident Fund
+			(Sikkim Services) Rules, 1984, means -</P>
+			<P>&nbsp;</P>
+			<P>(i) in the case of a male subscriber, the wife or wives and
+			children of a subscriber and 1he widow or widows and children of a
+			deceased son of the subscriber:</P>
+			<P>&nbsp;</P>
+			<P>Provided that if a subscriber proves that his wife has been
+			judicially separated from him or has ceased under the customary
+			law of the community to which she belongs to be entitled to
+			maintenance, she shall thenceforth be deemed to be no longer a
+			member of the subscriber's family n respect of matters to which
+			this Scheme relates unless the subscriber subsequently indicates
+			in writing that she shall continue to be so regarded.</P>
+			<P>&nbsp;</P>
+			<P>(ii) In the case of a female subscriber, the husband and
+			children of a subscriber and the widow or widows and children of a
+			deceased son of the subscriber:</P>
+			<P>&nbsp;</P>
+			<P>Provided that if a female subscriber notifies in writing to the
+			Head of Office/Head of Department expressing her intention to
+			exclude her husband from her family, the husband shall thenceforth
+			be deemed to be no longer a member of the subscriber's family in
+			respect of matters to which this Scheme relates, unless the
+			subscriber subsequently indicates in writing that her husband
+			shall continue to be so regarded.</P>
+			<P>&nbsp;</P>
+			<P>(b) 'Child' means a legitimate child and includes an adopted
+			child where adoption is recognised by the personal law governing
+			the subscriber.</P>
+			<P>&nbsp;</P>
+			<P>(4) If a member nominates more than one person under paragraph
+			19( 1), he should specify in the nomination, the amount of share
+			payable to each of the nominee in such manner as to cover the
+			whole of the amount payable under the 'Scheme' failing which he
+			amount payable under the 'Scheme' shall be equally distributed
+			among the nominees.</P>
+			<P>&nbsp;</P>
+			<P>(5) The nomination shall be made in Form No.7 or Form No.8 as
+			is appropriate in the circumstances.</P>
+			<P>&nbsp;</P>
+			<P>(6) A member of the 'Scheme' may, at any time, cancel a
+			nomination by sending a notice to the Head of Office/Head of
+			Department along with a fresh nomination made in accordance with
+			the above provision.</P>
+			<P>&nbsp;</P>
+			<P>(7) The nominations from the members shall be countersigned by
+			the Head of Office/Head of Department and pasted on his/her
+			service books. The Head of Office/Head of Department shall also
+			make an entry in the Service Book that the nomination is duly
+			received.</P>
+			<P>&nbsp;</P>
+			<P>20. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Accounting.-&nbsp;The
+			transactions relating to the 'Scheme' shall be accounted for in
+			accordance with the procedure laid down separately by the Finance
+			Department.</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>21. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Interpretation and
+			clarification.-</P>
+			<P>(1) The classification of 'employee' into Class IV, Class III.
+			Class II and Class I will be in accordance with the classification
+			of posts indicated in rule 10 of the Sikkim Government Services
+			(Revised Pay) Rules, 1987 as amended from time to time.</P>
+			<P>&nbsp;</P>
+			<P>(2) In the actual implementation of the 'Scheme', if any doubt
+			arises in regard to the interpretation of any provision of this
+			'Scheme' or if ' any point requires clarification, the matter may
+			be referred to the Finance Department whose decision shall be
+			final.</P>
+			<P>22. Review of the 'Scheme'.- The working of the 'Scheme' will
+			be reviewed by the Finance Department every three years to ensure
+			that the 'Scheme' remains self-financing and self-supporting.</P>
+			<P>&nbsp;</P>
+			<P>---------------------------------------------------------------------------------------------------------------------------------------------------</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+			<P>FORM NO.1</P>
+			<P>Government of Sikkim</P>
+			<P>Department /Office
+			&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Dated &hellip;&hellip;&hellip;&hellip;&hellip;..</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>MEMORANDUM</P>
+			<P>Shri &hellip;&hellip;&hellip;&hellip;&hellip;, a Class
+			&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;employee has been
+			enrolled as a member of the Sikkim Government Employees' Group
+			Insurance Scheme, 1993 with effect from &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;His
+			monthly subscription of Rs. &hellip;&hellip;&hellip;..(Rupees
+			&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..) shall be
+			deducted from his salary/wage commencing from the month of
+			&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</P>
+			<P>and he will be eligible to the benefits of the 'Scheme'
+			appropriate to Class &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;with
+			effect from &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</P>
+			<P>&nbsp;</P>
+			<P>Head of Office/Head of Department</P>
+			<P>To</P>
+			<P>&nbsp;&nbsp;&nbsp; Shri &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</P>
+			<P>&nbsp; &nbsp;&nbsp;(Name and designation of the employee)</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;--------------------------------------------------------------------------------------------------------------------------------------------------</P>
+			<P>&nbsp;</P>
+			<P>FORM NO.2</P>
+			<P>Government of Sikkim</P>
+			<P>Department /Office &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</P>
+			<P>Dated&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			MEMORANDUM</P>
+			<P>Shri &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.has
+			been promoted on regular basis from Class &hellip;&hellip;&hellip;&hellip;&hellip;to
+			Class &hellip;&hellip;&hellip;&hellip;..post with effect from
+			&hellip;&hellip;&hellip;&hellip;&hellip;..His monthly subscription
+			for the Sikkim Government Employees' Group Insurance Scheme 1993
+			shall be raised from Rs&hellip;&hellip;&hellip;. to Rs&hellip;&hellip;&hellip;..
+			From the pay of the month of &hellip;&hellip;&hellip;&hellip;&hellip;.
+			and he will be eligible to the benefits of the Scheme appropriate
+			to the Class &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;with
+			effect from</P>
+			<P>Head of Office/Head of Department</P>
+			<P>To</P>
+			<P>&nbsp;&nbsp;&nbsp; Shri &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</P>
+			<P>&nbsp;&nbsp;&nbsp; (Name and designation of the employee)</P>
+			<P>&nbsp;</P>
+			<P>---------------------------------------------------------------------------------------------------------------------------------------------------</P>
+			<P>&nbsp;</P>
+			<P>FORM NO.3</P>
+			<P>OPTION</P>
+			<P>To</P>
+			<P>&nbsp;&nbsp;&nbsp; The &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</P>
+			<P>&nbsp;&nbsp;&nbsp; (Head of Office/Head of Department)</P>
+			<P>&nbsp;</P>
+			<P>Sir,</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I have
+			read and understood/I have been explained the details of the
+			Sikkim Government Employees' Group Insurance Scheme, 1993. I opt
+			to remain outside this 'Scheme'.</P>
+			<P>Yours faithfully</P>
+			<P>Date</P>
+			<P>Place
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			(&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;
+			)</P>
+			<P>Name and designation of the employee</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>To</P>
+			<P>&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</P>
+			<P>(Designation and address of Head of Office/Department)</P>
+			<P>Dated.....................</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>--------------------------------------------------------------------------------------------------------------------------------------------------&nbsp;</P>
+			<P>FROM NO.4</P>
+			<P>&nbsp;</P>
+			<P>Subject: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Application for payment of accumulation under Sikkim Government
+			Employees' Group Insurance Scheme, 1993.</P>
+			<P>Sir,</P>
+			<P>I have been a member of the Sikkim Government Employees' Group
+			Insurance Scheme, 1993 since &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..(month
+			and year of becoming a member of the 'Scheme&rsquo;). I have
+			retired from service after attaining the age of &nbsp;&hellip;&hellip;&hellip;&hellip;.years/I
+			have ceased to be in employment with the Sikkim Government with
+			effect from &hellip;&hellip;&hellip;&hellip;.. I was holding the
+			post of before retirement/cessation of employment with the
+			Government of Sikkim and request that the amount due to me under
+			the Sikkim Government Employees' Group Insurance Scheme may be
+			paid to me.</P>
+			<P>&nbsp;</P>
+			<P>Yours faithfully,</P>
+			<P>(&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.)</P>
+			<P>Name and designation of the employee</P>
+			<P>&nbsp;</P>
+			<P>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</P>
+			<P>FORM NO.5</P>
+			<P>Government of Sikkim</P>
+			<P>Department /Office &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</P>
+			<P>Dated. &hellip;&hellip;&hellip;&hellip;&hellip;</P>
+			<P>To</P>
+			<P>&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</P>
+			<P>(Name and address a/the nominee).</P>
+			<P>&nbsp;</P>
+			<P>Subject: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Payment of the amount due under the Sikkim Government Employees'
+			Group Insurance Scheme, 1993.</P>
+			<P>Dear Sir/Madam,</P>
+			<P>I am directed to state that late Shri &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;....has</P>
+			<P>Nominated you for payment of full/&hellip;&hellip;&hellip;&hellip;&hellip;..
+			percent of amounts due under the Sikkim Government Employees'
+			Group Insurance Scheme, 1993. You are, therefore, requested to
+			submit an application in the enclosed Form No.6 for arranging
+			payment.&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>Yours faithfully,</P>
+			<P>(&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.)</P>
+			<P>Designation a/Head o/Office/Department/</P>
+			<P>Any other officer.</P>
+			<P>&nbsp;</P>
+			<P>--------------------------------------------------------------------------------------------------------------------------------------------------&nbsp;</P>
+			<P>FORM NO.6</P>
+			<P>&nbsp;</P>
+			<P>To</P>
+			<P>The &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</P>
+			<P>(Name and address of the office from where Form No.5 is
+			received)</P>
+			<P>&nbsp;</P>
+			<P>Subject: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Application for payment of amount due to late Shri
+			&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.Under
+			the Sikkim Government Employees' Group Insurance Scheme, 1993</P>
+			<P>Sir,</P>
+			<P>With reference to your letter No. &hellip;&hellip;&hellip;&hellip;&hellip;..dated
+			&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;, I hereby request
+			that the full/ &hellip;&hellip;&hellip;&hellip;&hellip;.percent of
+			the amount due to late Shri &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;Under
+			the Sikkim Government Employees' Group Insurance Scheme may be
+			paid to me.</P>
+			<P>&nbsp;</P>
+			<P>Yours faithfully,</P>
+			<P>(&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..)</P>
+			<P>&nbsp;--------------------------------------------------------------------------------------------------------------------------------------------------</P>
+			<P>FORM NO.7</P>
+			<P>Nomination/or benefits under the Sikkim Government Employees'
+			Group Insurance Scheme, 1993.</P>
+			<P>(When the Government Servant has no family and wishes to
+			nominate one person or more than one person)</P>
+			<P>I,&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;., having no
+			family, hereby, nominate the person or persons mentioned below and
+			confer on him/them the right to receive the extent specified below
+			any amount that may be sanctioned by the Sikkim Government under
+			the Sikkim Government Employees' Group Insurance Scheme, 1993 in
+			the even of my death while in service or which having became a
+			able on m attaining the age of superannuation ma remain unpaid at
+			my death.</P>
+			<P STYLE="margin-bottom: 0cm"><A NAME="table3"></A><BR>
+			</P>
+			<TABLE class="tab1" WIDTH=657 BORDER=1 CELLPADDING=0 CELLSPACING=0>
+				<TR VALIGN=TOP>
+					<TD WIDTH=100>
+						<P>Name and address of Nominee/</P>
+						<P>nominees</P>
+					</TD>
+					<TD WIDTH=107>
+						<P>Relationship with Government</P>
+						<P>Servant</P>
+					</TD>
+					<TD WIDTH=46>
+						<P>Age</P>
+					</TD>
+					<TD WIDTH=112>
+						<P>Share of</P>
+						<P>Amount to be</P>
+						<P>paid to each.</P>
+					</TD>
+					<TD WIDTH=183>
+						<P>Contingencies on the</P>
+						<P>happening of which the nominee shall become invalid</P>
+					</TD>
+					<TD WIDTH=109>
+						<P>Name and address and relationship of the person. if any, to
+						whom the right of nominee shall pass in the event of his
+						predeceasing the Government servant</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=100>
+						<P>1</P>
+					</TD>
+					<TD WIDTH=107>
+						<P>2</P>
+					</TD>
+					<TD WIDTH=46>
+						<P>3</P>
+					</TD>
+					<TD WIDTH=112>
+						<P>4</P>
+					</TD>
+					<TD WIDTH=183>
+						<P>5</P>
+					</TD>
+					<TD WIDTH=109>
+						<P>6</P>
+					</TD>
+				</TR>
+			</TABLE>
+			<P>Dated this&hellip;&hellip;&hellip;&hellip; day of
+			&hellip;&hellip;&hellip;&hellip;.20&hellip;&hellip;&hellip;&hellip;at&hellip;&hellip;&hellip;&hellip;</P>
+			<P>Two witnesses to sign.</P>
+			<P>&nbsp;</P>
+			<P>1.</P>
+			<P>2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; signature of
+			the Government Servant</P>
+			<P>N.B The Government Servant should draw a line across the blank
+			space below his last entry to prevent insertion of any names after
+			he has signed</P>
+			<P>* Col 4 should be tilled in so as to cover the whole amount
+			that may be payable under the &nbsp;&nbsp;&nbsp;&nbsp;Insurance
+			Scheme.</P>
+			<P>** Where a Government Servant who has no family makes a
+			nomination, he shall specify in this column (col.5) that the
+			nomination shall become invalid in the event of his subsequently
+			acquiring a family.</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>---------------------------------------------------------------------------------------------------------------------------------------------------</P>
+			<P>FORM NO.8</P>
+			<P>Nomi/ration/or benefits under the Sikkim Government Employees'
+			Group Insurance Scheme, 1993.</P>
+			<P>&nbsp;</P>
+			<P>(When the Government Servant has a family and wishes to
+			nominate one member or more than one member thereof)</P>
+			<P>I,&hellip;&hellip;&hellip;&hellip;&hellip;.., having no family,
+			hereby, nominate the person(s) mentioned below who is/are
+			member(s) of my family and confer on hint/them the right to
+			receive the extent specified below any amount that may be
+			sanctioned by the Sikkim Government under the Sikkim Government
+			Employees' Group Insurance Scheme. 1993 in the even of my death
+			while in service or which having became payable on my attaining
+			the age of superannuation may remain unpaid unpaid at my death.</P>
+			<P STYLE="margin-bottom: 0cm"><A NAME="table4"></A><BR>
+			</P>
+			<TABLE class="tab1" WIDTH=657 BORDER=1 CELLPADDING=0 CELLSPACING=0>
+				<TR VALIGN=TOP>
+					<TD WIDTH=100>
+						<P>Name and address of Nominee/</P>
+						<P>nominees</P>
+					</TD>
+					<TD WIDTH=107>
+						<P>Relationship with Government</P>
+						<P>Servant</P>
+					</TD>
+					<TD WIDTH=46>
+						<P>Age</P>
+					</TD>
+					<TD WIDTH=112>
+						<P>Share of</P>
+						<P>Amount to be</P>
+						<P>paid to each.</P>
+					</TD>
+					<TD WIDTH=183>
+						<P>Contingencies on the</P>
+						<P>happening of which the nominee shall become invalid</P>
+					</TD>
+					<TD WIDTH=109>
+						<P>Name and address and relationship of the person. if any, to
+						whom the right of nominee shall pass in the event of his
+						predeceasing the Government servant</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=100>
+						<P>1</P>
+					</TD>
+					<TD WIDTH=107>
+						<P>2</P>
+					</TD>
+					<TD WIDTH=46>
+						<P>3</P>
+					</TD>
+					<TD WIDTH=112>
+						<P>4</P>
+					</TD>
+					<TD WIDTH=183>
+						<P>5</P>
+					</TD>
+					<TD WIDTH=109>
+						<P>6</P>
+					</TD>
+				</TR>
+			</TABLE>
+			<P>Dated this &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..day
+			of &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.20
+			at&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</P>
+			<P>Two witnesses to sign.</P>
+			<P>1.</P>
+			<P>2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; signature of
+			the Government Servant</P>
+			<P>N.B The Government Servant should draw a line across the blank
+			space below his last entry to prevel1l insertion of any names
+			after he has signed</P>
+			<P>* Col 4 should be filled in so as to cover the whole amount
+			that may be payable under the Insurance Scheme.</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;--------------------------------------------------------------------------------------------------------------------------------------------------</P>
+			<P>FORM NO.9</P>
+			<P>Register of Class&hellip;&hellip;&hellip;.. Members of Sikkim
+			Government Employees' Group Insurance Scheme, 1993</P>
+			<P>Section I: Particulars of employees subscribing to the
+			Insurance Fund only.</P>
+			<P STYLE="margin-bottom: 0cm"><A NAME="table5"></A><BR>
+			</P>
+			<TABLE class="tab1" WIDTH=608 BORDER=1 CELLPADDING=0 CELLSPACING=0>
+				<TR VALIGN=TOP>
+					<TD WIDTH=37>
+						<P>SI</P>
+						<P>No.</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>Name</P>
+					</TD>
+					<TD WIDTH=88>
+						<P>Designation</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>Date of birth</P>
+					</TD>
+					<TD WIDTH=91>
+						<P>Date of appointment</P>
+					</TD>
+					<TD WIDTH=111>
+						<P>Date of commencement of subscription</P>
+					</TD>
+					<TD WIDTH=87>
+						<P>Date of promotion to higher class of post/Date of transfer
+						to other department.&nbsp;</P>
+					</TD>
+					<TD WIDTH=48>
+						<P>Date of death</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>Rema rks</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=37>
+						<P>1</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>2</P>
+					</TD>
+					<TD WIDTH=88>
+						<P>3</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>4</P>
+					</TD>
+					<TD WIDTH=91>
+						<P>5</P>
+					</TD>
+					<TD WIDTH=111>
+						<P>6</P>
+					</TD>
+					<TD WIDTH=87>
+						<P>7</P>
+					</TD>
+					<TD WIDTH=48>
+						<P>8</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>9</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=37>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=88>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=44>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=91>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=111>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=87>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=48>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+			</TABLE>
+			<P>Section II: Particulars of employees subscribing to both
+			Insurance Fund and Savings Fund</P>
+			<P STYLE="margin-bottom: 0cm"><A NAME="table6"></A><BR>
+			</P>
+			<TABLE class="tab1" WIDTH=615 BORDER=1 CELLPADDING=0 CELLSPACING=0>
+				<TR VALIGN=TOP>
+					<TD WIDTH=36>
+						<P>SI</P>
+						<P>No.</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>Name</P>
+					</TD>
+					<TD WIDTH=87>
+						<P>Designation</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>Date of birth</P>
+					</TD>
+					<TD WIDTH=89>
+						<P>Date of appointment</P>
+					</TD>
+					<TD WIDTH=109>
+						<P>Date of commencement of subscription</P>
+					</TD>
+					<TD WIDTH=85>
+						<P>Date of promotion to higher class of post/Date of transfer
+						to other department.&nbsp;</P>
+					</TD>
+					<TD WIDTH=69>
+						<P>Date of cessation of members hip and reason therefor</P>
+					</TD>
+					<TD WIDTH=49>
+						<P>Rema rks</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=36>
+						<P>1</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>2</P>
+					</TD>
+					<TD WIDTH=87>
+						<P>3</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>4</P>
+					</TD>
+					<TD WIDTH=89>
+						<P>5</P>
+					</TD>
+					<TD WIDTH=109>
+						<P>6</P>
+					</TD>
+					<TD WIDTH=85>
+						<P>7</P>
+					</TD>
+					<TD WIDTH=69>
+						<P>8</P>
+					</TD>
+					<TD WIDTH=49>
+						<P>9</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=36>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=87>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=89>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=109>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=85>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=69>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=49>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+			</TABLE>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>FORM 10</P>
+			<P>SIKKIM GOVRENMENT EMPLOYEES&rsquo; GROUP INSURANCE SCHEME, 1993</P>
+			<P>Register of subscription of members</P>
+			<P>Name &hellip;&hellip;&hellip;&hellip;&hellip;Designation&hellip;&hellip;&hellip;&hellip;Class&hellip;&hellip;&hellip;Date
+			of birth&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</P>
+			<P>Department/office&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.Account
+			No&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</P>
+			<P STYLE="margin-bottom: 0cm"><A NAME="table7"></A><BR>
+			</P>
+			<CENTER>
+				<TABLE class="tab1" BORDER=1 CELLPADDING=0 CELLSPACING=0>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>year</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>Jan</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>Feb</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>Mar</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>Apr</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>May</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>June</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>July</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>Aug</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>Sept</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>Oct</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>Nov</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>Dec</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>Rem.</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>1</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>2</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>3</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>4</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>5</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>6</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>7</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>8</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>9</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>10</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>11</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>12</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>13</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>14</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>1994</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>1995</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>1996</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>1997</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>1998</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>1999</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>2000</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>2001</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>2002</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>2003</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>2004</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>2006</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>2007</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=46>
+							<P>2008</P>
+						</TD>
+						<TD WIDTH=36>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=39>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=44>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=41>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=43>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=38>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=42>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=40>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=49>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+				</TABLE>
+			</CENTER>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>SIKKIM GOVERNMENT EMPLOYEES' GROUP INSURANCE SCHEME,1993</P>
+			<P>ACCOUNTING PROCEDURE</P>
+			<P>WHEREAS, the Government of Sikkim is introducing Group
+			Insurance Scheme for the benefit f the State Government employees
+			with effect from 1stJanuary 1994.</P>
+			<P>&nbsp;</P>
+			<P>AND WHEREAS it is necessary to lay down a procedure for
+			accounting the amount deducted from the salary of individual
+			employees and maintaining the books of accounts and other records
+			for proper maintenance of that account.</P>
+			<P>&nbsp;</P>
+			<P>NOW THEREFORE the State Government hereby lays down the
+			following procedure for accounting the fund received on account of
+			the said Scheme, namely,-</P>
+			<P>&nbsp;</P>
+			<P>1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Short title and
+			commencement.-&nbsp;</P>
+			<P>(1) This procedure may be called the Sikkim Government
+			Employees' Group Insurance Scheme Accounting Procedure, 1993.</P>
+			<P>&nbsp;</P>
+			<P>(2) It shall come into force with effect from 1st&nbsp;January
+			1994.</P>
+			<P>&nbsp;</P>
+			<P>2. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Head of Account.-</P>
+			<P>(1) The transactions under the scheme of subscriptions and
+			payments will be respectively credited and debited in the Public
+			Account of the State Government under the following Major Head and
+			Minor Head:-</P>
+			<P>&nbsp;</P>
+			<P>8011 -Insurance and Pension Funds</P>
+			<P>107 -Sikkim Government Employees' Group Insurance Scheme</P>
+			<P>&nbsp;</P>
+			<P>(2) -The following two Sub-Heads shall be opened under the
+			above Minor Head:</P>
+			<P>&nbsp;</P>
+			<P>(a) Insurance Fund;</P>
+			<P>(b) Savings Fund.</P>
+			<P>3. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deduction of
+			subscriptions from pay bills under the Scheme.-</P>
+			<P>(1) The recovery of subscription under the 'Scheme' from those
+			employees who are enrolled as members of the 'Scheme' for both
+			Insurance Fund and Savings Fund and also from those employees, who
+			enter Sikkim Government Service on or after 2nd&nbsp;January in
+			any year and are eligible for only Insurance Cover of the amount
+			appropriate to their</P>
+			<P>class of post till 31st&nbsp;December of that year, shall be
+			made by deduction from their Pay bills. These deductions from the
+			Pay Bills should be entered in a separate column of the Pay Bills
+			as in the case of General Provident fund deductions and should be
+			supported by deduction schedule in Form &lsquo;A&rsquo; showing
+			the Name, Class, Account No. of the employee and the amount
+			deducted. In preparing the deduction schedule, the names of the
+			employees should be clubbed together according to Class IV, Class
+			III, Class II and Class I employees.</P>
+			<P>&nbsp;</P>
+			<P>(2) In the classification portion of the Pay Bill, the total
+			amount of the subscriptions deducted from the Pay bill (i.e
+			vertical total of the relevant column of the Pay Bill) should be
+			shown against the &quot;Head - 8011 Insurance and Pension Funds
+			-107 Sikkim Government Employees' Group Insurance Scheme&quot;.
+			This amount must agree with the total of the deduction schedule.</P>
+			<P>&nbsp;</P>
+			<P>(3) A Pay Bill received in the Pay &amp; Accounts Office
+			without the deduction schedule of Group Insurance Scheme or any
+			other deduction schedule should not be entertained and should be
+			returned immediately to the Drawing &amp; Disbursing Officer. The
+			Pay &amp; Accounts Office must check that the total deduction
+			under the 'Scheme' agrees with the total in the deduction
+			schedule. The Compilation Section, on receipt of Vouchers from Pay
+			&amp; Accounts Office (Cheque Section) will again verify the total
+			deduction in the Pay Bill with that in the deduction schedule and
+			certify that it has been checked and agreed. The Compilation
+			Section will then detach the deduction schedules from the Pay
+			Bills and send them to the Group Insurance Scheme Section of he
+			Finance Department with a statement of totals of schedules.</P>
+			<P>&nbsp;</P>
+			<P>(4) The Drawing &amp; Disbursing Officers should prepare the
+			deduction schedule of subscriptions under the 'Scheme' in
+			triplicate, one copy to be attached with the Pay Bill, one copy to
+			be sent in advance to the Group Insurance Scheme Section of
+			Finance Department and one copy to be retained with Office copy of
+			the Pay Bill.</P>
+			<P>&nbsp;</P>
+			<P>(5) The Group Insurance Scheme Section of Finance Department,
+			on receipt of advance copy of deduction schedule or the certified
+			copy sent by the Compilation Section after check, shall make
+			postings in the concerned register in Form No. 10 of Sikkim
+			Government Employees' Group Insurance Scheme, 1993. If postings
+			are made on the basis of advance copy of deduction schedule, it
+			should be checked with the certified copy subsequently received
+			from the Compilation Section to avoid any discrepancy.</P>
+			<P>&nbsp;</P>
+			<P>(6) The total amount of each deduction schedule and the amounts
+			pertaining to Class, II. Class III and Class IV employees shall
+			also be posted in register in form 'B' Part 1. The number of each
+			Class of employees shall also be posted.</P>
+			<P>&nbsp;</P>
+			<P>(7) If on Completion of postings of deduction schedules, it is
+			found that recoveries in cases of some members of the 'Scheme' are
+			missing, the matter must be immediately taken up with the
+			concerned Drawing &amp; Disbursing Officer to ensure the recovery
+			of subscription with interest, if the non-recovery is not due to
+			delayed payment of salary/wage.</P>
+			<P>&nbsp;</P>
+			<P>(8) The Grand Total of all the deduction schedules received in
+			the Group Insurance Scheme Section of Finance Department and
+			posted in the Register in Form 'B' Part I should be struck and
+			reconciled with the total amount for the month arrived at by the
+			office of the Accountant General for booking as credit under 80
+			II-Insurance and Pension Funds- IO7-Sikkim State Government
+			Employees' Group Insurance Scheme.</P>
+			<P>&nbsp;</P>
+			<P>(9) The provisions of paragraph 17 and 18 of the Sikkim
+			Government Employees' Group Insurance Scheme shall be complied
+			with by the Drawing &amp; Disbursing Officers and the Group
+			Insurance Scheme Section of Finance Department.</P>
+			<P>&nbsp;</P>
+			<P>4. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recovery of
+			subscription without default.-</P>
+			<P>Once an employee has been enrolled as member under the 'Scheme'
+			for both Insurance Fund and Savings Fund or only for Insurance
+			Fund, the subscription shall be recovered without fail including
+			the month in which the member cease to be in employment and also
+			for the months in which the employee is on extraordinary leave,
+			suspension or on absence without leave or on deputation/foreign
+			service. The provisions of paragraph 9 of then Group Insurance
+			Scheme should be complied with. The recovery of subscription
+			should be ensured by the Drawing &amp; Disbursing Officers without
+			default with reference to Register of Members in Form No.9 of the
+			Scheme and Last Pay Certificates in cases of transfers.</P>
+			<P>&nbsp;</P>
+			<P>5. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Transfer of
+			Members.-</P>
+			<P>If an employee is transferred from one Department/Office to
+			another Department/Office, the orders of transfer as also the Last
+			Pay Certificate issued should clearly indicate the Class of
+			employees to which he belongs and the year and month of
+			commencement of his continuous membership in each Class for the
+			benefits from the Insurance Fund and Savings Fund, as the case may
+			be, under the Sikkim Government</P>
+			<P>Employees' Group Insurance Scheme, 1993 and Account No.. These
+			details .will be available in the Service Book of the employee.
+			The Head of Office/Department or the Establishment Department, as
+			the case may be, shall inter alia endorse a copy of the order of
+			transfer to the Drawing &amp; Disbursing Officer and Finance
+			Department (Group Insurance Scheme Section). On receipt of the
+			orders of transfer, Drawing &amp; Disbursing r Officer shall
+			ensure that all the aforesaid details are entered in the Last Pay
+			Certificate and also given thereon a certificate to the effect
+			that the individual concerned has subscribed to the Insurance Fund
+			or both to Insurance Fund and Savings Fund, as the case may be, up
+			to and including the month of &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..As
+			soon as the Last Pay Certificate is received by the Drawing &amp;
+			Disbursing Officer of the new Department/ Office, he shall
+			commence recovery of he subscription from the individual</P>
+			<P>concerned beyond the month up to which such subscription has
+			been</P>
+			<P>recovered earlier. Entry will also be made in the Register of
+			Members of the new Department/Office in Form No.9 of the Sikkim
+			Government Employees' Group Insurance Scheme. The Group Insurance
+			Scheme Section of Finance Department shall also keep a note of
+			transfer in the Register Form No. 10 of the Scheme.</P>
+			<P>&nbsp;</P>
+			<P>6. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Change of Class
+			of employee on promotion.-</P>
+			<P>When an employee is promoted to a higher class of post on
+			regular basis, his name will be entered in the Register of Members
+			in the Class to which he is promoted in the concerned
+			Department/Office and recovery of subscription shall be raised to
+			appropriate rate from 1st&nbsp;January of the next year. The
+			change in the Class should be indicated in the Last Pay
+			Certificate wherever necessary in cases of transfer on promotion.
+			He will be eligible for membership of higher appropriate Class
+			only from 1st</P>
+			<P>January of the next year.</P>
+			<P>&nbsp;</P>
+			<P>7. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Payments of dues
+			to beneficiaries.-</P>
+			<P>(1) The payments of dues to the employees concerned or other
+			beneficiaries shall be regulated under paragraph 11 of the Sikkim
+			Government Employees' Group Insurance Scheme, 1993. Separate bills
+			in simple Form 'C' will be prepared in respect of payments arising
+			under the scheme for drawing the amount towards disbursement to
+			the payee</P>
+			<P>concerned as per the sanction order issued by the Finance
+			Department (Group Insurance Scheme Section) in Form 'E'. The
+			amount of payment due from the Savings Fund shall be worked out
+			with reference to paragraph 11 of the said 'Scheme' on the basis
+			of the Table of benefits from Savings Fund issued by the
+			Government of India (Ministry of Finance) from time to time. The
+			bills will indicate separately entitlements from (i) Insurance
+			Fund and (ii) Savings Fund. The amount will be classified under
+			the respective sub-heads mentioned below:-</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			8011- Insurance and pension</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			107- Sikkim State Government Employees&rsquo; Group Insurance
+			Scheme (Minor Head)</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(a)
+			Insurance Fund (sub-head)</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			(b) Savings Fund (sub-head).</P>
+			<P>(2) The bill will be sent by the Drawing &amp; Disbursing
+			Officer to the Group Insurance Scheme Section of Finance
+			Department along with the sanction order of the Finance
+			Department, Service Book of the employee which will contain
+			service particulars, nominations etc. The Group Insurance Scheme
+			Section of Finance Department will check and pass the bill
+			expeditiously (especially in respect of claims on account of death
+			of a Member, after checking death certificate) after exercising
+			necessary checks including recovery of any subscriptions not
+			already recovered with interest and ensuring that the
+			classification is correctly recorded. A note of payment indicating
+			the amount pertaining to Insurance Fund and/or Savings Fund will
+			be made in the Service Book which will be attested by the Accounts
+			Officer, Group Insurance Scheme Section of Finance Department. The
+			payments made shall be noted in register in Form 'B' Part II and
+			Part III. A note of payment will also be kept in the Register of
+			Subscription in Form 10 of the said 'Scheme'.</P>
+			<P>&nbsp;</P>
+			<P>8. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Adjustment
+			between Insurance Fund and Savings Fund in the Book of Accountant
+			General.-</P>
+			<P>(1) The deduction in respect of he Sikkim Government Employees'
+			Group Insurance Scheme will be consolidated each month in the
+			office of the Accountant General. The total amount of deductions
+			from Pay Bills from employees subscribing to both Insurance Fund
+			and Savings Fund and from employees subscribing to Insurance Fund
+			alone shall be apportioned between the two Funds at 30 percent to
+			Insurance Fund and 70 percent to Savings Fund. The amount
+			subscribed by the employees, who are members of Insurance Fund
+			alone, need not be reckoned separately for apportionment, since
+			the amount involved will be negligibly small. Apportionment of the
+			total credits under minor head 107 -Sikkim State Government
+			Employees' Group Insurance Scheme should be made between (a)
+			Insurance Fund and (b) Saving Fund before deducting payments there
+			from. This apportionment will be done in each month's account.</P>
+			<P>&nbsp;</P>
+			<P>(2) Payment from both Insurance Fund and Savings Fund shall be
+			debited to each of the Funds separately after the apportionment is
+			done as above.</P>
+			<P>&nbsp;</P>
+			<P>9. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Adjustment of
+			interest to both Funds on quarterly basis.-</P>
+			<P>(1) The adjustment of interest shall be made quarterly by the
+			Accountant General for Insurance Fund and Savings Fund as
+			indicated below.&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>(2) In respect of Savings Fund, the positive balance
+			outstanding at the end of April, May and June shall be added up
+			and interest at 12 per4cent per annum worked out for one month.
+			Similarly, in respect of Insurance Fund, the positive balances
+			outstanding at the end of each of three months of a quarter shall
+			be added up and interest at 6 per cent per annum worked out for
+			one month. The interest as worked out above will be included in
+			the account of the month following the quarter so that the balance
+			of each fund for the month following the quarter includes also
+			interest credited to the balance of previous quarter. The interest
+			will thus be quarterly compounded.</P>
+			<P>&nbsp;</P>
+			<P>(3) The total amount of interest calculated quarterly on both
+			the funds shall be adjusted in the month following the quarter by-</P>
+			<P>&nbsp;</P>
+			<P>Debit&nbsp;-2049-lnterest Payments</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			03-lnterest on small savings, Provident Fund</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			108-Interest on Insurance and Pension Fund etc. Sikkim Government
+			Employees' Group Insurance Scheme</P>
+			<P>Credit&nbsp;801 I-Insurance and Pension Funds</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			107-Sikkim Government Employees' Group Insurance Scheme</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			(a)-Insurance Fund</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			(b)-Savings Fund.</P>
+			<P>(4) If there are negative balances in the funds, the quarterly
+			interest as worked out will be debited to the Funds by per contra
+			credit to-</P>
+			<P>0049-lterest Receipts</P>
+			<P>&nbsp;&nbsp;&nbsp; 04-lnterest Receipts of State/Union
+			Territory Governments</P>
+			<P>&nbsp;&nbsp; 800-Other Receipts.</P>
+			<P>(5) In calculation and adjustment of interest on the Funds, the
+			Group Insurance Scheme Section of Finance Department shall
+			associate itself with the office of the Accountant General.</P>
+			<P>&nbsp;</P>
+			<P>10. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No recovery of dues except
+			authorised under the Scheme.-</P>
+			<P>No recovery of any Government dues, other than authorised under
+			the Group Insurance Scheme as per paragraph II, shall be made at
+			the time of payments from Insurance Fund and Savings Fund.</P>
+			<P>&nbsp;</P>
+			<P>11. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rebate on Income Tax.-</P>
+			<P>Income Tax rebate will be admissible to employees subscription
+			under the 'Scheme'.</P>
+			<P>&nbsp;</P>
+			<P>12. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Annual Report.-</P>
+			<P>The Group Insurance Scheme Section of Finance Department will
+			send a report to the Finance Secretary by 20th&nbsp;March
+			following the completion of each anniversary of the 'Scheme' in
+			Form 'D'. This report will be prepared from Register in Form 'B'</P>
+			<P>&nbsp;</P>
+			<P>13. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Submission of Estimates.-</P>
+			<P>At appropriate time every year, the Group Insurance Scheme
+			Section of Finance Department in consultation with the Office of
+			the Accountant General (for Interest Amount) shall submit the
+			estimates of accruals and disbursements under the 'Scheme' for the
+			.ensuing year as well as estimates of Interest Payments (under
+			Head 2049-lnterest Payments) to the Budget Cell of the Finance
+			Department.</P>
+			<P>&nbsp;</P>
+			<P>14. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Proforma Accounts.-</P>
+			<P>Only proforma accounts of utilisation of Funds accumulated
+			under the 'Scheme' for Housing Schemes and under schemes for the
+			benefit of employees as per paragraph 14 of the said 'Scheme'
+			shall be maintained by Finance Department.</P>
+			<P>&nbsp;</P>
+			<P>FORM 'A'</P>
+			<P>Government of Sikkim</P>
+			<P>Department &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</P>
+			<P>Deduction Schedule of Sikkim Government Employees' Group
+			Insurance Scheme from pay of the month of &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</P>
+			<P STYLE="margin-bottom: 0cm"><A NAME="table8"></A><BR>
+			</P>
+			<TABLE class="tab1" WIDTH=607 BORDER=1 CELLPADDING=0 CELLSPACING=0>
+				<TR VALIGN=TOP>
+					<TD WIDTH=43>
+						<P>SI</P>
+						<P>No.</P>
+					</TD>
+					<TD WIDTH=84>
+						<P>Name of</P>
+						<P>subscriber</P>
+					</TD>
+					<TD WIDTH=144>
+						<P>Class/ Designation</P>
+					</TD>
+					<TD WIDTH=108>
+						<P>Account No.</P>
+					</TD>
+					<TD WIDTH=156>
+						<P>Rate of Subscription</P>
+					</TD>
+					<TD WIDTH=72>
+						<P>Remarks</P>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=43>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=84>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=144>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=108>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=156>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=72>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+			</TABLE>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>-</P>
+			<P>FORM 'B'</P>
+			<P>PART I</P>
+			<P STYLE="margin-bottom: 0cm"><A NAME="table9"></A><BR>
+			</P>
+			<TABLE class="tab1" WIDTH=683 BORDER=1 CELLPADDING=0 CELLSPACING=0>
+				<TR VALIGN=TOP>
+					<TD ROWSPAN=2 WIDTH=35>
+						<P>SI</P>
+						<P>No.</P>
+					</TD>
+					<TD ROWSPAN=2 WIDTH=89>
+						<P>Name of Deptt/office/ D.D.O</P>
+					</TD>
+					<TD ROWSPAN=2 WIDTH=53>
+						<P>Month and Vr. No.</P>
+					</TD>
+					<TD ROWSPAN=2 WIDTH=75>
+						<P>Amount of Depuction schedule</P>
+					</TD>
+					<TD COLSPAN=8 WIDTH=431>
+						<P>No. of employees from whom recoveries made and amount
+						recovered</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=46>
+						<P>Class</P>
+					</TD>
+					<TD WIDTH=62>
+						<P>Amount</P>
+					</TD>
+					<TD WIDTH=46>
+						<P>Class</P>
+					</TD>
+					<TD WIDTH=62>
+						<P>Amount</P>
+					</TD>
+					<TD WIDTH=46>
+						<P>Class</P>
+					</TD>
+					<TD WIDTH=62>
+						<P>Amount</P>
+					</TD>
+					<TD WIDTH=46>
+						<P>Class</P>
+					</TD>
+					<TD WIDTH=62>
+						<P>Amount</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=35>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=89>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=53>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=75>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=46>
+						<P>I</P>
+					</TD>
+					<TD WIDTH=62>
+						<P>Rs.</P>
+					</TD>
+					<TD WIDTH=46>
+						<P>II</P>
+					</TD>
+					<TD WIDTH=62>
+						<P>Rs.</P>
+					</TD>
+					<TD WIDTH=46>
+						<P>III</P>
+					</TD>
+					<TD WIDTH=62>
+						<P>Rs.</P>
+					</TD>
+					<TD WIDTH=46>
+						<P>IV</P>
+					</TD>
+					<TD WIDTH=62>
+						<P>Rs.</P>
+					</TD>
+				</TR>
+			</TABLE>
+			<P>&nbsp;</P>
+			<P>PART II</P>
+			<P>Payments made during 20 &hellip;&hellip;&hellip;&hellip;&hellip;in
+			respect of subscribers on death while in service</P>
+			<P STYLE="margin-bottom: 0cm"><A NAME="table10"></A><BR>
+			</P>
+			<TABLE class="tab1" WIDTH=717 BORDER=1 CELLPADDING=0 CELLSPACING=0>
+				<TR VALIGN=TOP>
+					<TD ROWSPAN=2 WIDTH=57>
+						<P>Month</P>
+					</TD>
+					<TD ROWSPAN=2 WIDTH=34>
+						<P>Vr</P>
+						<P>No</P>
+					</TD>
+					<TD COLSPAN=5 WIDTH=182>
+						<P>No. of employees</P>
+					</TD>
+					<TD COLSPAN=11 WIDTH=443>
+						<P>Amount of payments indicating break-up</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=34>
+						<P>Cl.</P>
+						<P>I</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>Cl.</P>
+						<P>II</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>Cl.</P>
+						<P>III</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>Cl.</P>
+						<P>IV</P>
+					</TD>
+					<TD WIDTH=48>
+						<P>Total</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=49>
+						<P>Class I</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=49>
+						<P>Class II</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=49>
+						<P>Class III</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=49>
+						<P>Class IV</P>
+					</TD>
+					<TD WIDTH=86>
+						<P>Total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; insurance</P>
+						<P>&nbsp;8+10+</P>
+						<P>&nbsp;12+14</P>
+					</TD>
+					<TD WIDTH=89>
+						<P>Total</P>
+						<P>Saving 9+11+</P>
+						<P>13+115</P>
+					</TD>
+					<TD WIDTH=71>
+						<P>Remarks</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=57>
+						<P>1</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>2</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>3</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>4</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>5</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>6</P>
+					</TD>
+					<TD WIDTH=48>
+						<P>7</P>
+					</TD>
+					<TD WIDTH=22>
+						<P>8</P>
+					</TD>
+					<TD WIDTH=27>
+						<P>9</P>
+					</TD>
+					<TD WIDTH=20>
+						<P>10</P>
+					</TD>
+					<TD WIDTH=29>
+						<P>11</P>
+					</TD>
+					<TD WIDTH=19>
+						<P>12</P>
+					</TD>
+					<TD WIDTH=30>
+						<P>13</P>
+					</TD>
+					<TD WIDTH=18>
+						<P>14</P>
+					</TD>
+					<TD WIDTH=32>
+						<P>15</P>
+					</TD>
+					<TD WIDTH=86>
+						<P>16</P>
+					</TD>
+					<TD WIDTH=89>
+						<P>17</P>
+					</TD>
+					<TD WIDTH=71>
+						<P>18</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=57>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=48>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=22>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=27>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=20>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=29>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=19>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=30>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=18>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=32>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=86>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=89>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=71>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=57>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=34>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=48>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=22>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=27>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=20>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=29>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=19>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=30>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=18>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=32>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=86>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=89>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=71>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+			</TABLE>
+			<P>&nbsp;</P>
+			<P>PART III</P>
+			<P>Payments made to subscribers during 20&hellip;&hellip;on their
+			retirement, resignation, etc.</P>
+			<P STYLE="margin-bottom: 0cm"><A NAME="table11"></A><BR>
+			</P>
+			<TABLE class="tab1" WIDTH=604 BORDER=1 CELLPADDING=0 CELLSPACING=0>
+				<TR VALIGN=TOP>
+					<TD ROWSPAN=2 WIDTH=59>
+						<P>Month</P>
+					</TD>
+					<TD ROWSPAN=2 WIDTH=42>
+						<P>Vr. No.</P>
+					</TD>
+					<TD COLSPAN=5 WIDTH=251>
+						<P>No. of employees</P>
+						<P>&nbsp;</P>
+					</TD>
+					<TD COLSPAN=6 WIDTH=253>
+						<P>Amount of Payments</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=51>
+						<P>Class I</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>Class II</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>Class III</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>Class IV</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=50>
+						<P>Total</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>Class I</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>Class II</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>Class III</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>Class IV</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>Total</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=59>
+						<P>1</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>2</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>3</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>4</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>5</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>6</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=50>
+						<P>7</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>8</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>9</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>10</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>11</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>12</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=59>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=59>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=59>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=59>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=59>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=59>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=59>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=59>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=59>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD COLSPAN=2 WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+				<TR>
+					<TD WIDTH=59>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=42>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=49>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=1>
+						<P><BR>
+						</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=51>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=50>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+			</TABLE>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;--------------------------------------------------------------------------------------------------------------------------------------------------</P>
+			<P>&nbsp;</P>
+			<P>FORM 'C'</P>
+			<P>Name of the Department &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</P>
+			<P>Bill No&hellip;&hellip;&hellip;.. Date&hellip;&hellip;&hellip;&hellip;&hellip;..
+			Voucher No&hellip;&hellip;&hellip;&hellip; Date&hellip;&hellip;&hellip;&hellip;.</P>
+			<P>Sanction Order No. and date &hellip;&hellip;&hellip;&hellip;&hellip;Cheque
+			No. and Date&hellip;&hellip;&hellip;&hellip;&hellip;.</P>
+			<P>Major Head: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			8011 -Insurance and Pension Fund</P>
+			<P>107 -Sikkim State Governrnent Employees, Group Insurance</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Scheme.</P>
+			<P>(a)-Insurance Fund: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Rs&hellip;&hellip;&hellip;..</P>
+			<P>(b)-Savings Fund : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Rs&hellip;&hellip;&hellip;..</P>
+			<P>Total : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Rs &hellip;&hellip;&hellip;.</P>
+			<P>(Rupees&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;)</P>
+			<P>Relevant bio data of the member:</P>
+			<P>1. Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			2. Designation &amp; class</P>
+			<P>3. Class of the member (i.e. lowest class) on initial joining
+			the scheme on &hellip;&hellip;&hellip;&hellip;&hellip;..</P>
+			<P>4. Year of acquiring membership of higher classes:</P>
+			<P>(i) Class III:</P>
+			<P>(ii) Class II:</P>
+			<P>(iii) Class I :&nbsp;</P>
+			<P>5. Date of retirement/death.</P>
+			<P>6. Name of claimant/claimants</P>
+			<P>Signature and Designation of Drawing Officer</P>
+			<P>Passed for payment of Rs&hellip;&hellip;&hellip;&hellip;&hellip;
+			(Rupees &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.., )</P>
+			<P>Signature and designation of the Drawing &amp; Disbursing
+			Officer.</P>
+			<P>For use in Group Insurance Scheme Section of Finance
+			Department.</P>
+			<P>Register of Subscription of member page No&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</P>
+			<P>Account No. &hellip;&hellip;&hellip;&hellip;.</P>
+			<P>Pay Rs&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.
+			(Rupees&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..
+			)</P>
+			<P>Date: &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</P>
+			<P>Accounts Officer</P>
+			<P>&nbsp;</P>
+			<P>---------------------------------------------------------------------------------------------------------------------------------------------------</P>
+			<P>FORM &lsquo;D'</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GROUP INSURANCE SCHEME
+			SECNON OF FINANCE</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DEPARTMENT</P>
+			<P>ANNUAL STATEMENT FOR ____________WHOWING THE NUMBER OF PERSONS
+			SUBSCRIBING TO THE SIKKIM GOVERNMENT EMPLOYEES' GROUP INSURANCE
+			SCHEME AND NUMBER FOR WHOM PAYMENTS WERE MADE.</P>
+			<P>&nbsp;&nbsp;PART I</P>
+			<P>No. of employees subscribing to the Group Insurance Scheme at
+			the composite rate.</P>
+			<P STYLE="margin-bottom: 0cm"><A NAME="table12"></A><BR>
+			</P>
+			<TABLE class="tab1" BORDER=1 CELLPADDING=0 CELLSPACING=0>
+				<TR VALIGN=TOP>
+					<TD COLSPAN=5 WIDTH=268>
+						<P>In January ________(Previous year)</P>
+					</TD>
+					<TD COLSPAN=5 WIDTH=268>
+						<P>In January __________(Current year)</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=54>
+						<P>Cl.</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>Cl. II</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>Cl. III</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>Cl. IV</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>Total</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>Cl.</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>Cl. II</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>Cl. III</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>Cl. IV</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>Total</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=54>
+						<P>1</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>2</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>3</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>4</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>5</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>6</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>7</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>8</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>9</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>10</P>
+					</TD>
+				</TR>
+				<TR VALIGN=TOP>
+					<TD WIDTH=54>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>&nbsp;</P>
+					</TD>
+					<TD WIDTH=54>
+						<P>&nbsp;</P>
+					</TD>
+				</TR>
+			</TABLE>
+			<P>&nbsp;</P>
+			<P>&nbsp;</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			PART II</P>
+			<P>No. of case in which payments were made during the previous
+			year &hellip;&hellip;&hellip;&hellip;&hellip;.because of (i) death
+			and (ii) other cases.</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I.
+			DEATH</P>
+			<P STYLE="margin-bottom: 0cm"><A NAME="table13"></A><BR>
+			</P>
+			<CENTER>
+				<TABLE class="tab1" BORDER=1 CELLPADDING=0 CELLSPACING=0>
+					<TR VALIGN=TOP>
+						<TD WIDTH=79>
+							<P>Class I</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>Class II</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>Class III</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>Class IV</P>
+						</TD>
+						<TD WIDTH=60>
+							<P>&nbsp;Total</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=79>
+							<P>1</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>2</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>3</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>4</P>
+						</TD>
+						<TD WIDTH=60>
+							<P>5</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=79>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=60>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+				</TABLE>
+			</CENTER>
+			<P>&nbsp;</P>
+			<P>PART III</P>
+			<P>II. OTHER CASES</P>
+			<P STYLE="margin-bottom: 0cm"><A NAME="table14"></A><BR>
+			</P>
+			<CENTER>
+				<TABLE  class="tab1"BORDER=1 CELLPADDING=0 CELLSPACING=0>
+					<TR VALIGN=TOP>
+						<TD WIDTH=79>
+							<P>Class I</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>Class II</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>Class III</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>Class IV</P>
+						</TD>
+						<TD WIDTH=60>
+							<P>&nbsp;Total</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=79>
+							<P>1</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>2</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>3</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>4</P>
+						</TD>
+						<TD WIDTH=60>
+							<P>5</P>
+						</TD>
+					</TR>
+					<TR VALIGN=TOP>
+						<TD WIDTH=79>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=72>
+							<P>&nbsp;</P>
+						</TD>
+						<TD WIDTH=60>
+							<P>&nbsp;</P>
+						</TD>
+					</TR>
+				</TABLE>
+			</CENTER>
+			<P>&nbsp;</P>
+			<P>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</P>
+			<P>&nbsp;</P>
+			<P>FORM 'E'</P>
+			<P>GOVERNMENT OF SIKKIM</P>
+			<P>FINANCE DEPARTMENT</P>
+			<P>No
+			&hellip;&hellip;&hellip;&hellip;&hellip;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Dated &hellip;&hellip;&hellip;&hellip;&hellip;..</P>
+			<P>To,</P>
+			<P>The Chief Pay &amp; Accounts Officer,</P>
+			<P>Government of Sikkim, Gangtok.</P>
+			<P>&nbsp;</P>
+			<P>Subject: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Sanction Order for the drawal from Savings Fund / Insurance Fund.</P>
+			<P>&nbsp;</P>
+			<P>Sir,</P>
+			<P>Sanction of the Government is hereby conveyed for the payment
+			of Rs&hellip;&hellip;&hellip;&hellip;. (Rupees &hellip;&hellip;&hellip;&hellip;&hellip;..)
+			from the savings Fund and Rs&hellip;&hellip;&hellip;&hellip;..
+			(Rupees&hellip;&hellip;&hellip;.. ) From Insurance Fund in respect
+			of Shri&hellip;&hellip;&hellip;&hellip;&hellip; Class &hellip;&hellip;&hellip;&hellip;.Member
+			of the Sikkim Government Employees' Group Insurance Scheme in full
+			and final settlement. The amount is payable to claimant
+			&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</P>
+			<P>&nbsp;</P>
+			<P>The amount involved should be debited to the head 8011-
+			Insurance and Pension Fund, 107 -Sikkim Government Employees'
+			Group Insurance Scheme, (a) Insurance Fund Rs&hellip;&hellip;&hellip;&hellip;.
+			and (b) Savings Fund Rs&hellip;&hellip;&hellip;&hellip;&hellip;</P>
+			<P>File No&hellip;&hellip;&hellip;&hellip;&hellip;..</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Yours faithfully,</P>
+			<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			(&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.)</P>
+			<P>Dated &hellip;&hellip;&hellip;&hellip;&hellip;</P>
+			<P>Memo No&hellip;&hellip;&hellip;&hellip;</P>
+			<P>Copy forwarded to:</P>
+			<P>1. Accountant General, Sikkim;</P>
+			<P>2. &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.(Concerned
+			Head of Department/office).</P>
+      
+      
+      
+      
+        </td>
+      </tr>
+     
+        
+        
+        </table>
+    </td>
+  
+  </tr>
+        
+      </table>
+
+
+</div>
+</div>
+ </div>
+</div>
+
+
+
+                
+
+                 </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+ 
+ 
+  
+
+  
+</main>

@@ -46,7 +46,7 @@
 
 .ctgli:hover{
     border-left: 4px solid var(--hove);
-    background:#d2ffe221;
+    background:#D5F5E3;
     /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */
 }
 
@@ -107,7 +107,7 @@
     transition:.3s linear;
 }
 .showed{
-    background:#d2ffe221;;
+    background:#D5F5E3;
     border-left:4px solid var(--hove)!important;
 }
 
@@ -176,6 +176,12 @@ h1{font-size:3rem;}
 
 }
 
+i{
+    color: #666666;
+}
+.fa{
+    color: #666666;
+}
 
 </style>
 
@@ -225,137 +231,7 @@ h1{font-size:3rem;}
                 <div class="row">
                     <div class="col-lg-3">
                         <!-- category -->
-                        <nav class="category">
-
-                            <!-- <div class="ctghead">
-
-                                <h3><i class="ti-list"></i>Category</h3>
-                            </div>
- -->
-                            <ul class="ctgul">
-                                <li class="ctgli showed">
-                                    <a [routerLink]="['/feedback-report']" class="ctga">
-                                        <i class="ti-user"></i>
-                                        Feedback</a>
-                                </li>
-
-                                <li class="ctgli ">
-                                    <a [routerLink]="['/create-sbs-admin']" class="ctga">
-                                        <i class="ti-user"></i>
-                                        Create SBS Admin</a>
-                                </li>
-
-                                <li class="ctgli ">
-                                    <a [routerLink]="['/ddo-report']" class="ctga">
-                                        <i class="ti-user"></i>
-                                        DDO Request</a>
-                                </li>
-
-                                <li class="ctgli ">
-                                    <a [routerLink]="['/rco-report']" class="ctga">
-                                        <i class="ti-user"></i>
-                                        RCO Request</a>
-                                </li>
-
-                                <li class="ctgli">
-                                    <a href="#" class="ctga">
-                                        <div class="ok"></div>
-                                        <i class="ti-layout"></i>
-                                        Users
-                                        <i class="ti-angle-down down "></i>
-                                    </a>
-
-
-                                    <ul class="ctgulChild">
-                                        <li class="ctgliChild">
-                                            <a [routerLink]="['/ddo-users']" class="ctgaChild">DDO Users</a>
-                                        </li>
-                                        <li class="ctgliChild">
-                                            <a [routerLink]="['/rco-users']" class="ctgaChild"> MIS/HOD/RCO Users</a>
-                                        </li>
-                                        <li class="ctgliChild">
-                                            <a [routerLink]="['/admin-users']" class="ctgaChild"> Admin Users</a>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                              
-
-                                <li class="ctgli">
-                                    <a href="#" class="ctga ">
-                                        <i class="ti-write"></i>
-                                        Reports
-                                        <i class="ti-angle-down down "></i>
-                                    </a>
-                                    <ul class="ctgulChild">
-                                        <li class="ctgliChild">
-                                            <a href="" class="ctgaChild">Resource Allocation</a>
-                                        </li>
-                                        <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Receipt of Fund Statement</a>
-                                        </li>
-                                        <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Stmt of Resource Released</a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Monthly Resource Releases</a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Statement of Fund Surrender </a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Re-appropriation of Fund Statement</a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Scheme wise Info Status of Fund</a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Budget Head DDO Mapping</a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Expenditure Statement</a>
-                                        </li>
-                                            <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Sanctionwise Analysis DDO Wise</a>
-                                        </li>
-
-   <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> Report IT Deduction</a>
-                                        </li>
-
-   <li class="ctgliChild">
-                                            <a href="" class="ctgaChild"> GST Form 7</a>
-                                        </li>
-                                    </ul>
-                                      
-
-                                </li>
-
-                                <li class="ctgli">
-                                    <a [routerLink]="['/sbs-upload']" class="ctga">
-                                        <i class="ti-comment"></i>
-                                        SBS Upload</a>
-                                </li>
-
-                                <li class="ctgli">
-                                    <a [routerLink]="['/update-password']" class="ctga">
-                                        <i class="ti-comment"></i>
-                                        Update Password</a>
-                                </li>
-
-                                  <li class="ctgli">
-                                    <a class="ctga">
-                                        <i class="ti-comment"></i>
-                                        Logout</a>
-                                </li>
-
-                            </ul>
-
-
-
-                        </nav>
-
-
+                      <app-admin-navbar></app-admin-navbar>
 
 
                     </div>

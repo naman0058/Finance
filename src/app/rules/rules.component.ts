@@ -45,6 +45,15 @@ $('.ctgli').click(function(){
     $(this).toggleClass('wtok');
 });
 
+
+
+
+
+
+
+
+
+
 })
 
   }

@@ -46,7 +46,7 @@
 
 .ctgli:hover{
     border-left: 4px solid var(--hove);
-    background:#d2ffe221;
+    background:#D5F5E3;
     /* box-shadow: rgba(50, 50, 93, 0.08) 0px 14px 13px -12px, rgba(0, 0, 0, 0.16) 0px 26px 32px -22px; */
 }
 
@@ -107,7 +107,7 @@
     transition:.3s linear;
 }
 .showed{
-    background:#d2ffe221;;
+    background:#D5F5E3;
     border-left:4px solid var(--hove)!important;
 }
 
@@ -176,56 +176,17 @@ h1{font-size:3rem;}
 
 }
 
+i{
+    color: #666666;
+}
+.fa{
+    color: #666666;
+}
 
 </style>
 
-<main>
-  <div class="position-relative">
-    <!-- shape Hero -->
-    <section class="section section-lg section-shaped pb-50">
-      <div class="shape shape-style-1 shape-default">
-        <span></span>
-        <span></span>
-        <span></span>
-        </div>
-      <div class="container py-lg-md d-flex">
-        <div class="col px-0">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="btn-wrapper">
-               
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- SVG separator -->
-      <div class="separator separator-bottom separator-skew">
-        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
-        </svg>
-      </div>
-    </section>
-    <!-- 1st Hero Variation -->
-  </div>
-   <section class="section section-lg pt-lg-0 mt--100">
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-lg-12">
-          <div class="row row-grid">
-            <div class="col-lg-12">
-              <div class="card card-lift--hover shadow border-0">
-                <div class="card-body py-5">
-      <!--             <h6 class="text-primary text-uppercase"> Contact List- Finance Department As On 23/10/2019</h6>
-       -->          
 
-<div class="container-fluid">
-
-  <div class="grid">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <!-- category -->
-                        <nav class="category">
+   <nav class="category">
 
                             <!-- <div class="ctghead">
 
@@ -234,33 +195,33 @@ h1{font-size:3rem;}
  -->
                             <ul class="ctgul">
                                 <li class="ctgli showed">
-                                    <a [routerLink]="['/feedback-report']" class="ctga">
-                                        <i class="ti-user"></i>
+                                    <a [routerLink]="['/Admin-Dashboard']" class="ctga">
+                                        <i class="fa fa-comment-o"></i>
                                         Feedback</a>
                                 </li>
 
                                 <li class="ctgli ">
                                     <a [routerLink]="['/create-sbs-admin']" class="ctga">
-                                        <i class="ti-user"></i>
+                                        <i class="fa fa-plus" style="color: #666666"></i>
                                         Create SBS Admin</a>
                                 </li>
 
                                 <li class="ctgli ">
                                     <a [routerLink]="['/ddo-report']" class="ctga">
-                                        <i class="ti-user"></i>
+                                        <i class="fa fa-paper-plane"></i>
                                         DDO Request</a>
                                 </li>
 
                                 <li class="ctgli ">
                                     <a [routerLink]="['/rco-report']" class="ctga">
-                                        <i class="ti-user"></i>
+                                        <i class="fa fa-file"></i>
                                         RCO Request</a>
                                 </li>
 
                                 <li class="ctgli">
                                     <a href="#" class="ctga">
                                         <div class="ok"></div>
-                                        <i class="ti-layout"></i>
+                                        <i class="fa fa-user"></i>
                                         Users
                                         <i class="ti-angle-down down "></i>
                                     </a>
@@ -283,7 +244,7 @@ h1{font-size:3rem;}
 
                                 <li class="ctgli">
                                     <a href="#" class="ctga ">
-                                        <i class="ti-write"></i>
+                                        <i class="fa fa-pencil"></i>
                                         Reports
                                         <i class="ti-angle-down down "></i>
                                     </a>
@@ -333,19 +294,19 @@ h1{font-size:3rem;}
 
                                 <li class="ctgli">
                                     <a [routerLink]="['/sbs-upload']" class="ctga">
-                                        <i class="ti-comment"></i>
+                                        <i class="fa fa-upload"></i>
                                         SBS Upload</a>
                                 </li>
 
                                 <li class="ctgli">
-                                    <a [routerLink]="['/update-password']" class="ctga">
-                                        <i class="ti-comment"></i>
+                                    <a [routerLink]="['/change-password']" class="ctga">
+                                        <i class="fa fa-refresh"></i>
                                         Update Password</a>
                                 </li>
 
                                   <li class="ctgli">
                                     <a class="ctga">
-                                        <i class="ti-comment"></i>
+                                        <i class="fa fa-sign-out"></i>
                                         Logout</a>
                                 </li>
 
@@ -354,33 +315,3 @@ h1{font-size:3rem;}
 
 
                         </nav>
-
-
-
-
-                    </div>
-
-<div class="col-lg-3">Hello</div>
-</div>
- </div>
-</div>
-
-
-
-                
-
-                 </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>  
- 
- 
-  
-
-  
-</main>

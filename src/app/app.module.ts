@@ -55,6 +55,22 @@ import { GpfLoginComponent } from './gpf-login/gpf-login.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 import { AdminNavbarComponent } from './admin-navbar/admin-navbar.component';
 import { AdminNavbarEndComponent } from './admin-navbar-end/admin-navbar-end.component';
+import { FrbmComponent } from './frbm/frbm.component';
+import { FrbmSmrComponent } from './frbm-smr/frbm-smr.component';
+import { AccountsComponent } from './accounts/accounts.component';
+import { EmplanmentAccountsComponent } from './emplanment-accounts/emplanment-accounts.component';
+import { TenderingAccountsComponent } from './tendering-accounts/tendering-accounts.component';
+import { PaoComponent } from './pao/pao.component';
+import { GpfComponent } from './gpf/gpf.component';
+import { GisComponent } from './gis/gis.component';
+import { PensionComponent } from './pension/pension.component';
+import { PensionNotificationComponent } from './pension-notification/pension-notification.component';
+import { BudgetCircularComponent } from './budget-circular/budget-circular.component';
+import { FcdCircularComponent } from './fcd-circular/fcd-circular.component';
+import { AccountsCircularComponent } from './accounts-circular/accounts-circular.component';
+import { BudgetComponent } from './budget/budget.component';
+import { FcdComponent } from './fcd/fcd.component';
+import { SitemapComponent } from './sitemap/sitemap.component';
 
 @NgModule({
   declarations: [
@@ -103,7 +119,23 @@ import { AdminNavbarEndComponent } from './admin-navbar-end/admin-navbar-end.com
     GpfLoginComponent,
     AdminDashboardComponent,
     AdminNavbarComponent,
-    AdminNavbarEndComponent
+    AdminNavbarEndComponent,
+    FrbmComponent,
+    FrbmSmrComponent,
+    AccountsComponent,
+    EmplanmentAccountsComponent,
+    TenderingAccountsComponent,
+    PaoComponent,
+    GpfComponent,
+    GisComponent,
+    PensionComponent,
+    PensionNotificationComponent,
+    BudgetCircularComponent,
+    FcdCircularComponent,
+    AccountsCircularComponent,
+    BudgetComponent,
+    FcdComponent,
+    SitemapComponent
   ],
   imports: [
     BrowserModule,
