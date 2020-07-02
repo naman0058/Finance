@@ -131,7 +131,7 @@ const routes: Routes =[
         {path:'Accounts-Circular', component : PensionNotificationComponent },
   {path:'FCD', component : FcdComponent },
         {path:'Budget', component : BudgetComponent },
-        {path:'sitemap', component : BudgetComponent }
+        {path:'sitemap', component : SitemapComponent }
 
 
 
