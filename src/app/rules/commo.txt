@@ -1,0 +1,135 @@
+
+
+<main>
+  <div class="position-relative">
+    <!-- shape Hero -->
+    <section class="section section-lg section-shaped pb-50">
+      <div class="shape shape-style-1 shape-default">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+      <div class="container py-lg-md d-flex">
+        <div class="col px-0">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="btn-wrapper">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SVG separator -->
+      <div class="separator separator-bottom separator-skew">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </section>
+    <!-- 1st Hero Variation -->
+  </div>
+   <section class="section section-lg pt-lg-0 mt--100">
+    <div class="container-fluid">
+    
+
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+
+          <div class="row row-grid">
+
+            <div class="col-lg-12">
+
+              <div class="card card-lift--hover shadow border-0">
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-4">
+    <div class="container">
+      <a class="navbar-brand" href="javascript:void(0)">Primary Color</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-primary">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="javascript:void(0)">
+                <img src="./assets/img/brand/blue.png">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Discover
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Profile</a>
+          </li>
+          <li class="nav-item" ngbDropdown placement="bottom-right">
+            <a class="nav-link no-caret" id="navbar-primary_dropdown_1" ngbDropdownToggle>Settings</a>
+            <div class="dropdown-menu-right" aria-labelledby="navbar-primary_dropdown_1" ngbDropdownMenu>
+              <a class="dropdown-item" href="javascript:void(0)">Action</a>
+              <a class="dropdown-item" href="javascript:void(0)">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="javascript:void(0)">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+                <div class="card-body py-5">
+      <!--             <h6 class="text-primary text-uppercase"> Contact List- Finance Department As On 23/10/2019</h6>
+       -->          
+
+
+
+
+
+
+<div class="container-fluid">
+
+
+
+
+
+  <div class="grid">
+               
+                        <!-- category -->
+           
+
+       <div class="row">
+                    <div class="col-lg-12">             
+Hello</div>
+</div>
+ </div>
+</div>
+
+
+
+                
+
+                 </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+ 
+ 
+  
+
+  
+</main>

@@ -38,7 +38,9 @@ $(document).ready(function(){
               console.log("result",result)
             if(result.error)
             alert("Invalid username or password.")
-            else if(result.isSuperAdmin == true || result.isSuperAdmin == "true" ){
+            else if(result.isAdmin == true || result.isAdmin == "true" ){
+            localStorage.setItem('key', 'admin');
+            localStorage.setItem('logg', '1');
             success()
   
             }
@@ -60,7 +62,7 @@ $(document).ready(function(){
 
 
 function success(){
-   window.location.href="/sbs-payment-and-reciept"
+   window.location.href="/sbs-payment-receipt"
 }
 
 

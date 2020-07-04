@@ -12,6 +12,26 @@ export class ChangePasswordComponent implements OnInit {
  ngOnInit(): void {
 
    $(document).ready(function() {
+
+
+
+
+
+let loggItem = localStorage.getItem('logg');
+    let keyItem = localStorage.getItem('key');
+
+  if(loggItem && keyItem=='superadmin'){
+   
+}
+else if(loggItem && keyItem=='ddo'){
+   window.location.href="/Dashboard"
+}
+  else{
+   window.location.href="/login"
+  }
+
+
+   
      console.log('hii');
      $(".ctgli:has(.ctgulChild)").click(function (e) {
     e.preventDefault();
@@ -74,6 +94,11 @@ $('.ctgli').click(function(){
 
 
 
+$('#logout').click(function(){
+localStorage.removeItem('key');
+localStorage.removeItem('logg');
+ window.location.href="/login"
+})
 
 
 

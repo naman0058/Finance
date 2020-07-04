@@ -71,6 +71,8 @@ import { AccountsCircularComponent } from './accounts-circular/accounts-circular
 import { BudgetComponent } from './budget/budget.component';
 import { FcdComponent } from './fcd/fcd.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
+import { RcoDashboardReportComponent } from './rco-dashboard-report/rco-dashboard-report.component';
+import { RcoDashboardUpdatePasswordComponent } from './rco-dashboard-update-password/rco-dashboard-update-password.component';
 
 @NgModule({
   declarations: [
@@ -135,7 +137,9 @@ import { SitemapComponent } from './sitemap/sitemap.component';
     AccountsCircularComponent,
     BudgetComponent,
     FcdComponent,
-    SitemapComponent
+    SitemapComponent,
+    RcoDashboardReportComponent,
+    RcoDashboardUpdatePasswordComponent
   ],
   imports: [
     BrowserModule,

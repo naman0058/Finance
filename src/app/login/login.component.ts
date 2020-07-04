@@ -14,6 +14,10 @@ export class LoginComponent implements OnInit {
 
    $(document).ready(function(){
    console.log('helo admin')
+
+let key = 'Item 1';
+let logg ='Item 2'
+
         $('#login').click(function(){
           if($('#userName').val() == [] || $('#userName').val() == "" || $('#userName').val() == "null" || $('#userName').val() == null) alert("Please Enter Username")
         else if($('#password').val() == [] || $('#password').val() == "" || $('#password').val() == "null" || $('#password').val() == null) alert("Please Enter Password")
@@ -42,8 +46,30 @@ export class LoginComponent implements OnInit {
             // else if(result.errors)
             // alert("Invalid username or password.");
             else{
-              //console.log("response recieve",result)
-              done()
+
+if(result.isSuperAdmin ==true){
+
+localStorage.setItem('key', 'superadmin');
+localStorage.setItem('logg', '1');
+
+done()
+
+}
+else if(result.isAdmin == true){
+localStorage.setItem('key', 'admin');
+localStorage.setItem('logg', '1');
+  done()
+
+}
+else{
+localStorage.setItem('key', 'ddo');
+localStorage.setItem('logg', '1');
+done()
+
+}
+
+              
+            
             }
         
             })

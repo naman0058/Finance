@@ -18,6 +18,30 @@ export class SbsReceiptDetailsComponent implements OnInit {
 
 
 
+let loggItem = localStorage.getItem('logg');
+    let keyItem = localStorage.getItem('key');
+
+  if(loggItem && keyItem=='admin'){
+   
+}
+else if(loggItem && keyItem=='ddo'){
+   window.location.href="/login"
+}
+  else{
+   window.location.href="/login"
+  }
+
+
+
+
+
+$('#logout').click(function(){
+localStorage.removeItem('key');
+localStorage.removeItem('logg');
+ window.location.href="/sbs-admin-login"
+})
+
+
 
 
 //Show Monthly Wise

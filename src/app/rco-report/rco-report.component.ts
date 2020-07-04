@@ -11,10 +11,12 @@ export class RcoReportComponent implements OnInit {
 
   ngOnInit(): void {
 
+  $(document).ready(function() {
+    let loggItem = localStorage.getItem('logg');
+    let keyItem = localStorage.getItem('key');
 
-
-
-  $.getJSON('http://sikkimfred.local.api/api/RCORegistration/pending',data=>{
+  if(loggItem && keyItem=='superadmin'){
+     $.getJSON('http://sikkimfred.local.api/api/RCORegistration/pending',data=>{
           let users = data[0]
 
 
@@ -24,6 +26,16 @@ export class RcoReportComponent implements OnInit {
        makeTable(data)
         
        })
+
+}
+else if(loggItem && keyItem=='ddo'){
+   window.location.href="/Dashboard"
+}
+  else{
+   window.location.href="/login"
+  }
+
+
 
 
          $(".ctgli:has(.ctgulChild)").click(function (e) {
@@ -169,6 +181,16 @@ function refresh1(){
     })
 }
 
+
+$('#logout').click(function(){
+localStorage.removeItem('key');
+localStorage.removeItem('logg');
+ window.location.href="/login"
+})
+
+
+
+})
   
   }
 

@@ -12,12 +12,25 @@ export class FeedbackReportComponent implements OnInit {
    ngOnInit(): void {
 
    $(document).ready(function() {
+
+   let loggItem = localStorage.getItem('logg');
+    let keyItem = localStorage.getItem('key');
+
+  if(loggItem && keyItem=='superadmin'){
+   
         $.getJSON('http://sikkimfred.local.api/api/feedback',data=>{
         console.log("data",data)
        makeTable(data)
         
        })
 
+}
+else if(loggItem && keyItem=='admin'){
+   window.location.href="/Dashboard"
+}
+  else{
+   window.location.href="/login"
+  }
 
 
 
@@ -90,8 +103,7 @@ function refresh(){
      alert("Feedback Deleted Successfully")
     })
 }
-
-
+  
 
 
 })

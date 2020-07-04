@@ -12,7 +12,19 @@ export class AdminDashboardComponent implements OnInit {
  ngOnInit(): void {
 
    $(document).ready(function() {
-     console.log('hii');
+    let loggItem = localStorage.getItem('logg');
+    let keyItem = localStorage.getItem('key');
+
+  if(loggItem && keyItem=='superadmin'){
+   
+}
+else if(loggItem && keyItem=='ddo'){
+   window.location.href="/Dashboard"
+}
+  else{
+   window.location.href="/login"
+  }
+
   
 
 })

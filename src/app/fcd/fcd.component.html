@@ -1,70 +1,40 @@
-<style>
-body {
-  font-family: "Lato", sans-serif;
-}
 
-/* Fixed sidenav, full height */
-.sidenav {
+<style type="text/css">
+  /* ---------------------- */
+/* - BOOTSTRAP 4 - SOUS-MENU - */
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu .dropdown-menu {
   top: 0;
-  left: 0;
-  background-color: #fff;
-  overflow-x: hidden;
-  padding-top: 20px;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+/* SPECIAL : ROTATION des flèches */
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
 }
 
-/* Style the sidenav links and the dropdown button */
-.sidenav a, .dropdown-btn {
-  padding: 15px 40px;
-  text-decoration: none;
-  font-size: 0.9rem;
-  color: #818181;
-  display: block;
-  border: none;
-  background: none;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
+/* --------------------- */
+/* SPECIAL : ROTATION des flèches */
+/* Niveau 1 */
+li .dropdown-toggle:after {
+  transition: all 0.5s;
 }
+li.show > .dropdown-toggle:after {
+  transform: rotate(180deg);
+}
+/* sous-Niveaux suivants */
+li li.show > .dropdown-toggle:after {
+  transform: rotate(90deg);
+}
+/* --------------------- */
 
-/* On mouse-over */
-.sidenav a:hover, .dropdown-btn:hover {
-   background:#d2ffe221;
-}
-
-/* Main content */
-.main {
-  margin-left: 200px; /* Same as the width of the sidenav */
-  font-size: 20px; /* Increased text to enable scrolling */
-  padding:0 0 16px 0;
-}
-
-/* Add an active class to the active dropdown button */
-.active {
-  background:#d2ffe221;
-    color: black;
-}
-
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-.dropdown-container {
-  display: none;
-  background-color: #fff;
-  padding-left: 8px;
-}
-
-/* Optional: Style the caret down icon */
-.fa-caret-down {
-  float: right;
-  padding-right: 8px;
-}
-
-/* Some media queries for responsiveness */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 </style>
-
 <main>
   <div class="position-relative">
     <!-- shape Hero -->
@@ -96,258 +66,216 @@ body {
   </div>
    <section class="section section-lg pt-lg-0 mt--100">
     <div class="container-fluid">
+    
+
       <div class="row justify-content-center">
         <div class="col-lg-12">
+
           <div class="row row-grid">
+
             <div class="col-lg-12">
+
               <div class="card card-lift--hover shadow border-0">
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-4">
+    <div class="container">
+      <a class="navbar-brand" href="javascript:void(0)">FCD</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-primary">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="javascript:void(0)">
+                <img src="./assets/img/brand/blue.png">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+     
+    
+     
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Submenu action</a></li>
+              <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+
+
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                </ul>
+              </li>
+
+
+
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+
+
+
+ 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Submenu action</a></li>
+              <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+
+
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                </ul>
+              </li>
+
+
+
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+
+
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Submenu action</a></li>
+              <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+
+
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                </ul>
+              </li>
+
+
+
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+
+       
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Submenu action</a></li>
+              <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+
+
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                </ul>
+              </li>
+
+
+
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+
+
+
+    </ul>
+      </div>
+    </div>
+  </nav>
+
                 <div class="card-body py-5">
       <!--             <h6 class="text-primary text-uppercase"> Contact List- Finance Department As On 23/10/2019</h6>
        -->          
 
+
+
+
+
+
 <div class="container-fluid">
 
+
+
+
+
   <div class="grid">
-                <div class="row">
-                    <div class="col-lg-3">
+               
                         <!-- category -->
-<div class="sidenav">
-  <button class="dropdown-btn">Memorandum to 15th FC 
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
- 
-  <a href="#">Vol - I</a>
-
-  <button class="dropdown-btn">Vol-II
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">Cover Page</a>
-    <a href="#">State Data Format</a>
-  </div>
-
-
-   <a href="#">Vol - III</a>
-
-    <button class="dropdown-btn">Vol - IV
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">Local Bodies Memo</a>
-    <a href="#">Local Bodies Topic Note</a>
-    <a href="#">Local Bodies Data Format</a>
-
-  </div>
-
-
-
-    <button class="dropdown-btn">Vol - V
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">Local Bodies Memo</a>
-    <a href="#">Local Bodies Topic Note</a>
-    <a href="#">Local Bodies Data Format</a>
-
-  </div>
-  
-    
-  </div>
-
-
-
-
-
-
-
-
-
-
-<button class="dropdown-btn">Memorandum to 14th FC 
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
- 
-  <a href="#">Vol - I</a>
-
-  <button class="dropdown-btn">Vol-II
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">State Formats-14TH FC</a>
-  </div>
-
-
-   <a href="#">Vol - III</a>
-
-    <button class="dropdown-btn">Vol - IV
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">Local Bodies</a>
-    
-  </div>
-
-
-   <a href="#">Vol - V (UPGRADATION GRANT,SPECIFIC NEEDS OF THE STATE)</a>
-
-  
-    
-  </div>
-
-
-
-
-  <a href="#contact">14TH FC Power Point Presentation</a>
-
-
-
-
-
-
-
-
-
-
-<button class="dropdown-btn">Memorandum to 13th FC 
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
- 
-  <a href="#">Vol - I</a>
-
-  <button class="dropdown-btn">Vol-II
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">State Formats</a>
-  </div>
-
-
-   <a href="#">Vol - III</a>
-
-    <button class="dropdown-btn">Vol - IV
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">Local Bodies 1</a>
-    
-
-
-  <button class="dropdown-btn">Local Bodies 2
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">local bodies (a)</a>
-    <a href="#">local bodies (b)</a>
-    <a href="#">local bodies (c)</a>
-    <a href="#">local bodies (d)</a>
-    <a href="#">local bodies (e)</a>
-    <a href="#">local bodies (f)</a>
-  </div>
-
-
-
-
-  <button class="dropdown-btn">Local Bodies 3
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">local bodies (a)</a>
-    <a href="#">local bodies (b)</a>
- 
-  </div>
-
-
-  <button class="dropdown-btn">Local Bodies 4
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">local bodies (a)</a>
-    <a href="#">local bodies (b)</a>
-    <a href="#">local bodies (c)</a>
-    <a href="#">local bodies (d)</a>
-   </div>
-
-
-
-
- <a href="#">Local Bodies 5</a>
-
- <a href="#">Local Bodies 6</a>
-
- <a href="#">Local Bodies 7</a>
-
- <a href="#">Local Bodies 8</a>
-
-
-  </div>
-
-
-   <a href="#">Vol - V (UPGRADATION GRANT,SPECIFIC NEEDS OF THE STATE)</a>
-
-  
-    
-  </div>
-
-
- <a href="#">Report - 13th FC</a>
-<a href="#">Summary 13th FC</a>
-  
-    
-
-
-
-  <button class="dropdown-btn">State Finance Comm.
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">Exp. Memo. 5th FC</a>
-    <a href="#">Exp. Memo. 4th FC</a>
-    <a href="#">Report 4th SFC</a>
-    <a href="#">Report 3rd SFC</a>
-   </div>
-
-
-
-  <button class="dropdown-btn">Action Taken Report
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">Report Fifth SFC</a>
-    <a href="#">Report Third SFC</a>
-  
-   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-<!-- <div class="main">
-  <h2>Sidebar Dropdown</h2>
-  <p>Click on the dropdown button to open the dropdown menu inside the side navigation.</p>
-  <p>This sidebar is of full height (100%) and always shown.</p>
-  <p>Some random text..</p>
-</div>
- -->
-    
-
-                    </div>
-
-<div class="col-lg-3">Hello</div>
+           
+
+       <div class="row">
+                    <div class="col-lg-12">             
+Hello</div>
 </div>
  </div>
 </div>

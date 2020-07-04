@@ -63,7 +63,8 @@ import { AccountsCircularComponent } from './accounts-circular/accounts-circular
 import { BudgetComponent } from './budget/budget.component';
 import { FcdComponent } from './fcd/fcd.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
-
+import { RcoDashboardReportComponent } from './rco-dashboard-report/rco-dashboard-report.component';
+import { RcoDashboardUpdatePasswordComponent } from './rco-dashboard-update-password/rco-dashboard-update-password.component';
 
 
 
@@ -126,12 +127,14 @@ const routes: Routes =[
         {path:'GIS', component : GisComponent },
                 {path:'pension', component : PensionComponent },
         {path:'pension-notification', component : PensionNotificationComponent },
-        {path:'Budget-Circular', component : GisComponent },
-                {path:'FCD-Circular', component : PensionComponent },
-        {path:'Accounts-Circular', component : PensionNotificationComponent },
+        {path:'Budget-Circular', component : CircularsComponent },
+                {path:'FCD-Circular', component : CircularsComponent },
+        {path:'Accounts-Circular', component : CircularsComponent },
   {path:'FCD', component : FcdComponent },
         {path:'Budget', component : BudgetComponent },
-        {path:'sitemap', component : SitemapComponent }
+        {path:'sitemap', component : SitemapComponent },
+        {path:'Dashboard',component:RcoDashboardReportComponent},
+        {path:'Dashboard-Update-Password', component : RcoDashboardUpdatePasswordComponent}
 
 
 
@@ -144,7 +147,7 @@ const routes: Routes =[
     CommonModule,
     BrowserModule,
     RouterModule.forRoot(routes,{
-      useHash: true
+      
     })
   ],
   exports: [

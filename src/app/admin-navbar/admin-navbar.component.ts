@@ -12,6 +12,13 @@ export class AdminNavbarComponent implements OnInit {
    ngOnInit(): void {
 
    $(document).ready(function() {
+
+
+
+let url = $(location).attr('host');  
+
+console.log("url hai",url)
+
      console.log('hii');
      $(".ctgli:has(.ctgulChild)").click(function (e) {
     e.preventDefault();
@@ -38,6 +45,18 @@ export class AdminNavbarComponent implements OnInit {
 $('.ctgli').click(function(){
     $(this).toggleClass('wtok');
 });
+
+
+
+$('#logout').click(function(){
+localStorage.removeItem('key');
+localStorage.removeItem('logg');
+ window.location.href="/login"
+})
+
+
+
+
 
 })
 

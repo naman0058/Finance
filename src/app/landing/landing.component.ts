@@ -16,6 +16,8 @@ export class LandingComponent implements OnInit {
   ngOnInit() {
    $(document).ready(function () {
 
+
+
      $('.send').click(function(){
      if($('#name').val() == null || $('#name').val() == [] || $('#name').val() == "" || $('#name').val() == "null" ) alert("Enter Name...")
      else  if($('#email').val() == null || $('#email').val() == [] || $('#email').val() == "" || $('#email').val() == "null" ) alert("Enter Email...")

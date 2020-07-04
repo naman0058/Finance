@@ -12,13 +12,25 @@ export class AdminUsersComponent implements OnInit {
 
   ngOnInit(): void {
 
+   $(document).ready(function() {
+    let loggItem = localStorage.getItem('logg');
+    let keyItem = localStorage.getItem('key');
 
-    $.getJSON('http://sikkimfred.local.api/api/user/admin',data=>{
-        
-       makeTable(data)
-        
-       })
+  if(loggItem && keyItem=='superadmin'){
+     $.getJSON('http://sikkimfred.local.api/api/user/admin',data=>{
+        makeTable(data)
+        })
 
+}
+else if(loggItem && keyItem=='ddo'){
+   window.location.href="/Dashboard"
+}
+  else{
+   window.location.href="/login"
+  }
+
+  
+  
 
 
 
@@ -136,6 +148,16 @@ alert('User Details Sent to Email Id')
         })
     }
 
+
+$('#logout').click(function(){
+localStorage.removeItem('key');
+localStorage.removeItem('logg');
+ window.location.href="/login"
+})
+
+
+
+})
   
   }
 

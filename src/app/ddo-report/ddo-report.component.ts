@@ -12,12 +12,26 @@ export class DdoReportComponent implements OnInit {
 
   ngOnInit(): void {
 
+   $(document).ready(function() {
 
-   $.getJSON('http://sikkimfred.local.api/api/DDORegistration/pending',data=>{
+
+     let loggItem = localStorage.getItem('logg');
+    let keyItem = localStorage.getItem('key');
+
+  if(loggItem && keyItem=='superadmin'){
+    $.getJSON('http://sikkimfred.local.api/api/DDORegistration/pending',data=>{
         console.log(data)
        makeTable(data)
-        
-       })
+        })
+}
+else if(loggItem && keyItem=='ddo'){
+   window.location.href="/Dashboard"
+}
+  else{
+   window.location.href="/login"
+  }
+
+  
 
          $(".ctgli:has(.ctgulChild)").click(function (e) {
     e.preventDefault();
@@ -163,6 +177,14 @@ function refresh1(){
 }
 
 
+$('#logout').click(function(){
+localStorage.removeItem('key');
+localStorage.removeItem('logg');
+ window.location.href="/login"
+})
+
+
+})
 
   }
 
