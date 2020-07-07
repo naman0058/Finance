@@ -105,7 +105,7 @@ $('.ctgli').click(function(){
               firstName : $('#firstName').val(),
               lastName : $('#lastName').val(),
               password : $('#password').val(),
-              userType : 'SuperAdmin',
+              userType : 'Admin',
               emailId : $('#emailId').val(),
               mobileNumber : $('#number').val(),
               departmentId : parseInt($('#departmentid').val()),
@@ -124,7 +124,7 @@ $('.ctgli').click(function(){
               .catch(error => console.error("Error",error))
               .then (result => {
               console.log("result hai",result);
-             if(result.msg=="success") alert("Successfully Inserted")
+             if(result.id) alert("Successfully Inserted")
              else alert("An error occured..Please try again later")
               
               })

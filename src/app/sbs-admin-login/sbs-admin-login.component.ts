@@ -46,7 +46,7 @@ $(document).ready(function(){
             }
             else{
             alert("You don't have access...")
-            done()
+            
             }
         
             })
