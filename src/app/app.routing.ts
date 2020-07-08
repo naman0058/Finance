@@ -72,7 +72,7 @@ import { RcoDashboardUpdatePasswordComponent } from './rco-dashboard-update-pass
 
 
 const routes: Routes =[
-    { path: 'home',             component: HomeComponent },
+    { path: 'home',             component: LandingComponent },
     { path: 'user-profile',     component: ProfileComponent },
     { path: 'register',           component: SignupComponent },
     { path: 'landing',          component: LandingComponent },
