@@ -25,7 +25,12 @@ else if(loggItem && keyItem=='ddo'){
    window.location.href="/login"
   }
 
-  
+  $('#logout').click(function(){
+localStorage.removeItem('key');
+localStorage.removeItem('logg');
+ window.location.href="/login"
+})
+
 
 })
 

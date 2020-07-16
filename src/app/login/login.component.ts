@@ -14,6 +14,7 @@ export class LoginComponent implements OnInit {
 
    $(document).ready(function(){
    console.log('helo admin')
+   console.log("key",localStorage.getItem('key'));
 
 let key = 'Item 1';
 let logg ='Item 2'
@@ -58,13 +59,13 @@ done()
 else if(result.isAdmin == true){
 localStorage.setItem('key', 'admin');
 localStorage.setItem('logg', '1');
-  done()
+  done1()
 
 }
 else{
 localStorage.setItem('key', 'ddo');
 localStorage.setItem('logg', '1');
-done()
+done2()
 
 }
 
@@ -81,7 +82,15 @@ done()
      window.location.href="/Admin-Dashboard"
     }
 
-        
+        function done1(){
+     window.location.href="/Dashboard"
+    }
+
+
+    function done2(){
+     window.location.href="/Dashboard"
+    }
+
 
       })
   }

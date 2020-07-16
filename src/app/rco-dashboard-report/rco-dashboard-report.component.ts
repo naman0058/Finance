@@ -16,6 +16,11 @@ export class RcoDashboardReportComponent implements OnInit {
 
 
 
+$('#logout').click(function(){
+localStorage.removeItem('key');
+localStorage.removeItem('logg');
+ window.location.href="/login"
+})
 
 
  let loggItem = localStorage.getItem('logg');
@@ -24,7 +29,7 @@ export class RcoDashboardReportComponent implements OnInit {
   if(loggItem && keyItem=='superadmin'){
   
 }
-else if(loggItem && keyItem=='ddo'){
+else if(loggItem && keyItem=='ddo' || loggItem && keyItem=='admin' ){
   
 }
   else{

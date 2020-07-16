@@ -102,7 +102,7 @@ $.ajax({
 
       var ctx = $('#mycanvas')
       let barGraph = new Chart(ctx,{
-          type : 'bar',
+          type : 'line',
           data : chartdata
       })
     },
@@ -177,7 +177,7 @@ $.ajax({
        }
       var ctx = $('#mycanvas')
       var barGraph = new Chart(ctx,{
-          type : 'bar',
+          type : 'line',
           data : chartdata
       })
     },
@@ -268,7 +268,7 @@ $.ajax({
        }
       var ctx = $('#mycanvas')
       var barGraph = new Chart(ctx,{
-          type : 'bar',
+          type : 'line',
           data : chartdata
       })
     },
@@ -306,7 +306,7 @@ $.ajax({
        }
       var ctx = $('#mycanvas1')
       var barGraph = new Chart(ctx,{
-          type : 'bar',
+          type : 'line',
           data : chartdata
       })
     },
@@ -361,7 +361,7 @@ font-size: 13px;
   }
 </style>
 
-        <table class="table table-striped">
+        <table class="table table-striped" style="height:500px;">
 
       <thead class="text-primary">
           <tr>

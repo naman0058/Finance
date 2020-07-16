@@ -44,7 +44,10 @@ console.log("offceid",office_code)
             }).then(res=>res.json())
             .catch(error => console.error("Error",error))
             .then (result => {
+            
+console.log("result recieve", result)
             $('#login').hide()
+
                makeTable(result)  
                makeDeduction(result.result.deductionsByAdjustment)
                makeInsurance(result.result.insurances)
@@ -328,7 +331,8 @@ font-size: 12px;
   }
 </style>
   <table class="table table-bordered" >
-   <thead class="text-primary">
+<h5><b>Loans : </b></h5>
+    <thead class="text-primary">
     <tr>
     <th>SL No.</th> 
     <th>ID</th>
@@ -374,7 +378,7 @@ font-size: 12px;
     font-size: 12px;
   }
 </style>
-  <table class="table table-bordered" >
+  <table class="table table-bordered">
    <thead class="text-primary">
     <tr>
     <th>SL No.</th> 
@@ -454,26 +458,6 @@ function makeTable(result){
   let table = `
   <div id="details">
   
-        <section class="my-app__header ">
-          <div class="container">
-            <div class="my-app__header-inner">
-              <div class="my-app__header-text media">
-               <img src="/images/dataresult[1][0].imagedata" style="width: 80px;">
-                <div class="media-body">
-                  <h1 class="my-app__header-title">Hi there, ${result.result.firstName} ${result.result.middleName} ${result.result.lastName}</h1>
-                  
-                </div> 
-              </div>
-              <div class="my-action-buttons my-app__header__buttons">
-                <!-- <button class="my-action-button">
-                  <img class="my-action-button__icon" src="./images/icon-money.svg" alt>
-                  Send money
-                </button> -->
-             
-              </div>
-            </div>
-          </div>
-        </section>
         <!-- End content header -->
   
         <!-- Begin content body -->
@@ -484,16 +468,20 @@ function makeTable(result){
               <div class="col-4">
                 <!-- Begin Payment Balance card -->
                 <div class="my-card card">
-                  <div class="my-card__header card-header">
+                  <div class="my-card__header card-header bg-primary" style="height:50px">
+
                     <div class="my-card__header-title">
-                      <div class="my-text-overline">Employee Code</div>
-                      <h3 class="my-text-headline">172/pao</h3>
-                    </div>
+                     <h5 class="my-card__header-title card-title" style="color:white;margin-top:-10px;">Profile Details</h5>
+
+                                         </div>
                     <!-- <a class="my-card__header-link" href="#">Details →</a> -->
                   </div>
                   <div class="my-card__body card-body">
-                    <div class="my-text-overline">Profile Details</div>
                     <dl class="my-list my-list--definitions my-dl">
+                     <dt>Name</dt>
+                      <dd>${result.result.firstName} ${result.result.middleName} ${result.result.lastName}</dd>
+                      <dt>Employee Code</dt>
+                      <dd>${result.result.employeeCode}</dd>
                       <dt>Date Of Birth</dt>
                       <dd>${result.result.dateOfBirth}</dd>
                       <dt>Gender</dt>
@@ -533,11 +521,9 @@ function makeTable(result){
 <div class="col-4">
                   <!-- Begin Payment Balance card -->
                   <div class="my-card card">
-                    <div class="my-card__header card-header">
-                      <div class="my-card__header-title">
-                        <div class="my-text-overline">Bank Details</div>
-                       
-                      </div>
+                    <div class="my-card__header card-header bg-primary" style="height:50px">
+ <h5 class="my-card__header-title card-title" style="color:white;margin-top:-10px;">Bank Details</h5>
+                     
                       <!-- <a class="my-card__header-link" href="#">Details →</a> -->
                     </div>
                     <div class="my-card__body card-body">
@@ -567,42 +553,36 @@ function makeTable(result){
 
  <div class="col-4">
                  
-    
-                  <!-- Begin Pending card -->
+
+
+
+
+ <!-- Begin Payment Balance card -->
                   <div class="my-card card">
-                    <div class="my-card__header card-header">
-                      <h3 class="my-card__header-title card-title">Joining & Retirement Date</h3>
-                      <!-- <a class="my-card__header-link" href="#">See all →</a> -->
+                    <div class="my-card__header card-header bg-primary" style="height:50px">
+ <h5 class="my-card__header-title card-title" style="color:white;margin-top:-10px;">Joining & Retirement Date</h5>
+                     
+                      <!-- <a class="my-card__header-link" href="#">Details →</a> -->
                     </div>
-                    <ul class="my-list list-group list-group-flush">
-                      
-                     
-                      
-                      <li class="my-list-item list-group-item">
-                         <div class="my-list-item__text">
-                          <h4 class="my-list-item__text-title">Date of Joining</h4>
-                           </div>
-                        <div class="my-list-item__fee">
-                          <a class="my-card__header-link quiz" id="dataresult[0][i].iddata" style="cursor: pointer;" >${result.result.dateOfJoining}</a>
-                        </div>
-                      </li>
+                    <div class="my-card__body card-body">
   
-                      <li class="my-list-item list-group-item">
-                          <div class="my-list-item__text">
-                           <h4 class="my-list-item__text-title">Date of Retirement</h4>
-                            </div>
-                         <div class="my-list-item__fee">
-                           <a class="my-card__header-link quiz" id="dataresult[0][i].iddata" style="cursor: pointer;" >${result.result.dateOfRetirement}</a>
-                         </div>
-                       </li>
-                    
-                
+                      <dl class="my-list my-list--definitions my-dl">
+                        <dt>Date of Joining</dt>
+                        <dd>${result.result.dateOfJoining}</dd>
+                        <dt>Date of Retirement</dt>
+                        <dd>${result.result.dateOfRetirement}</dd>
+                        
+                        
+                        
+                      </dl>
                      
                     
-                    </ul>
+                    </div>
+                    
                   </div>
-                  <!-- End Pending card -->
+                  <!-- End Payment Balance card -->
     
+                
                 
                 </div>
     

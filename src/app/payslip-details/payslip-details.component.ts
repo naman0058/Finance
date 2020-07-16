@@ -73,7 +73,7 @@ let years = $('#year').val()
      function makeDeductionsByAdjustment(deductionsByAdjustment){
         let table = `<div class="my-card card">
             <div class="my-card__header card-header bg-primary" style="height:50px">
-              <h5 class="my-card__header-title card-title" style="color:white;margin-top:-10px;">Deductions By Adjustment Details</h5>
+              <h5 class="my-card__header-title card-title" style="color:white;margin-top:-10px;">Deductions By Adjustment</h5>
                </div>
             <ul class="my-list list-group list-group-flush">`
               
@@ -121,7 +121,7 @@ let years = $('#year').val()
       function makeDeductionByCheque(deductionByCheque){
         let table = `<div class="my-card card">
             <div class="my-card__header card-header bg-primary" style="height:50px">
-              <h5 class="my-card__header-title card-title" style="color:white;margin-top:-10px;">Deduction By Cheque Details</h5>
+              <h5 class="my-card__header-title card-title" style="color:white;margin-top:-10px;">Deduction By Cheque</h5>
             </div>
             <ul class="my-list list-group list-group-flush">`
               
@@ -145,27 +145,7 @@ let years = $('#year').val()
 function makeTable(result){
   let table = `<div>
   <!-- Begin content header -->
-  <section class="my-app__header">
-    <div class="container">
-      <div class="my-app__header-inner">
-        <div class="my-app__header-text media">
-         <img src="/images/dataresult[1][0].imagedata" style="width: 80px;">
-          <div class="media-body">
-            <h1 class="my-app__header-title">Hi there, ${result.fullName}!</h1>
-            <!-- <div class="my-input input-group mb-3">
-             </div>-->
-          </div> 
-        </div>
-        <div class="my-action-buttons my-app_header_buttons">
-          <!-- <button class="my-action-button">
-            <img class="my-action-button__icon" src="./images/icon-money.svg" alt>
-            Send money
-          </button> -->
-       
-        </div>
-      </div>
-    </div>
-  </section>
+ 
   <!-- End content header -->
 
   <!-- Begin content body -->
@@ -193,6 +173,20 @@ function makeTable(result){
                 </li>
           
           
+
+
+  <li class="my-list-item list-group-item">
+                 
+                  <div class="my-list-item__text">
+                    <h4 class="my-list-item__text-title">Name</h4>
+                
+                  </div>
+                  <div class="my-list-item__fee">
+                    <a class="my-card__header-link quiz" id="dataresult[0][i].iddata" style="cursor: pointer;" >${result.fullName}</a>
+                  </div>
+                </li>
+          
+
                 <li class="my-list-item list-group-item">
                  
                   <div class="my-list-item__text">
