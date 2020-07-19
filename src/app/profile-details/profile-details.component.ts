@@ -76,6 +76,7 @@ font-size: 12px;
   }
 </style>
   <table class="table table-bordered" >
+  <h5><b>Others : </b></h5>
    <thead class="text-primary">
     <tr>
     <th>SL No.</th> 
@@ -117,6 +118,7 @@ font-size: 12px;
   }
 </style>
   <table class="table table-bordered" >
+  <h5><b>Recoveries : </b></h5>
    <thead class="text-primary">
     <tr>
     <th>SL No.</th> 
@@ -163,6 +165,7 @@ font-size: 12px;
   }
 </style>
   <table class="table table-bordered" >
+  <h5><b>Family Maintanence : </b></h5>
    <thead class="text-primary">
     <tr>
     <th>SL No.</th> 
@@ -208,6 +211,7 @@ font-size: 12px;
   }
 </style>
    <table class="table table-bordered" >
+   <h5><b>Slab Allowances : </b></h5>
    <thead class="text-primary">
     <tr>
     <th>SL No.</th> 
@@ -250,6 +254,7 @@ font-size: 12px;
   }
 </style>
   <table class="table table-bordered" >
+  <h5><b>Fixed Allowances : </b></h5>
    <thead class="text-primary">
     <tr>
     <th>SL No.</th> 
@@ -290,6 +295,7 @@ font-size: 12px;
 </style>
 
   <table class="table table-bordered" >
+  <h5><b>Percentage Allowances : </b></h5>
    <thead class="text-primary">
     <tr>
     <th>SL No.</th> 
@@ -378,7 +384,8 @@ font-size: 12px;
     font-size: 12px;
   }
 </style>
-  <table class="table table-bordered">
+  <table class="table table-bordered" >
+  <h5><b>Insurances : </b></h5>
    <thead class="text-primary">
     <tr>
     <th>SL No.</th> 
@@ -424,6 +431,7 @@ font-size: 12px;
   }
 </style>
    <table class="table table-bordered" >
+   <h5><b>Deductions : </b></h5>
    <thead class="text-primary">
     <tr>
     <th>SL No.</th> 
@@ -553,36 +561,43 @@ function makeTable(result){
 
  <div class="col-4">
                  
-
-
-
-
- <!-- Begin Payment Balance card -->
+    
+                  <!-- Begin Pending card -->
                   <div class="my-card card">
                     <div class="my-card__header card-header bg-primary" style="height:50px">
- <h5 class="my-card__header-title card-title" style="color:white;margin-top:-10px;">Joining & Retirement Date</h5>
-                     
-                      <!-- <a class="my-card__header-link" href="#">Details →</a> -->
+
+                      <h5 class="my-card__header-title card-title" style="color:white;margin-top:-10px;">Joining and Retirement</h5>
+                      <!-- <a class="my-card__header-link" href="#">See all →</a> -->
                     </div>
-                    <div class="my-card__body card-body">
+                    <ul class="my-list list-group list-group-flush">
+                      
+                     
+                      
+                      <li class="my-list-item list-group-item">
+                         <div class="my-list-item__text">
+                          <h4 class="my-list-item__text-title">Date of Joining</h4>
+                           </div>
+                        <div class="my-list-item__fee">
+                          <a class="my-card__header-link quiz" id="dataresult[0][i].iddata" style="cursor: pointer;" >${result.result.dateOfJoining}</a>
+                        </div>
+                      </li>
   
-                      <dl class="my-list my-list--definitions my-dl">
-                        <dt>Date of Joining</dt>
-                        <dd>${result.result.dateOfJoining}</dd>
-                        <dt>Date of Retirement</dt>
-                        <dd>${result.result.dateOfRetirement}</dd>
-                        
-                        
-                        
-                      </dl>
+                      <li class="my-list-item list-group-item">
+                          <div class="my-list-item__text">
+                           <h4 class="my-list-item__text-title">Date of Retirement</h4>
+                            </div>
+                         <div class="my-list-item__fee">
+                           <a class="my-card__header-link quiz" id="dataresult[0][i].iddata" style="cursor: pointer;" >${result.result.dateOfRetirement}</a>
+                         </div>
+                       </li>
+                    
+                
                      
                     
-                    </div>
-                    
+                    </ul>
                   </div>
-                  <!-- End Payment Balance card -->
+                  <!-- End Pending card -->
     
-                
                 
                 </div>
     

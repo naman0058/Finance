@@ -30,7 +30,7 @@ let employee_code = $('#employee_code').val()
 let month = $('#month').val()
 let years = $('#year').val()
  
-   var url = `http://local.api.com/api/employee/salary?empCode=${employee_code}&month=${month}&year=${years}`;
+   var url = `http://sikkimfred.local.api/api/employee/salary?empCode=${employee_code}&month=${month}&year=${years}`;
 
     
             fetch(url,{
@@ -73,7 +73,7 @@ let years = $('#year').val()
      function makeDeductionsByAdjustment(deductionsByAdjustment){
         let table = `<div class="my-card card">
             <div class="my-card__header card-header bg-primary" style="height:50px">
-              <h5 class="my-card__header-title card-title" style="color:white;margin-top:-10px;">Deductions By Adjustment</h5>
+              <h5 class="my-card__header-title card-title" style="color:white;margin-top:-10px;">Deductions By Adjustment </h5>
                </div>
             <ul class="my-list list-group list-group-flush">`
               

@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 declare var $: any;
+
 @Component({
-  selector: 'app-rco-dashboard-report',
-  templateUrl: './rco-dashboard-report.component.html',
-  styleUrls: ['./rco-dashboard-report.component.css']
+  selector: 'app-admin-dashboard-sbs-upload',
+  templateUrl: './admin-dashboard-sbs-upload.component.html',
+  styleUrls: ['./admin-dashboard-sbs-upload.component.css']
 })
-export class RcoDashboardReportComponent implements OnInit {
+export class AdminDashboardSbsUploadComponent implements OnInit {
 
   constructor() { }
-
 
   ngOnInit(): void {
 
@@ -30,10 +30,10 @@ localStorage.removeItem('logg');
   
 }
 else if(loggItem && keyItem=='ddo'){
-  
+  window.location.href="/Dashboard"
 }
 else if( loggItem && keyItem=='admin'){
-   window.location.href="/AdminDashboard"
+   
 }
   else {
    window.location.href="/login"

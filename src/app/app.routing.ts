@@ -66,7 +66,8 @@ import { SitemapComponent } from './sitemap/sitemap.component';
 import { RcoDashboardReportComponent } from './rco-dashboard-report/rco-dashboard-report.component';
 import { RcoDashboardUpdatePasswordComponent } from './rco-dashboard-update-password/rco-dashboard-update-password.component';
 
-
+import { AdminDashboardSbsUploadComponent } from './admin-dashboard-sbs-upload/admin-dashboard-sbs-upload.component';
+import { AdminDashboardUpdatePasswordComponent } from './admin-dashboard-update-password/admin-dashboard-update-password.component';
 
 
 
@@ -125,16 +126,18 @@ const routes: Routes =[
         {path:'pao', component : PaoComponent },
         {path:'GPF', component : GpfComponent },
         {path:'GIS', component : GisComponent },
-                {path:'pension', component : PensionComponent },
+        {path:'pension', component : PensionComponent },
         {path:'pension-notification', component : PensionNotificationComponent },
         {path:'Budget-Circular', component : CircularsComponent },
-                {path:'FCD-Circular', component : CircularsComponent },
+        {path:'FCD-Circular', component : CircularsComponent },
         {path:'Accounts-Circular', component : CircularsComponent },
   {path:'FCD', component : FcdComponent },
         {path:'Budget', component : BudgetComponent },
         {path:'sitemap', component : SitemapComponent },
         {path:'Dashboard',component:RcoDashboardReportComponent},
-        {path:'Dashboard-Update-Password', component : RcoDashboardUpdatePasswordComponent}
+        {path:'Dashboard-Update-Password', component : RcoDashboardUpdatePasswordComponent},
+                {path:'AdminDashboard',component:AdminDashboardSbsUploadComponent},
+        {path:'Admin-Change-Password', component : AdminDashboardUpdatePasswordComponent}
 
 
 

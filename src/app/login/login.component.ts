@@ -83,7 +83,7 @@ done2()
     }
 
         function done1(){
-     window.location.href="/Dashboard"
+     window.location.href="/AdminDashboard"
     }
 
 

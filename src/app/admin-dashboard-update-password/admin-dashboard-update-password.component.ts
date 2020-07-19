@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-declare var $: any;
+declare var $: any
 @Component({
-  selector: 'app-rco-dashboard-update-password',
-  templateUrl: './rco-dashboard-update-password.component.html',
-  styleUrls: ['./rco-dashboard-update-password.component.css']
+  selector: 'app-admin-dashboard-update-password',
+  templateUrl: './admin-dashboard-update-password.component.html',
+  styleUrls: ['./admin-dashboard-update-password.component.css']
 })
-export class RcoDashboardUpdatePasswordComponent implements OnInit {
+export class AdminDashboardUpdatePasswordComponent implements OnInit {
 
   constructor() { }
 
-
+ 
  ngOnInit(): void {
 
    $(document).ready(function() {
@@ -23,10 +23,10 @@ export class RcoDashboardUpdatePasswordComponent implements OnInit {
   
 }
 else if(loggItem && keyItem=='ddo'){
-   
+   window.location.href="/Dashboard" 
 }
 else if(loggItem && keyItem=='admin'){
-   window.location.href="/AdminDashboard"
+  
 }
   else{
    window.location.href="/login"

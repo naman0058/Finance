@@ -73,6 +73,8 @@ import { FcdComponent } from './fcd/fcd.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
 import { RcoDashboardReportComponent } from './rco-dashboard-report/rco-dashboard-report.component';
 import { RcoDashboardUpdatePasswordComponent } from './rco-dashboard-update-password/rco-dashboard-update-password.component';
+import { AdminDashboardSbsUploadComponent } from './admin-dashboard-sbs-upload/admin-dashboard-sbs-upload.component';
+import { AdminDashboardUpdatePasswordComponent } from './admin-dashboard-update-password/admin-dashboard-update-password.component';
 
 @NgModule({
   declarations: [
@@ -139,7 +141,9 @@ import { RcoDashboardUpdatePasswordComponent } from './rco-dashboard-update-pass
     FcdComponent,
     SitemapComponent,
     RcoDashboardReportComponent,
-    RcoDashboardUpdatePasswordComponent
+    RcoDashboardUpdatePasswordComponent,
+    AdminDashboardSbsUploadComponent,
+    AdminDashboardUpdatePasswordComponent
   ],
   imports: [
     BrowserModule,
